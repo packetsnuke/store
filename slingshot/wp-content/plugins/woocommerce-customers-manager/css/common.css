@@ -1,0 +1,112 @@
+table thead tr, table tfoot tr
+{
+	background: #a46497 none repeat scroll 0 0
+}
+table thead tr th, table tfoot tr th
+{
+	color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+/**/
+.wccm_woo_highlight
+{
+	color: #a46497;
+}
+table thead tr a, table tfoot tr th a
+{
+	color: #ffffff;
+}
+table thead tr a:hover, table tfoot tr a:hover
+{
+	color: #d3d3d3;
+}
+.widefat ol, .widefat p, .widefat tfoot tr td, .widefat tfoot tr th, .widefat thead tr td, .widefat thead tr th, .widefat ul
+{
+	/* font-weight: bold; */
+	color:white;
+}
+.manage-column.sorted
+{
+	background: white;
+}
+.manage-column.sorted a {
+  color: #A46497;
+}
+/**/
+.wp-core-ui .button-primary, .wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus
+{
+	background: #a46497 none repeat scroll 0 0;
+    border-color: #a46497;
+    box-shadow: none;
+	font-weight: bold;
+	text-shadow:none;
+}
+.wp-core-ui .button-primary:hover
+{
+	background: #C9A3C1 none repeat scroll 0 0;
+    border-color: #C9A3C1 ;
+    box-shadow: none;
+    font-weight: bold
+}
+.wp-core-ui .button-delete, .wp-core-ui .button-delete.focus, .wp-core-ui .button-delete:focus
+{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	color: white;
+
+	background: #FF0000 none repeat scroll 0 0;
+    border-color: #FF0000;
+    box-shadow: none;
+	font-weight: bold;
+	text-shadow:none;
+}
+.wp-core-ui .button-delete:hover
+{
+	
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	color: white;
+
+	background: #FF9999 none repeat scroll 0 0;
+    border-color: #FF9999 ;
+    box-shadow: none;
+    font-weight: bold
+}
+.wp-list-table a {
+    font-weight: bold;
+    transition: none 0s ease 0s ;
+}
+.picker__weekday
+{
+	color: #fff;
+	font-weight: bold;
+}
+/* tbody td
+{
+	font-weight:200;
+} */

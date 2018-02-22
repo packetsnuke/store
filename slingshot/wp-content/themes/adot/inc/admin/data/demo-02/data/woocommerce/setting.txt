@@ -1,0 +1,1 @@
+{"shop_catalog_image_size":"a:3:{s:5:\"width\";s:3:\"270\";s:6:\"height\";s:3:\"345\";s:4:\"crop\";i:1;}","shop_single_image_size":"a:3:{s:5:\"width\";s:3:\"570\";s:6:\"height\";s:3:\"705\";s:4:\"crop\";i:1;}","shop_thumbnail_image_size":"a:2:{s:5:\"width\";s:2:\"75\";s:6:\"height\";s:2:\"90\";}"}

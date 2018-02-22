@@ -1,0 +1,89 @@
+@media (min-width: 1200px) {
+	.col-lg-20 {
+		float: left;
+		width: 20%;
+	}
+}
+
+.thim-widget-woo-tab-products {
+	.tab-heading {
+		text-align:    center;
+		margin-bottom: 45px;
+		margin-top:    30px;
+		li {
+			display:      inline-block;
+			margin-right: 40px;
+			a {
+				color:          @thim_body_second_color;
+				text-transform: uppercase;
+				font-size:      14px;
+				font-weight:    600;
+				padding:        0 0 5px 0;
+				border-bottom:  3px solid transparent;
+			}
+			&:hover, &:focus {
+				a {
+					color:               @thim_body_primary_color;
+					border-bottom-color: @thim_body_primary_color;
+					text-decoration:     none;
+				}
+			}
+		}
+		.active {
+			a {
+				color:               @thim_body_primary_color;
+				border-bottom-color: @thim_body_primary_color;
+				text-decoration:     none;
+			}
+		}
+	}
+	.box {
+		position: relative;
+		.nav {
+			visibility: hidden;
+			span {
+				position:      absolute;
+				z-index:       9999;
+				border-radius: 100%;
+				cursor:        auto;
+				//top:           50%;
+				margin-top:    -6px;
+				i {
+					font-size:     16px;
+					font-weight:   600;
+					color:         #ddd;
+					width:         30px;
+					height:        30px;
+					line-height:   30px;
+					border:        1px solid #eee;
+					border-radius: 100%;
+					text-align:    center;
+					cursor:        pointer;
+					&:hover {
+						border-color: @thim_body_primary_color;
+						color:        @thim_body_primary_color;
+					}
+				}
+			}
+			.prev {
+				padding: 0 50px 0 0;
+				left:    -65px;
+			}
+			.next {
+				padding: 0 0 0 50px;
+				right:   -25px
+			}
+		}
+		&:hover {
+			.nav {
+				visibility: visible;
+			}
+		}
+	}
+}
+
+
+
+
+
+

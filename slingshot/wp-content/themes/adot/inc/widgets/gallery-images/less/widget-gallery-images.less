@@ -1,0 +1,175 @@
+.thim-widget-gallery-images {
+	.owl-prev, .owl-next {
+		position:           absolute;
+		top:                50%;
+		-webkit-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+		-moz-transition:    all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+		-o-transition:      all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+		transition:         all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+		font-size:          18px;
+		cursor:             pointer;
+		height:             30px;
+		width:              30px;
+		margin-top:         -15px;
+		border-radius:      100%;
+		line-height:        30px;
+		text-align:         center;
+		background:         transparent;
+
+	}
+	.owl-prev {
+		left:  20px !important;
+		right: auto;
+		color: transparent !important;
+	}
+	.owl-next {
+		right: 20px !important;
+		left:  auto;
+		color: transparent !important;
+
+	}
+
+	&:hover {
+		.owl-prev,
+		.owl-next {
+			color:                 @white !important;
+			height:                30px;
+			width:                 30px;
+			-webkit-border-radius: 100%;
+			-moz-border-radius:    100%;
+			-o-border-radius:      100%;
+			background:            @thim_body_primary_color;
+			line-height:           30px;
+			text-align:            center;
+		}
+	}
+}
+
+.owl-carousel {
+	position:         relative;
+	width:            100%;
+	-ms-touch-action: pan-y;
+	.owl-wrapper {
+		display:           none;
+		position:          relative;
+		-webkit-transform: translate3d(0px, 0px, 0px);
+		&:after {
+			content:     ".";
+			display:     block;
+			clear:       both;
+			visibility:  hidden;
+			line-height: 0;
+			height:      0;
+		}
+	}
+	.owl-wrapper-outer {
+		overflow: hidden;
+		position: relative;
+		width:    100%;
+		&.autoHeight {
+			-webkit-transition: height 500ms ease-in-out;
+			-moz-transition:    height 500ms ease-in-out;
+			-ms-transition:     height 500ms ease-in-out;
+			-o-transition:      height 500ms ease-in-out;
+			transition:         height 500ms ease-in-out;
+		}
+	}
+	.owl-item {
+		float: left;
+	}
+	.owl-wrapper, .owl-item {
+		-webkit-backface-visibility: hidden;
+		-moz-backface-visibility:    hidden;
+		-ms-backface-visibility:     hidden;
+		-webkit-transform:           translate3d(0, 0, 0);
+		-moz-transform:              translate3d(0, 0, 0);
+		-ms-transform:               translate3d(0, 0, 0);
+	}
+	.owl-controls.clickable {
+		.owl-pagination {
+			text-align: center !important;
+			.owl-page {
+				display:               inline-block;
+				width:                 8px;
+				height:                8px;
+				border-radius:         100%;
+				-webkit-border-radius: 100%;
+				-moz-border-radius:    100%;
+				-o-border-radius:      100%;
+				background:            @white;
+				margin-right:          15px;
+				border:                1px solid @thim_body_primary_color;
+				zoom:                  1;
+				*display:              inline; /*IE7 life-saver */
+				filter:                Alpha(Opacity=50); /*IE7 fix*/
+				&:hover {
+					filter:          Alpha(Opacity=100); /*IE7 fix*/
+					opacity:         1;
+					text-decoration: none;
+				}
+			}
+			.owl-page.active {
+				background: @thim_body_primary_color;
+			}
+
+		}
+	}
+}
+
+.thim-gallery-images-grid {
+	margin:     0;
+	padding:    0;
+	list-style: none;
+	font-size:  0;
+	&.col-3 {
+		li {
+			width: 33.33%
+		}
+	}
+	&.col-4 {
+		li {
+			width: 25%
+		}
+	}
+	&.col-5 {
+		li {
+			width: 20%
+		}
+	}
+	&.col-6 {
+		li {
+			width: 16.66666%
+		}
+	}
+	li {
+		font-size:      0;
+		display:        inline-block;
+		*display:       inline;
+		zoom:           1;
+		vertical-align: top;
+		text-align:     center;
+		border-right:   1px solid @border_color;
+		border-bottom:  1px solid @border_color;
+		overflow:       hidden;
+		&.last {
+			border-right: 0;
+		}
+		&.bottom {
+			border-bottom: 0;
+		}
+		img {
+			max-width: 100%;
+			transition: all 0.2s ease;
+			-webkit-transition: all 0.2s ease;
+			-moz-transition: all 0.2s ease;
+			-o-transition: all 0.2s ease;
+			&:hover{
+				transform: scale(1.2,1.2);
+				-webkit-transform: scale(1.2,1.2);
+				-moz-transform: scale(1.2,1.2);
+				-o-transform: scale(1.2,1.2);
+				-ms-transform: scale(1.2,1.2);
+			}
+		}
+	}
+}

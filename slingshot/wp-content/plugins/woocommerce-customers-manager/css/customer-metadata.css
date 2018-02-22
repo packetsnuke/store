@@ -1,0 +1,36 @@
+.postbox {
+	min-width: 1450px;
+    /* overflow: auto; */
+    padding: 18px;
+}
+table thead tr th, table tfoot tr th {
+	padding: 10px;
+}
+.table-row
+{
+	text-align:center;
+}
+.value-column
+{
+	min-width: 300px;
+}
+textarea
+{
+	width: 100%
+}
+.table-row td
+{
+	padding:10px;
+}
+.widefat {
+    border-spacing: 0;
+}
+.widefat th
+{
+	text-align:center;
+	font-weight:bold;
+}
+.ajax-loader
+{
+	display:none;
+}

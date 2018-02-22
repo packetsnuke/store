@@ -1,0 +1,17 @@
+#bulk-email-box {
+  background: white none repeat scroll 0 0;
+  box-shadow: 1px 1px 2px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 80%;
+}
+
+#customer_ids
+{
+	width:100%;
+	min-width: 350px;
+}
+.mce-tinymce.mce-container.mce-panel
+{
+	border:1px solid #e6e6e6;
+}

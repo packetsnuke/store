@@ -1,0 +1,71 @@
+/* All styles for the waitlist archive page */
+.dashicons {
+    color: #000;
+}
+.wcwl_email_all_tab {
+    margin-left: 20px;
+}
+.wcwl_mail_all_link {
+    font-size: 0.7em;
+}
+.wcwl_archive_email,
+.wcwl_archive_mailto {
+    width: 50%;
+}
+.wcwl_archive_mailto {
+    text-align: center;
+}
+.wcwl_archive_list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.wcwl_variation_title {
+    padding: 6px;
+}
+.wcwl_variation_title:nth-child(odd) {
+    background-color: #fff;
+}
+.wcwl_variation_title:hover {
+    cursor: pointer;
+}
+.wcwl_variation_tab {
+    border: 1px solid #9f9f9f;
+    margin-bottom: 1em;
+}
+.wcwl_variation_tab h3 {
+    margin: 0.5em auto;
+}
+.wcwl_variation_tab h3:after {
+    content: '\25be';
+    float: right;
+    color: #ccc;
+}
+.wcwl_variation_tab h4 {
+    margin-left: 1em;
+}
+.wcwl_variation_tab li:not(:last-child),
+.wcwl_variation_title {
+    border-bottom: 1px solid #9f9f9f;
+}
+.wcwl_variation_tab ul,
+.wcwl_variation_tab li {
+    margin: 0;
+}
+.wcwl_variation_tab ul {
+    display: none;
+}
+.wcwl_delete_archive {
+    text-align: center;
+    padding: 1em;
+}
+#adminmenu li.wp-first-item a.wp-has-current-submenu {
+    background: none;
+}
+ul#adminmenu a.wp-first-item:after {
+    border: none;
+}
+#adminmenu .wp-first-item div.wp-menu-image:before {
+    color: #a0a5aa;
+}
+#adminmenu .wp-first-item .wp-submenu {
+    display: none;
+}

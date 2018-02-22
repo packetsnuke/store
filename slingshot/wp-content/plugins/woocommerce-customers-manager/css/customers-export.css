@@ -1,0 +1,16 @@
+#import-box-content
+{
+background: white none repeat scroll 0 0;
+  box-shadow: 1px 1px 2px;
+  box-sizing: border-box;
+  width: 80%;
+  padding:20px;
+}
+
+#ajax-progress-title, #ajax-response-title
+{
+display:none;
+}
+.ui-progressbar .ui-progressbar-value {
+  background: #a46497;
+}

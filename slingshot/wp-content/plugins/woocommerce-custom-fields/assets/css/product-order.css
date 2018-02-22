@@ -1,0 +1,89 @@
+/**
+ * WooCommerce Custom Fields styles for Product and Order edit pages
+ */
+#wccf_product_prop .inside {
+    padding: 5px 10px 10px 10px;
+    margin: 0;
+}
+.wccf_meta_box_field_container {
+    padding: 5px 0;
+    margin: 0;
+}
+.wccf_meta_box_field_container label {
+    font-weight: 700;
+}
+.wccf_meta_box_field_container small {
+    display: block;
+}
+.wccf_meta_box_field_container .wccf_text,
+.wccf_meta_box_field_container .wccf_textarea,
+.wccf_meta_box_field_container .wccf_password,
+.wccf_meta_box_field_container .wccf_email,
+.wccf_meta_box_field_container .wccf_number,
+.wccf_meta_box_field_container .wccf_date,
+.wccf_meta_box_field_container .wccf_select,
+.wccf_meta_box_field_container .wccf_multiselect,
+.wccf_meta_box_field_container .wccf_file {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.wccf_meta_box_field_container ul {
+    margin: 4px 0 0 0;
+}
+
+#wccf_checkout_field .inside {
+    padding: 12px;
+    margin: 0;
+}
+#wccf_checkout_field th {
+    padding: 0 2em 1em 0;
+    text-align: left;
+}
+#wccf_checkout_field td {
+    vertical-align: top;
+    padding: 0;
+}
+#wccf_checkout_field td p {
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.wccf_delete_file {
+    color: red;
+    text-decoration: none;
+}
+
+.wccf_order_item_meta_container ul {
+    margin-top: 0px;
+}
+.wccf_backend_editing_value {
+    cursor: pointer;
+}
+.wccf_backend_editing_value:hover {
+    border-bottom: 1px dotted;
+}
+.wccf_backend_editing_number,
+.wccf_backend_editing_textarea,
+.wccf_backend_editing_password,
+.wccf_backend_editing_email,
+.wccf_backend_editing_number,
+.wccf_backend_editing_date,
+.wccf_backend_editing_select,
+.wccf_backend_editing_multiselect {
+    width: 100%;
+}
+
+.wccf_backend_editing {
+    border: 1px solid #ddd!important;
+}
+select.wccf_backend_editing {
+    width: 100%!important;
+}
+input[type=radio].wccf_backend_editing,
+input[type=checkbox].wccf_backend_editing {
+    width: initial!important;
+}
+

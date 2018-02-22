@@ -1,0 +1,75 @@
+/**
+ * WooCommerce Custom Fields Plugin Frontend Styles
+ */
+#wccf_product_field_master_container {
+    margin-bottom: 1.5em;
+}
+.wccf_field_container {
+    margin-bottom: 1em;
+}
+.wccf_field_container > label {
+    font-weight: 700;
+}
+.wccf_field_container small {
+    display: block;
+    line-height: 2em;
+}
+.wccf_field_container_checkout_field label,
+.wccf_field_container_user_field label {
+    font-weight: inherit;
+    line-height: 2;
+}
+div.wccf_field_container ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+div.wccf_field_container li {
+    margin: 0;
+}
+.wccf_field_container_checkout_field,
+.wccf_field_container_user_field {
+    padding: 3px;
+    margin: 0 0 6px;
+}
+.wccf_text,
+.wccf_textarea,
+.wccf_password,
+.wccf_email,
+.wccf_number,
+.wccf_date,
+.wccf_select,
+.wccf_multiselect,
+.wccf_file {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.woocommerce #payment .form-row .wccf_field_container select {
+    width: 100%;
+}
+
+.wccf_field_container abbr.required {
+    color: red;
+    font-weight: 700;
+    border: 0;
+}
+.wccf_price_label {
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+table.wccf_print_values {
+    display: block;
+    margin-bottom: 20px;
+}
+table.wccf_print_values th {
+    padding: 10px 20px 10px 0;
+    font-weight: 700;
+}
+
+.wccf_no_value {
+    font-style: italic;
+    color: #ccc;
+}

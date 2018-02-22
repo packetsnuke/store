@@ -1,0 +1,92 @@
+/**
+ * WooCommerce Custom Fields Plugin Settings Page Styles
+ */
+.wccf_tabs_container {
+    width: 100%;
+}
+.wccf_tabs_container {
+    border-bottom: 1px solid #ccc;
+    margin-right: 20px;
+}
+.wccf_settings_container {
+    width: 100%;
+    float: left;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    background-color: #fcfcfc;
+}
+.wccf_settings_container p.submit {
+    margin-top: 0;
+}
+.wccf_settings_container p {
+    padding: 12px 25px 0px 25px;
+}
+.wccf_settings_container tr {
+    height: 45px;
+}
+.wccf_settings_container th {
+    width: 300px;
+    padding: 15px 10px 5px 0;
+}
+.wccf_settings_container td {
+    padding: 10px 10px 5px 10px;
+}
+.wccf_settings_container h2,
+.wccf_settings_container h3 {
+    padding: 20px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+.woocommerce .wccf_settings_container table.form-table,
+.wccf_settings_container table.form-table {
+    margin: 10px 0 10px 25px;
+    width: auto;
+}
+.wccf_settings_container .submit {
+    border-top: 1px solid #dfdfdf;
+    padding: 15px 0 10px 15px;
+}
+.wccf_settings_container input {
+    vertical-align: middle;
+}
+.wccf_settings_container select {
+    line-height: 27px;
+    height: 27px;
+}
+.wccf_settings_container .wccf_field_short {
+    width: 100px;
+}
+.wccf_settings_container .wccf_field_medium {
+    width: 200px;
+}
+.wccf_settings_container .wccf_field_long {
+    width: 300px;
+}
+
+#setting-error-wccf_settings_updated,
+#setting-error-wccf_settings_error {
+    margin-left: 2px;
+    margin-top: 1em;
+}
+
+.wccf_settings_container .wccf_settings_hint {
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+    padding: 0 24px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+.wccf_settings_container .wccf_setting {
+    /*float: left;*/
+}
+
+wrap h2.wccf_tabs_container {
+    margin-bottom: 15px;
+}
+div.wccf_settings {
+    margin-top: 15px;
+}

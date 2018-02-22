@@ -1,0 +1,88 @@
+#ultimatewoo_admin_form .ultimatewoo-info {
+	background: #FFFBCC;
+	padding: 20px;
+}
+
+#ultimatewoo_admin_form #ultimatewoo\[license\]\[license_key\]:read-only {
+	cursor: not-allowed;
+}
+
+#ultimatewoo_admin_form .uw-settings-checkbox {
+	background: #f2f2f2;
+	border: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: none;
+	float: right;
+	height: 30px;
+	width: 30px;
+}
+
+#ultimatewoo_admin_form .ultimatewoo-button {
+	height: auto;
+	padding: 7px 12px;
+}
+
+#ultimatewoo_admin_form input[type="text"],
+#ultimatewoo_admin_form input[type="password"],
+#ultimatewoo_admin_form input[type="email"] {
+	box-shadow: none;
+	border: 3px solid #f2f2f2;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 10px;
+}
+
+#ultimatewoo_admin_form input[type="checkbox"]:checked::before,
+#ultimatewoo_admin_form input[type="checkbox"]:checked::after {
+	font: 400 35px/1 dashicons;
+}
+
+.one-half,
+.one-third,
+.two-thirds {
+	float: left;
+	margin-left: 2.564102564102564%;
+}
+
+.one-half {
+	width: 48.717948717948715%;
+}
+
+.one-third {
+	width: 31.623931623931625%;
+}
+
+.two-thirds {
+	width: 65.81196581196582%;
+}
+
+.first {
+	clear: both;
+	margin-left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.one-half,
+	.one-third,
+	.two-thirds {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#ultimatewoo_admin_form input[type="text"],
+	#ultimatewoo_admin_form input[type="password"],
+	#ultimatewoo_admin_form input[type="email"] {
+		display: block;
+		width: 100%;
+	}
+
+	#ultimatewoo_admin_form .button-primary {
+		display: block;
+		margin: 10px 0;
+		width: 100%;
+	}
+}

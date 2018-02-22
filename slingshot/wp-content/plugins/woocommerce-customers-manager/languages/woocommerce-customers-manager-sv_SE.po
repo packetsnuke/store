@@ -1,0 +1,8283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Customers Manager\n"
+"POT-Creation-Date: 2018-02-13 10:30+0100\n"
+"PO-Revision-Date: 2018-02-13 10:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/acf/acf.php:67
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: classes/acf/acf.php:369 classes/acf/includes/admin/admin.php:117
+msgid "Field Groups"
+msgstr ""
+
+#: classes/acf/acf.php:370
+msgid "Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:371 classes/acf/acf.php:403
+#: classes/acf/includes/admin/admin.php:118
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:559
+#: customers-manager.php:201
+msgid "Add New"
+msgstr ""
+
+#: classes/acf/acf.php:372
+msgid "Add New Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:373
+msgid "Edit Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:374
+msgid "New Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:375
+msgid "View Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:376
+msgid "Search Field Groups"
+msgstr ""
+
+#: classes/acf/acf.php:377
+msgid "No Field Groups found"
+msgstr ""
+
+#: classes/acf/acf.php:378
+msgid "No Field Groups found in Trash"
+msgstr ""
+
+#: classes/acf/acf.php:401 classes/acf/includes/admin/admin-field-group.php:182
+#: classes/acf/includes/admin/admin-field-group.php:275
+#: classes/acf/includes/admin/admin-field-groups.php:510
+#: classes/acf/pro/fields/class-acf-field-clone.php:811
+msgid "Fields"
+msgstr ""
+
+#: classes/acf/acf.php:402
+msgid "Field"
+msgstr ""
+
+#: classes/acf/acf.php:404
+msgid "Add New Field"
+msgstr ""
+
+#: classes/acf/acf.php:405
+msgid "Edit Field"
+msgstr ""
+
+#: classes/acf/acf.php:406
+#: classes/acf/includes/admin/views/field-group-fields.php:41
+#: classes/acf/includes/admin/views/settings-info.php:105
+msgid "New Field"
+msgstr ""
+
+#: classes/acf/acf.php:407
+msgid "View Field"
+msgstr ""
+
+#: classes/acf/acf.php:408
+msgid "Search Fields"
+msgstr ""
+
+#: classes/acf/acf.php:409
+msgid "No Fields found"
+msgstr ""
+
+#: classes/acf/acf.php:410
+msgid "No Fields found in Trash"
+msgstr ""
+
+#: classes/acf/acf.php:449 classes/acf/includes/admin/admin-field-group.php:390
+#: classes/acf/includes/admin/admin-field-groups.php:567
+msgid "Inactive"
+msgstr ""
+
+#: classes/acf/acf.php:454
+#, php-format
+msgid "Inactive <span class=\"count\">(%s)</span>"
+msgid_plural "Inactive <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/includes/admin/admin-field-group.php:68
+#: classes/acf/includes/admin/admin-field-group.php:69
+#: classes/acf/includes/admin/admin-field-group.php:71
+msgid "Field group updated."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:70
+msgid "Field group deleted."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:73
+msgid "Field group published."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:74
+msgid "Field group saved."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:75
+msgid "Field group submitted."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:76
+msgid "Field group scheduled for."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:77
+msgid "Field group draft updated."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:183
+#: classes/admin/WCCM_CustomerDetails.php:639
+msgid "Location"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:184
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:295
+msgid "Settings"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:269
+msgid "Move to trash. Are you sure?"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:270
+msgid "checked"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:271
+msgid "No toggle fields available"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:272
+msgid "Field group title is required"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:273
+#: classes/acf/includes/api/api-field-group.php:751
+msgid "copy"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:274
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:54
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:154
+#: classes/acf/includes/admin/views/field-group-locations.php:29
+#: classes/acf/includes/admin/views/html-location-group.php:3
+#: classes/acf/includes/api/api-helpers.php:4048
+msgid "or"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:276
+msgid "Parent fields"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:277
+msgid "Sibling fields"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:278
+msgid "Move Custom Field"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:279
+msgid "This field cannot be moved until its changes have been saved"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:280
+msgid "Null"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:281
+#: classes/acf/includes/input.php:258
+msgid "The changes you made will be lost if you navigate away from this page"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:282
+msgid "The string \"field_\" may not be used at the start of a field name"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:360
+msgid "Field Keys"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:390
+#: classes/acf/includes/admin/views/field-group-options.php:9
+msgid "Active"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:801
+msgid "Move Complete."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:802
+#, php-format
+msgid "The %s field can now be found in the %s field group"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:803
+msgid "Close Window"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:844
+msgid "Please select the destination for this field"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-group.php:851
+msgid "Move Field"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:74
+#, php-format
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:142
+#, php-format
+msgid "Field group duplicated. %s"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:146
+#, php-format
+msgid "%s field group duplicated."
+msgid_plural "%s field groups duplicated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:227
+#, php-format
+msgid "Field group synchronised. %s"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:231
+#, php-format
+msgid "%s field group synchronised."
+msgid_plural "%s field groups synchronised."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:394
+#: classes/acf/includes/admin/admin-field-groups.php:557
+msgid "Sync available"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:507
+#: classes/acf/includes/forms/form-front.php:38
+#: classes/acf/pro/fields/class-acf-field-gallery.php:355
+msgid "Title"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:508
+#: classes/acf/includes/admin/views/field-group-options.php:96
+#: classes/acf/includes/admin/views/install-network.php:21
+#: classes/acf/includes/admin/views/install-network.php:29
+#: classes/acf/pro/fields/class-acf-field-gallery.php:382
+msgid "Description"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:509
+msgid "Status"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:607
+msgid "Customise WordPress with powerful, professional and intuitive fields."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:609
+#: classes/acf/includes/admin/settings-info.php:76
+#: classes/acf/pro/admin/views/html-settings-updates.php:107
+msgid "Changelog"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:614
+#, php-format
+msgid "See what's new in <a href=\"%s\">version %s</a>."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:617
+msgid "Resources"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:619
+msgid "Website"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:620
+msgid "Documentation"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:621
+msgid "Support"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:623
+msgid "Pro"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:628
+#, php-format
+msgid "Thank you for creating with <a href=\"%s\">ACF</a>."
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:667
+msgid "Duplicate this item"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:667
+#: classes/acf/includes/admin/admin-field-groups.php:683
+#: classes/acf/includes/admin/views/field-group-field.php:49
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:558
+msgid "Duplicate"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:700
+#: classes/acf/includes/fields/class-acf-field-google-map.php:112
+#: classes/acf/includes/fields/class-acf-field-relationship.php:656
+msgid "Search"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:759
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:767
+msgid "Synchronise field group"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:767
+#: classes/acf/includes/admin/admin-field-groups.php:797
+msgid "Sync"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:779
+msgid "Apply"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-field-groups.php:797
+msgid "Bulk Actions"
+msgstr ""
+
+#: classes/acf/includes/admin/admin-tools.php:116
+#: classes/acf/includes/admin/views/html-admin-tools.php:21
+msgid "Tools"
+msgstr ""
+
+#: classes/acf/includes/admin/admin.php:113
+#: classes/acf/includes/admin/views/field-group-options.php:118
+msgid "Custom Fields"
+msgstr ""
+
+#: classes/acf/includes/admin/install-network.php:88
+#: classes/acf/includes/admin/install.php:70
+#: classes/acf/includes/admin/install.php:121
+msgid "Upgrade Database"
+msgstr ""
+
+#: classes/acf/includes/admin/install-network.php:140
+msgid "Review sites & upgrade"
+msgstr ""
+
+#: classes/acf/includes/admin/install.php:187
+msgid "Error validating request"
+msgstr ""
+
+#: classes/acf/includes/admin/install.php:210
+#: classes/acf/includes/admin/views/install.php:105
+msgid "No updates available."
+msgstr ""
+
+#: classes/acf/includes/admin/settings-addons.php:51
+#: classes/acf/includes/admin/views/settings-addons.php:3
+msgid "Add-ons"
+msgstr ""
+
+#: classes/acf/includes/admin/settings-addons.php:87
+msgid "<b>Error</b>. Could not load add-ons list"
+msgstr ""
+
+#: classes/acf/includes/admin/settings-info.php:50
+msgid "Info"
+msgstr ""
+
+#: classes/acf/includes/admin/settings-info.php:75
+msgid "What's New"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:33
+msgid "Export Field Groups"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:38
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:342
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:371
+msgid "Generate PHP"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:97
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:135
+msgid "No field groups selected"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:174
+#, php-format
+msgid "Exported 1 field group."
+msgid_plural "Exported %s field groups."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:241
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:269
+msgid "Select Field Groups"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:336
+msgid ""
+"Select the field groups you would like to export and then select your export "
+"method. Use the download button to export to a .json file which you can then "
+"import to another ACF installation. Use the generate button to export to PHP "
+"code which you can place in your theme."
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:341
+msgid "Export File"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:414
+msgid ""
+"The following code can be used to register a local version of the selected "
+"field group(s). A local field group can provide many benefits such as faster "
+"load times, version control & dynamic fields/settings. Simply copy and paste "
+"the following code to your theme's functions.php file or include it within "
+"an external file."
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-export.php:446
+msgid "Copy to clipboard"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:26
+msgid "Import Field Groups"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:61
+msgid ""
+"Select the Advanced Custom Fields JSON file you would like to import. When "
+"you click the import button below, ACF will import the field groups."
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:66
+#: classes/acf/includes/fields/class-acf-field-file.php:35
+msgid "Select File"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:76
+msgid "Import File"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:100
+#: classes/acf/includes/fields/class-acf-field-file.php:159
+msgid "No file selected"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:113
+msgid "Error uploading file. Please try again"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:122
+msgid "Incorrect file type"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:139
+msgid "Import file empty"
+msgstr ""
+
+#: classes/acf/includes/admin/tools/class-acf-admin-tool-import.php:247
+#, php-format
+msgid "Imported 1 field group"
+msgid_plural "Imported %s field groups"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:28
+msgid "Conditional Logic"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:54
+msgid "Show this field if"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:103
+#: classes/acf/includes/locations.php:247
+msgid "is equal to"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:104
+#: classes/acf/includes/locations.php:248
+msgid "is not equal to"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:141
+#: classes/acf/includes/admin/views/html-location-rule.php:80
+msgid "and"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field-conditional-logic.php:156
+#: classes/acf/includes/admin/views/field-group-locations.php:31
+msgid "Add rule group"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:41
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:403
+#: classes/acf/pro/fields/class-acf-field-repeater.php:296
+msgid "Drag to reorder"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:45
+#: classes/acf/includes/admin/views/field-group-field.php:48
+msgid "Edit field"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:48
+#: classes/acf/includes/fields/class-acf-field-file.php:141
+#: classes/acf/includes/fields/class-acf-field-image.php:122
+#: classes/acf/includes/fields/class-acf-field-link.php:139
+#: classes/acf/pro/fields/class-acf-field-gallery.php:342
+#: classes/admin/WCCM_CustomerDetails.php:201
+#: classes/admin/WCCM_CustomerDetails.php:324
+#: classes/admin/WCCM_CustomerTable.php:74
+#: classes/admin/WCCM_OrderDetailsPage.php:24
+msgid "Edit"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:49
+msgid "Duplicate field"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:50
+msgid "Move field to another group"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:50
+msgid "Move"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:51
+msgid "Delete field"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:51
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:557
+#: classes/admin/WCCM_CustomerMetadataPage.php:128
+#: classes/admin/WCCM_CustomerTable.php:75
+#: classes/admin/WCCM_CustomerTable.php:181
+msgid "Delete"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:68
+msgid "Field Label"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:69
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:78
+msgid "Field Name"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:79
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:88
+msgid "Field Type"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:99
+msgid "Instructions"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:100
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:109
+msgid "Required?"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:132
+msgid "Wrapper Attributes"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:138
+msgid "width"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:153
+msgid "class"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:166
+msgid "id"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-field.php:178
+msgid "Close Field"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-fields.php:4
+msgid "Order"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-fields.php:5
+#: classes/acf/includes/fields/class-acf-field-button-group.php:198
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:415
+#: classes/acf/includes/fields/class-acf-field-radio.php:306
+#: classes/acf/includes/fields/class-acf-field-select.php:432
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:584
+msgid "Label"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-fields.php:6
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:964
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:597
+#: classes/admin/WCCM_CustomerGuestList.php:67
+#: classes/admin/WCCM_CustomerGuestList.php:85
+#: classes/admin/WCCM_CustomerMetadataPage.php:64
+#: classes/admin/WCCM_CustomerMetadataPage.php:97
+#: classes/admin/WCCM_CustomerTable.php:110
+#: classes/admin/WCCM_CustomerTable.php:798 classes/admin/WCCM_Options.php:106
+msgid "Name"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-fields.php:7
+msgid "Key"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-fields.php:8
+msgid "Type"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-fields.php:14
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-fields.php:31
+msgid "+ Add Field"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-locations.php:9
+msgid "Rules"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-locations.php:10
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:23
+msgid "Style"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:30
+msgid "Standard (WP metabox)"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:31
+msgid "Seamless (no metabox)"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:38
+msgid "Position"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:45
+msgid "High (after title)"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:46
+msgid "Normal (after content)"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:47
+msgid "Side"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:55
+msgid "Label placement"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:62
+#: classes/acf/includes/fields/class-acf-field-tab.php:106
+msgid "Top aligned"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:63
+#: classes/acf/includes/fields/class-acf-field-tab.php:107
+msgid "Left aligned"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:70
+msgid "Instruction placement"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:77
+msgid "Below labels"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:78
+msgid "Below fields"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:85
+msgid "Order No."
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:86
+msgid "Field groups with a lower order will appear first"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:97
+msgid "Shown in field group list"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:107
+msgid "Hide on screen"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:108
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen."
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:108
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used (the one with the lowest order number)"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:115
+msgid "Permalink"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:116
+msgid "Content Editor"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:117
+msgid "Excerpt"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:119
+msgid "Discussion"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:120
+msgid "Comments"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:121
+msgid "Revisions"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:122
+msgid "Slug"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:123
+msgid "Author"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:124
+msgid "Format"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:125
+msgid "Page Attributes"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:126
+#: classes/acf/includes/fields/class-acf-field-relationship.php:670
+msgid "Featured Image"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:127
+msgid "Categories"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:128
+msgid "Tags"
+msgstr ""
+
+#: classes/acf/includes/admin/views/field-group-options.php:129
+msgid "Send Trackbacks"
+msgstr ""
+
+#: classes/acf/includes/admin/views/html-location-group.php:3
+msgid "Show this field group if"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:4
+msgid "Upgrade Sites"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:9
+#: classes/acf/includes/admin/views/install.php:3
+msgid "Advanced Custom Fields Database Upgrade"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:11
+#, php-format
+msgid ""
+"The following sites require a DB upgrade. Check the ones you want to update "
+"and then click %s."
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:20
+#: classes/acf/includes/admin/views/install-network.php:28
+msgid "Site"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:48
+#, php-format
+msgid "Site requires database upgrade from %s to %s"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:50
+msgid "Site is up to date"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:63
+#, php-format
+msgid ""
+"Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:102
+#: classes/acf/includes/admin/views/install-notice.php:42
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:158
+msgid "Upgrade complete"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-network.php:162
+#: classes/acf/includes/admin/views/install.php:9
+#, php-format
+msgid "Upgrading data to version %s"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:8
+#: classes/acf/pro/fields/class-acf-field-repeater.php:25
+msgid "Repeater"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:9
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:25
+msgid "Flexible Content"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:10
+#: classes/acf/pro/fields/class-acf-field-gallery.php:25
+msgid "Gallery"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:11
+#: classes/acf/pro/locations/class-acf-location-options-page.php:26
+msgid "Options Page"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:26
+msgid "Database Upgrade Required"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:28
+#, php-format
+msgid "Thank you for updating to %s v%s!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:28
+msgid ""
+"Before you start using the new awesome features, please update your database "
+"to the newest version."
+msgstr ""
+
+#: classes/acf/includes/admin/views/install-notice.php:31
+#, php-format
+msgid ""
+"Please also ensure any premium add-ons (%s) have first been updated to the "
+"latest version."
+msgstr ""
+
+#: classes/acf/includes/admin/views/install.php:7
+msgid "Reading upgrade tasks..."
+msgstr ""
+
+#: classes/acf/includes/admin/views/install.php:11
+#, php-format
+msgid "Database Upgrade complete. <a href=\"%s\">See what's new</a>"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-addons.php:17
+msgid "Download & Install"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-addons.php:36
+msgid "Installed"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:3
+msgid "Welcome to Advanced Custom Fields"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:4
+#, php-format
+msgid ""
+"Thank you for updating! ACF %s is bigger and better than ever before. We "
+"hope you like it."
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:17
+msgid "A smoother custom field experience"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:22
+msgid "Improved Usability"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:23
+msgid ""
+"Including the popular Select2 library has improved both usability and speed "
+"across a number of field types including post object, page link, taxonomy "
+"and select."
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:27
+msgid "Improved Design"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:28
+msgid ""
+"Many fields have undergone a visual refresh to make ACF look better than "
+"ever! Noticeable changes are seen on the gallery, relationship and oEmbed "
+"(new) fields!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:32
+msgid "Improved Data"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:33
+msgid ""
+"Redesigning the data architecture has allowed sub fields to live "
+"independently from their parents. This allows you to drag and drop fields in "
+"and out of parent fields!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:39
+msgid "Goodbye Add-ons. Hello PRO"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:44
+msgid "Introducing ACF PRO"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:45
+msgid ""
+"We're changing the way premium functionality is delivered in an exciting way!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:46
+#, php-format
+msgid ""
+"All 4 premium add-ons have been combined into a new <a href=\"%s\">Pro "
+"version of ACF</a>. With both personal and developer licenses available, "
+"premium functionality is more affordable and accessible than ever before!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:50
+msgid "Powerful Features"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:51
+msgid ""
+"ACF PRO contains powerful features such as repeatable data, flexible content "
+"layouts, a beautiful gallery field and the ability to create extra admin "
+"options pages!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:52
+#, php-format
+msgid "Read more about <a href=\"%s\">ACF PRO features</a>."
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:56
+msgid "Easy Upgrading"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:57
+#, php-format
+msgid ""
+"To help make upgrading easy, <a href=\"%s\">login to your store account</a> "
+"and claim a free copy of ACF PRO!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:58
+#, php-format
+msgid ""
+"We also wrote an <a href=\"%s\">upgrade guide</a> to answer any questions, "
+"but if you do have one, please contact our support team via the <a href=\"%s"
+"\">help desk</a>"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:66
+msgid "Under the Hood"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:71
+msgid "Smarter field settings"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:72
+msgid "ACF now saves its field settings as individual post objects"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:76
+msgid "More AJAX"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:77
+msgid "More fields use AJAX powered search to speed up page loading"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:81
+msgid "Local JSON"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:82
+msgid "New auto export to JSON feature improves speed"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:88
+msgid "Better version control"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:89
+msgid ""
+"New auto export to JSON feature allows field settings to be version "
+"controlled"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:93
+msgid "Swapped XML for JSON"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:94
+msgid "Import / Export now uses JSON in favour of XML"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:98
+msgid "New Forms"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:99
+msgid "Fields can now be mapped to comments, widgets and all user forms!"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:106
+msgid "A new field for embedding content has been added"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:110
+msgid "New Gallery"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:111
+msgid "The gallery field has undergone a much needed facelift"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:115
+msgid "New Settings"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:116
+msgid ""
+"Field group settings have been added for label placement and instruction "
+"placement"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:122
+msgid "Better Front End Forms"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:123
+msgid "acf_form() can now create a new post on submission"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:127
+msgid "Better Validation"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:128
+msgid "Form validation is now done via PHP + AJAX in favour of only JS"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:132
+msgid "Relationship Field"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:133
+msgid ""
+"New Relationship field setting for 'Filters' (Search, Post Type, Taxonomy)"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:139
+msgid "Moving Fields"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:140
+msgid ""
+"New field group functionality allows you to move a field between groups & "
+"parents"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:144
+#: classes/acf/includes/fields/class-acf-field-page_link.php:25
+msgid "Page Link"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:145
+msgid "New archives group in page_link field selection"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:149
+msgid "Better Options Pages"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:150
+msgid ""
+"New functions for options page allow creation of both parent and child menu "
+"pages"
+msgstr ""
+
+#: classes/acf/includes/admin/views/settings-info.php:159
+#, php-format
+msgid "We think you'll love the changes in %s."
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:947
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:948
+msgid "Medium"
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:949
+msgid "Large"
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:998
+msgid "Full Size"
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:1339
+#: classes/acf/includes/api/api-helpers.php:1912
+#: classes/acf/pro/fields/class-acf-field-clone.php:996
+msgid "(no title)"
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:3969
+#, php-format
+msgid "Image width must be at least %dpx."
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:3974
+#, php-format
+msgid "Image width must not exceed %dpx."
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:3990
+#, php-format
+msgid "Image height must be at least %dpx."
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:3995
+#, php-format
+msgid "Image height must not exceed %dpx."
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:4013
+#, php-format
+msgid "File size must be at least %s."
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:4018
+#, php-format
+msgid "File size must must not exceed %s."
+msgstr ""
+
+#: classes/acf/includes/api/api-helpers.php:4052
+#, php-format
+msgid "File type must be %s."
+msgstr ""
+
+#: classes/acf/includes/fields.php:144
+msgid "Basic"
+msgstr ""
+
+#: classes/acf/includes/fields.php:145
+#: classes/acf/includes/forms/form-front.php:47
+#: classes/com/vendor/acf-email-html-preview-field/acf-email-html-preview-v5.php:11
+msgid "Content"
+msgstr ""
+
+#: classes/acf/includes/fields.php:146
+msgid "Choice"
+msgstr ""
+
+#: classes/acf/includes/fields.php:147
+msgid "Relational"
+msgstr ""
+
+#: classes/acf/includes/fields.php:148
+msgid "jQuery"
+msgstr ""
+
+#: classes/acf/includes/fields.php:149
+#: classes/acf/includes/fields/class-acf-field-button-group.php:177
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:384
+#: classes/acf/includes/fields/class-acf-field-group.php:474
+#: classes/acf/includes/fields/class-acf-field-radio.php:285
+#: classes/acf/pro/fields/class-acf-field-clone.php:843
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:554
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:603
+#: classes/acf/pro/fields/class-acf-field-repeater.php:450
+msgid "Layout"
+msgstr ""
+
+#: classes/acf/includes/fields.php:326
+msgid "Field type does not exist"
+msgstr ""
+
+#: classes/acf/includes/fields.php:326
+msgid "Unknown"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-accordion.php:24
+msgid "Accordion"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-accordion.php:99
+msgid "Open"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-accordion.php:100
+msgid "Display this accordion as open on page load."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-accordion.php:109
+msgid "Multi-expand"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-accordion.php:110
+msgid "Allow this accordion to open without closing others."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-accordion.php:119
+#: classes/acf/includes/fields/class-acf-field-tab.php:114
+msgid "Endpoint"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-accordion.php:120
+msgid ""
+"Define an endpoint for the previous accordion to stop. This accordion will "
+"not be visible."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:24
+msgid "Button Group"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:149
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:344
+#: classes/acf/includes/fields/class-acf-field-radio.php:235
+#: classes/acf/includes/fields/class-acf-field-select.php:368
+msgid "Choices"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:150
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:345
+#: classes/acf/includes/fields/class-acf-field-radio.php:236
+#: classes/acf/includes/fields/class-acf-field-select.php:369
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:150
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:345
+#: classes/acf/includes/fields/class-acf-field-radio.php:236
+#: classes/acf/includes/fields/class-acf-field-select.php:369
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:150
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:345
+#: classes/acf/includes/fields/class-acf-field-radio.php:236
+#: classes/acf/includes/fields/class-acf-field-select.php:369
+msgid "red : Red"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:158
+#: classes/acf/includes/fields/class-acf-field-page_link.php:513
+#: classes/acf/includes/fields/class-acf-field-post_object.php:412
+#: classes/acf/includes/fields/class-acf-field-radio.php:244
+#: classes/acf/includes/fields/class-acf-field-select.php:386
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:793
+#: classes/acf/includes/fields/class-acf-field-user.php:408
+msgid "Allow Null?"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:168
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:375
+#: classes/acf/includes/fields/class-acf-field-color_picker.php:131
+#: classes/acf/includes/fields/class-acf-field-email.php:118
+#: classes/acf/includes/fields/class-acf-field-number.php:127
+#: classes/acf/includes/fields/class-acf-field-radio.php:276
+#: classes/acf/includes/fields/class-acf-field-range.php:148
+#: classes/acf/includes/fields/class-acf-field-select.php:377
+#: classes/acf/includes/fields/class-acf-field-text.php:119
+#: classes/acf/includes/fields/class-acf-field-textarea.php:102
+#: classes/acf/includes/fields/class-acf-field-true_false.php:135
+#: classes/acf/includes/fields/class-acf-field-url.php:100
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:410
+msgid "Default Value"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:169
+#: classes/acf/includes/fields/class-acf-field-email.php:119
+#: classes/acf/includes/fields/class-acf-field-number.php:128
+#: classes/acf/includes/fields/class-acf-field-radio.php:277
+#: classes/acf/includes/fields/class-acf-field-range.php:149
+#: classes/acf/includes/fields/class-acf-field-text.php:120
+#: classes/acf/includes/fields/class-acf-field-textarea.php:103
+#: classes/acf/includes/fields/class-acf-field-url.php:101
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:411
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:183
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:391
+#: classes/acf/includes/fields/class-acf-field-radio.php:292
+msgid "Horizontal"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:184
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:390
+#: classes/acf/includes/fields/class-acf-field-radio.php:291
+msgid "Vertical"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:191
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:408
+#: classes/acf/includes/fields/class-acf-field-file.php:204
+#: classes/acf/includes/fields/class-acf-field-image.php:188
+#: classes/acf/includes/fields/class-acf-field-link.php:166
+#: classes/acf/includes/fields/class-acf-field-radio.php:299
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:833
+msgid "Return Value"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:192
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:409
+#: classes/acf/includes/fields/class-acf-field-file.php:205
+#: classes/acf/includes/fields/class-acf-field-image.php:189
+#: classes/acf/includes/fields/class-acf-field-link.php:167
+#: classes/acf/includes/fields/class-acf-field-radio.php:300
+msgid "Specify the returned value on front end"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:197
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:414
+#: classes/acf/includes/fields/class-acf-field-radio.php:305
+#: classes/acf/includes/fields/class-acf-field-select.php:431
+#: classes/admin/WCCM_CustomerMetadataPage.php:65
+#: classes/admin/WCCM_CustomerMetadataPage.php:98
+msgid "Value"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-button-group.php:199
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:416
+#: classes/acf/includes/fields/class-acf-field-radio.php:307
+#: classes/acf/includes/fields/class-acf-field-select.php:433
+msgid "Both (Array)"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:25
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:780
+msgid "Checkbox"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:154
+msgid "Toggle All"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:221
+msgid "Add new choice"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:353
+msgid "Allow Custom"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:358
+msgid "Allow 'custom' values to be added"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:364
+msgid "Save Custom"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:369
+msgid "Save 'custom' values to the field's choices"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:376
+#: classes/acf/includes/fields/class-acf-field-select.php:378
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:398
+msgid "Toggle"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-checkbox.php:399
+msgid "Prepend an extra checkbox to toggle all choices"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-color_picker.php:25
+msgid "Color Picker"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-color_picker.php:68
+msgid "Clear"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-color_picker.php:69
+msgid "Default"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-color_picker.php:70
+msgid "Select Color"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-color_picker.php:71
+msgid "Current Color"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:25
+msgid "Date Picker"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:33
+msgctxt "Date Picker JS closeText"
+msgid "Done"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:34
+msgctxt "Date Picker JS currentText"
+msgid "Today"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:35
+msgctxt "Date Picker JS nextText"
+msgid "Next"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:36
+msgctxt "Date Picker JS prevText"
+msgid "Prev"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:37
+msgctxt "Date Picker JS weekHeader"
+msgid "Wk"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:207
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:181
+#: classes/acf/includes/fields/class-acf-field-time_picker.php:109
+msgid "Display Format"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:208
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:182
+#: classes/acf/includes/fields/class-acf-field-time_picker.php:110
+msgid "The format displayed when editing a post"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:216
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:247
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:191
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:208
+#: classes/acf/includes/fields/class-acf-field-time_picker.php:117
+#: classes/acf/includes/fields/class-acf-field-time_picker.php:132
+msgid "Custom:"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:226
+msgid "Save Format"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:227
+msgid "The format used when saving a value"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:237
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:198
+#: classes/acf/includes/fields/class-acf-field-post_object.php:432
+#: classes/acf/includes/fields/class-acf-field-relationship.php:697
+#: classes/acf/includes/fields/class-acf-field-select.php:426
+#: classes/acf/includes/fields/class-acf-field-time_picker.php:124
+msgid "Return Format"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:238
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:199
+#: classes/acf/includes/fields/class-acf-field-time_picker.php:125
+msgid "The format returned via template functions"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_picker.php:256
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:215
+msgid "Week Starts On"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:25
+msgid "Date Time Picker"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:33
+msgctxt "Date Time Picker JS timeOnlyTitle"
+msgid "Choose Time"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:34
+msgctxt "Date Time Picker JS timeText"
+msgid "Time"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:35
+msgctxt "Date Time Picker JS hourText"
+msgid "Hour"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:36
+msgctxt "Date Time Picker JS minuteText"
+msgid "Minute"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:37
+msgctxt "Date Time Picker JS secondText"
+msgid "Second"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:38
+msgctxt "Date Time Picker JS millisecText"
+msgid "Millisecond"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:39
+msgctxt "Date Time Picker JS microsecText"
+msgid "Microsecond"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:40
+msgctxt "Date Time Picker JS timezoneText"
+msgid "Time Zone"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:41
+msgctxt "Date Time Picker JS currentText"
+msgid "Now"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:42
+msgctxt "Date Time Picker JS closeText"
+msgid "Done"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:43
+msgctxt "Date Time Picker JS selectText"
+msgid "Select"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:45
+msgctxt "Date Time Picker JS amText"
+msgid "AM"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:46
+msgctxt "Date Time Picker JS amTextShort"
+msgid "A"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:49
+msgctxt "Date Time Picker JS pmText"
+msgid "PM"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-date_time_picker.php:50
+msgctxt "Date Time Picker JS pmTextShort"
+msgid "P"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-email.php:25
+#: classes/admin/WCCM_CustomerGuestList.php:72
+#: classes/admin/WCCM_CustomerGuestList.php:90
+#: classes/admin/WCCM_CustomerTable.php:116
+#: classes/admin/WCCM_CustomerTable.php:182 classes/admin/WCCM_Options.php:108
+#: classes/admin/WCCM_Options.php:128 classes/admin/WCCM_Options.php:149
+msgid "Email"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-email.php:127
+#: classes/acf/includes/fields/class-acf-field-number.php:136
+#: classes/acf/includes/fields/class-acf-field-password.php:71
+#: classes/acf/includes/fields/class-acf-field-text.php:128
+#: classes/acf/includes/fields/class-acf-field-textarea.php:111
+#: classes/acf/includes/fields/class-acf-field-url.php:109
+msgid "Placeholder Text"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-email.php:128
+#: classes/acf/includes/fields/class-acf-field-number.php:137
+#: classes/acf/includes/fields/class-acf-field-password.php:72
+#: classes/acf/includes/fields/class-acf-field-text.php:129
+#: classes/acf/includes/fields/class-acf-field-textarea.php:112
+#: classes/acf/includes/fields/class-acf-field-url.php:110
+msgid "Appears within the input"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-email.php:136
+#: classes/acf/includes/fields/class-acf-field-number.php:145
+#: classes/acf/includes/fields/class-acf-field-password.php:80
+#: classes/acf/includes/fields/class-acf-field-range.php:187
+#: classes/acf/includes/fields/class-acf-field-text.php:137
+msgid "Prepend"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-email.php:137
+#: classes/acf/includes/fields/class-acf-field-number.php:146
+#: classes/acf/includes/fields/class-acf-field-password.php:81
+#: classes/acf/includes/fields/class-acf-field-range.php:188
+#: classes/acf/includes/fields/class-acf-field-text.php:138
+msgid "Appears before the input"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-email.php:145
+#: classes/acf/includes/fields/class-acf-field-number.php:154
+#: classes/acf/includes/fields/class-acf-field-password.php:89
+#: classes/acf/includes/fields/class-acf-field-range.php:196
+#: classes/acf/includes/fields/class-acf-field-text.php:146
+msgid "Append"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-email.php:146
+#: classes/acf/includes/fields/class-acf-field-number.php:155
+#: classes/acf/includes/fields/class-acf-field-password.php:90
+#: classes/acf/includes/fields/class-acf-field-range.php:197
+#: classes/acf/includes/fields/class-acf-field-text.php:147
+msgid "Appears after the input"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:25
+msgid "File"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:36
+msgid "Edit File"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:37
+msgid "Update File"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:38
+#: classes/acf/includes/fields/class-acf-field-image.php:43
+#: classes/acf/includes/media.php:57
+#: classes/acf/pro/fields/class-acf-field-gallery.php:44
+msgid "Uploaded to this post"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:130
+msgid "File name"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:134
+#: classes/acf/includes/fields/class-acf-field-file.php:237
+#: classes/acf/includes/fields/class-acf-field-file.php:248
+#: classes/acf/includes/fields/class-acf-field-image.php:248
+#: classes/acf/includes/fields/class-acf-field-image.php:277
+#: classes/acf/pro/fields/class-acf-field-gallery.php:690
+#: classes/acf/pro/fields/class-acf-field-gallery.php:719
+msgid "File size"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:143
+#: classes/acf/includes/fields/class-acf-field-image.php:124
+#: classes/acf/includes/fields/class-acf-field-link.php:140
+#: classes/acf/includes/input.php:269
+#: classes/acf/pro/fields/class-acf-field-gallery.php:343
+#: classes/acf/pro/fields/class-acf-field-gallery.php:531
+msgid "Remove"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:159
+msgid "Add File"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:210
+msgid "File Array"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:211
+msgid "File URL"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:212
+msgid "File ID"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:219
+#: classes/acf/includes/fields/class-acf-field-image.php:213
+#: classes/acf/pro/fields/class-acf-field-gallery.php:655
+msgid "Library"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:220
+#: classes/acf/includes/fields/class-acf-field-image.php:214
+#: classes/acf/pro/fields/class-acf-field-gallery.php:656
+msgid "Limit the media library choice"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:225
+#: classes/acf/includes/fields/class-acf-field-image.php:219
+#: classes/acf/includes/locations/class-acf-location-attachment.php:101
+#: classes/acf/includes/locations/class-acf-location-comment.php:79
+#: classes/acf/includes/locations/class-acf-location-nav-menu.php:102
+#: classes/acf/includes/locations/class-acf-location-taxonomy.php:79
+#: classes/acf/includes/locations/class-acf-location-user-form.php:87
+#: classes/acf/includes/locations/class-acf-location-user-role.php:111
+#: classes/acf/includes/locations/class-acf-location-widget.php:83
+#: classes/acf/pro/fields/class-acf-field-gallery.php:661
+msgid "All"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:226
+#: classes/acf/includes/fields/class-acf-field-image.php:220
+#: classes/acf/pro/fields/class-acf-field-gallery.php:662
+msgid "Uploaded to post"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:233
+#: classes/acf/includes/fields/class-acf-field-image.php:227
+#: classes/acf/pro/fields/class-acf-field-gallery.php:669
+msgid "Minimum"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:234
+#: classes/acf/includes/fields/class-acf-field-file.php:245
+msgid "Restrict which files can be uploaded"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:244
+#: classes/acf/includes/fields/class-acf-field-image.php:256
+#: classes/acf/pro/fields/class-acf-field-gallery.php:698
+msgid "Maximum"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:255
+#: classes/acf/includes/fields/class-acf-field-image.php:285
+#: classes/acf/pro/fields/class-acf-field-gallery.php:727
+msgid "Allowed file types"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-file.php:256
+#: classes/acf/includes/fields/class-acf-field-image.php:286
+#: classes/acf/pro/fields/class-acf-field-gallery.php:728
+msgid "Comma separated list. Leave blank for all types"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:25
+msgid "Google Map"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:40
+msgid "Locating"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:41
+msgid "Sorry, this browser does not support geolocation"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:113
+msgid "Clear location"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:114
+msgid "Find current location"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:117
+msgid "Search for address..."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:147
+#: classes/acf/includes/fields/class-acf-field-google-map.php:158
+msgid "Center"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:148
+#: classes/acf/includes/fields/class-acf-field-google-map.php:159
+msgid "Center the initial map"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:170
+msgid "Zoom"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:171
+msgid "Set the initial zoom level"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:180
+#: classes/acf/includes/fields/class-acf-field-image.php:239
+#: classes/acf/includes/fields/class-acf-field-image.php:268
+#: classes/acf/includes/fields/class-acf-field-oembed.php:281
+#: classes/acf/pro/fields/class-acf-field-gallery.php:681
+#: classes/acf/pro/fields/class-acf-field-gallery.php:710
+msgid "Height"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-google-map.php:181
+msgid "Customise the map height"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-group.php:25
+msgid "Group"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-group.php:459
+#: classes/acf/pro/fields/class-acf-field-repeater.php:389
+msgid "Sub Fields"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-group.php:475
+#: classes/acf/pro/fields/class-acf-field-clone.php:844
+msgid "Specify the style used to render the selected fields"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-group.php:480
+#: classes/acf/pro/fields/class-acf-field-clone.php:849
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:614
+#: classes/acf/pro/fields/class-acf-field-repeater.php:458
+msgid "Block"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-group.php:481
+#: classes/acf/pro/fields/class-acf-field-clone.php:850
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:613
+#: classes/acf/pro/fields/class-acf-field-repeater.php:457
+msgid "Table"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-group.php:482
+#: classes/acf/pro/fields/class-acf-field-clone.php:851
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:615
+#: classes/acf/pro/fields/class-acf-field-repeater.php:459
+msgid "Row"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:25
+msgid "Image"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:40
+msgid "Select Image"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:41
+#: classes/acf/pro/fields/class-acf-field-gallery.php:42
+msgid "Edit Image"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:42
+#: classes/acf/pro/fields/class-acf-field-gallery.php:43
+msgid "Update Image"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:44
+msgid "All images"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:140
+msgid "No image selected"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:140
+msgid "Add Image"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:194
+msgid "Image Array"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:195
+msgid "Image URL"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:196
+msgid "Image ID"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:203
+msgid "Preview Size"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:204
+msgid "Shown when entering data"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:228
+#: classes/acf/includes/fields/class-acf-field-image.php:257
+#: classes/acf/pro/fields/class-acf-field-gallery.php:670
+#: classes/acf/pro/fields/class-acf-field-gallery.php:699
+msgid "Restrict which images can be uploaded"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-image.php:231
+#: classes/acf/includes/fields/class-acf-field-image.php:260
+#: classes/acf/includes/fields/class-acf-field-oembed.php:270
+#: classes/acf/pro/fields/class-acf-field-gallery.php:673
+#: classes/acf/pro/fields/class-acf-field-gallery.php:702
+msgid "Width"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-link.php:25
+msgid "Link"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-link.php:133
+msgid "Select Link"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-link.php:138
+msgid "Opens in a new window/tab"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-link.php:172
+msgid "Link Array"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-link.php:173
+msgid "Link URL"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:25
+#: classes/acf/includes/fields/class-acf-field-message.php:101
+#: classes/acf/includes/fields/class-acf-field-true_false.php:126
+msgid "Message"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:110
+#: classes/acf/includes/fields/class-acf-field-textarea.php:139
+msgid "New Lines"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:111
+#: classes/acf/includes/fields/class-acf-field-textarea.php:140
+msgid "Controls how new lines are rendered"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:115
+#: classes/acf/includes/fields/class-acf-field-textarea.php:144
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:116
+#: classes/acf/includes/fields/class-acf-field-textarea.php:145
+msgid "Automatically add &lt;br&gt;"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:117
+#: classes/acf/includes/fields/class-acf-field-textarea.php:146
+msgid "No Formatting"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:124
+msgid "Escape HTML"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-message.php:125
+msgid "Allow HTML markup to display as visible text instead of rendering"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-number.php:25
+msgid "Number"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-number.php:163
+#: classes/acf/includes/fields/class-acf-field-range.php:157
+msgid "Minimum Value"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-number.php:172
+#: classes/acf/includes/fields/class-acf-field-range.php:167
+msgid "Maximum Value"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-number.php:181
+#: classes/acf/includes/fields/class-acf-field-range.php:177
+msgid "Step Size"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-number.php:219
+msgid "Value must be a number"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-number.php:237
+#, php-format
+msgid "Value must be equal to or higher than %d"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-number.php:245
+#, php-format
+msgid "Value must be equal to or lower than %d"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-oembed.php:25
+msgid "oEmbed"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-oembed.php:219
+msgid "Enter URL"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-oembed.php:234
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:898
+msgid "Error."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-oembed.php:234
+msgid "No embed found for the given URL."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-oembed.php:267
+#: classes/acf/includes/fields/class-acf-field-oembed.php:278
+msgid "Embed Size"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:177
+msgid "Archives"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:269
+#: classes/acf/includes/fields/class-acf-field-post_object.php:268
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:986
+msgid "Parent"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:485
+#: classes/acf/includes/fields/class-acf-field-post_object.php:384
+#: classes/acf/includes/fields/class-acf-field-relationship.php:623
+msgid "Filter by Post Type"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:493
+#: classes/acf/includes/fields/class-acf-field-post_object.php:392
+#: classes/acf/includes/fields/class-acf-field-relationship.php:631
+msgid "All post types"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:499
+#: classes/acf/includes/fields/class-acf-field-post_object.php:398
+#: classes/acf/includes/fields/class-acf-field-relationship.php:637
+msgid "Filter by Taxonomy"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:507
+#: classes/acf/includes/fields/class-acf-field-post_object.php:406
+#: classes/acf/includes/fields/class-acf-field-relationship.php:645
+msgid "All taxonomies"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:523
+msgid "Allow Archives URLs"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-page_link.php:533
+#: classes/acf/includes/fields/class-acf-field-post_object.php:422
+#: classes/acf/includes/fields/class-acf-field-select.php:396
+#: classes/acf/includes/fields/class-acf-field-user.php:418
+msgid "Select multiple values?"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-password.php:25
+msgid "Password"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-post_object.php:25
+#: classes/acf/includes/fields/class-acf-field-post_object.php:437
+#: classes/acf/includes/fields/class-acf-field-relationship.php:702
+msgid "Post Object"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-post_object.php:438
+#: classes/acf/includes/fields/class-acf-field-relationship.php:703
+msgid "Post ID"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-radio.php:25
+msgid "Radio Button"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-radio.php:254
+msgid "Other"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-radio.php:259
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-radio.php:265
+msgid "Save Other"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-radio.php:270
+msgid "Save 'other' values to the field's choices"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-range.php:25
+#: classes/admin/WCCM_Discover.php:112 classes/admin/WCCM_Discover.php:119
+msgid "Range"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:25
+msgid "Relationship"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:37
+msgid "Minimum values reached ( {min} values )"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:38
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:39
+msgid "Loading"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:40
+msgid "No matches found"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:423
+msgid "Select post type"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:449
+msgid "Select taxonomy"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:539
+msgid "Search..."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:651
+msgid "Filters"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:657
+#: classes/acf/includes/locations/class-acf-location-post-type.php:27
+msgid "Post Type"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:658
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:28
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:763
+msgid "Taxonomy"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:665
+msgid "Elements"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:666
+msgid "Selected elements will be displayed in each result"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:677
+msgid "Minimum posts"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:686
+msgid "Maximum posts"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-relationship.php:790
+#: classes/acf/pro/fields/class-acf-field-gallery.php:800
+#, php-format
+msgid "%s requires at least %s selection"
+msgid_plural "%s requires at least %s selections"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:25
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:785
+msgctxt "noun"
+msgid "Select"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:38
+msgctxt "Select2 JS matches_1"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:39
+#, php-format
+msgctxt "Select2 JS matches_n"
+msgid "%d results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:40
+msgctxt "Select2 JS matches_0"
+msgid "No matches found"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:41
+msgctxt "Select2 JS input_too_short_1"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:42
+#, php-format
+msgctxt "Select2 JS input_too_short_n"
+msgid "Please enter %d or more characters"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:43
+msgctxt "Select2 JS input_too_long_1"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:44
+#, php-format
+msgctxt "Select2 JS input_too_long_n"
+msgid "Please delete %d characters"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:45
+msgctxt "Select2 JS selection_too_long_1"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:46
+#, php-format
+msgctxt "Select2 JS selection_too_long_n"
+msgid "You can only select %d items"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:47
+msgctxt "Select2 JS load_more"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:48
+msgctxt "Select2 JS searching"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:49
+msgctxt "Select2 JS load_fail"
+msgid "Loading failed"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:255
+#: classes/acf/includes/media.php:54
+msgctxt "verb"
+msgid "Select"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:406
+#: classes/acf/includes/fields/class-acf-field-true_false.php:144
+msgid "Stylised UI"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:416
+msgid "Use AJAX to lazy load choices?"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-select.php:427
+msgid "Specify the value returned"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-separator.php:25
+msgid "Separator"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-tab.php:25
+msgid "Tab"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-tab.php:102
+msgid "Placement"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-tab.php:115
+msgid ""
+"Define an endpoint for the previous tabs to stop. This will start a new "
+"group of tabs."
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:713
+#, php-format
+msgctxt "No terms"
+msgid "No %s"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:732
+msgid "None"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:764
+msgid "Select the taxonomy to be displayed"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:773
+msgid "Appearance"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:774
+msgid "Select the appearance of this field"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:779
+msgid "Multiple Values"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:781
+msgid "Multi Select"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:783
+msgid "Single Value"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:784
+msgid "Radio Buttons"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:803
+msgid "Create Terms"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:804
+msgid "Allow new terms to be created whilst editing"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:813
+msgid "Save Terms"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:814
+msgid "Connect selected terms to the post"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:823
+msgid "Load Terms"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:824
+msgid "Load value from posts terms"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:838
+msgid "Term Object"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:839
+msgid "Term ID"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:898
+#, php-format
+msgid "User unable to add new %s"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:911
+#, php-format
+msgid "%s already exists"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:952
+#, php-format
+msgid "%s added"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-taxonomy.php:997
+#: classes/admin/WCCM_CustomerMetadataPage.php:82
+msgid "Add"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-text.php:25
+msgid "Text"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-text.php:155
+#: classes/acf/includes/fields/class-acf-field-textarea.php:120
+msgid "Character Limit"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-text.php:156
+#: classes/acf/includes/fields/class-acf-field-textarea.php:121
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-textarea.php:25
+msgid "Text Area"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-textarea.php:129
+msgid "Rows"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-textarea.php:130
+msgid "Sets the textarea height"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-time_picker.php:25
+msgid "Time Picker"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:25
+msgid "True / False"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:79
+#: classes/acf/includes/fields/class-acf-field-true_false.php:159
+#: classes/acf/includes/input.php:267
+#: classes/acf/pro/admin/views/html-settings-updates.php:89
+#: classes/admin/WCCM_GuestToRegistered.php:84
+#: classes/admin/WCCM_GuestToRegistered.php:90
+msgid "Yes"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:80
+#: classes/acf/includes/fields/class-acf-field-true_false.php:169
+#: classes/acf/includes/input.php:268
+#: classes/acf/pro/admin/views/html-settings-updates.php:99
+#: classes/admin/WCCM_GuestToRegistered.php:85
+#: classes/admin/WCCM_GuestToRegistered.php:89
+msgid "No"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:127
+msgid "Displays text alongside the checkbox"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:155
+msgid "On Text"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:156
+msgid "Text shown when active"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:165
+msgid "Off Text"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-true_false.php:166
+msgid "Text shown when inactive"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-url.php:25
+msgid "Url"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-url.php:151
+msgid "Value must be a valid URL"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-user.php:25
+#: classes/acf/includes/locations.php:95
+msgid "User"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-user.php:393
+msgid "Filter by role"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-user.php:401
+msgid "All user roles"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:25
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:359
+msgid "Visual"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:360
+msgctxt "Name for the Text editor tab (formerly HTML)"
+msgid "Text"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:366
+msgid "Click to initialize TinyMCE"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:419
+msgid "Tabs"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:424
+msgid "Visual & Text"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:425
+msgid "Visual Only"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:426
+msgid "Text Only"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:433
+msgid "Toolbar"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:443
+msgid "Show Media Upload Buttons?"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:453
+msgid "Delay initialization?"
+msgstr ""
+
+#: classes/acf/includes/fields/class-acf-field-wysiwyg.php:454
+msgid "TinyMCE will not be initalized until field is clicked"
+msgstr ""
+
+#: classes/acf/includes/forms/form-comment.php:166
+#: classes/acf/includes/forms/form-post.php:303
+#: classes/acf/pro/admin/admin-options-page.php:308
+msgid "Edit field group"
+msgstr ""
+
+#: classes/acf/includes/forms/form-front.php:55
+msgid "Validate Email"
+msgstr ""
+
+#: classes/acf/includes/forms/form-front.php:103
+#: classes/acf/pro/fields/class-acf-field-gallery.php:573
+#: classes/acf/pro/options-page.php:81
+#: classes/admin/WCCM_CustomerMetadataPage.php:127
+msgid "Update"
+msgstr ""
+
+#: classes/acf/includes/forms/form-front.php:104
+msgid "Post updated"
+msgstr ""
+
+#: classes/acf/includes/forms/form-front.php:230
+msgid "Spam Detected"
+msgstr ""
+
+#: classes/acf/includes/input.php:259
+msgid "Expand Details"
+msgstr ""
+
+#: classes/acf/includes/input.php:260
+msgid "Collapse Details"
+msgstr ""
+
+#: classes/acf/includes/input.php:261
+msgid "Validation successful"
+msgstr ""
+
+#: classes/acf/includes/input.php:262 classes/acf/includes/validation.php:285
+#: classes/acf/includes/validation.php:296
+msgid "Validation failed"
+msgstr ""
+
+#: classes/acf/includes/input.php:263
+msgid "1 field requires attention"
+msgstr ""
+
+#: classes/acf/includes/input.php:264
+#, php-format
+msgid "%d fields require attention"
+msgstr ""
+
+#: classes/acf/includes/input.php:265
+msgid "Restricted"
+msgstr ""
+
+#: classes/acf/includes/input.php:266
+#: classes/admin/WCCM_CustomerMetadataPage.php:18
+#: classes/admin/WCCM_CustomerTable.php:75
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/acf/includes/input.php:270
+msgid "Cancel"
+msgstr ""
+
+#: classes/acf/includes/locations.php:93
+#: classes/acf/includes/locations/class-acf-location-post.php:27
+msgid "Post"
+msgstr ""
+
+#: classes/acf/includes/locations.php:94
+#: classes/acf/includes/locations/class-acf-location-page.php:27
+msgid "Page"
+msgstr ""
+
+#: classes/acf/includes/locations.php:96
+msgid "Forms"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-attachment.php:27
+msgid "Attachment"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-attachment.php:109
+#, php-format
+msgid "All %s formats"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-comment.php:27
+msgid "Comment"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-current-user-role.php:27
+msgid "Current User Role"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-current-user-role.php:110
+msgid "Super Admin"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-current-user.php:27
+msgid "Current User"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-current-user.php:97
+msgid "Logged in"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-current-user.php:98
+msgid "Viewing front end"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-current-user.php:99
+msgid "Viewing back end"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-nav-menu-item.php:27
+msgid "Menu Item"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-nav-menu.php:27
+msgid "Menu"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-nav-menu.php:109
+msgid "Menu Locations"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-nav-menu.php:119
+msgid "Menus"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-parent.php:27
+msgid "Page Parent"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-template.php:27
+msgid "Page Template"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-template.php:98
+#: classes/acf/includes/locations/class-acf-location-post-template.php:151
+msgid "Default Template"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-type.php:27
+msgid "Page Type"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-type.php:145
+msgid "Front Page"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-type.php:146
+msgid "Posts Page"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-type.php:147
+msgid "Top Level Page (no parent)"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-type.php:148
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-page-type.php:149
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-post-category.php:27
+msgid "Post Category"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-post-format.php:27
+msgid "Post Format"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-post-status.php:27
+msgid "Post Status"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-post-taxonomy.php:27
+msgid "Post Taxonomy"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-post-template.php:27
+msgid "Post Template"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-taxonomy.php:27
+msgid "Taxonomy Term"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-user-form.php:27
+msgid "User Form"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-user-form.php:88
+msgid "Add / Edit"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-user-form.php:89
+msgid "Register"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-user-role.php:27
+msgid "User Role"
+msgstr ""
+
+#: classes/acf/includes/locations/class-acf-location-widget.php:27
+msgid "Widget"
+msgstr ""
+
+#: classes/acf/includes/media.php:55
+msgctxt "verb"
+msgid "Edit"
+msgstr ""
+
+#: classes/acf/includes/media.php:56
+msgctxt "verb"
+msgid "Update"
+msgstr ""
+
+#: classes/acf/includes/validation.php:364
+#, php-format
+msgid "%s value is required"
+msgstr ""
+
+#: classes/acf/pro/acf-pro.php:28
+msgid "Advanced Custom Fields PRO"
+msgstr ""
+
+#: classes/acf/pro/admin/admin-options-page.php:200
+msgid "Publish"
+msgstr ""
+
+#: classes/acf/pro/admin/admin-options-page.php:206
+#, php-format
+msgid ""
+"No Custom Field Groups found for this options page. <a href=\"%s\">Create a "
+"Custom Field Group</a>"
+msgstr ""
+
+#: classes/acf/pro/admin/admin-settings-updates.php:78
+msgid "<b>Error</b>. Could not connect to update server"
+msgstr ""
+
+#: classes/acf/pro/admin/admin-settings-updates.php:162
+#: classes/acf/pro/admin/views/html-settings-updates.php:13
+msgid "Updates"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:7
+msgid "Deactivate License"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:7
+msgid "Activate License"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:17
+msgid "License Information"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:20
+#, php-format
+msgid ""
+"To unlock updates, please enter your license key below. If you don't have a "
+"licence key, please see <a href=\"%s\" target=\"_blank\">details & pricing</"
+"a>."
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:29
+msgid "License Key"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:61
+msgid "Update Information"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:68
+msgid "Current Version"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:76
+msgid "Latest Version"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:84
+msgid "Update Available"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:92
+msgid "Update Plugin"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:94
+msgid "Please enter your license key above to unlock updates"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:100
+msgid "Check Again"
+msgstr ""
+
+#: classes/acf/pro/admin/views/html-settings-updates.php:117
+msgid "Upgrade Notice"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:25
+msgctxt "noun"
+msgid "Clone"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:812
+msgid "Select one or more fields you wish to clone"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:829
+msgid "Display"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:830
+msgid "Specify the style used to render the clone field"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:835
+msgid "Group (displays selected fields in a group within this field)"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:836
+msgid "Seamless (replaces this field with selected fields)"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:857
+#, php-format
+msgid "Labels will be displayed as %s"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:860
+msgid "Prefix Field Labels"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:871
+#, php-format
+msgid "Values will be saved as %s"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:874
+msgid "Prefix Field Names"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:992
+msgid "Unknown field"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:1031
+msgid "Unknown field group"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-clone.php:1035
+#, php-format
+msgid "All fields from %s field group"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:31
+#: classes/acf/pro/fields/class-acf-field-repeater.php:174
+#: classes/acf/pro/fields/class-acf-field-repeater.php:470
+msgid "Add Row"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:34
+msgid "layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:35
+msgid "layouts"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:36
+msgid "remove {layout}?"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:37
+msgid "This field requires at least {min} {identifier}"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:38
+msgid "This field has a limit of {max} {identifier}"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:39
+msgid "This field requires at least {min} {label} {identifier}"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:40
+msgid "Maximum {label} limit reached ({max} {identifier})"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:41
+msgid "{available} {label} {identifier} available (max {max})"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:42
+msgid "{required} {label} {identifier} required (min {min})"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:43
+msgid "Flexible Content requires at least 1 layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:273
+#, php-format
+msgid "Click the \"%s\" button below to start creating your layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:406
+msgid "Add layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:407
+msgid "Remove layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:408
+#: classes/acf/pro/fields/class-acf-field-repeater.php:298
+msgid "Click to toggle"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:556
+msgid "Reorder Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:556
+msgid "Reorder"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:557
+msgid "Delete Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:558
+msgid "Duplicate Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:559
+msgid "Add New Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:630
+msgid "Min"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:643
+msgid "Max"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:670
+#: classes/acf/pro/fields/class-acf-field-repeater.php:466
+msgid "Button Label"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:679
+msgid "Minimum Layouts"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-flexible-content.php:688
+msgid "Maximum Layouts"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:41
+msgid "Add Image to Gallery"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:45
+msgid "Maximum selection reached"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:321
+msgid "Length"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:364
+msgid "Caption"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:373
+msgid "Alt Text"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:544
+msgid "Add to gallery"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:548
+msgid "Bulk actions"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:549
+msgid "Sort by date uploaded"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:550
+msgid "Sort by date modified"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:551
+msgid "Sort by title"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:552
+msgid "Reverse current order"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:570
+msgid "Close"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:624
+msgid "Minimum Selection"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:633
+msgid "Maximum Selection"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:642
+msgid "Insert"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:643
+msgid "Specify where new attachments are added"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:647
+msgid "Append to the end"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-gallery.php:648
+msgid "Prepend to the beginning"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:36
+msgid "Minimum rows reached ({min} rows)"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:37
+msgid "Maximum rows reached ({max} rows)"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:343
+msgid "Add row"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:344
+msgid "Remove row"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:419
+msgid "Collapsed"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:420
+msgid "Select a sub field to show when row is collapsed"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:430
+msgid "Minimum Rows"
+msgstr ""
+
+#: classes/acf/pro/fields/class-acf-field-repeater.php:440
+msgid "Maximum Rows"
+msgstr ""
+
+#: classes/acf/pro/locations/class-acf-location-options-page.php:79
+msgid "No options pages exist"
+msgstr ""
+
+#: classes/acf/pro/options-page.php:51 customers-manager.php:207
+msgid "Options"
+msgstr ""
+
+#: classes/acf/pro/options-page.php:82
+msgid "Options Updated"
+msgstr ""
+
+#: classes/acf/pro/updates.php:97
+#, php-format
+msgid ""
+"To enable updates, please enter your license key on the <a href=\"%s"
+"\">Updates</a> page. If you don't have a licence key, please see <a href=\"%s"
+"\">details & pricing</a>."
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:16
+msgid "Error: please select at least one recipient."
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:32
+#: classes/admin/WCCM_CustomerDetails.php:80
+msgid "Your message has been successfully sent."
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:90
+msgid "Error: please select at least one recipient"
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:124 customers-manager.php:203
+msgid "Bulk emails"
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:133 classes/admin/WCCM_Discover.php:70
+msgid "Customers (you can search typing name, last name or email)"
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:144
+#: classes/admin/WCCM_CustomerDetails.php:579
+msgid "Subject"
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:146
+#: classes/admin/WCCM_CustomerDetails.php:581
+msgid ""
+"Text (HTML code is allowed only if the visual editor has been disable in the "
+"Options menu)"
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:147
+#: classes/admin/WCCM_CustomerDetails.php:582
+msgid ""
+"use <strong>{first_name}</strong>, <strong>{last_name}</strong>, "
+"<strong>{billing_first_name}</strong>, <strong>{billing_last_name}</strong>, "
+"<strong>{shipping_first_name}</strong>, <strong>{shipping_last_name}</"
+"strong> placeholders to render user first and last names in the email body."
+msgstr ""
+
+#: classes/admin/WCCM_BulkEmail.php:151
+#: classes/admin/WCCM_CustomerDetails.php:585
+msgid "Send email"
+msgstr ""
+
+#: classes/admin/WCCM_BulkRoleSwitcher.php:23
+msgid "Bulk role switcher"
+msgstr ""
+
+#: classes/admin/WCCM_BulkRoleSwitcher.php:30
+msgid ""
+"In this page you can easily bulk switch user roles. All you have to select a "
+"\"initial\" role and a \"final\" one. WCCM will change all the users role "
+"matching the \"initial\" with the \"final\" role."
+msgstr ""
+
+#: classes/admin/WCCM_BulkRoleSwitcher.php:33
+msgid "Choose the initial role..."
+msgstr ""
+
+#: classes/admin/WCCM_BulkRoleSwitcher.php:50
+msgid "...and the final one."
+msgstr ""
+
+#: classes/admin/WCCM_BulkRoleSwitcher.php:72
+msgid "Switch roles"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:88
+#: classes/admin/WCCM_CustomerImport.php:213
+#: classes/admin/WCCM_GuestToRegistered.php:56
+msgid "New account"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:89
+#: classes/admin/WCCM_CustomerImport.php:214
+#, php-format
+msgid ""
+"New account has been created. Login using the following credentials.<br/"
+">User: %s<br/>Password: %s<br/>"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:101
+#: classes/admin/WCCM_CustomerAdd.php:137
+msgid "Password mismatch"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:103
+msgid "Mail already taken"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:125
+msgid "Customer updated!"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:135
+msgid "Email and password fields cannot be empty"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:163
+msgid "User mail already registered"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:173
+msgid "Customer added!"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:298
+msgid "Edit customer"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:300
+#: classes/admin/WCCM_CustomerAdd.php:774
+msgid "Add new customer"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:309
+#: classes/admin/WCCM_CustomerMetadataPage.php:38
+msgid "Go back"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:360
+msgid "First name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:364
+msgid "Last name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:368
+msgid "Leaving it blank will leave password unchanged"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:368
+msgid "Required"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:375
+msgid "Repeat Password"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:379
+msgid "Strength indicator"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:380
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers, and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:392
+#: classes/admin/WCCM_CustomerDetails.php:188
+#: classes/admin/WCCM_Options.php:124 classes/admin/WCCM_Options.php:166
+msgid "Roles"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:420
+msgid "Billing first name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:424
+msgid "Billing last name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:429
+#: classes/admin/WCCM_CustomerTable.php:811
+msgid "Billing email"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:433
+#: classes/admin/WCCM_CustomerTable.php:812
+msgid "Billing phone"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:437
+#: classes/admin/WCCM_CustomerTable.php:813
+msgid "Billing company"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:443
+msgid "Billing VAT number"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:448
+#: classes/admin/WCCM_CustomerTable.php:114
+#: classes/admin/WCCM_CustomerTable.php:816
+msgid "Billing address"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:452
+#: classes/admin/WCCM_CustomerAdd.php:634
+msgid "Apartament, suite, unit, etc."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:456
+#: classes/admin/WCCM_CustomerAdd.php:638
+msgid "Post code"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:460
+#: classes/admin/WCCM_CustomerTable.php:819
+msgid "Billing city"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:464
+#: classes/admin/WCCM_CustomerTable.php:821
+msgid "Billing country"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:473
+#: classes/admin/WCCM_CustomerTable.php:820
+msgid "Billing state"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:606
+msgid "Shipping info as Billing info?"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:610
+msgid "Shipping info"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:614
+msgid "Shipping first name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:618
+msgid "Shipping last name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:622
+#: classes/admin/WCCM_CustomerTable.php:825
+msgid "Shipping phone"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:626
+#: classes/admin/WCCM_CustomerTable.php:826
+msgid "Shipping company"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:630
+#: classes/admin/WCCM_CustomerTable.php:827
+msgid "Shipping address"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:642
+#: classes/admin/WCCM_CustomerTable.php:830
+msgid "Shipping city"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:646
+#: classes/admin/WCCM_CustomerTable.php:832
+msgid "Shipping country"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:654
+#: classes/admin/WCCM_CustomerTable.php:831
+msgid "Shipping state"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:731
+msgid "Assign orders"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:763
+msgid "Send an email to customer with login info?"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerAdd.php:776
+msgid "Update customer"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:172
+msgid "Customers Details"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:181
+msgid "General Details"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:183
+msgid "Profile Image"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:184
+msgid "First Name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:185
+msgid "Last Name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:186
+msgid "Email Address"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:187
+msgid "Registration Date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:192
+msgid "Role code:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:194
+msgid "Total Spent"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:202
+msgid "View / Edit meta data"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:209
+msgid "Extra fields"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:217
+#: classes/admin/WCCM_CustomerDetails.php:221
+#: classes/admin/WCCM_CustomerTable.php:113
+#: classes/admin/WCCM_CustomerTable.php:803 classes/admin/WCCM_Options.php:125
+msgid "Notes"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:224
+msgid "Save notes"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:234
+#: classes/admin/WCCM_CustomerGuestList.php:73
+#: classes/admin/WCCM_CustomerGuestList.php:91
+msgid "Orders"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:237
+msgid "Assigner"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:238
+msgid "Select which orders have to be assigned to this user"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:245
+#: classes/admin/WCCM_CustomerTable.php:221
+msgid "Assign"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:250
+msgid "List for"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:250
+msgid "period: "
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:251
+msgid ""
+"To display orders for a <strong>different period</strong>, select a "
+"different <strong>date range in the Stat section</strong> (it is located "
+"after the map)."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:268
+#, php-format
+msgid "Order #%s on %s"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:284
+msgid "Product ID"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:285
+#: classes/admin/WCCM_CustomerDetails.php:820
+msgid "Product name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:286
+#: classes/admin/WCCM_CustomerDetails.php:820
+msgid "Quantity"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:287
+#: classes/admin/WCCM_CustomerDetails.php:820
+msgid "Sub total"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:288
+#: classes/admin/WCCM_CustomerDetails.php:820
+msgid "Taxes"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:289
+msgid "Discount"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:290
+#: classes/admin/WCCM_CustomerDetails.php:820
+msgid "Total"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:291
+#: classes/admin/WCCM_CustomerMetadataPage.php:99
+msgid "Actions"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:311
+msgid "Var: "
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:391
+msgid "Sub total:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:392
+msgid "Taxes:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:393
+msgid "Shipping:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:394
+msgid "Shipping Taxes:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:395
+msgid "Discount:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:396
+msgid "Total refounded:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:397
+msgid "Total:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:398
+msgid "Payment method:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:404
+#: classes/admin/WCCM_CustomerDetails.php:414
+msgid "Shipping company:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:405
+#: classes/admin/WCCM_CustomerDetails.php:415
+msgid "Tracking Number:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:421
+msgid "Order details"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:432
+msgid "Billing Details"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:442
+#: classes/admin/WCCM_CustomerDetails.php:512
+msgid "Address"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:490
+msgid "Vat Number:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:494
+msgid "Email Address:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:497
+msgid "Telephone:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:503
+msgid "Additional Addresses"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:504
+msgid "Details"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:510
+msgid "Shipping Details"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:557
+msgid "Telephone (shipping):"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:573
+msgid "Send an email"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:644
+msgid "Stats"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:646
+#: classes/admin/WCCM_Discover.php:107
+msgid "Starting date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:647
+#: classes/admin/WCCM_Discover.php:108
+msgid "Ending date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:649
+msgid "Daily View"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:650
+msgid "Monthly View"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:651
+msgid "Yearly View"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:653
+#: classes/admin/WCCM_CustomerTable.php:292
+msgid "Filter"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:660
+msgid "Starting date cannot be before ending date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:698
+msgid "Number of products"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:741
+#: classes/admin/WCCM_CustomerDetails.php:789
+msgid "Amount"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:820
+msgid "Order ID"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:820
+msgid "Order date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:820
+#: classes/admin/WCCM_CustomerTable.php:807
+msgid "# Orders"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:874
+msgid "Amounts per date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:878
+msgid "Products purchased"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerDetails.php:882
+msgid "Amount per order"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerExport.php:157
+msgid "Export full customers list"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerExport.php:191
+msgid ""
+"To export single or group of customer(s), you can do it directly from "
+"\"Customers\" menu voice by selecting customers and then click on \"Download "
+"selected customer CSV\" button. By this section you can instead export the "
+"<strong>full customer CSV list</strong>."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerExport.php:195
+msgid ""
+"Would you export guest customers too? (This may cause export process to "
+"freeze)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerExport.php:201
+msgid "Generate csv"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerExport.php:204
+msgid "Export Progress"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerExport.php:207
+msgid "Export Result"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:50
+msgid "Guests List"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:53
+#: classes/admin/WCCM_Discover.php:44
+msgid "Progress"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:58
+msgid "Export selected customers"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:59
+msgid "Convert selected customers"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:60
+msgid ""
+"<strong>NOTE ON GUEST TO REGISTERED CONVERSION FEATURE:</strong> In case the "
+"billing email used by the guest is already associated to a register user, "
+"the guest orders will be assigned to that registered user"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:65
+#: classes/admin/WCCM_CustomerGuestList.php:84
+msgid "Conversion"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:66
+msgid "Toggle email sending option"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:68
+#: classes/admin/WCCM_CustomerGuestList.php:86
+#: classes/admin/WCCM_CustomerTable.php:111
+#: classes/admin/WCCM_CustomerTable.php:799 classes/admin/WCCM_Options.php:107
+msgid "Surname"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:69
+#: classes/admin/WCCM_CustomerGuestList.php:87
+#: classes/admin/WCCM_Options.php:126
+msgid "Address (billing)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:70
+#: classes/admin/WCCM_CustomerGuestList.php:88
+#: classes/admin/WCCM_CustomerTable.php:822
+msgid "Address (shipping)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:71
+#: classes/admin/WCCM_CustomerGuestList.php:89
+#: classes/admin/WCCM_CustomerTable.php:115 classes/admin/WCCM_Options.php:127
+msgid "Phone"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:74
+#: classes/admin/WCCM_CustomerGuestList.php:92
+#: classes/admin/WCCM_CustomerTable.php:117 classes/admin/WCCM_Options.php:130
+msgid "Total spent"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:75
+#: classes/admin/WCCM_CustomerGuestList.php:93
+#: classes/admin/WCCM_CustomerTable.php:119
+#: classes/admin/WCCM_CustomerTable.php:805 classes/admin/WCCM_Options.php:131
+msgid "First order date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:76
+#: classes/admin/WCCM_CustomerGuestList.php:94
+#: classes/admin/WCCM_CustomerTable.php:120 classes/admin/WCCM_Options.php:110
+#: classes/admin/WCCM_Options.php:132
+msgid "Last order date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerGuestList.php:77
+#: classes/admin/WCCM_CustomerGuestList.php:95
+#: classes/admin/WCCM_Options.php:134
+msgid "Order list"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:178
+msgid "Mail already taken for user: $user_id"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:237
+#, php-format
+msgid "User %s already present."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:239
+#, php-format
+msgid "ID %s is not valid."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:241
+#, php-format
+msgid "Mail %s for user: %s already taken."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:243
+#, php-format
+msgid "Password for user %s is not valid."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:252
+#, php-format
+msgid "Added %d customers!"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:254
+#, php-format
+msgid "Updated %d customers!"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:281 customers-manager.php:204
+msgid "Import customers"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:317
+msgid ""
+"NOTE: The .csv file must use \",\" as field separator. Data will be imported "
+"only for columns with following titles (all columns can be left empty or "
+"omitted except for the Email):"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:321
+msgid "(if not specified the plugin will generate a random ID)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:324
+msgid ""
+"(if not specified the plugin will generate an automatic username. If the "
+"login <strong>already exists</strong> the associated user will be updated)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:325
+msgid ""
+"(Example: \"shop_manager\",\"customer\",\"subscriber\",etc. If not specified "
+"the default value will be \"customer\". In case of multiple roles specify "
+"them separating by single space. Ex: \"role_1 role_2 role_3\")"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:326
+msgid ""
+"(If not present the \"Password hash\" column will be used instead. If both "
+"columns are empty a random password will be generated)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:327
+msgid ""
+"(Used for importing already encrypted passwords. Usefull if you have a .csv "
+"export file generated with this plugin)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:328
+msgid ""
+"(This <strong>must</strong> be specified. If not, random one will be "
+"generated)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:352
+msgid ""
+"(To import wpuef user extra field the columns have to have the following "
+"format: wpuef_c13, where c13 is the field id. If you are importing a "
+"<i>Country & State</i> its content has to be in the format: \"country,state"
+"\" (with double quotes). For example: \"United states,New York\", or \"Italy,"
+"Rome\")"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:357
+msgid ""
+"Send an email to customer with login info? (This feature is not available if "
+"you import password using \"Password Hash\" column)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:365
+msgid "Select .csv file to import"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:369
+msgid "NOTE"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:369
+msgid "You can use the follow .csv example as template to import data:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:369
+msgid "Example"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:371
+msgid "Upload"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:374
+msgid "Importing Progress"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerImport.php:377
+msgid "Importing Result"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:19
+msgid "Meta name cannot be empty"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:30
+msgid "Edit / View meta"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:60
+msgid "Add new meta"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:66
+msgid "Update policy"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:67
+msgid "Action"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:76
+msgid "Update if already existing"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:77
+msgid "Create new if already existing"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:92
+msgid "Edit existing meta"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerMetadataPage.php:96
+#: classes/admin/WCCM_Options.php:104 classes/admin/WCCM_Options.php:122
+msgid "ID"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:64
+msgid "N/A"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:109 classes/admin/WCCM_Options.php:105
+#: classes/admin/WCCM_Options.php:123
+msgid "Login"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:112
+msgid "Role(s)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:118 classes/admin/WCCM_Options.php:129
+msgid "#Orders"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:121 classes/admin/WCCM_Options.php:133
+msgid "Registered"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:122
+msgid "Orders list"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:197
+msgid ""
+"To assign new roles to your customers:<ol><li>Select one or more from roles "
+"the following menu</li><li>Select the customers from list</li><li>Click the "
+"Assign button</li></ol><p><strong><i>NOTE: Assigning new roles will "
+"overwrite old roles.</i></strong></p."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:246
+msgid "Currently all user are listed independently from their role."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:248
+msgid "Currently are listed users with following roles:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:255
+msgid "To change displayed roles, go to Options menu"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:264
+msgid ""
+"Filter by date: by this filter you can discover which customers made at "
+"least an order in the selected period, how many orders and total amount "
+"spent."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:268
+msgid "All dates"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:576
+msgid "VAT:"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:744
+msgid "Customers List"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:745
+msgid "Add customer"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:754
+#, php-format
+msgid ""
+"List will display only customers who made orders that include product: <i>"
+"%1$s</i>. Total amount spent is calculated using only these orders. Orders "
+"number is calculated using only orders that include selected product."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:762
+msgid "search"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:766
+msgid "Download selected customers CSV"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:770
+msgid "Download complete customers CSV"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:775
+msgid ""
+"NOTE: If a Customer has #Orders column value more thant 0 and Total spent "
+"column equal to 0, is because he has only cancelled order."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:776
+msgid ""
+"In general, in Total spent value computation cancelled orders are not "
+"condisidered."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:792
+msgid "You have to select at least one role"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:793
+msgid "You have to select at least one user"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:794
+msgid "An error has occurred!"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:795
+msgid "Assigning values, please wait..."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:796
+msgid "Assignment complete! Reloading page..."
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:800
+msgid "Role"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:804
+msgid "Registration date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:806
+msgid "Last date"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:808
+msgid "Total amount spent"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:809
+msgid "Billing name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:810
+msgid "Billing surname"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:814
+msgid "VAT number"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:815
+msgid "Adrress (billing)"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:817
+msgid "Billing address 2"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:818
+msgid "Billing postcode"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:823
+msgid "Shipping name"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:824
+msgid "Shipping surname"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:828
+msgid "Shipping address 2"
+msgstr ""
+
+#: classes/admin/WCCM_CustomerTable.php:829
+msgid "Shipping postcode"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:52
+msgid "Click here to view results"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:57 customers-manager.php:202
+msgid "Discover by orders"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:58
+msgid ""
+"You can find customers who bought a particular set of products, have spent a "
+"certain amout, made order in a time range, .... "
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:60
+msgid "Orders status"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:81
+msgid "Products (you can search typing product name, id or sku code)"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:91
+msgid "Relationship between products and categories filters"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:97
+msgid "Products categories"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:106
+msgid "Date"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:110
+msgid "Amount spent per single order"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:117
+msgid "Total amount spent (sum of all orders per customer)"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:124
+msgid "Discover"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:131
+msgid "Starting date cannot be greater than ending date"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:132
+msgid "Field separator or Line breaker fields cannot be empty"
+msgstr ""
+
+#: classes/admin/WCCM_Discover.php:133
+msgid "Select at least one status"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:42
+msgid ""
+"Email is already associated to another user. Conversion was not performed."
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:57
+#, php-format
+msgid "<br/>User: %s<br/>Password: %s<br/>"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:65
+msgid "Guest to registered customer conversion"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:73
+msgid "Customer already registered"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:81
+msgid "Send an email with login info to the customer?"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:92
+msgid ""
+"The plugin will convert guest user to registered. <strong>In case the "
+"billing email used by the guest is already associated to a register user, "
+"the guest orders will be assigned to that registered user according to the "
+"merge options that can be setted in the plugin option menu.</strong>"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:94
+msgid "Create customer"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:99
+msgid "Operation performed"
+msgstr ""
+
+#: classes/admin/WCCM_GuestToRegistered.php:101
+msgid "Reload order page to see updated data"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:77
+msgid "Options page"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:81
+msgid "General"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:83
+msgid ""
+"Disable \"Orders\" and Total spent\" column sorting. This should grant "
+"performace improvement for big customers databases"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:88
+msgid "Hide \"Total spent\" column"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:92
+msgid "Guest customer list & export pages"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:94
+msgid ""
+"Hide guest customers who have not purchased anything (Customers who has only "
+"cancelled and/or refounded orders)"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:99
+msgid "Customer list page"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:101
+msgid "Select which colum has to be used for default sorting"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:103
+msgid "Register date"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:109
+msgid "Number of orders"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:114
+msgid "Select sorting type"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:116
+msgid "Descendant"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:117
+msgid "Ascendant"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:121
+msgid "Select which columns have to be hidden in the Customer table"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:138
+msgid "Customer details page"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:140
+msgid "Hide map"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:144
+msgid "Map default zoom level"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:151
+msgid "Disable visual editor"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:155
+msgid "Email sender name"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:156
+msgid "Leave empty to use the Site name as sender"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:157 classes/admin/WCCM_Options.php:162
+msgid "Default:"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:160
+msgid "Email sender email address"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:161
+msgid "Leave empty to use the \"noreply@yoursite.ext\" as sender email address"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:168
+msgid ""
+"Select which user roles you want to display on customer list and relation "
+"between roles (customers have one of selected roles (OR) or have all of the "
+"selected roles (AND))"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:169
+msgid "The default WooCommerce user role is: CUSTOMER"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:170
+msgid "NOTE:"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:170
+msgid "Leave empty to allow all roles"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:204
+msgid "Automatic guest conversion - Checkout page"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:206
+msgid "Convert guest user to registered after an order has been placed?"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:207
+msgid ""
+"The plugin will automatically convert guest user to registered after an "
+"order has been placed. <strong>In case\tthe billing email used by the guest "
+"is already associated to a register user, the guest orders will be assigned "
+"to that registered user</strong>"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:211
+msgid ""
+"Do not convert guest to registered in case the email address is already "
+"associated to an account"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:216
+msgid "Send an email with login credentials after an automatic conversion?"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:219
+msgid "Manual guest conversion - Order/Guests list page"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:221
+msgid "Do not merge guest to registered user in case of existing email address"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:222
+msgid ""
+"By default, if the guest billing email is already associated to a registered "
+"user, the guests will be merged with the registered one. Enable the "
+"following option to disable that feature."
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:227
+msgid "Action triggering"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:229
+msgid ""
+"Would you like to trigger WordPress <i>profile_update</i> action on user "
+"data update?"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:235
+msgid ""
+"Would you like to trigger WordPress <i>set_user_role</i> action when user "
+"role is changed?"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:240
+msgid "WPUEF options"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:242
+msgid ""
+"WPUEF plugin is not installed or is not active, this option will be disabled."
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:243
+msgid "Include User Extra Fields on CSV export?"
+msgstr ""
+
+#: classes/admin/WCCM_Options.php:248
+msgid "Save Changes"
+msgstr ""
+
+#: classes/admin/WCCM_OrderDetailsPage.php:10
+msgid "User notes"
+msgstr ""
+
+#: classes/admin/WCCM_OrdersTablePage.php:16
+msgid "Customer details"
+msgstr ""
+
+#: classes/admin/WCCM_ProductPage.php:13 classes/admin/WCCM_ProductPage.php:20
+#: classes/admin/WCCM_ProductsTablePage.php:25
+msgid "Who bought?"
+msgstr ""
+
+#: classes/com/WCCM_Cart.php:41
+msgid "You are not authorized to purchase any item."
+msgstr ""
+
+#: classes/com/WCCM_Customer.php:24
+msgid "Blocked Customer"
+msgstr ""
+
+#: classes/com/WCCM_Customer.php:119
+#, php-format
+msgid "Customer for %s email already existed. Customers have been merged!"
+msgstr ""
+
+#: classes/com/WCCM_Customer.php:876
+#, php-format
+msgid "Invalid date format. Use the %s format."
+msgstr ""
+
+#: classes/com/WCCM_Customer.php:1026
+msgid "Cannot create a user with an empty login name."
+msgstr ""
+
+#: classes/com/WCCM_Customer.php:1029
+msgid "Sorry, that username already exists!"
+msgstr ""
+
+#: classes/com/WCCM_Customer.php:1044
+msgid "Sorry, that email address is already used!"
+msgstr ""
+
+#: classes/com/WCCM_Customer.php:1063
+#, php-format
+msgctxt "Display name based on first name and last name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: classes/com/WCCM_Html.php:22
+msgid "Type an order id or select one from the list"
+msgstr ""
+
+#: classes/com/WCCM_Html.php:32
+msgid "Overwrite order(s) billing data with user billing data"
+msgstr ""
+
+#: classes/com/WCCM_Html.php:33
+msgid "Overwrite order(s) shipping data with user shipping data"
+msgstr ""
+
+#: classes/com/WCCM_Order.php:1049 classes/com/WCCM_Order.php:1085
+msgid "No orders"
+msgstr ""
+
+#: classes/com/vendor/acf-email-html-preview-field/acf-email-html-preview-v5.php:10
+msgid "HTML Email Viewer"
+msgstr ""
+
+#: classes/com/vendor/acf-email-html-preview-field/acf-email-html-preview-v5.php:38
+msgid "Guest to registered"
+msgstr ""
+
+#: classes/com/vendor/acf-email-html-preview-field/acf-email-html-preview-v5.php:39
+msgid "Customer notification"
+msgstr ""
+
+#: classes/com/vendor/acf-email-html-preview-field/acf-email-html-preview-v5.php:41
+msgid "Select template preview"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:6
+msgid "Australian Capital Territory"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:7
+msgid "New South Wales"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:8
+msgid "Northern Territory"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:9
+msgid "Queensland"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:10
+msgid "South Australia"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:11
+msgid "Tasmania"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:12
+msgid "Victoria"
+msgstr ""
+
+#: classes/lang/i18n/AU.php:13
+msgid "Western Australia"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:6
+msgid "Bagerhat"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:7
+msgid "Bandarban"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:8
+msgid "Barguna"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:9
+msgid "Barisal"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:10
+msgid "Bhola"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:11
+msgid "Bogra"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:12
+msgid "Brahmanbaria"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:13
+msgid "Chandpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:14
+msgid "Chittagong"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:15
+msgid "Chuadanga"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:16
+msgid "Comilla"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:17
+msgid "Cox's Bazar"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:18
+msgid "Dhaka"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:19
+msgid "Dinajpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:20
+msgid "Faridpur "
+msgstr ""
+
+#: classes/lang/i18n/BD.php:21
+msgid "Feni"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:22
+msgid "Gaibandha"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:23
+msgid "Gazipur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:24
+msgid "Gopalganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:25
+msgid "Habiganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:26
+msgid "Jamalpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:27
+msgid "Jessore"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:28
+msgid "Jhalokati"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:29
+msgid "Jhenaidah"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:30
+msgid "Joypurhat"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:31
+msgid "Khagrachhari"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:32
+msgid "Khulna"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:33
+msgid "Kishoreganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:34
+msgid "Kurigram"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:35
+msgid "Kushtia"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:36
+msgid "Lakshmipur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:37
+msgid "Lalmonirhat"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:38
+msgid "Madaripur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:39
+msgid "Magura"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:40
+msgid "Manikganj "
+msgstr ""
+
+#: classes/lang/i18n/BD.php:41
+msgid "Meherpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:42
+msgid "Moulvibazar"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:43
+msgid "Munshiganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:44
+msgid "Mymensingh"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:45
+msgid "Naogaon"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:46
+msgid "Narail"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:47
+msgid "Narayanganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:48
+msgid "Narsingdi"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:49
+msgid "Natore"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:50
+msgid "Nawabganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:51
+msgid "Netrakona"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:52
+msgid "Nilphamari"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:53
+msgid "Noakhali"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:54
+msgid "Pabna"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:55
+msgid "Panchagarh"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:56
+msgid "Patuakhali"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:57
+msgid "Pirojpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:58
+msgid "Rajbari"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:59
+msgid "Rajshahi"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:60
+msgid "Rangamati"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:61
+msgid "Rangpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:62
+msgid "Satkhira"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:63
+msgid "Shariatpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:64
+msgid "Sherpur"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:65
+msgid "Sirajganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:66
+msgid "Sunamganj"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:67
+msgid "Sylhet"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:68
+msgid "Tangail"
+msgstr ""
+
+#: classes/lang/i18n/BD.php:69
+msgid "Thakurgaon"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:6
+msgid "Blagoevgrad"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:7
+msgid "Burgas"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:8
+msgid "Dobrich"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:9
+msgid "Gabrovo"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:10
+msgid "Haskovo"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:11
+msgid "Kardzhali"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:12
+msgid "Kyustendil"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:13
+msgid "Lovech"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:14 classes/lang/i18n/US.php:32
+msgid "Montana"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:15
+msgid "Pazardzhik"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:16
+msgid "Pernik"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:17
+msgid "Pleven"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:18
+msgid "Plovdiv"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:19
+msgid "Razgrad"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:20
+msgid "Ruse"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:21
+msgid "Shumen"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:22
+msgid "Silistra"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:23
+msgid "Sliven"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:24
+msgid "Smolyan"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:25
+msgid "Sofia"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:26
+msgid "Sofia-Grad"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:27
+msgid "Stara Zagora"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:28
+msgid "Targovishte"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:29
+msgid "Varna"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:30
+msgid "Veliko Tarnovo"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:31
+msgid "Vidin"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:32
+msgid "Vratsa"
+msgstr ""
+
+#: classes/lang/i18n/BG.php:33
+msgid "Yambol"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:6
+msgid "Acre"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:7
+msgid "Alagoas"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:8
+msgid "Amap&aacute;"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:9 classes/lang/i18n/PE.php:8
+msgid "Amazonas"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:10
+msgid "Bahia"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:11
+msgid "Cear&aacute;"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:12 classes/lang/i18n/MX.php:6
+msgid "Distrito Federal"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:13
+msgid "Esp&iacute;rito Santo"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:14
+msgid "Goi&aacute;s"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:15
+msgid "Maranh&atilde;o"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:16
+msgid "Mato Grosso"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:17
+msgid "Mato Grosso do Sul"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:18
+msgid "Minas Gerais"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:19
+msgid "Par&aacute;"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:20
+msgid "Para&iacute;ba"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:21
+msgid "Paran&aacute;"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:22
+msgid "Pernambuco"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:23
+msgid "Piau&iacute;"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:24
+msgid "Rio de Janeiro"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:25
+msgid "Rio Grande do Norte"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:26
+msgid "Rio Grande do Sul"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:27
+msgid "Rond&ocirc;nia"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:28
+msgid "Roraima"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:29
+msgid "Santa Catarina"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:30
+msgid "S&atilde;o Paulo"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:31
+msgid "Sergipe"
+msgstr ""
+
+#: classes/lang/i18n/BR.php:32
+msgid "Tocantins"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:6
+msgid "Alberta"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:7
+msgid "British Columbia"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:8
+msgid "Manitoba"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:9
+msgid "New Brunswick"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:10
+msgid "Newfoundland"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:11
+msgid "Northwest Territories"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:12
+msgid "Nova Scotia"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:13
+msgid "Nunavut"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:14
+msgid "Ontario"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:15
+msgid "Prince Edward Island"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:16
+msgid "Quebec"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:17
+msgid "Saskatchewan"
+msgstr ""
+
+#: classes/lang/i18n/CA.php:18
+msgid "Yukon Territory"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:6
+msgid "Yunnan / &#20113;&#21335;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:7
+msgid "Beijing / &#21271;&#20140;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:8
+msgid "Tianjin / &#22825;&#27941;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:9
+msgid "Hebei / &#27827;&#21271;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:10
+msgid "Shanxi / &#23665;&#35199;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:11
+msgid "Inner Mongolia / &#20839;&#33945;&#21476;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:12
+msgid "Liaoning / &#36797;&#23425;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:13
+msgid "Jilin / &#21513;&#26519;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:14
+msgid "Heilongjiang / &#40657;&#40857;&#27743;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:15
+msgid "Shanghai / &#19978;&#28023;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:16
+msgid "Jiangsu / &#27743;&#33487;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:17
+msgid "Zhejiang / &#27993;&#27743;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:18
+msgid "Anhui / &#23433;&#24509;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:19
+msgid "Fujian / &#31119;&#24314;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:20
+msgid "Jiangxi / &#27743;&#35199;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:21
+msgid "Shandong / &#23665;&#19996;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:22
+msgid "Henan / &#27827;&#21335;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:23
+msgid "Hubei / &#28246;&#21271;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:24
+msgid "Hunan / &#28246;&#21335;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:25
+msgid "Guangdong / &#24191;&#19996;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:26
+msgid "Guangxi Zhuang / &#24191;&#35199;&#22766;&#26063;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:27
+msgid "Hainan / &#28023;&#21335;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:28
+msgid "Chongqing / &#37325;&#24198;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:29
+msgid "Sichuan / &#22235;&#24029;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:30
+msgid "Guizhou / &#36149;&#24030;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:31
+msgid "Shaanxi / &#38485;&#35199;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:32
+msgid "Gansu / &#29976;&#32899;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:33
+msgid "Qinghai / &#38738;&#28023;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:34
+msgid "Ningxia Hui / &#23425;&#22799;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:35
+msgid "Macau / &#28595;&#38376;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:36
+msgid "Tibet / &#35199;&#34255;"
+msgstr ""
+
+#: classes/lang/i18n/CN.php:37
+msgid "Xinjiang / &#26032;&#30086;"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:6
+msgid "A Coru&ntilde;a"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:7
+msgid "Araba/&Aacute;lava"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:8
+msgid "Albacete"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:9
+msgid "Alicante"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:10
+msgid "Almer&iacute;a"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:11
+msgid "Asturias"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:12
+msgid "&Aacute;vila"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:13
+msgid "Badajoz"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:14
+msgid "Baleares"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:15
+msgid "Barcelona"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:16
+msgid "Burgos"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:17
+msgid "C&aacute;ceres"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:18
+msgid "C&aacute;diz"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:19
+msgid "Cantabria"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:20
+msgid "Castell&oacute;n"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:21
+msgid "Ceuta"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:22
+msgid "Ciudad Real"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:23
+msgid "C&oacute;rdoba"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:24
+msgid "Cuenca"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:25
+msgid "Girona"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:26
+msgid "Granada"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:27
+msgid "Guadalajara"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:28
+msgid "Gipuzkoa"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:29
+msgid "Huelva"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:30
+msgid "Huesca"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:31
+msgid "Ja&eacute;n"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:32
+msgid "La Rioja"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:33
+msgid "Las Palmas"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:34
+msgid "Le&oacute;n"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:35
+msgid "Lleida"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:36
+msgid "Lugo"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:37
+msgid "Madrid"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:38
+msgid "M&aacute;laga"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:39
+msgid "Melilla"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:40
+msgid "Murcia"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:41
+msgid "Navarra"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:42
+msgid "Ourense"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:43
+msgid "Palencia"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:44
+msgid "Pontevedra"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:45
+msgid "Salamanca"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:46
+msgid "Santa Cruz de Tenerife"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:47
+msgid "Segovia"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:48
+msgid "Sevilla"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:49
+msgid "Soria"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:50
+msgid "Tarragona"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:51
+msgid "Teruel"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:52
+msgid "Toledo"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:53
+msgid "Valencia"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:54
+msgid "Valladolid"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:55
+msgid "Bizkaia"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:56
+msgid "Zamora"
+msgstr ""
+
+#: classes/lang/i18n/ES.php:57
+msgid "Zaragoza"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:6
+msgid "Αττική"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:7
+msgid "Ανατολική Μακεδονία και Θράκη"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:8
+msgid "Κεντρική Μακεδονία"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:9
+msgid "Δυτική Μακεδονία"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:10
+msgid "Ήπειρος"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:11
+msgid "Θεσσαλία"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:12
+msgid "Ιόνιοι Νήσοι"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:13
+msgid "Δυτική Ελλάδα"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:14
+msgid "Στερεά Ελλάδα"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:15
+msgid "Πελοπόννησος"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:16
+msgid "Βόρειο Αιγαίο"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:17
+msgid "Νότιο Αιγαίο"
+msgstr ""
+
+#: classes/lang/i18n/GR.php:18
+msgid "Κρήτη"
+msgstr ""
+
+#: classes/lang/i18n/HK.php:6
+msgid "Hong Kong Island"
+msgstr ""
+
+#: classes/lang/i18n/HK.php:7
+msgid "Kowloon"
+msgstr ""
+
+#: classes/lang/i18n/HK.php:8
+msgid "New Territories"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:6
+msgid "Bács-Kiskun"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:7
+msgid "Békés"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:8
+msgid "Baranya"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:9
+msgid "Borsod-Abaúj-Zemplén"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:10
+msgid "Budapest"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:11
+msgid "Csongrád"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:12
+msgid "Fejér"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:13
+msgid "Győr-Moson-Sopron"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:14
+msgid "Hajdú-Bihar"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:15
+msgid "Heves"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:16
+msgid "Jász-Nagykun-Szolnok"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:17
+msgid "Komárom-Esztergom"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:18
+msgid "Nógrád"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:19
+msgid "Pest"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:20
+msgid "Somogy"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:21
+msgid "Szabolcs-Szatmár-Bereg"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:22
+msgid "Tolna"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:23
+msgid "Vas"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:24
+msgid "Veszprém"
+msgstr ""
+
+#: classes/lang/i18n/HU.php:25
+msgid "Zala"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:6
+msgid "Daerah Istimewa Aceh"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:7
+msgid "Sumatera Utara"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:8
+msgid "Sumatera Barat"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:9
+msgid "Riau"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:10
+msgid "Kepulauan Riau"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:11
+msgid "Jambi"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:12
+msgid "Sumatera Selatan"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:13
+msgid "Bangka Belitung"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:14
+msgid "Bengkulu"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:15
+msgid "Lampung"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:16
+msgid "DKI Jakarta"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:17
+msgid "Jawa Barat"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:18
+msgid "Banten"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:19
+msgid "Jawa Tengah"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:20
+msgid "Jawa Timur"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:21
+msgid "Daerah Istimewa Yogyakarta"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:22
+msgid "Bali"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:23
+msgid "Nusa Tenggara Barat"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:24
+msgid "Nusa Tenggara Timur"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:25
+msgid "Kalimantan Barat"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:26
+msgid "Kalimantan Tengah"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:27
+msgid "Kalimantan Timur"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:28
+msgid "Kalimantan Selatan"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:29
+msgid "Kalimantan Utara"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:30
+msgid "Sulawesi Utara"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:31
+msgid "Sulawesi Tengah"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:32
+msgid "Sulawesi Tenggara"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:33
+msgid "Sulawesi Barat"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:34
+msgid "Sulawesi Selatan"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:35
+msgid "Gorontalo"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:36
+msgid "Maluku"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:37
+msgid "Maluku Utara"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:38
+msgid "Papua"
+msgstr ""
+
+#: classes/lang/i18n/ID.php:39
+msgid "Papua Barat"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:6
+msgid "Andra Pradesh"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:7
+msgid "Arunachal Pradesh"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:8
+msgid "Assam"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:9
+msgid "Bihar"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:10
+msgid "Chhattisgarh"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:11
+msgid "Goa"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:12
+msgid "Gujarat"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:13
+msgid "Haryana"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:14
+msgid "Himachal Pradesh"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:15
+msgid "Jammu and Kashmir"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:16
+msgid "Jharkhand"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:17
+msgid "Karnataka"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:18
+msgid "Kerala"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:19
+msgid "Madhya Pradesh"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:20
+msgid "Maharashtra"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:21
+msgid "Manipur"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:22
+msgid "Meghalaya"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:23
+msgid "Mizoram"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:24
+msgid "Nagaland"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:25
+msgid "Orissa"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:26
+msgid "Punjab"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:27
+msgid "Rajasthan"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:28
+msgid "Sikkim"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:29
+msgid "Tamil Nadu"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:30
+msgid "Telangana"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:31
+msgid "Tripura"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:32
+msgid "Uttarakhand"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:33
+msgid "Uttar Pradesh"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:34
+msgid "West Bengal"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:35
+msgid "Andaman and Nicobar Islands"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:36
+msgid "Chandigarh"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:37
+msgid "Dadar and Nagar Haveli"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:38
+msgid "Daman and Diu"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:39
+msgid "Delhi"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:40
+msgid "Lakshadeep"
+msgstr ""
+
+#: classes/lang/i18n/IN.php:41
+msgid "Pondicherry (Puducherry)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:6
+msgid "Khuzestan  (خوزستان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:7
+msgid "Tehran  (تهران)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:8
+msgid "Ilaam (ایلام)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:9
+msgid "Bushehr (بوشهر)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:10
+msgid "Ardabil (اردبیل)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:11
+msgid "Isfahan (اصفهان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:12
+msgid "Yazd (یزد)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:13
+msgid "Kermanshah (کرمانشاه)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:14
+msgid "Kerman (کرمان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:15
+msgid "Hamadan (همدان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:16
+msgid "Ghazvin (قزوین)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:17
+msgid "Zanjan (زنجان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:18
+msgid "Luristan (لرستان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:19
+msgid "Alborz (البرز)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:20
+msgid "East Azarbaijan (آذربایجان شرقی)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:21
+msgid "West Azarbaijan (آذربایجان غربی)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:22
+msgid "Chaharmahal and Bakhtiari (چهارمحال و بختیاری)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:23
+msgid "South Khorasan (خراسان جنوبی)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:24
+msgid "Razavi Khorasan (خراسان رضوی)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:25
+msgid "North Khorasan (خراسان جنوبی)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:26
+msgid "Semnan (سمنان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:27
+msgid "Fars (فارس)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:28
+msgid "Qom (قم)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:29
+msgid "Kurdistan / کردستان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:30
+msgid "Kohgiluyeh and BoyerAhmad (کهگیلوییه و بویراحمد)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:31
+msgid "Golestan (گلستان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:32
+msgid "Gilan (گیلان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:33
+msgid "Mazandaran (مازندران)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:34
+msgid "Markazi (مرکزی)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:35
+msgid "Hormozgan (هرمزگان)"
+msgstr ""
+
+#: classes/lang/i18n/IR.php:36
+msgid "Sistan and Baluchestan (سیستان و بلوچستان)"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:6
+msgid "Agrigento"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:7
+msgid "Alessandria"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:8
+msgid "Ancona"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:9
+msgid "Aosta"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:10
+msgid "Arezzo"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:11
+msgid "Ascoli Piceno"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:12
+msgid "Asti"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:13
+msgid "Avellino"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:14
+msgid "Bari"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:15
+msgid "Barletta-Andria-Trani"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:16
+msgid "Belluno"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:17
+msgid "Benevento"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:18
+msgid "Bergamo"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:19
+msgid "Biella"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:20
+msgid "Bologna"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:21
+msgid "Bolzano"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:22
+msgid "Brescia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:23
+msgid "Brindisi"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:24
+msgid "Cagliari"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:25
+msgid "Caltanissetta"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:26
+msgid "Campobasso"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:27
+msgid "Carbonia-Iglesias"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:28
+msgid "Caserta"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:29
+msgid "Catania"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:30
+msgid "Catanzaro"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:31
+msgid "Chieti"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:32
+msgid "Como"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:33
+msgid "Cosenza"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:34
+msgid "Cremona"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:35
+msgid "Crotone"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:36
+msgid "Cuneo"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:37
+msgid "Enna"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:38
+msgid "Fermo"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:39
+msgid "Ferrara"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:40
+msgid "Firenze"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:41
+msgid "Foggia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:42
+msgid "Forlì-Cesena"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:43
+msgid "Frosinone"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:44
+msgid "Genova"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:45
+msgid "Gorizia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:46
+msgid "Grosseto"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:47
+msgid "Imperia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:48
+msgid "Isernia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:49
+msgid "La Spezia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:50
+msgid "L&apos;Aquila"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:51
+msgid "Latina"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:52
+msgid "Lecce"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:53
+msgid "Lecco"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:54
+msgid "Livorno"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:55
+msgid "Lodi"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:56
+msgid "Lucca"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:57
+msgid "Macerata"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:58
+msgid "Mantova"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:59
+msgid "Massa-Carrara"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:60
+msgid "Matera"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:61
+msgid "Messina"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:62
+msgid "Milano"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:63
+msgid "Modena"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:64
+msgid "Monza e della Brianza"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:65
+msgid "Napoli"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:66
+msgid "Novara"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:67
+msgid "Nuoro"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:68
+msgid "Olbia-Tempio"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:69
+msgid "Oristano"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:70
+msgid "Padova"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:71
+msgid "Palermo"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:72
+msgid "Parma"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:73
+msgid "Pavia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:74
+msgid "Perugia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:75
+msgid "Pesaro e Urbino"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:76
+msgid "Pescara"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:77
+msgid "Piacenza"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:78
+msgid "Pisa"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:79
+msgid "Pistoia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:80
+msgid "Pordenone"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:81
+msgid "Potenza"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:82
+msgid "Prato"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:83
+msgid "Ragusa"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:84
+msgid "Ravenna"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:85
+msgid "Reggio Calabria"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:86
+msgid "Reggio Emilia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:87
+msgid "Rieti"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:88
+msgid "Rimini"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:89
+msgid "Roma"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:90
+msgid "Rovigo"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:91
+msgid "Salerno"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:92
+msgid "Medio Campidano"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:93
+msgid "Sassari"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:94
+msgid "Savona"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:95
+msgid "Siena"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:96
+msgid "Siracusa"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:97
+msgid "Sondrio"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:98
+msgid "Taranto"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:99
+msgid "Teramo"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:100
+msgid "Terni"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:101
+msgid "Torino"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:102
+msgid "Ogliastra"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:103
+msgid "Trapani"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:104
+msgid "Trento"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:105
+msgid "Treviso"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:106
+msgid "Trieste"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:107
+msgid "Udine"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:108
+msgid "Varese"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:109
+msgid "Venezia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:110
+msgid "Verbano-Cusio-Ossola"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:111
+msgid "Vercelli"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:112
+msgid "Verona"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:113
+msgid "Vibo Valentia"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:114
+msgid "Vicenza"
+msgstr ""
+
+#: classes/lang/i18n/IT.php:115
+msgid "Viterbo"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:6
+msgid "Hokkaido"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:7
+msgid "Aomori"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:8
+msgid "Iwate"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:9
+msgid "Miyagi"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:10
+msgid "Akita"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:11
+msgid "Yamagata"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:12
+msgid "Fukushima"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:13
+msgid "Ibaraki"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:14
+msgid "Tochigi"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:15
+msgid "Gunma"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:16
+msgid "Saitama"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:17
+msgid "Chiba"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:18
+msgid "Tokyo"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:19
+msgid "Kanagawa"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:20
+msgid "Niigata"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:21
+msgid "Toyama"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:22
+msgid "Ishikawa"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:23
+msgid "Fukui"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:24
+msgid "Yamanashi"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:25
+msgid "Nagano"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:26
+msgid "Gifu"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:27
+msgid "Shizuoka"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:28
+msgid "Aichi"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:29
+msgid "Mie"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:30
+msgid "Shiga"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:31
+msgid "Kyouto"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:32
+msgid "Osaka"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:33
+msgid "Hyougo"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:34
+msgid "Nara"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:35
+msgid "Wakayama"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:36
+msgid "Tottori"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:37
+msgid "Shimane"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:38
+msgid "Okayama"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:39
+msgid "Hiroshima"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:40
+msgid "Yamaguchi"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:41
+msgid "Tokushima"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:42
+msgid "Kagawa"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:43
+msgid "Ehime"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:44
+msgid "Kochi"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:45
+msgid "Fukuoka"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:46
+msgid "Saga"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:47
+msgid "Nagasaki"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:48
+msgid "Kumamoto"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:49
+msgid "Oita"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:50
+msgid "Miyazaki"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:51
+msgid "Kagoshima"
+msgstr ""
+
+#: classes/lang/i18n/JP.php:52
+msgid "Okinawa"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:7
+msgid "Jalisco"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:8
+msgid "Nuevo León"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:9
+msgid "Aguascalientes"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:10
+msgid "Baja California"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:11
+msgid "Baja California Sur"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:12
+msgid "Campeche"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:13
+msgid "Chiapas"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:14
+msgid "Chihuahua"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:15
+msgid "Coahuila"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:16
+msgid "Colima"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:17
+msgid "Durango"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:18
+msgid "Guanajuato"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:19
+msgid "Guerrero"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:20
+msgid "Hidalgo"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:21
+msgid "Edo. de México"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:22
+msgid "Michoacán"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:23
+msgid "Morelos"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:24
+msgid "Nayarit"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:25
+msgid "Oaxaca"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:26
+msgid "Puebla"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:27
+msgid "Querétaro"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:28
+msgid "Quintana Roo"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:29
+msgid "San Luis Potosí"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:30
+msgid "Sinaloa"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:31
+msgid "Sonora"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:32
+msgid "Tabasco"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:33
+msgid "Tamaulipas"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:34
+msgid "Tlaxcala"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:35
+msgid "Veracruz"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:36
+msgid "Yucatán"
+msgstr ""
+
+#: classes/lang/i18n/MX.php:37
+msgid "Zacatecas"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:6
+msgid "Johor"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:7
+msgid "Kedah"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:8
+msgid "Kelantan"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:9
+msgid "Melaka"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:10
+msgid "Negeri Sembilan"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:11
+msgid "Pahang"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:12
+msgid "Perak"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:13
+msgid "Perlis"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:14
+msgid "Pulau Pinang"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:15
+msgid "Sabah"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:16
+msgid "Sarawak"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:17
+msgid "Selangor"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:18
+msgid "Terengganu"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:19
+msgid "W.P. Kuala Lumpur"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:20
+msgid "W.P. Labuan"
+msgstr ""
+
+#: classes/lang/i18n/MY.php:21
+msgid "W.P. Putrajaya"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:8
+msgid "Illam"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:9
+msgid "Jhapa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:10
+msgid "Panchthar"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:11
+msgid "Taplejung"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:14
+msgid "Bhojpur"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:15
+msgid "Dhankuta"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:16
+msgid "Morang"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:17
+msgid "Sunsari"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:18
+msgid "Sankhuwa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:19
+msgid "Terhathum"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:22
+msgid "Khotang"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:23
+msgid "Okhaldhunga"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:24
+msgid "Saptari"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:25
+msgid "Siraha"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:26
+msgid "Solukhumbu"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:27
+msgid "Udayapur"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:30
+msgid "Dhanusa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:31
+msgid "Dolakha"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:32
+msgid "Mohottari"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:33
+msgid "Ramechha"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:34
+msgid "Sarlahi"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:35
+msgid "Sindhuli"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:38
+msgid "Bhaktapur"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:39
+msgid "Dhading"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:40
+msgid "Kathmandu"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:41
+msgid "Kavrepalanchowk"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:42
+msgid "Lalitpur"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:43
+msgid "Nuwakot"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:44
+msgid "Rasuwa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:45
+msgid "Sindhupalchowk"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:48
+msgid "Bara"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:49
+msgid "Chitwan"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:50
+msgid "Makwanpur"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:51
+msgid "Parsa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:52
+msgid "Rautahat"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:55
+msgid "Gorkha"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:56
+msgid "Kaski"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:57
+msgid "Lamjung"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:58
+msgid "Manang"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:59
+msgid "Syangja"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:60
+msgid "Tanahun"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:63
+msgid "Baglung"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:64
+msgid "Parbat"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:65
+msgid "Mustang"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:66
+msgid "Myagdi"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:69
+msgid "Agrghakanchi"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:70
+msgid "Gulmi"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:71
+msgid "Kapilbastu"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:72
+msgid "Nawalparasi"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:73
+msgid "Palpa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:74
+msgid "Rupandehi"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:77
+msgid "Dang"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:78
+msgid "Pyuthan"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:79
+msgid "Rolpa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:80
+msgid "Rukum"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:81
+msgid "Salyan"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:84
+msgid "Banke"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:85
+msgid "Bardiya"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:86
+msgid "Dailekh"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:87
+msgid "Jajarkot"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:88
+msgid "Surkhet"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:91
+msgid "Dolpa"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:92
+msgid "Humla"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:93
+msgid "Jumla"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:94
+msgid "Kalikot"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:95
+msgid "Mugu"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:98
+msgid "Achham"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:99
+msgid "Bajhang"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:100
+msgid "Bajura"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:101
+msgid "Doti"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:102
+msgid "Kailali"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:105
+msgid "Baitadi"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:106
+msgid "Dadeldhura"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:107
+msgid "Darchula"
+msgstr ""
+
+#: classes/lang/i18n/NP.php:108
+msgid "Kanchanpur"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:6
+msgid "Northland"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:7
+msgid "Auckland"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:8
+msgid "Waikato"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:9
+msgid "Bay of Plenty"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:10
+msgid "Taranaki"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:11
+msgid "Hawke&rsquo;s Bay"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:12
+msgid "Manawatu-Wanganui"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:13
+msgid "Wellington"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:14
+msgid "Nelson"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:15
+msgid "Marlborough"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:16
+msgid "Tasman"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:17
+msgid "West Coast"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:18
+msgid "Canterbury"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:19
+msgid "Otago"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:20
+msgid "Southland"
+msgstr ""
+
+#: classes/lang/i18n/NZ.php:21
+msgid "Gisborne"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:6
+msgid "El Callao"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:7
+msgid "Municipalidad Metropolitana de Lima"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:9
+msgid "Ancash"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:10
+msgid "Apur&iacute;mac"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:11
+msgid "Arequipa"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:12
+msgid "Ayacucho"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:13
+msgid "Cajamarca"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:14
+msgid "Cusco"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:15
+msgid "Huancavelica"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:16
+msgid "Hu&aacute;nuco"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:17
+msgid "Ica"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:18
+msgid "Jun&iacute;n"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:19
+msgid "La Libertad"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:20
+msgid "Lambayeque"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:21
+msgid "Lima"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:22
+msgid "Loreto"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:23
+msgid "Madre de Dios"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:24
+msgid "Moquegua"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:25
+msgid "Pasco"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:26
+msgid "Piura"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:27
+msgid "Puno"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:28
+msgid "San Mart&iacute;n"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:29
+msgid "Tacna"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:30
+msgid "Tumbes"
+msgstr ""
+
+#: classes/lang/i18n/PE.php:31
+msgid "Ucayali"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:6
+msgid ""
+"Amnat Charoen (&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;"
+"&#3636;&#3597;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:7
+msgid "Ang Thong (&#3629;&#3656;&#3634;&#3591;&#3607;&#3629;&#3591;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:8
+msgid ""
+"Ayutthaya (&#3614;&#3619;&#3632;&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;"
+"&#3629;&#3618;&#3640;&#3608;&#3618;&#3634;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:9
+msgid ""
+"Bangkok (&#3585;&#3619;&#3640;&#3591;&#3648;&#3607;&#3614;&#3617;&#3627;"
+"&#3634;&#3609;&#3588;&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:10
+msgid "Bueng Kan (&#3610;&#3638;&#3591;&#3585;&#3634;&#3628;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:11
+msgid ""
+"Buri Ram (&#3610;&#3640;&#3619;&#3637;&#3619;&#3633;&#3617;&#3618;&#3660;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:12
+msgid ""
+"Chachoengsao (&#3593;&#3632;&#3648;&#3594;&#3636;&#3591;&#3648;&#3607;&#3619;"
+"&#3634;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:13
+msgid "Chai Nat (&#3594;&#3633;&#3618;&#3609;&#3634;&#3607;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:14
+msgid "Chaiyaphum (&#3594;&#3633;&#3618;&#3616;&#3641;&#3617;&#3636;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:15
+msgid "Chanthaburi (&#3592;&#3633;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:16
+msgid ""
+"Chiang Mai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3651;&#3627;&#3617;&#3656;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:17
+msgid "Chiang Rai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3619;&#3634;&#3618;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:18
+msgid "Chonburi (&#3594;&#3621;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:19
+msgid "Chumphon (&#3594;&#3640;&#3617;&#3614;&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:20
+msgid ""
+"Kalasin (&#3585;&#3634;&#3628;&#3626;&#3636;&#3609;&#3608;&#3640;&#3660;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:21
+msgid ""
+"Kamphaeng Phet (&#3585;&#3635;&#3649;&#3614;&#3591;&#3648;&#3614;&#3594;"
+"&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:22
+msgid ""
+"Kanchanaburi (&#3585;&#3634;&#3597;&#3592;&#3609;&#3610;&#3640;&#3619;"
+"&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:23
+msgid "Khon Kaen (&#3586;&#3629;&#3609;&#3649;&#3585;&#3656;&#3609;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:24
+msgid "Krabi (&#3585;&#3619;&#3632;&#3610;&#3637;&#3656;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:25
+msgid "Lampang (&#3621;&#3635;&#3611;&#3634;&#3591;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:26
+msgid "Lamphun (&#3621;&#3635;&#3614;&#3641;&#3609;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:27
+msgid "Loei (&#3648;&#3621;&#3618;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:28
+msgid "Lopburi (&#3621;&#3614;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:29
+msgid ""
+"Mae Hong Son (&#3649;&#3617;&#3656;&#3630;&#3656;&#3629;&#3591;&#3626;&#3629;"
+"&#3609;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:30
+msgid ""
+"Maha Sarakham (&#3617;&#3627;&#3634;&#3626;&#3634;&#3619;&#3588;&#3634;"
+"&#3617;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:31
+msgid "Mukdahan (&#3617;&#3640;&#3585;&#3604;&#3634;&#3627;&#3634;&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:32
+msgid "Nakhon Nayok (&#3609;&#3588;&#3619;&#3609;&#3634;&#3618;&#3585;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:33
+msgid "Nakhon Pathom (&#3609;&#3588;&#3619;&#3611;&#3600;&#3617;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:34
+msgid "Nakhon Phanom (&#3609;&#3588;&#3619;&#3614;&#3609;&#3617;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:35
+msgid ""
+"Nakhon Ratchasima (&#3609;&#3588;&#3619;&#3619;&#3634;&#3594;&#3626;&#3637;"
+"&#3617;&#3634;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:36
+msgid ""
+"Nakhon Sawan (&#3609;&#3588;&#3619;&#3626;&#3623;&#3619;&#3619;&#3588;"
+"&#3660;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:37
+msgid ""
+"Nakhon Si Thammarat (&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3608;&#3619;"
+"&#3619;&#3617;&#3619;&#3634;&#3594;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:38
+msgid "Nan (&#3609;&#3656;&#3634;&#3609;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:39
+msgid "Narathiwat (&#3609;&#3619;&#3634;&#3608;&#3636;&#3623;&#3634;&#3626;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:40
+msgid ""
+"Nong Bua Lam Phu (&#3627;&#3609;&#3629;&#3591;&#3610;&#3633;&#3623;&#3621;"
+"&#3635;&#3616;&#3641;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:41
+msgid "Nong Khai (&#3627;&#3609;&#3629;&#3591;&#3588;&#3634;&#3618;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:42
+msgid "Nonthaburi (&#3609;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:43
+msgid "Pathum Thani (&#3611;&#3607;&#3640;&#3617;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:44
+msgid "Pattani (&#3611;&#3633;&#3605;&#3605;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:45
+msgid "Phang Nga (&#3614;&#3633;&#3591;&#3591;&#3634;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:46
+msgid "Phatthalung (&#3614;&#3633;&#3607;&#3621;&#3640;&#3591;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:47
+msgid "Phayao (&#3614;&#3632;&#3648;&#3618;&#3634;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:48
+msgid ""
+"Phetchabun (&#3648;&#3614;&#3594;&#3619;&#3610;&#3641;&#3619;&#3603;&#3660;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:49
+msgid "Phetchaburi (&#3648;&#3614;&#3594;&#3619;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:50
+msgid "Phichit (&#3614;&#3636;&#3592;&#3636;&#3605;&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:51
+msgid "Phitsanulok (&#3614;&#3636;&#3625;&#3603;&#3640;&#3650;&#3621;&#3585;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:52
+msgid "Phrae (&#3649;&#3614;&#3619;&#3656;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:53
+msgid "Phuket (&#3616;&#3641;&#3648;&#3585;&#3655;&#3605;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:54
+msgid ""
+"Prachin Buri (&#3611;&#3619;&#3634;&#3592;&#3637;&#3609;&#3610;&#3640;&#3619;"
+"&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:55
+msgid ""
+"Prachuap Khiri Khan (&#3611;&#3619;&#3632;&#3592;&#3623;&#3610;&#3588;&#3637;"
+"&#3619;&#3637;&#3586;&#3633;&#3609;&#3608;&#3660;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:56
+msgid "Ranong (&#3619;&#3632;&#3609;&#3629;&#3591;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:57
+msgid "Ratchaburi (&#3619;&#3634;&#3594;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:58
+msgid "Rayong (&#3619;&#3632;&#3618;&#3629;&#3591;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:59
+msgid "Roi Et (&#3619;&#3657;&#3629;&#3618;&#3648;&#3629;&#3655;&#3604;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:60
+msgid "Sa Kaeo (&#3626;&#3619;&#3632;&#3649;&#3585;&#3657;&#3623;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:61
+msgid "Sakon Nakhon (&#3626;&#3585;&#3621;&#3609;&#3588;&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:62
+msgid ""
+"Samut Prakan (&#3626;&#3617;&#3640;&#3607;&#3619;&#3611;&#3619;&#3634;&#3585;"
+"&#3634;&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:63
+msgid ""
+"Samut Sakhon (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3634;&#3588;"
+"&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:64
+msgid ""
+"Samut Songkhram (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3591;&#3588;"
+"&#3619;&#3634;&#3617;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:65
+msgid "Saraburi (&#3626;&#3619;&#3632;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:66
+msgid "Satun (&#3626;&#3605;&#3641;&#3621;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:67
+msgid ""
+"Sing Buri (&#3626;&#3636;&#3591;&#3627;&#3660;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:68
+msgid "Sisaket (&#3624;&#3619;&#3637;&#3626;&#3632;&#3648;&#3585;&#3625;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:69
+msgid "Songkhla (&#3626;&#3591;&#3586;&#3621;&#3634;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:70
+msgid "Sukhothai (&#3626;&#3640;&#3650;&#3586;&#3607;&#3633;&#3618;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:71
+msgid ""
+"Suphan Buri (&#3626;&#3640;&#3614;&#3619;&#3619;&#3603;&#3610;&#3640;&#3619;"
+"&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:72
+msgid ""
+"Surat Thani (&#3626;&#3640;&#3619;&#3634;&#3625;&#3598;&#3619;&#3660;&#3608;"
+"&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:73
+msgid "Surin (&#3626;&#3640;&#3619;&#3636;&#3609;&#3607;&#3619;&#3660;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:74
+msgid "Tak (&#3605;&#3634;&#3585;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:75
+msgid "Trang (&#3605;&#3619;&#3633;&#3591;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:76
+msgid "Trat (&#3605;&#3619;&#3634;&#3604;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:77
+msgid ""
+"Ubon Ratchathani (&#3629;&#3640;&#3610;&#3621;&#3619;&#3634;&#3594;&#3608;"
+"&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:78
+msgid "Udon Thani (&#3629;&#3640;&#3604;&#3619;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:79
+msgid ""
+"Uthai Thani (&#3629;&#3640;&#3607;&#3633;&#3618;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:80
+msgid ""
+"Uttaradit (&#3629;&#3640;&#3605;&#3619;&#3604;&#3636;&#3605;&#3606;&#3660;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:81
+msgid "Yala (&#3618;&#3632;&#3621;&#3634;)"
+msgstr ""
+
+#: classes/lang/i18n/TH.php:82
+msgid "Yasothon (&#3618;&#3650;&#3626;&#3608;&#3619;)"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:6
+msgid "Adana"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:7
+msgid "Ad&#305;yaman"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:8
+msgid "Afyon"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:9
+msgid "A&#287;r&#305;"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:10
+msgid "Amasya"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:11
+msgid "Ankara"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:12
+msgid "Antalya"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:13
+msgid "Artvin"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:14
+msgid "Ayd&#305;n"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:15
+msgid "Bal&#305;kesir"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:16
+msgid "Bilecik"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:17
+msgid "Bing&#246;l"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:18
+msgid "Bitlis"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:19
+msgid "Bolu"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:20
+msgid "Burdur"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:21
+msgid "Bursa"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:22
+msgid "&#199;anakkale"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:23
+msgid "&#199;ank&#305;r&#305;"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:24
+msgid "&#199;orum"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:25
+msgid "Denizli"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:26
+msgid "Diyarbak&#305;r"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:27
+msgid "Edirne"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:28
+msgid "Elaz&#305;&#287;"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:29
+msgid "Erzincan"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:30
+msgid "Erzurum"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:31
+msgid "Eski&#351;ehir"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:32
+msgid "Gaziantep"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:33
+msgid "Giresun"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:34
+msgid "G&#252;m&#252;&#351;hane"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:35
+msgid "Hakkari"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:36
+msgid "Hatay"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:37
+msgid "Isparta"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:38
+msgid "&#304;&#231;el"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:39
+msgid "&#304;stanbul"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:40
+msgid "&#304;zmir"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:41
+msgid "Kars"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:42
+msgid "Kastamonu"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:43
+msgid "Kayseri"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:44
+msgid "K&#305;rklareli"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:45
+msgid "K&#305;r&#351;ehir"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:46
+msgid "Kocaeli"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:47
+msgid "Konya"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:48
+msgid "K&#252;tahya"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:49
+msgid "Malatya"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:50
+msgid "Manisa"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:51
+msgid "Kahramanmara&#351;"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:52
+msgid "Mardin"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:53
+msgid "Mu&#287;la"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:54
+msgid "Mu&#351;"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:55
+msgid "Nev&#351;ehir"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:56
+msgid "Ni&#287;de"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:57
+msgid "Ordu"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:58
+msgid "Rize"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:59
+msgid "Sakarya"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:60
+msgid "Samsun"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:61
+msgid "Siirt"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:62
+msgid "Sinop"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:63
+msgid "Sivas"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:64
+msgid "Tekirda&#287;"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:65
+msgid "Tokat"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:66
+msgid "Trabzon"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:67
+msgid "Tunceli"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:68
+msgid "&#350;anl&#305;urfa"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:69
+msgid "U&#351;ak"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:70
+msgid "Van"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:71
+msgid "Yozgat"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:72
+msgid "Zonguldak"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:73
+msgid "Aksaray"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:74
+msgid "Bayburt"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:75
+msgid "Karaman"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:76
+msgid "K&#305;r&#305;kkale"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:77
+msgid "Batman"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:78
+msgid "&#350;&#305;rnak"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:79
+msgid "Bart&#305;n"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:80
+msgid "Ardahan"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:81
+msgid "I&#287;d&#305;r"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:82
+msgid "Yalova"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:83
+msgid "Karab&#252;k"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:84
+msgid "Kilis"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:85
+msgid "Osmaniye"
+msgstr ""
+
+#: classes/lang/i18n/TR.php:86
+msgid "D&#252;zce"
+msgstr ""
+
+#: classes/lang/i18n/US.php:6
+msgid "Alabama"
+msgstr ""
+
+#: classes/lang/i18n/US.php:7
+msgid "Alaska"
+msgstr ""
+
+#: classes/lang/i18n/US.php:8
+msgid "Arizona"
+msgstr ""
+
+#: classes/lang/i18n/US.php:9
+msgid "Arkansas"
+msgstr ""
+
+#: classes/lang/i18n/US.php:10
+msgid "California"
+msgstr ""
+
+#: classes/lang/i18n/US.php:11
+msgid "Colorado"
+msgstr ""
+
+#: classes/lang/i18n/US.php:12
+msgid "Connecticut"
+msgstr ""
+
+#: classes/lang/i18n/US.php:13
+msgid "Delaware"
+msgstr ""
+
+#: classes/lang/i18n/US.php:14
+msgid "District Of Columbia"
+msgstr ""
+
+#: classes/lang/i18n/US.php:15
+msgid "Florida"
+msgstr ""
+
+#: classes/lang/i18n/US.php:16
+msgctxt "US state of Georgia"
+msgid "Georgia"
+msgstr ""
+
+#: classes/lang/i18n/US.php:17
+msgid "Hawaii"
+msgstr ""
+
+#: classes/lang/i18n/US.php:18
+msgid "Idaho"
+msgstr ""
+
+#: classes/lang/i18n/US.php:19
+msgid "Illinois"
+msgstr ""
+
+#: classes/lang/i18n/US.php:20
+msgid "Indiana"
+msgstr ""
+
+#: classes/lang/i18n/US.php:21
+msgid "Iowa"
+msgstr ""
+
+#: classes/lang/i18n/US.php:22
+msgid "Kansas"
+msgstr ""
+
+#: classes/lang/i18n/US.php:23
+msgid "Kentucky"
+msgstr ""
+
+#: classes/lang/i18n/US.php:24
+msgid "Louisiana"
+msgstr ""
+
+#: classes/lang/i18n/US.php:25
+msgid "Maine"
+msgstr ""
+
+#: classes/lang/i18n/US.php:26
+msgid "Maryland"
+msgstr ""
+
+#: classes/lang/i18n/US.php:27
+msgid "Massachusetts"
+msgstr ""
+
+#: classes/lang/i18n/US.php:28
+msgid "Michigan"
+msgstr ""
+
+#: classes/lang/i18n/US.php:29
+msgid "Minnesota"
+msgstr ""
+
+#: classes/lang/i18n/US.php:30
+msgid "Mississippi"
+msgstr ""
+
+#: classes/lang/i18n/US.php:31
+msgid "Missouri"
+msgstr ""
+
+#: classes/lang/i18n/US.php:33
+msgid "Nebraska"
+msgstr ""
+
+#: classes/lang/i18n/US.php:34
+msgid "Nevada"
+msgstr ""
+
+#: classes/lang/i18n/US.php:35
+msgid "New Hampshire"
+msgstr ""
+
+#: classes/lang/i18n/US.php:36
+msgid "New Jersey"
+msgstr ""
+
+#: classes/lang/i18n/US.php:37
+msgid "New Mexico"
+msgstr ""
+
+#: classes/lang/i18n/US.php:38
+msgid "New York"
+msgstr ""
+
+#: classes/lang/i18n/US.php:39
+msgid "North Carolina"
+msgstr ""
+
+#: classes/lang/i18n/US.php:40
+msgid "North Dakota"
+msgstr ""
+
+#: classes/lang/i18n/US.php:41
+msgid "Ohio"
+msgstr ""
+
+#: classes/lang/i18n/US.php:42
+msgid "Oklahoma"
+msgstr ""
+
+#: classes/lang/i18n/US.php:43
+msgid "Oregon"
+msgstr ""
+
+#: classes/lang/i18n/US.php:44
+msgid "Pennsylvania"
+msgstr ""
+
+#: classes/lang/i18n/US.php:45
+msgid "Rhode Island"
+msgstr ""
+
+#: classes/lang/i18n/US.php:46
+msgid "South Carolina"
+msgstr ""
+
+#: classes/lang/i18n/US.php:47
+msgid "South Dakota"
+msgstr ""
+
+#: classes/lang/i18n/US.php:48
+msgid "Tennessee"
+msgstr ""
+
+#: classes/lang/i18n/US.php:49
+msgid "Texas"
+msgstr ""
+
+#: classes/lang/i18n/US.php:50
+msgid "Utah"
+msgstr ""
+
+#: classes/lang/i18n/US.php:51
+msgid "Vermont"
+msgstr ""
+
+#: classes/lang/i18n/US.php:52
+msgid "Virginia"
+msgstr ""
+
+#: classes/lang/i18n/US.php:53
+msgid "Washington"
+msgstr ""
+
+#: classes/lang/i18n/US.php:54
+msgid "West Virginia"
+msgstr ""
+
+#: classes/lang/i18n/US.php:55
+msgid "Wisconsin"
+msgstr ""
+
+#: classes/lang/i18n/US.php:56
+msgid "Wyoming"
+msgstr ""
+
+#: classes/lang/i18n/US.php:57
+msgid "Armed Forces (AA)"
+msgstr ""
+
+#: classes/lang/i18n/US.php:58
+msgid "Armed Forces (AE)"
+msgstr ""
+
+#: classes/lang/i18n/US.php:59
+msgid "Armed Forces (AP)"
+msgstr ""
+
+#: classes/lang/i18n/US.php:60
+msgid "American Samoa"
+msgstr ""
+
+#: classes/lang/i18n/US.php:61
+msgid "Guam"
+msgstr ""
+
+#: classes/lang/i18n/US.php:62
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: classes/lang/i18n/US.php:63
+msgid "Puerto Rico"
+msgstr ""
+
+#: classes/lang/i18n/US.php:64
+msgid "US Minor Outlying Islands"
+msgstr ""
+
+#: classes/lang/i18n/US.php:65
+msgid "US Virgin Islands"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:6
+msgid "Eastern Cape"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:7
+msgid "Free State"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:8
+msgid "Gauteng"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:9
+msgid "KwaZulu-Natal"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:10
+msgid "Limpopo"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:11
+msgid "Mpumalanga"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:12
+msgid "Northern Cape"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:13
+msgid "North West"
+msgstr ""
+
+#: classes/lang/i18n/ZA.php:14
+msgid "Western Cape"
+msgstr ""
+
+#: customers-manager.php:196 customers-manager.php:340
+msgid "Customers"
+msgstr ""
+
+#: customers-manager.php:201
+msgid "Add new"
+msgstr ""
+
+#: customers-manager.php:205
+msgid "Export customers"
+msgstr ""
+
+#: customers-manager.php:382
+msgid "Hide colums (this will improve performance)"
+msgstr ""
+
+#: customers-manager.php:385
+msgid "Hide Orders column?"
+msgstr ""
+
+#: customers-manager.php:388
+msgid "Hide Total spent column?"
+msgstr ""

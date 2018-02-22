@@ -1,0 +1,5735 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-06-15 14:29+0100\n"
+"PO-Revision-Date: 2016-02-26 14:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: common/common.php:79
+#, php-format
+msgid ""
+"<a href=\"%s\">Install the Visser Labs Updater Plugin</a> (or download and "
+"manually install it from <a href=\"%s\">here</a>) to get automatic update "
+"notifications for your Visser Labs Plugins."
+msgstr ""
+
+#: common/common.php:85 includes/admin.php:564
+#, php-format
+msgid ""
+"<a href=\"%s\">Activate the Visser Labs Updater Plugin</a> to get automatic "
+"update notifications for your Visser Labs Plugins."
+msgstr ""
+
+#: common/common.php:90 includes/functions.php:56 includes/functions.php:68
+#: includes/functions.php:76 includes/functions.php:87
+#: includes/functions.php:131
+msgid "Dismiss"
+msgstr "Afskedige"
+
+#: common/common.php:115
+msgid ""
+"Install the Visser Labs Updater from the Plugins screen to install this "
+"Plugin update."
+msgstr ""
+
+#: common/common.php:153
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: common/common.php:158
+msgid "An unknown error occurred."
+msgstr "En ukendt fejl opstod."
+
+#: exporter-deluxe.php:60
+#, php-format
+msgid ""
+"We did our best to de-activate Store Exporter for you but may have failed, "
+"please check that the basic Store Exporter is de-activated from the <a href="
+"\"%s\">Plugins screen</a>."
+msgstr ""
+
+#: exporter-deluxe.php:67 includes/admin.php:545
+#, php-format
+msgid ""
+"We have detected another e-Commerce Plugin than WooCommerce activated, "
+"please check that you are using Store Exporter Deluxe for the correct "
+"platform. <a href=\"%s\" target=\"_blank\">Need help?</a>"
+msgstr ""
+"Vi har fundet en anden e-Commerce Plugin end WooCommerce aktiveret, venligst "
+"check at du bruger Store Exporter Deluxe til den korrekte platform. <a href="
+"\"%s\" target=\"_blank\">Brug for hjælp?</a>"
+
+#: exporter-deluxe.php:70 includes/admin.php:548
+#, php-format
+msgid ""
+"We have been unable to detect the WooCommerce Plugin activated on this "
+"WordPress site, please check that you are using Store Exporter Deluxe for "
+"the correct platform. <a href=\"%s\" target=\"_blank\">Need help?</a>"
+msgstr ""
+
+#: exporter-deluxe.php:76
+#, php-format
+msgid ""
+"We have detected an activated Plugin for WooCommerce that is known to "
+"conflict with Store Exporter Deluxe, please de-activate WooCommerce "
+"Subscriptions Exporter to resolve export issues within Store Exporter "
+"Deluxe. <a href=\"%s\" target=\"_blank\">Need help?</a>"
+msgstr ""
+
+#: exporter-deluxe.php:83
+msgid ""
+"We have detected a legacy scheduled export and updated it to work with the "
+"new multiple scheduled export engine in Store Exporter Deluxe. Please open "
+"WooCommerce &raquo; Store Export &raquo; Settings &raquo; Scheduled Exports "
+"to see what's available."
+msgstr ""
+
+#: exporter-deluxe.php:116
+msgid "Export Filters"
+msgstr "Eksport filtre"
+
+#: exporter-deluxe.php:134
+msgid ""
+"All existing Archives and their export files have been deleted from your "
+"WordPress site."
+msgstr ""
+
+#: exporter-deluxe.php:137
+msgid "There were no existing Archives to be deleted from your WordPress site."
+msgstr ""
+"Der var ingen eksisterende arkiver til at blive slettet fra din WordPress "
+"hjemmeside."
+
+#: exporter-deluxe.php:183
+msgid ""
+"Scheduled exports will remain disabled but future duplicate site prompts we "
+"will supressed from showing."
+msgstr ""
+"Planlagte eksport vil forblive deaktiveret, men senere dublerede "
+"arbejdsplads beder vi vil supressed fra viser."
+
+#: exporter-deluxe.php:193
+msgid ""
+"We've turned scheduled exports back on and will supress future duplicate "
+"site prompts for this site."
+msgstr ""
+"Vi har slået planlagte eksport tilbage på og vil undertrykke fremtidige "
+"duplikeret websted prompter for dette websted."
+
+#: exporter-deluxe.php:221
+#, php-format
+msgid ""
+"That's sorted, we've relocated %d export files to the newly created "
+"<code>sed-exports</code> folder within the WordPress Uploads directory. "
+"Happy exporting!"
+msgstr ""
+"Thats sorteret, vi har flyttet %d eksportfiler til den nyoprettede <code>sed-"
+"exports</code> mappe i mappen WordPress Uploads. Happy eksport!"
+
+#: exporter-deluxe.php:707
+msgid ""
+"No export fields were selected, please try again with at least a single "
+"export field."
+msgstr ""
+
+#: exporter-deluxe.php:724 exporter-deluxe.php:977 includes/functions.php:394
+msgid ""
+"No export entries were found, please try again with different export filters."
+msgstr ""
+
+#: exporter-deluxe.php:738
+#, php-format
+msgid ""
+"The PHPExcel library was already loaded by another WordPress Plugin, if "
+"there's issues with your export file you know where to look. <a href=\"%s\" "
+"target=\"_blank\">Need help?</a>"
+msgstr ""
+
+#: exporter-deluxe.php:742
+#, php-format
+msgid ""
+"We couldn't load the PHPExcel library <code>%s</code> within <code>%s</"
+"code>, this file should be present. <a href=\"%s\" target=\"_blank\">Need "
+"help?</a>"
+msgstr ""
+
+#: exporter-deluxe.php:845 exporter-deluxe.php:897
+#, php-format
+msgid ""
+"We could not create a temporary export file in <code>%s</code>, ensure that "
+"WordPress can read and write files here and try again."
+msgstr ""
+
+#: exporter-deluxe.php:875 includes/cron.php:784
+msgid "Could not load image.php within /wp-admin/includes/image.php"
+msgstr ""
+
+#: exporter-deluxe.php:912 includes/functions.php:1284
+msgid ""
+"The export contents were too large to store in a single WordPress transient, "
+"use the Volume offset / Limit volume options to reduce the size of your "
+"export and try again."
+msgstr ""
+
+#: exporter-deluxe.php:912 includes/functions.php:44 includes/functions.php:46
+#: includes/functions.php:87 includes/functions.php:96
+#: includes/functions.php:118 includes/functions.php:1284
+#: includes/functions.php:1328 includes/subscription.php:359
+#: includes/subscription.php:365
+msgid "Need help?"
+msgstr "Brug for hjælp?"
+
+#: exporter-deluxe.php:926
+#, php-format
+msgid ""
+"We couldn't load the SimpleXMLElement class, the SimpleXMLElement class is "
+"required for XML and RSS feed generation. <a href=\"%s\" target=\"_blank"
+"\">Need help?</a>"
+msgstr ""
+
+#: exporter-deluxe.php:1072 includes/settings.php:519
+msgid "Changes have been saved."
+msgstr "Ændringer er blevet gemt."
+
+#: exporter-deluxe.php:1075
+msgid ""
+"Changes could not be saved as we could not detect a valid export type. Raise "
+"this as a Premium Support issue and include what export type you were "
+"editing."
+msgstr ""
+"Ændringerne kunne ikke gemmes, da vi ikke kunne finde en gyldig eksport "
+"type. Rejse dette som en førsteklasses Premium-support spørgsmål og omfatte "
+"hvilken eksport type du redigerede."
+
+#: exporter-deluxe.php:1090 includes/admin.php:87 includes/admin.php:458
+#: includes/admin.php:531 templates/admin/cron.php:4
+msgid "Store Exporter Deluxe"
+msgstr ""
+
+#: exporter-deluxe.php:1098
+msgid ""
+"No export entries were found within the debug Transient, please try again "
+"with different export filters."
+msgstr ""
+"Ingen eksport poster blev fundet inden for debug Transient, behage prøve "
+"igen med forskellige eksport filtre."
+
+#: exporter-deluxe.php:1104
+#, php-format
+msgid "Export Details: %s"
+msgstr "Eksportere detaljer: %s"
+
+#: exporter-deluxe.php:1105
+msgid ""
+"This prints the $export global that contains the different export options "
+"and filters to help reproduce this on another instance of WordPress. Very "
+"useful for debugging blank or unexpected exports."
+msgstr ""
+
+#: exporter-deluxe.php:1122 includes/admin.php:128
+#: templates/admin/tabs-overview.php:3 templates/admin/tabs.php:5
+msgid "Export"
+msgstr "Eksport"
+
+#: exporter-deluxe.php:1123
+msgid ""
+"We use the <a href=\"http://code.google.com/p/jquerycsvtotable/\" target="
+"\"_blank\"><em>CSV to Table plugin</em></a> to see first hand formatting "
+"errors or unexpected values within the export file."
+msgstr ""
+
+#: exporter-deluxe.php:1125
+msgid ""
+"This jQuery plugin can fail with <code>'Item count (#) does not match header "
+"count'</code> notices which simply mean the number of headers detected does "
+"not match the number of cell contents."
+msgstr ""
+
+#: exporter-deluxe.php:1129
+msgid "Export Log"
+msgstr "Eksport"
+
+#: exporter-deluxe.php:1130
+msgid ""
+"This prints the raw export contents and is helpful when the jQuery plugin "
+"above fails due to major formatting errors."
+msgstr ""
+"Dette udskriver rå eksport indholdet og er nyttig, når de jQuery plugin "
+"ovenfor mislykkes på grund af store formatering fejl."
+
+#: exporter-deluxe.php:1223
+msgid ""
+"Custom Fields saved. You can now select those additional fields from the "
+"Export Fields list."
+msgstr ""
+"Brugerdefinerede felter gemt. Du kan nu vælge disse ekstra felter fra listen "
+"Eksporter felter."
+
+#: includes/admin.php:66 includes/admin.php:458
+msgid "Store Export"
+msgstr "Store Export"
+
+#: includes/admin.php:71 includes/settings.php:161
+msgid "Add New"
+msgstr "Tilføj nyt"
+
+#: includes/admin.php:99 includes/scheduled_export.php:250
+#: includes/settings.php:330
+msgid "Export format"
+msgstr "Eksport format"
+
+#: includes/admin.php:102 includes/scheduled_export.php:252
+#: includes/settings.php:332
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/admin.php:102 includes/settings.php:332
+msgid "(Comma Separated Values)"
+msgstr ""
+
+#: includes/admin.php:103 includes/settings.php:334
+msgid "Excel (XLS)"
+msgstr ""
+
+#: includes/admin.php:103 includes/settings.php:334
+msgid "(Excel 97-2003)"
+msgstr ""
+
+#: includes/admin.php:104 includes/settings.php:335
+msgid "Excel (XLSX)"
+msgstr ""
+
+#: includes/admin.php:104 includes/settings.php:335
+msgid "(Excel 2007-2013)"
+msgstr ""
+
+#: includes/admin.php:105 includes/scheduled_export.php:253
+#: includes/settings.php:333
+msgid "XML"
+msgstr "XML"
+
+#: includes/admin.php:105 includes/settings.php:333
+msgid "(EXtensible Markup Language)"
+msgstr ""
+
+#: includes/admin.php:107
+msgid "RSS 2.0 for Google Merchants"
+msgstr ""
+
+#: includes/admin.php:107
+#, php-format
+msgid "(<attr title=\"%s\">XML</attr> Product feed in RSS 2.0 format)"
+msgstr ""
+
+#: includes/admin.php:107 includes/scheduled_export.php:253
+msgid "EXtensible Markup Language"
+msgstr "EXtensible Markup Language"
+
+#: includes/admin.php:109
+msgid "Adjust the export format to generate different export file formats."
+msgstr ""
+"Justere eksportformat for at generere forskellige eksport fil formaters."
+
+#: includes/admin.php:125 includes/admin.php:534
+msgid "Premium Support"
+msgstr "Premium-support"
+
+#: includes/admin.php:127
+msgid "Docs"
+msgstr "Dokumentation"
+
+#: includes/admin.php:145
+msgid "Export Status"
+msgstr "Eksportere Status"
+
+#: includes/admin.php:160
+msgid ""
+"This Order has been exported and will not be included in future exports "
+"filtered by 'Since last export'."
+msgstr ""
+
+#: includes/admin.php:160
+msgid "Exported"
+msgstr "Eksporteret"
+
+#: includes/admin.php:162
+msgid "This Order has not yet been exported."
+msgstr "Denne rækkefølge er ikke blevet eksporteret."
+
+#: includes/admin.php:162
+msgid "Not Exported"
+msgstr "Eksporteres ikke"
+
+#: includes/admin.php:184 includes/admin.php:185 includes/admin.php:272
+#: includes/admin.php:438
+msgid "Download as CSV"
+msgstr "Hent som CSV"
+
+#: includes/admin.php:187 includes/admin.php:188 includes/admin.php:279
+#: includes/admin.php:439
+msgid "Download as XML"
+msgstr "Hent som XML"
+
+#: includes/admin.php:190 includes/admin.php:191 includes/admin.php:286
+#: includes/admin.php:440
+msgid "Download as XLS"
+msgstr "Hent som XLS"
+
+#: includes/admin.php:193 includes/admin.php:194 includes/admin.php:293
+#: includes/admin.php:441
+msgid "Download as XLSX"
+msgstr "Hent som XLSX"
+
+#: includes/admin.php:533
+msgid ""
+"Thank you for using Store Exporter Deluxe :) Should you need help using this "
+"Plugin please read the documentation, if an issue persists get in touch with "
+"us on Premium Support."
+msgstr ""
+"Tak fordi du bruger Store Exporter Deluxe :) Hvis du har brug for komme "
+"hjælp til at bruge dette Plugin kan du læse dokumentationen, hvis et problem "
+"opstår igen i kontakt med os på Premium-support."
+
+#: includes/admin.php:534
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/admin.php:558
+#, php-format
+msgid ""
+"<a href=\"%s\">Install the Visser Labs Updater Plugin</a> (or download and "
+"manually install it from <a href=\"#\">here</a>) to get automatic update "
+"notifications for your Visser Labs Plugins."
+msgstr ""
+
+#: includes/admin.php:772
+msgid "Archived export has been deleted."
+msgid_plural "Archived exports has been deleted."
+msgstr[0] "Arkiverede eksport er blevet slettet."
+msgstr[1] "Arkiverede eksport er blevet slettet."
+
+#: includes/admin.php:830
+#, php-format
+msgid ""
+"We couldn't load the export template file <code>%s</code> within <code>%s</"
+"code>, this file should be present."
+msgstr ""
+
+#: includes/admin.php:833 includes/scheduled_export.php:31
+#: includes/scheduled_export.php:76
+msgid "You can see this error for one of a few common reasons"
+msgstr ""
+
+#: includes/admin.php:835 includes/scheduled_export.php:33
+#: includes/scheduled_export.php:78
+msgid ""
+"WordPress was unable to create this file when the Plugin was installed or "
+"updated"
+msgstr ""
+
+#: includes/admin.php:836 includes/scheduled_export.php:34
+#: includes/scheduled_export.php:79
+msgid ""
+"The Plugin files have been recently changed and there has been a file "
+"conflict"
+msgstr ""
+
+#: includes/admin.php:837 includes/scheduled_export.php:35
+#: includes/scheduled_export.php:80
+msgid "The Plugin file has been locked and cannot be opened by WordPress"
+msgstr ""
+
+#: includes/admin.php:839 includes/scheduled_export.php:37
+#: includes/scheduled_export.php:82
+msgid ""
+"Jump onto our website and download a fresh copy of this Plugin as it might "
+"be enough to fix this issue. If this persists get in touch with us."
+msgstr ""
+
+#: includes/admin.php:852
+msgid "All in One SEO Pack"
+msgstr ""
+
+#: includes/admin.php:853
+msgid ""
+"Optimize your WooCommerce Products for Search Engines. Requires Store "
+"Toolkit for All in One SEO Pack integration."
+msgstr ""
+
+#: includes/admin.php:860 templates/admin/tabs-tools.php:19
+msgid "Store Toolkit"
+msgstr ""
+
+#: includes/admin.php:861 templates/admin/tabs-tools.php:20
+msgid ""
+"Store Toolkit includes a growing set of commonly-used WooCommerce "
+"administration tools aimed at web developers and store maintainers."
+msgstr ""
+
+#: includes/admin.php:868
+msgid "SEO Ultimate"
+msgstr ""
+
+#: includes/admin.php:869
+msgid "This all-in-one SEO plugin gives you control over Product details."
+msgstr ""
+
+#: includes/admin.php:876
+msgid "Advanced Google Product Feed"
+msgstr ""
+
+#: includes/admin.php:877
+msgid "Easily configure data to be added to your Google Merchant Centre feed."
+msgstr ""
+
+#: includes/admin.php:883
+msgid "WordPress SEO by Yoast"
+msgstr ""
+
+#: includes/admin.php:884
+msgid "The first true all-in-one SEO solution for WordPress."
+msgstr ""
+
+#: includes/admin.php:891 includes/order.php:1488
+msgid "WooCommerce MSRP Pricing"
+msgstr ""
+
+#: includes/admin.php:892
+msgid ""
+"Define and display MSRP prices (Manufacturer's suggested retail price) to "
+"your customers."
+msgstr ""
+
+#: includes/admin.php:898
+msgid "WooCommerce Brands Addon"
+msgstr ""
+
+#: includes/admin.php:899
+msgid ""
+"Create, assign and list brands for products, and allow customers to filter "
+"by brand."
+msgstr ""
+
+#: includes/admin.php:905 includes/order.php:1469 includes/order.php:1474
+#: includes/order.php:1479 includes/product.php:2060
+msgid "Cost of Goods"
+msgstr ""
+
+#: includes/admin.php:906
+msgid ""
+"Easily track total profit and cost of goods by adding a Cost of Good field "
+"to simple and variable products."
+msgstr ""
+
+#: includes/admin.php:912 includes/product.php:2068
+msgid "Per-Product Shipping"
+msgstr ""
+
+#: includes/admin.php:913
+msgid ""
+"Define separate shipping costs per product which are combined at checkout to "
+"provide a total shipping cost."
+msgstr ""
+
+#: includes/admin.php:919 includes/functions.php:1350 includes/order.php:1460
+#: includes/product.php:2076 templates/admin/tabs-archive.php:12
+#: templates/admin/tabs-export.php:113
+msgid "Product Vendors"
+msgstr ""
+
+#: includes/admin.php:920
+msgid ""
+"Turn your store into a multi-vendor marketplace (such as Etsy or Creative "
+"Market)."
+msgstr ""
+
+#: includes/admin.php:926
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: includes/admin.php:927
+msgid "Powerful fields for WordPress developers."
+msgstr ""
+
+#: includes/admin.php:933 includes/order.php:1220
+msgid "Product Add-ons"
+msgstr ""
+
+#: includes/admin.php:934
+msgid ""
+"Allow your customers to customise your products by adding input boxes, "
+"dropdowns or a field set of checkboxes."
+msgstr ""
+
+#: includes/admin.php:940
+msgid "WooCommerce Sequential Order Numbers"
+msgstr ""
+
+#: includes/admin.php:941
+msgid ""
+"This plugin extends the WooCommerce e-commerce plugin by setting sequential "
+"order numbers for new orders."
+msgstr ""
+
+#: includes/admin.php:948
+msgid "WooCommerce Sequential Order Numbers Pro"
+msgstr ""
+
+#: includes/admin.php:949
+msgid "Tame your WooCommerce Order Numbers."
+msgstr ""
+
+#: includes/admin.php:955 includes/order.php:1233 includes/order.php:1238
+msgid "WooCommerce Print Invoice & Delivery Note"
+msgstr ""
+
+#: includes/admin.php:956
+msgid "Print invoices and delivery notes for WooCommerce orders."
+msgstr ""
+
+#: includes/admin.php:963 includes/order.php:1247 includes/order.php:1252
+msgid "WooCommerce PDF Invoices & Packing Slips"
+msgstr ""
+
+#: includes/admin.php:964
+msgid ""
+"Create, print & automatically email PDF invoices & packing slips for "
+"WooCommerce orders."
+msgstr ""
+
+#: includes/admin.php:971 includes/order.php:1279
+msgid "WooCommerce Checkout Manager"
+msgstr ""
+
+#: includes/admin.php:972
+msgid "Manages WooCommerce Checkout."
+msgstr ""
+
+#: includes/admin.php:979 includes/order.php:1279
+msgid "WooCommerce Checkout Manager Pro"
+msgstr ""
+
+#: includes/admin.php:980
+msgid ""
+"Manages the WooCommerce Checkout page and WooCommerce Checkout processes."
+msgstr ""
+
+#: includes/admin.php:986 includes/order.php:1301 includes/order.php:1313
+msgid "Poor Guys Swiss Knife"
+msgstr ""
+
+#: includes/admin.php:987
+msgid "A Swiss Knife for WooCommerce."
+msgstr ""
+
+#: includes/admin.php:994 includes/order.php:1336 includes/order.php:1351
+#: includes/order.php:1366
+msgid "Checkout Field Editor"
+msgstr ""
+
+#: includes/admin.php:995
+msgid "Add, edit and remove fields shown on your WooCommerce checkout page."
+msgstr ""
+
+#: includes/admin.php:1001 includes/order.php:1388 includes/order.php:1403
+#: includes/order.php:1418
+msgid "Checkout Field Manager"
+msgstr ""
+
+#: includes/admin.php:1002
+msgid ""
+"Quickly and effortlessly add, remove and re-orders fields in the checkout "
+"process."
+msgstr ""
+
+#: includes/admin.php:1008 includes/order.php:1431 includes/order.php:1436
+#: includes/order.php:1441
+msgid "WooCommerce Checkout Add-Ons"
+msgstr ""
+
+#: includes/admin.php:1009
+msgid ""
+"Add fields at checkout for add-on products and services while optionally "
+"setting a cost for each add-on."
+msgstr ""
+
+#: includes/admin.php:1015 includes/order.php:1497
+msgid "Local Pickup Plus"
+msgstr ""
+
+#: includes/admin.php:1016
+msgid "Let customers pick up products from specific locations."
+msgstr ""
+
+#: includes/admin.php:1022 includes/order.php:1537 includes/order.php:1542
+#: includes/order.php:1559
+msgid "Gravity Forms"
+msgstr ""
+
+#: includes/admin.php:1023
+msgid ""
+"Gravity Forms is hands down the best contact form plugin for WordPress "
+"powered websites."
+msgstr ""
+
+#: includes/admin.php:1029 includes/order.php:1572
+msgid "WooCommerce Currency Switcher"
+msgstr ""
+
+#: includes/admin.php:1030
+msgid ""
+"Currency Switcher for WooCommerce allows your shop to display prices and "
+"accept payments in multiple currencies."
+msgstr ""
+
+#: includes/admin.php:1036
+msgid "WooCommerce Subscriptions"
+msgstr ""
+
+#: includes/admin.php:1037
+msgid ""
+"WC Subscriptions makes it easy to create and manage products with recurring "
+"payments."
+msgstr ""
+
+#: includes/admin.php:1043
+msgid "Extra Product Options"
+msgstr ""
+
+#: includes/admin.php:1044
+msgid "Create extra price fields globally or per-Product"
+msgstr ""
+
+#: includes/admin.php:1050
+msgid "WooCommerce Jetpack"
+msgstr ""
+
+#: includes/admin.php:1051
+msgid "Supercharge your WooCommerce site with these awesome powerful features."
+msgstr ""
+
+#: includes/admin.php:1058
+msgid "WooCommerce Jetpack Plus"
+msgstr ""
+
+#: includes/admin.php:1059
+msgid ""
+"Unlock all WooCommerce Jetpack features and supercharge your WordPress "
+"WooCommerce site even more."
+msgstr ""
+
+#: includes/admin.php:1065 includes/order.php:1451
+msgid "WooCommerce Brands"
+msgstr ""
+
+#: includes/admin.php:1066
+msgid ""
+"Woocommerce Brands Plugin. After Install and active this plugin you'll have "
+"some shortcode and some widget for display your brands in fornt-end website."
+msgstr ""
+
+#: includes/admin.php:1072 includes/order.php:1506 includes/order.php:1511
+#: includes/order.php:1516 includes/order.php:1521 includes/order.php:1526
+msgid "WooCommerce Bookings"
+msgstr ""
+
+#: includes/admin.php:1073
+msgid "Setup bookable products such as for reservations, services and hires."
+msgstr ""
+
+#: includes/admin.php:1079 includes/order.php:1604 includes/order.php:1609
+#: includes/order.php:1614
+msgid "WooCommerce EU VAT Number"
+msgstr ""
+
+#: includes/admin.php:1080
+msgid ""
+"The EU VAT Number extension lets you collect and validate EU VAT numbers "
+"during checkout to identify B2B transactions verses B2C."
+msgstr ""
+
+#: includes/admin.php:1086 includes/customer.php:354 includes/order.php:1261
+#: includes/user.php:296
+msgid "WooCommerce Hear About Us"
+msgstr ""
+
+#: includes/admin.php:1087
+msgid "Ask where your new customers come from at Checkout."
+msgstr ""
+
+#: includes/admin.php:1094
+msgid "WooCommerce Wholesale Pricing"
+msgstr ""
+
+#: includes/admin.php:1095
+msgid "Allows you to set wholesale prices for products and variations."
+msgstr ""
+
+#: includes/admin.php:1101
+msgid "Barcodes for WooCommerce"
+msgstr ""
+
+#: includes/admin.php:1102
+msgid "Allows you to add GTIN (former EAN) codes natively to your products."
+msgstr ""
+
+#: includes/admin.php:1184
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:31
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin.php:1188
+msgid "Install"
+msgstr ""
+
+#: includes/admin.php:1200 includes/functions.php:1538 includes/settings.php:7
+#: includes/settings.php:160 templates/admin/tabs-overview.php:65
+msgid "Scheduled Exports"
+msgstr ""
+
+#: includes/admin.php:1201
+msgid "Recent Scheduled Exports"
+msgstr "De seneste planlagte eksport"
+
+#: includes/archives.php:7
+msgid "Archives per page"
+msgstr "Arkiver pr. side"
+
+#: includes/archives.php:47
+msgid "Filename"
+msgstr "Filnavn"
+
+#: includes/archives.php:48 includes/product.php:1605 includes/settings.php:194
+msgid "Type"
+msgstr "Type"
+
+#: includes/archives.php:49 includes/settings.php:195
+msgid "Format"
+msgstr "Format"
+
+#: includes/archives.php:50
+msgid "Filesize"
+msgstr ""
+
+#: includes/archives.php:51
+msgid "Rows"
+msgstr "Rækker"
+
+#: includes/archives.php:52
+msgid "Author"
+msgstr "Udvikler"
+
+#: includes/archives.php:53
+msgid "Date"
+msgstr "Dato"
+
+#: includes/archives.php:91 includes/functions.php:497
+msgid "Unassigned"
+msgstr "Utildelt"
+
+#: includes/archives.php:130
+msgid "WP-CRON"
+msgstr "WP-CRON"
+
+#: includes/archives.php:174
+msgid "Delete"
+msgstr "Slet"
+
+#: includes/brand.php:13
+msgid "Brand Sorting"
+msgstr "Brand sortering"
+
+#: includes/brand.php:16 includes/brand.php:42 includes/category.php:49
+#: includes/category.php:75 includes/product.php:2611
+#: includes/shipping_class.php:16 includes/shipping_class.php:69
+#: includes/tag.php:49 includes/tag.php:75
+msgid "Term ID"
+msgstr ""
+
+#: includes/brand.php:17 includes/brand.php:46
+msgid "Brand Name"
+msgstr ""
+
+#: includes/brand.php:20 includes/category.php:53 includes/commission.php:115
+#: includes/coupon.php:53 includes/order.php:627 includes/product.php:327
+#: includes/shipping_class.php:20 includes/tag.php:53 includes/user.php:56
+msgid "Ascending"
+msgstr "Stigende"
+
+#: includes/brand.php:21 includes/category.php:54 includes/commission.php:116
+#: includes/coupon.php:54 includes/order.php:628 includes/product.php:328
+#: includes/shipping_class.php:21 includes/tag.php:54 includes/user.php:57
+msgid "Descending"
+msgstr "Faldende"
+
+#: includes/brand.php:23
+msgid ""
+"Select the sorting of Brands within the exported file. By default this is "
+"set to export Product Brands by Term ID in Desending order."
+msgstr ""
+
+#: includes/brand.php:50
+msgid "Brand Slug"
+msgstr ""
+
+#: includes/brand.php:54 includes/category.php:87
+msgid "Parent Term ID"
+msgstr ""
+
+#: includes/brand.php:58
+msgid "Brand Description"
+msgstr ""
+
+#: includes/brand.php:62
+msgid "Brand Image"
+msgstr ""
+
+#: includes/category.php:15
+msgid "Filter Categories by Language"
+msgstr ""
+
+#: includes/category.php:20 includes/product.php:290 includes/tag.php:20
+msgid "Choose a Language..."
+msgstr "Vælg et sprog..."
+
+#: includes/category.php:26 includes/product.php:296 includes/tag.php:26
+msgid "No Languages were found."
+msgstr "Ingen sprog blev ikke fundet."
+
+#: includes/category.php:30
+msgid ""
+"Select the Language's you want to filter exported Categories by. Default is "
+"to include all Language's."
+msgstr ""
+
+#: includes/category.php:46
+msgid "Category Sorting"
+msgstr ""
+
+#: includes/category.php:50 includes/category.php:79
+msgid "Category Name"
+msgstr ""
+
+#: includes/category.php:56
+msgid ""
+"Select the sorting of Categories within the exported file. By default this "
+"is set to export Categories by Term ID in Desending order."
+msgstr ""
+
+#: includes/category.php:83
+msgid "Category Slug"
+msgstr ""
+
+#: includes/category.php:91
+msgid "Category: Level 1"
+msgstr ""
+
+#: includes/category.php:95
+msgid "Category: Level 2"
+msgstr ""
+
+#: includes/category.php:99
+msgid "Category: Level 3"
+msgstr ""
+
+#: includes/category.php:103
+msgid "Category Description"
+msgstr ""
+
+#: includes/category.php:107
+msgid "Display Type"
+msgstr ""
+
+#: includes/category.php:111
+msgid "Category Image"
+msgstr ""
+
+#: includes/commission.php:19
+msgid "Filter Commissions by Commission Date"
+msgstr ""
+
+#: includes/commission.php:23 includes/order.php:23
+#: includes/scheduled_export.php:539
+msgid "Today"
+msgstr "I dag"
+
+#: includes/commission.php:26 includes/order.php:26
+#: includes/scheduled_export.php:540
+msgid "Yesterday"
+msgstr "I går"
+
+#: includes/commission.php:29 includes/order.php:29
+#: includes/scheduled_export.php:541
+msgid "Current week"
+msgstr "Uge"
+
+#: includes/commission.php:32 includes/order.php:32
+#: includes/scheduled_export.php:542
+msgid "Last week"
+msgstr "Sidste uge"
+
+#: includes/commission.php:35 includes/order.php:35
+#: includes/scheduled_export.php:543
+msgid "Current month"
+msgstr ""
+
+#: includes/commission.php:38 includes/order.php:38
+#: includes/scheduled_export.php:544
+msgid "Last month"
+msgstr "Sidste måned"
+
+#: includes/commission.php:42 includes/order.php:42
+msgid "Last quarter"
+msgstr "Sidste kvartal"
+
+#: includes/commission.php:46 includes/order.php:46
+#: includes/scheduled_export.php:545
+msgid "Variable date"
+msgstr "Variabel dato"
+
+#: includes/commission.php:48 includes/order.php:48
+#: includes/scheduled_export.php:546
+msgid "Last"
+msgstr "Sidste"
+
+#: includes/commission.php:52 includes/order.php:52
+#: includes/scheduled_export.php:550
+msgid "second(s)"
+msgstr "sekund(er)"
+
+#: includes/commission.php:53 includes/order.php:53
+#: includes/scheduled_export.php:551
+msgid "minute(s)"
+msgstr "minut(ter)"
+
+#: includes/commission.php:54 includes/order.php:54
+#: includes/scheduled_export.php:552
+msgid "hour(s)"
+msgstr "time(r)"
+
+#: includes/commission.php:55 includes/order.php:55
+#: includes/scheduled_export.php:553
+msgid "day(s)"
+msgstr "dag(e)"
+
+#: includes/commission.php:56 includes/order.php:56
+#: includes/scheduled_export.php:554
+msgid "week(s)"
+msgstr "uge(r)"
+
+#: includes/commission.php:57 includes/order.php:57
+#: includes/scheduled_export.php:555
+msgid "month(s)"
+msgstr "måned(er)"
+
+#: includes/commission.php:58 includes/order.php:58
+#: includes/scheduled_export.php:556
+msgid "year(s)"
+msgstr "år"
+
+#: includes/commission.php:63 includes/order.php:63
+#: includes/scheduled_export.php:558
+msgid "Fixed date"
+msgstr "Fast dato"
+
+#: includes/commission.php:66
+msgid ""
+"Filter the dates of Orders to be included in the export. Default is the date "
+"of the first Commission to today."
+msgstr ""
+
+#: includes/commission.php:105
+msgid "Commission Sorting"
+msgstr ""
+
+#: includes/commission.php:108 includes/commission.php:210
+msgid "Commission ID"
+msgstr ""
+
+#: includes/commission.php:109 includes/commission.php:218
+msgid "Commission Title"
+msgstr ""
+
+#: includes/commission.php:110 includes/coupon.php:48 includes/order.php:622
+#: includes/product.php:321
+msgid "Date Created"
+msgstr "Dato oprettet"
+
+#: includes/commission.php:111 includes/coupon.php:49 includes/order.php:623
+#: includes/product.php:322
+msgid "Date Modified"
+msgstr "Dato for ændring"
+
+#: includes/commission.php:112 includes/coupon.php:50 includes/order.php:624
+#: includes/product.php:323 includes/user.php:53
+msgid "Random"
+msgstr "Tilfældig"
+
+#: includes/commission.php:118
+msgid ""
+"Select the sorting of Commissions within the exported file. By default this "
+"is set to export Commissions by Commission ID in Desending order."
+msgstr ""
+
+#: includes/commission.php:131
+msgid "Filter Commissions by Product Vendors"
+msgstr ""
+
+#: includes/commission.php:137 includes/order.php:525 includes/order.php:557
+#: includes/order.php:594 includes/product.php:22 includes/product.php:54
+#: includes/product.php:91 includes/product.php:126
+#: includes/scheduled_export.php:296 includes/scheduled_export.php:310
+#: includes/scheduled_export.php:325
+#, php-format
+msgid "Term ID: %d"
+msgstr ""
+
+#: includes/commission.php:142
+msgid ""
+"Select the Product Vendors you want to filter exported Commissions by. "
+"Default is to include all Product Vendors."
+msgstr ""
+
+#: includes/commission.php:144 includes/product.php:130
+#: templates/admin/tabs-export.php:763
+msgid "No Product Vendors were found."
+msgstr "Ingen produkt leverandører blev ikke fundet."
+
+#: includes/commission.php:157
+msgid "Filter Commissions by Commission Status"
+msgstr ""
+
+#: includes/commission.php:161 includes/commission.php:528
+msgid "Unpaid"
+msgstr "Ubetalt"
+
+#: includes/commission.php:165 includes/commission.php:523
+msgid "Paid"
+msgstr "Betalt"
+
+#: includes/commission.php:169
+msgid ""
+"Select the Commission Status you want to filter exported Commissions by. "
+"Default is to include all Commission Statuses."
+msgstr ""
+
+#: includes/commission.php:214
+msgid "Commission Date"
+msgstr ""
+
+#: includes/commission.php:222 includes/product.php:319
+#: includes/product.php:1565 includes/subscription.php:144
+msgid "Product ID"
+msgstr ""
+
+#: includes/commission.php:226 includes/product.php:320
+#: includes/product.php:1573
+msgid "Product Name"
+msgstr ""
+
+#: includes/commission.php:230 includes/product.php:1569
+#: includes/subscription.php:148
+msgid "Product SKU"
+msgstr ""
+
+#: includes/commission.php:234 includes/product_vendor.php:9
+msgid "Product Vendor ID"
+msgstr ""
+
+#: includes/commission.php:238
+msgid "Product Vendor Name"
+msgstr ""
+
+#: includes/commission.php:242
+msgid "Commission Amount"
+msgstr ""
+
+#: includes/commission.php:246
+msgid "Commission Status"
+msgstr ""
+
+#: includes/commission.php:250 includes/order.php:824
+#: includes/subscription.php:111
+msgid "Post Status"
+msgstr ""
+
+#: includes/common-dashboard_widgets.php:18
+msgid "Plugin News - by Visser Labs"
+msgstr "Plugin nyheder - af Visser Labs"
+
+#: includes/common-dashboard_widgets.php:44
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:43
+msgid "Connection failed. Please check your network settings."
+msgstr ""
+
+#: includes/common-dashboard_widgets.php:67
+msgid "Plugins - by Visser Labs"
+msgstr "Plugins - af Visser Labs"
+
+#: includes/common-dashboard_widgets.php:91
+msgid ""
+"Open the Configure screen of this Dashboard widget to monitor the version "
+"and update status of your Visser Labs Plugins"
+msgstr ""
+
+#: includes/common-dashboard_widgets.php:176
+msgid "Enable update monitor"
+msgstr ""
+
+#: includes/common-dashboard_widgets.php:178 includes/formatting.php:275
+#: includes/order.php:3110 includes/order.php:3127 includes/order.php:3144
+#: includes/order.php:3170 includes/order.php:3188 includes/order.php:3206
+#: includes/order.php:3269 includes/order.php:3274 includes/settings.php:175
+#: includes/settings.php:250 includes/settings.php:322
+#: templates/admin/tabs-settings.php:36 templates/admin/tabs-settings.php:140
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/common-dashboard_widgets.php:179 includes/formatting.php:279
+#: includes/order.php:3110 includes/order.php:3127 includes/order.php:3144
+#: includes/order.php:3170 includes/order.php:3188 includes/order.php:3206
+#: includes/order.php:3269 includes/order.php:3274 includes/settings.php:176
+#: includes/settings.php:251 includes/settings.php:323
+#: templates/admin/tabs-settings.php:37 templates/admin/tabs-settings.php:141
+msgid "No"
+msgstr "Nej"
+
+#: includes/common-dashboard_widgets.php:181
+msgid ""
+"Turning the update monitor on will notify you of Plugin updates to activated "
+"Visser Labs Plugins. By default this is turned off."
+msgstr ""
+
+#: includes/coupon.php:12
+msgid "Filter Coupons by Discount Type"
+msgstr ""
+
+#: includes/coupon.php:17
+msgid "Choose a Discount Type..."
+msgstr ""
+
+#: includes/coupon.php:19
+#, php-format
+msgid "Post meta key: %s"
+msgstr ""
+
+#: includes/coupon.php:23
+msgid "No Discount Types were found."
+msgstr ""
+
+#: includes/coupon.php:27
+msgid ""
+"Select the Discount Types you want to filter exported Coupons by. Default is "
+"to include all Coupons."
+msgstr ""
+
+#: includes/coupon.php:43
+msgid "Coupon Sorting"
+msgstr ""
+
+#: includes/coupon.php:46
+msgid "Coupon ID"
+msgstr ""
+
+#: includes/coupon.php:47 includes/coupon.php:75 includes/order.php:756
+#: includes/subscription.php:156
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/coupon.php:56
+msgid ""
+"Select the sorting of Coupons within the exported file. By default this is "
+"set to export Coupons by Coupon ID in Desending order."
+msgstr ""
+
+#: includes/coupon.php:79 includes/order.php:760
+msgid "Coupon Description"
+msgstr ""
+
+#: includes/coupon.php:83
+msgid "Discount Type"
+msgstr ""
+
+#: includes/coupon.php:87
+msgid "Coupon Amount"
+msgstr ""
+
+#: includes/coupon.php:91
+msgid "Individual Use"
+msgstr ""
+
+#: includes/coupon.php:95
+msgid "Apply before tax"
+msgstr ""
+
+#: includes/coupon.php:99
+msgid "Exclude sale items"
+msgstr ""
+
+#: includes/coupon.php:103
+msgid "Minimum Amount"
+msgstr ""
+
+#: includes/coupon.php:107 includes/functions.php:1341
+#: templates/admin/tabs-archive.php:3 templates/admin/tabs-export.php:23
+msgid "Products"
+msgstr ""
+
+#: includes/coupon.php:111
+msgid "Exclude Products"
+msgstr ""
+
+#: includes/coupon.php:115
+msgid "Product Categories"
+msgstr ""
+
+#: includes/coupon.php:119
+msgid "Exclude Product Categories"
+msgstr ""
+
+#: includes/coupon.php:123
+msgid "Customer e-mails"
+msgstr ""
+
+#: includes/coupon.php:127
+msgid "Usage Limit"
+msgstr ""
+
+#: includes/coupon.php:131
+msgid "Expiry Date"
+msgstr ""
+
+#: includes/coupon.php:135
+msgid "Usage Count"
+msgstr ""
+
+#: includes/coupon.php:139
+msgid "Usage Cost"
+msgstr ""
+
+#: includes/coupon.php:143
+msgid "Used By"
+msgstr ""
+
+#: includes/coupon.php:356 includes/coupon.php:373
+msgid "Cart Discount"
+msgstr ""
+
+#: includes/coupon.php:357 includes/coupon.php:377
+msgid "Cart % Discount"
+msgstr ""
+
+#: includes/coupon.php:358 includes/coupon.php:381
+msgid "Product Discount"
+msgstr ""
+
+#: includes/coupon.php:359 includes/coupon.php:385
+msgid "Product % Discount"
+msgstr ""
+
+#: includes/cron.php:90
+msgid "Once Weekly"
+msgstr ""
+
+#: includes/cron.php:97
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/cron.php:110
+#, php-format
+msgid "Every %d minutes"
+msgstr ""
+
+#: includes/cron.php:176
+msgid ""
+"Site hash mis-match, disabling scheduled export and displaying duplicate "
+"site prompt."
+msgstr ""
+
+#: includes/cron.php:198
+msgid "No export type was provided."
+msgstr ""
+
+#: includes/cron.php:200
+msgid "No export type was provided"
+msgstr ""
+
+#: includes/cron.php:211
+msgid "An invalid export type was provided."
+msgstr ""
+
+#: includes/cron.php:213
+msgid "An invalid export type was provided"
+msgstr ""
+
+#: includes/cron.php:295
+msgid "An invalid export format was provided"
+msgstr ""
+
+#: includes/cron.php:575
+msgid ""
+"The PHPExcel library was already loaded by another WordPress Plugin, if "
+"there's issues with your export file you know where to look."
+msgstr ""
+
+#: includes/cron.php:646
+#, php-format
+msgid ""
+"We could not create a temporary export file in %s, ensure that WordPress can "
+"read and write files here and try again."
+msgstr ""
+
+#: includes/cron.php:660
+msgid "We couldn't load the PHPExcel library, this file should be present."
+msgstr ""
+
+#: includes/cron.php:703
+msgid "Export completed successfully."
+msgstr ""
+
+#: includes/cron.php:708
+msgid "No export entries were found."
+msgstr "Der blev ikke fundet nogen eksport poster."
+
+#: includes/cron.php:710
+msgid "No export entries were found"
+msgstr "Der blev ikke fundet nogen eksport poster."
+
+#: includes/cron.php:749
+#, php-format
+msgid "Remote POST sent to %s"
+msgstr "Remote POST sendt til %s"
+
+#: includes/cron.php:756
+msgid "Could not load template file within /templates/admin/cron.php"
+msgstr ""
+
+#: includes/cron.php:801
+#, php-format
+msgid "Export: %s"
+msgstr "Eksportere: %s"
+
+#: includes/cron.php:802
+msgid "there"
+msgstr "der"
+
+#: includes/cron.php:803
+msgid "Please find attached your export ready to review."
+msgstr "Vedlagt din eksport klar til anmeldelse."
+
+#: includes/cron.php:812
+#, php-format
+msgid "Hi %s"
+msgstr "Hej %s"
+
+#: includes/cron.php:814
+#, php-format
+msgid ""
+"Could not load template file %s within %s, defaulted to hard coded template."
+msgstr ""
+
+#: includes/cron.php:831
+#, php-format
+msgid "Scheduled export e-mail of %s sent to %s"
+msgstr "Planlagt eksport e-mail af %s til %s"
+
+#: includes/cron.php:869
+#, php-format
+msgid "Could not change the FTP server timeout on %s"
+msgstr "Kunne ikke ændre FTP servertimeout på %s"
+
+#: includes/cron.php:874
+#, php-format
+msgid ""
+"We could not change the FTP server timeout on %s as the PHP functions "
+"ftp_get_option() and ftp_set_option() are unavailable to WordPress."
+msgstr ""
+"Vi kunne ikke ændre FTP servertimeout på %s som PHP funktioner "
+"ftp_get_option() og ftp_set_option() er ikke tilgængelig til WordPress."
+
+#: includes/cron.php:883
+#, php-format
+msgid "Could not switch to FTP passive mode on %s"
+msgstr "Ikke kunne skifte til passiv FTP-funktion på %s"
+
+#: includes/cron.php:894
+#, php-format
+msgid "Scheduled export of %s to %s via FTP uploaded"
+msgstr ""
+
+#: includes/cron.php:896
+#, php-format
+msgid "There was a problem uploading %s to %s via FTP, response: %s"
+msgstr ""
+
+#: includes/cron.php:900
+#, php-format
+msgid "Login incorrect for user %s on FTP server at %s, response: %s"
+msgstr ""
+
+#: includes/cron.php:904
+#, php-format
+msgid "There was a problem connecting to %s via FTP"
+msgstr "Der opstod problemer med forbindelsen til %s via FTP"
+
+#: includes/cron.php:908
+msgid ""
+"The function ftp_connect() is disabled within your WordPress site, cannot "
+"upload to FTP server"
+msgstr ""
+
+#: includes/cron.php:909 includes/cron.php:940
+#, php-format
+msgid "[store-exporter-deluxe] %s: Error: %s"
+msgstr "[store-exporter-deluxe] %s: Error: %s"
+
+#: includes/cron.php:921
+#, php-format
+msgid "Scheduled export of %s to %s via SFTP uploaded"
+msgstr "Planlagte eksport af %s til %s via SFTP uploadet"
+
+#: includes/cron.php:923
+#, php-format
+msgid "There was a problem uploading %s to %s via SFTP"
+msgstr "Der opstod et problem under uploade %s til %s via SFTP"
+
+#: includes/cron.php:927
+#, php-format
+msgid "Could not initialize SFTP subsystem on SFTP server at %s"
+msgstr "Kunne ikke initialisere SFTP delsystemet på SFTP server på %s"
+
+#: includes/cron.php:931
+#, php-format
+msgid "Login incorrect for user %s on SFTP server at %s"
+msgstr "Login forkert for brugeren %s på SFTP server på %s"
+
+#: includes/cron.php:935
+#, php-format
+msgid "There was a problem connecting to %s via SFTP"
+msgstr "Der opstod problemer med forbindelsen til %s via SFTP"
+
+#: includes/cron.php:939
+msgid ""
+"The function ssh2_connect() is disabled within your WordPress site, cannot "
+"upload to SFTP server"
+msgstr ""
+"Funktionen ssh2_connect() er deaktiveret i din WordPress websted, kan ikke "
+"uploade til SFTP server"
+
+#: includes/cron.php:1052
+msgid "[%store_name%] Export: %export_type% (%export_filename%)"
+msgstr "[%store_name%] Eksport: %export_type% (%export_filename%)"
+
+#: includes/cron.php:1073
+#, php-format
+msgid "New Order #%d export saved to WordPress Media"
+msgstr "Nye ordre #%d eksport gemt til WordPress medier"
+
+#: includes/customer.php:12
+msgid "Filter Customers by Order Status"
+msgstr "Filter kunder af ordrestatus"
+
+#: includes/customer.php:17 includes/order.php:445
+#: includes/scheduled_export.php:428
+msgid "Choose a Order Status..."
+msgstr "Vælg en ordrestatus..."
+
+#: includes/customer.php:23 includes/order.php:451
+msgid "No Order Status's were found."
+msgstr "Ingen ordrestatus blev ikke fundet."
+
+#: includes/customer.php:27
+msgid ""
+"Select the Order Status you want to filter exported Customers by. Default is "
+"to include all Order Status options."
+msgstr ""
+"Vælg den ordrestatus du vil filtrere eksporterede kunder af. Standard er at "
+"inkludere alle ordrestatus muligheder."
+
+#: includes/customer.php:41
+msgid "Filter Customers by User Role"
+msgstr "Filter kunder af brugerrolle"
+
+#: includes/customer.php:46 includes/order.php:209
+#: includes/scheduled_export.php:575 includes/user.php:17
+msgid "Choose a User Role..."
+msgstr "Vælg en brugerrolle..."
+
+#: includes/customer.php:52 includes/order.php:215
+#: includes/scheduled_export.php:583 includes/user.php:23
+msgid "No User Roles were found."
+msgstr "Der blev ikke fundet nogen brugerroller."
+
+#: includes/customer.php:56
+msgid ""
+"Select the User Roles you want to filter exported Customers by. Default is "
+"to include all User Role options."
+msgstr ""
+"Vælg de brugerroller, du vil filtrere eksporterede kunder af. Standard er at "
+"inkludere alle brugerrolle muligheder."
+
+#: includes/customer.php:77
+msgid "Custom Customer Fields"
+msgstr ""
+
+#: includes/customer.php:79
+msgid ""
+"To include additional custom Customer meta in the Export Customers table "
+"above fill the Customers text box then click Save Custom Fields."
+msgstr ""
+
+#: includes/customer.php:84
+msgid "Customer meta"
+msgstr ""
+
+#: includes/customer.php:88
+msgid ""
+"Include additional custom Customer meta in your export file by adding each "
+"custom Customer meta name to a new line above.<br />For example: "
+"<code>Customer UA</code> (new line) <code>Customer IP Address</code>"
+msgstr ""
+
+#: includes/customer.php:94 includes/order.php:702 includes/product.php:459
+#: includes/user.php:96
+msgid "Save Custom Fields"
+msgstr ""
+
+#: includes/customer.php:96
+#, php-format
+msgid ""
+"For more information on custom Customer meta consult our <a href=\"%s\" "
+"target=\"_blank\">online documentation</a>."
+msgstr ""
+
+#: includes/customer.php:124 includes/order.php:860
+#: includes/subscription.php:92 includes/user.php:45 includes/user.php:126
+msgid "User ID"
+msgstr ""
+
+#: includes/customer.php:128 includes/order.php:864
+#: includes/scheduled_export.php:647 includes/user.php:48 includes/user.php:130
+msgid "Username"
+msgstr "Brugernavn"
+
+#: includes/customer.php:132 includes/order.php:868 includes/user.php:134
+msgid "User Role"
+msgstr ""
+
+#: includes/customer.php:136 includes/order.php:888
+msgid "Billing: Full Name"
+msgstr ""
+
+#: includes/customer.php:140 includes/order.php:892
+msgid "Billing: First Name"
+msgstr ""
+
+#: includes/customer.php:144 includes/order.php:896
+msgid "Billing: Last Name"
+msgstr ""
+
+#: includes/customer.php:148 includes/order.php:900
+msgid "Billing: Company"
+msgstr ""
+
+#: includes/customer.php:152
+msgid "Billing: Street Address"
+msgstr ""
+
+#: includes/customer.php:156 includes/order.php:916
+msgid "Billing: City"
+msgstr ""
+
+#: includes/customer.php:160 includes/order.php:920
+msgid "Billing: ZIP Code"
+msgstr ""
+
+#: includes/customer.php:164 includes/order.php:924
+msgid "Billing: State (prefix)"
+msgstr ""
+
+#: includes/customer.php:168 includes/order.php:928
+msgid "Billing: State"
+msgstr ""
+
+#: includes/customer.php:172 includes/order.php:936
+msgid "Billing: Country"
+msgstr ""
+
+#: includes/customer.php:176 includes/order.php:940
+msgid "Billing: Phone Number"
+msgstr ""
+
+#: includes/customer.php:180 includes/order.php:944
+msgid "Billing: E-mail Address"
+msgstr ""
+
+#: includes/customer.php:184 includes/order.php:948
+msgid "Shipping: Full Name"
+msgstr ""
+
+#: includes/customer.php:188 includes/order.php:952
+msgid "Shipping: First Name"
+msgstr ""
+
+#: includes/customer.php:192 includes/order.php:956
+msgid "Shipping: Last Name"
+msgstr ""
+
+#: includes/customer.php:196 includes/order.php:960
+msgid "Shipping: Company"
+msgstr ""
+
+#: includes/customer.php:200
+msgid "Shipping: Street Address"
+msgstr ""
+
+#: includes/customer.php:204 includes/order.php:976
+msgid "Shipping: City"
+msgstr ""
+
+#: includes/customer.php:208 includes/order.php:980
+msgid "Shipping: ZIP Code"
+msgstr ""
+
+#: includes/customer.php:212 includes/order.php:984
+msgid "Shipping: State (prefix)"
+msgstr ""
+
+#: includes/customer.php:216 includes/order.php:988
+msgid "Shipping: State"
+msgstr ""
+
+#: includes/customer.php:220 includes/order.php:992
+msgid "Shipping: Country (prefix)"
+msgstr ""
+
+#: includes/customer.php:224 includes/order.php:996
+msgid "Shipping: Country"
+msgstr ""
+
+#: includes/customer.php:228
+msgid "Total Spent"
+msgstr ""
+
+#: includes/customer.php:232
+msgid "Completed Orders"
+msgstr ""
+
+#: includes/customer.php:236
+msgid "Total Orders"
+msgstr ""
+
+#: includes/customer.php:345
+msgid "Follow-Up Emails: Opted Out"
+msgstr ""
+
+#: includes/customer.php:353 includes/order.php:1260 includes/user.php:295
+msgid "Source"
+msgstr ""
+
+#: includes/customer.php:366
+msgid "Custom Customer"
+msgstr ""
+
+#: includes/customer.php:381 includes/order.php:1653
+#: includes/subscription.php:298 includes/user.php:325
+msgid "Custom User"
+msgstr ""
+
+#: includes/formatting.php:7
+#, php-format
+msgid "%s MB"
+msgstr ""
+
+#: includes/formatting.php:15
+msgid "1 second"
+msgstr ""
+
+#: includes/formatting.php:18
+msgid "year"
+msgstr "år"
+
+#: includes/formatting.php:19
+msgid "month"
+msgstr ""
+
+#: includes/formatting.php:20
+msgid "week"
+msgstr "Uge"
+
+#: includes/formatting.php:21
+msgid "day"
+msgstr ""
+
+#: includes/formatting.php:22
+msgid "hour"
+msgstr ""
+
+#: includes/formatting.php:23
+msgid "minute"
+msgstr ""
+
+#: includes/formatting.php:24
+msgid "second"
+msgstr ""
+
+#: includes/formatting.php:206
+msgid "Publish"
+msgstr ""
+
+#: includes/formatting.php:210
+msgid "Draft"
+msgstr ""
+
+#: includes/formatting.php:214 includes/product.php:147
+#: includes/scheduled_export.php:155
+msgid "Trash"
+msgstr ""
+
+#: includes/formatting.php:229
+msgid "Open"
+msgstr ""
+
+#: includes/formatting.php:233
+msgid "Closed"
+msgstr ""
+
+#: includes/formatting.php:392 includes/subscription.php:556
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/formatting.php:406
+msgid "saved to WordPress Media"
+msgstr ""
+
+#: includes/formatting.php:414
+msgid "downloaded via CRON"
+msgstr ""
+
+#: includes/formatting.php:418
+#, php-format
+msgid "sent via %s"
+msgstr ""
+
+#: includes/formatting.php:424
+#, php-format
+msgid "exported to %s"
+msgstr ""
+
+#: includes/functions.php:44
+#, php-format
+msgid ""
+"A WordPress or server error caused the exporter to fail, the exporter was "
+"provided with a reason: <em>%s</em>"
+msgstr ""
+
+#: includes/functions.php:46
+msgid ""
+"A WordPress or server error caused the exporter to fail, no reason was "
+"provided, please get in touch so we can reproduce and resolve this with you."
+msgstr ""
+
+#: includes/functions.php:56
+#, php-format
+msgid ""
+"We could not override the PHP configuration option <code>max_execution_time</"
+"code>, this will limit the size of possible exports. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing PHP max_execution_time configuration option</a>"
+msgstr ""
+
+#: includes/functions.php:68
+#, php-format
+msgid ""
+"We recommend setting memory to at least %dMB, your site has only %dMB "
+"allocated to it. See: <a href=\"%s\" target=\"_blank\">Increasing memory "
+"allocated to PHP</a>"
+msgstr ""
+
+#: includes/functions.php:76
+#, php-format
+msgid ""
+"Your PHP version (%s) is not supported and is very much out of date, since "
+"2010 all users are strongly encouraged to upgrade to PHP 5.3+ and above. "
+"Contact your hosting provider to make this happen. See: <a href=\"%s\" "
+"target=\"_blank\">Migrating from PHP 5.2 to 5.3</a>"
+msgstr ""
+
+#: includes/functions.php:87
+msgid ""
+"We've detected the <em>is_large_site</em> flag has been set within "
+"WooCommerce Subscriptions. Please get in touch if exports are incomplete as "
+"we need to spin up an alternative export process to export Subscriptions "
+"from large stores."
+msgstr ""
+
+#: includes/functions.php:96
+msgid ""
+"A WordPress or server error caused the exporter to fail with a blank screen, "
+"this is usually isolated to a memory or timeout issue, please get in touch "
+"so we can reproduce and resolve this."
+msgstr ""
+
+#: includes/functions.php:111
+msgid "Order export flag was cleared."
+msgstr ""
+
+#: includes/functions.php:118
+msgid ""
+"It looks like a previous Orders export failed before it could complete, we "
+"have removed the exported flag assigned to those Orders so they are not "
+"excluded from your next export using <em>Filter Orders by Order Date</em> > "
+"<em>Since last export</em>."
+msgstr ""
+
+#: includes/functions.php:131
+msgid ""
+"It looks like this site has moved or is a duplicate site. Store Exporter "
+"Deluxe has disabled scheduled exports on this site to prevent duplicate "
+"scheduled exports being generated from a staging or test environment."
+msgstr ""
+
+#: includes/functions.php:131
+msgid "Continue running scheduled exports"
+msgstr ""
+
+#: includes/functions.php:502 includes/order.php:3247 includes/order.php:4659
+#: includes/order.php:4726 includes/order.php:4779 includes/user.php:432
+msgid "N/A"
+msgstr ""
+
+#: includes/functions.php:1313
+#, php-format
+msgid ""
+"Refer to the following error and if you continue to have problems see our <a "
+"href=\"%s\" target=\"_blank\">Usage</a> document or contact us on <a href="
+"\"http://www.visser.com.au/premium-support/\" target=\"_blank\">Premium "
+"Support</a> for further assistance.<br /><br /><code>%s in %s on line %d</"
+"code>"
+msgstr ""
+
+#: includes/functions.php:1315
+msgid ""
+"The server's maximum execution time is too low to complete this export. This "
+"is commonly due to a low timeout limit set by your hosting provider or PHP "
+"Safe Mode being enabled."
+msgstr ""
+
+#: includes/functions.php:1317
+msgid ""
+"The server's maximum memory size is too low to complete this export. "
+"Consider increasing available memory to WordPress or reducing the size of "
+"your export."
+msgstr ""
+
+#: includes/functions.php:1319
+msgid ""
+"A fatal PHP error was encountered during the export process, we couldn't "
+"detect or diagnose it further."
+msgstr ""
+
+#: includes/functions.php:1324
+#, php-format
+msgid ""
+"[store-exporter-deluxe] Fatal error: %s - PHP response: %s in %s on line %s"
+msgstr ""
+
+#: includes/functions.php:1328
+#, php-format
+msgid ""
+"<strong>[store-exporter-deluxe]</strong> An unexpected error occurred. %s"
+msgstr ""
+
+#: includes/functions.php:1342 templates/admin/tabs-archive.php:4
+#: templates/admin/tabs-export.php:33
+msgid "Categories"
+msgstr ""
+
+#: includes/functions.php:1343 templates/admin/tabs-archive.php:5
+#: templates/admin/tabs-export.php:43
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/functions.php:1344 includes/product.php:2052
+#: templates/admin/tabs-archive.php:6 templates/admin/tabs-export.php:53
+msgid "Brands"
+msgstr ""
+
+#: includes/functions.php:1345 includes/user.php:158
+#: templates/admin/tabs-archive.php:7 templates/admin/tabs-export.php:63
+msgid "Orders"
+msgstr ""
+
+#: includes/functions.php:1346 templates/admin/tabs-archive.php:8
+#: templates/admin/tabs-export.php:73
+msgid "Customers"
+msgstr ""
+
+#: includes/functions.php:1347 templates/admin/tabs-archive.php:9
+#: templates/admin/tabs-export.php:83
+msgid "Users"
+msgstr "Brugere"
+
+#: includes/functions.php:1348 templates/admin/tabs-archive.php:10
+#: templates/admin/tabs-export.php:93
+msgid "Coupons"
+msgstr ""
+
+#: includes/functions.php:1349 templates/admin/tabs-archive.php:11
+#: templates/admin/tabs-export.php:103
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/functions.php:1351 includes/product_vendor.php:29
+msgid "Commission"
+msgstr ""
+
+#: includes/functions.php:1352 templates/admin/tabs-archive.php:13
+#: templates/admin/tabs-export.php:133
+msgid "Shipping Classes"
+msgstr ""
+
+#: includes/functions.php:1539
+msgid "Scheduled Export"
+msgstr ""
+
+#: includes/functions.php:1540
+msgid "Add Scheduled Export"
+msgstr ""
+
+#: includes/functions.php:1541
+msgid "Add New Scheduled Export"
+msgstr ""
+
+#: includes/functions.php:1542 includes/settings.php:217
+msgid "Edit"
+msgstr ""
+
+#: includes/functions.php:1543
+msgid "Edit Scheduled Export"
+msgstr ""
+
+#: includes/functions.php:1544
+msgid "New Scheduled Export"
+msgstr ""
+
+#: includes/functions.php:1545 includes/functions.php:1546
+msgid "View Scheduled Export"
+msgstr "Se planlagte eksport"
+
+#: includes/functions.php:1547
+msgid "Search Scheduled Exports"
+msgstr "Søg planlagte eksport"
+
+#: includes/functions.php:1548
+msgid "No scheduled exports found"
+msgstr "Ingen planlagte eksport fandt"
+
+#: includes/functions.php:1549
+msgid "No scheduled exports found in trash"
+msgstr "Ingen planlagte eksport findes i papirkurven"
+
+#: includes/functions.php:1550
+msgid "Parent Scheduled Exports"
+msgstr "Overordnede planlagt eksport"
+
+#: includes/functions.php:1551
+msgctxt "Admin menu name"
+msgid "Scheduled Exports"
+msgstr ""
+
+#: includes/functions.php:1556
+msgid "This is where scheduled exports for Store Exporter Deluxe are managed."
+msgstr ""
+"Dette er, hvor planlagte eksport til Store Exporter Deluxe administreres."
+
+#: includes/functions.php:1625
+msgid "My scheduled export"
+msgstr ""
+
+#: includes/functions.php:1772
+msgid "Store Exports (CSV)"
+msgstr ""
+
+#: includes/functions.php:1772
+msgid "Manage Store Exports (CSV)"
+msgstr ""
+
+#: includes/functions.php:1772
+#, php-format
+msgid "Store Export - CSV <span class=\"count\">(%s)</span>"
+msgid_plural "Store Exports - CSV <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:1773
+msgid "Store Exports (Excel 2003)"
+msgstr ""
+
+#: includes/functions.php:1773
+msgid "Manage Store Exports (Excel 2003)"
+msgstr ""
+
+#: includes/functions.php:1773
+#, php-format
+msgid "Store Export - Excel 2003 <span class=\"count\">(%s)</span>"
+msgid_plural "Store Exports - Excel 2003 <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:1774
+msgid "Store Exports (Excel 2007)"
+msgstr ""
+
+#: includes/functions.php:1774
+msgid "Manage Store Exports (Excel 2007)"
+msgstr ""
+
+#: includes/functions.php:1774
+#, php-format
+msgid "Store Export - Excel 2007 <span class=\"count\">(%s)</span>"
+msgid_plural "Store Exports - Excel 2007 <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:1775
+msgid "Store Exports (XML)"
+msgstr ""
+
+#: includes/functions.php:1775
+msgid "Manage Store Exports (XML)"
+msgstr ""
+
+#: includes/functions.php:1775
+#, php-format
+msgid "Store Export - XML <span class=\"count\">(%s)</span>"
+msgid_plural "Store Exports - XML <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:1776
+msgid "Store Exports (RSS)"
+msgstr ""
+
+#: includes/functions.php:1776
+msgid "Manage Store Exports (RSS)"
+msgstr ""
+
+#: includes/functions.php:1776
+#, php-format
+msgid "Store Export - RSS <span class=\"count\">(%s)</span>"
+msgid_plural "Store Exports - RSS <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/order.php:19
+msgid "Filter Orders by Order Date"
+msgstr ""
+
+#: includes/order.php:66
+msgid ""
+"Filter the dates of Orders to be included in the export. Default is the date "
+"of the first Order to today in the date format <code>DD/MM/YYYY</code>."
+msgstr ""
+
+#: includes/order.php:70 includes/scheduled_export.php:560
+msgid "Since last export"
+msgstr ""
+
+#: includes/order.php:71 includes/scheduled_export.php:561
+msgid ""
+"Export Orders which have not previously been included in an export. Decided "
+"by whether the <code>_woo_cd_exported</code> custom Post meta key has not "
+"been assigned to an Order."
+msgstr ""
+
+#: includes/order.php:110
+msgid "Filter Orders by Customer"
+msgstr ""
+
+#: includes/order.php:115
+msgid "Choose a Customer..."
+msgstr ""
+
+#: includes/order.php:116
+msgid "Show all customers"
+msgstr ""
+
+#: includes/order.php:128
+msgid ""
+"Filter Orders by Customer (unique e-mail address) to be included in the "
+"export."
+msgstr ""
+
+#: includes/order.php:128
+msgid "Enter a list of User ID's separated by a comma character."
+msgstr ""
+
+#: includes/order.php:128
+msgid "Default is to include all Orders."
+msgstr ""
+
+#: includes/order.php:142
+msgid "Filter Orders by Billing Country"
+msgstr ""
+
+#: includes/order.php:147 includes/scheduled_export.php:479
+msgid "Choose a Billing Country..."
+msgstr ""
+
+#: includes/order.php:148 includes/order.php:180
+#: includes/scheduled_export.php:480 includes/scheduled_export.php:495
+msgid "Show all Countries"
+msgstr ""
+
+#: includes/order.php:156 includes/order.php:186
+#: includes/scheduled_export.php:487 includes/scheduled_export.php:502
+msgid "No Countries were found."
+msgstr ""
+
+#: includes/order.php:160 includes/scheduled_export.php:485
+msgid ""
+"Filter Orders by Billing Country to be included in the export. Default is to "
+"include all Countries."
+msgstr ""
+
+#: includes/order.php:174
+msgid "Filter Orders by Shipping Country"
+msgstr ""
+
+#: includes/order.php:179 includes/scheduled_export.php:494
+msgid "Choose a Shipping Country..."
+msgstr ""
+
+#: includes/order.php:190 includes/scheduled_export.php:500
+msgid ""
+"Filter Orders by Shipping Country to be included in the export. Default is "
+"to include all Countries."
+msgstr ""
+
+#: includes/order.php:204
+msgid "Filter Orders by User Role"
+msgstr ""
+
+#: includes/order.php:219
+msgid ""
+"Select the User Roles you want to filter exported Orders by. Default is to "
+"include all User Role options."
+msgstr ""
+
+#: includes/order.php:231
+msgid "Filter Orders by Order ID"
+msgstr ""
+
+#: includes/order.php:235 includes/order.php:620 includes/order.php:732
+#: includes/subscription.php:100
+msgid "Order ID"
+msgstr ""
+
+#: includes/order.php:239
+msgid ""
+"Enter the Order ID's you want to filter exported Orders by. Multiple Order "
+"ID's can be entered separated by the ',' (comma) character. Default is to "
+"include all Orders."
+msgstr ""
+
+#: includes/order.php:257
+msgid "Filter Orders by Coupon Code"
+msgstr "Filter ordrer med kuponkode"
+
+#: includes/order.php:262
+msgid "Choose a Coupon..."
+msgstr "Vælg en kupon..."
+
+#: includes/order.php:268 templates/admin/tabs-export.php:635
+msgid "No Coupons were found."
+msgstr "Ingen Kuponner fundet"
+
+#: includes/order.php:272
+msgid ""
+"Select the Coupon Codes you want to filter exported Orders by. Default is to "
+"include all Orders with and without assigned Coupon Codes."
+msgstr ""
+
+#: includes/order.php:286
+msgid "Filter Orders by Payment Gateway"
+msgstr "Filter ordrer af betalingsgateway"
+
+#: includes/order.php:291 includes/scheduled_export.php:509
+msgid "Choose a Payment Gateway..."
+msgstr "Vælg betalingsgateway"
+
+#: includes/order.php:297 includes/scheduled_export.php:516
+msgid "No Payment Gateways were found."
+msgstr "Der blev ikke fundet nogen betalingsgateway."
+
+#: includes/order.php:301
+msgid ""
+"Select the Payment Gateways you want to filter exported Orders by. Default "
+"is to include all Orders."
+msgstr ""
+"Vælg betaling Gateways du vil filtrere udførte ordrer ved. Standard er at "
+"inddrage alle ordrer."
+
+#: includes/order.php:315
+msgid "Filter Orders by Shipping Method"
+msgstr "Filter ordrer af leveringsmetoden"
+
+#: includes/order.php:320 includes/scheduled_export.php:523
+msgid "Choose a Shipping Method..."
+msgstr "Vælg en leveringsmetode..."
+
+#: includes/order.php:326 includes/scheduled_export.php:530
+msgid "No Shipping Methods were found."
+msgstr "Der blev ikke fundet nogen betalingsgateway."
+
+#: includes/order.php:330
+msgid ""
+"Select the Shipping Methods you want to filter exported Orders by. Default "
+"is to include all Orders."
+msgstr ""
+"Vælg den betalingsgateway du vil filtrere udførte ordrer ved. Standard er at "
+"inddrage alle ordrer."
+
+#: includes/order.php:345
+msgid "Order items formatting"
+msgstr ""
+
+#: includes/order.php:349
+msgid "Place Order Items within a grouped single Order row"
+msgstr ""
+
+#: includes/order.php:350
+msgid ""
+"For example: <code>Order Items: SKU</code> cell might contain <code>SPECK-"
+"IPHONE|INCASE-NANO|-</code> for 3 Order items within an Order"
+msgstr ""
+
+#: includes/order.php:353
+msgid "Place Order Items on individual cells within a single Order row"
+msgstr ""
+
+#: includes/order.php:354
+msgid ""
+"For example: <code>Order Items: SKU</code> would become <code>Order Item #1: "
+"SKU</code> with <codeSPECK-IPHONE</code> for the first Order item within an "
+"Order"
+msgstr ""
+
+#: includes/order.php:357
+msgid "Place each Order Item within their own Order row"
+msgstr ""
+
+#: includes/order.php:358
+msgid ""
+"For example: An Order with 3 Order items will display a single Order item on "
+"each row"
+msgstr ""
+
+#: includes/order.php:361
+msgid "Choose how you would like Order Items to be presented within Orders."
+msgstr ""
+
+#: includes/order.php:377
+msgid "Max unique Order items"
+msgstr ""
+
+#: includes/order.php:381
+msgid ""
+"Manage the number of Order Item colums displayed when the 'Place Order Items "
+"on individual cells within a single Order row' Order items formatting option "
+"is selected."
+msgstr ""
+
+#: includes/order.php:400
+msgid "Order item types"
+msgstr ""
+
+#: includes/order.php:407
+msgid ""
+"Choose what Order Item types are included within the Orders export. Default "
+"is to include all Order Item types."
+msgstr ""
+
+#: includes/order.php:422
+msgid "Exported Order notes"
+msgstr ""
+
+#: includes/order.php:424
+msgid "Do not add private Order notes"
+msgstr ""
+
+#: includes/order.php:425
+msgid "Add private Order notes"
+msgstr ""
+
+#: includes/order.php:426
+msgid ""
+"Choose whether Order notes - e.g. Order was exported successfully or Order "
+"export flag was cleared - are assigned to exported Orders when using the "
+"Since last export Order Filter. Default is not to add Order notes."
+msgstr ""
+
+#: includes/order.php:440
+msgid "Filter Orders by Order Status"
+msgstr ""
+
+#: includes/order.php:455 includes/scheduled_export.php:433
+msgid ""
+"Select the Order Status you want to filter exported Orders by. Default is to "
+"include all Order Status options."
+msgstr ""
+
+#: includes/order.php:481
+msgid "Filter Orders by Product"
+msgstr ""
+
+#: includes/order.php:486 includes/product.php:253
+#: includes/scheduled_export.php:366 includes/scheduled_export.php:442
+msgid "Search for a Product&hellip;"
+msgstr ""
+
+#: includes/order.php:489 includes/product.php:256
+#: includes/scheduled_export.php:385 includes/scheduled_export.php:461
+msgid "Choose a Product..."
+msgstr ""
+
+#: includes/order.php:495 includes/product.php:262
+#: includes/scheduled_export.php:391 includes/scheduled_export.php:467
+#: templates/admin/tabs-export.php:195
+msgid "No Products were found."
+msgstr ""
+
+#: includes/order.php:500 includes/scheduled_export.php:473
+msgid ""
+"Select the Products you want to filter exported Orders by. Default is to "
+"include all Products."
+msgstr ""
+
+#: includes/order.php:518
+msgid "Filter Orders by Product Category"
+msgstr "Filter ordrer af betalingsgateway"
+
+#: includes/order.php:523 includes/product.php:20
+#: includes/scheduled_export.php:294
+msgid "Choose a Product Category..."
+msgstr "Vælg en produktkategori..."
+
+#: includes/order.php:529 includes/product.php:26
+#: includes/scheduled_export.php:301
+msgid "No Product Categories were found."
+msgstr "Ingen produktkategorier blev ikke fundet."
+
+#: includes/order.php:533
+msgid ""
+"Select the Product Categories you want to filter exported Orders by. Product "
+"Categories not assigned to Products are hidden from view. Default is to "
+"include all Product Categories."
+msgstr ""
+
+#: includes/order.php:550
+msgid "Filter Orders by Product Tag"
+msgstr ""
+
+#: includes/order.php:555 includes/product.php:52
+#: includes/scheduled_export.php:308
+msgid "Choose a Product Tag..."
+msgstr ""
+
+#: includes/order.php:561 includes/product.php:58
+#: includes/scheduled_export.php:315
+msgid "No Product Tags were found."
+msgstr ""
+
+#: includes/order.php:565
+msgid ""
+"Select the Product Tags you want to filter exported Orders by. Product Tags "
+"not assigned to Products are hidden from view. Default is to include all "
+"Product Tags."
+msgstr ""
+
+#: includes/order.php:587
+msgid "Filter Orders by Product Brand"
+msgstr ""
+
+#: includes/order.php:592 includes/product.php:89
+#: includes/scheduled_export.php:323
+msgid "Choose a Product Brand..."
+msgstr ""
+
+#: includes/order.php:598 includes/product.php:95
+#: includes/scheduled_export.php:330
+msgid "No Product Brands were found."
+msgstr ""
+
+#: includes/order.php:602
+msgid ""
+"Select the Product Brands you want to filter exported Orders by. Product "
+"Brands not assigned to Products are hidden from view. Default is to include "
+"all Product Brands."
+msgstr ""
+
+#: includes/order.php:617
+msgid "Order Sorting"
+msgstr ""
+
+#: includes/order.php:621
+msgid "Order Name"
+msgstr ""
+
+#: includes/order.php:630
+msgid ""
+"Select the sorting of Orders within the exported file. By default this is "
+"set to export Orders by Product ID in Desending order."
+msgstr ""
+
+#: includes/order.php:641
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/order.php:652
+msgid "Manage Custom Order Fields"
+msgstr ""
+
+#: includes/order.php:675
+msgid "Custom Order Fields"
+msgstr ""
+
+#: includes/order.php:677
+msgid ""
+"To include additional custom Order and Order Item meta in the Export Orders "
+"table above fill the Orders and Order Items text box then click Save Custom "
+"Fields."
+msgstr ""
+
+#: includes/order.php:682
+msgid "Order meta"
+msgstr ""
+
+#: includes/order.php:686
+msgid ""
+"Include additional custom Order meta in your export file by adding each "
+"custom Order meta name to a new line above. This is case sensitive.<br />For "
+"example: <code>Customer UA</code> (new line) <code>Customer IP Address</code>"
+msgstr ""
+
+#: includes/order.php:692
+msgid "Order Item meta"
+msgstr ""
+
+#: includes/order.php:696
+msgid ""
+"Include additional custom Order Item meta in your export file by adding each "
+"custom Order Item meta name to a new line above. This is case sensitive.<br /"
+">For example: <code>Personalized Message</code> (new line) "
+"<code>_line_total</code>"
+msgstr ""
+
+#: includes/order.php:704
+#, php-format
+msgid ""
+"For more information on custom Order and Order Item meta consult our <a href="
+"\"%s\" target=\"_blank\">online documentation</a>."
+msgstr ""
+
+#: includes/order.php:736
+msgid "Post ID"
+msgstr ""
+
+#: includes/order.php:740
+msgid "Order Total"
+msgstr ""
+
+#: includes/order.php:744
+msgid "Order Subtotal"
+msgstr ""
+
+#: includes/order.php:748 includes/order.php:1571
+msgid "Order Currency"
+msgstr ""
+
+#: includes/order.php:752
+msgid "Order Discount"
+msgstr ""
+
+#: includes/order.php:764
+msgid "Order Total Tax"
+msgstr ""
+
+#: includes/order.php:774
+msgid "Order Subtotal Excl. Tax"
+msgstr ""
+
+#: includes/order.php:784
+msgid "Sales Tax Total"
+msgstr ""
+
+#: includes/order.php:788
+msgid "Shipping Tax Total"
+msgstr ""
+
+#: includes/order.php:792
+msgid "Order Tax Percentage"
+msgstr ""
+
+#: includes/order.php:796
+msgid "Payment Gateway ID"
+msgstr ""
+
+#: includes/order.php:800
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/order.php:804
+msgid "Shipping Method ID"
+msgstr ""
+
+#: includes/order.php:808
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/order.php:812
+msgid "Shipping Cost"
+msgstr ""
+
+#: includes/order.php:816
+msgid "Shipping Weight"
+msgstr ""
+
+#: includes/order.php:820 includes/subscription.php:104
+msgid "Order Status"
+msgstr ""
+
+#: includes/order.php:828
+msgid "Order Key"
+msgstr ""
+
+#: includes/order.php:832
+msgid "Order Date"
+msgstr ""
+
+#: includes/order.php:836
+msgid "Order Time"
+msgstr ""
+
+#: includes/order.php:840
+msgid "Customer Message"
+msgstr ""
+
+#: includes/order.php:844
+msgid "Customer Note"
+msgstr ""
+
+#: includes/order.php:848
+msgid "Order Notes"
+msgstr ""
+
+#: includes/order.php:852
+msgid "Total Quantity"
+msgstr ""
+
+#: includes/order.php:856
+msgid "Total Order Items"
+msgstr ""
+
+#: includes/order.php:872
+msgid "Checkout IP Address"
+msgstr ""
+
+#: includes/order.php:876
+msgid "Checkout Browser Agent"
+msgstr ""
+
+#: includes/order.php:880
+msgid "Has Downloads"
+msgstr ""
+
+#: includes/order.php:884
+msgid "Has Downloaded"
+msgstr ""
+
+#: includes/order.php:904
+msgid "Billing: Street Address (Full)"
+msgstr ""
+
+#: includes/order.php:908
+msgid "Billing: Street Address 1"
+msgstr ""
+
+#: includes/order.php:912
+msgid "Billing: Street Address 2"
+msgstr ""
+
+#: includes/order.php:932
+msgid "Billing: Country (prefix)"
+msgstr ""
+
+#: includes/order.php:964
+msgid "Shipping: Street Address (Full)"
+msgstr ""
+
+#: includes/order.php:968
+msgid "Shipping: Street Address 1"
+msgstr ""
+
+#: includes/order.php:972
+msgid "Shipping: Street Address 2"
+msgstr ""
+
+#: includes/order.php:1000
+msgid "Order Items: Product ID"
+msgstr ""
+
+#: includes/order.php:1004
+msgid "Order Items: Variation ID"
+msgstr ""
+
+#: includes/order.php:1008
+msgid "Order Items: SKU"
+msgstr ""
+
+#: includes/order.php:1012
+msgid "Order Items: Product Name"
+msgstr ""
+
+#: includes/order.php:1016
+msgid "Order Items: Product Variation"
+msgstr ""
+
+#: includes/order.php:1020
+msgid "Order Items: Product Description"
+msgstr ""
+
+#: includes/order.php:1024
+msgid "Order Items: Product Excerpt"
+msgstr ""
+
+#: includes/order.php:1028
+msgid "Order Items: Tax Class"
+msgstr ""
+
+#: includes/order.php:1032
+msgid "Order Items: Quantity"
+msgstr ""
+
+#: includes/order.php:1036
+msgid "Order Items: Total"
+msgstr ""
+
+#: includes/order.php:1040
+msgid "Order Items: Subtotal"
+msgstr ""
+
+#: includes/order.php:1044
+msgid "Order Items: RRP"
+msgstr ""
+
+#: includes/order.php:1048
+msgid "Order Items: Stock"
+msgstr ""
+
+#: includes/order.php:1052
+msgid "Order Items: Tax"
+msgstr ""
+
+#: includes/order.php:1056
+msgid "Order Items: Tax Subtotal"
+msgstr ""
+
+#: includes/order.php:1063
+#, php-format
+msgid "Order Items: Tax Rate - %s"
+msgstr ""
+
+#: includes/order.php:1070
+msgid "Order Items: Type"
+msgstr ""
+
+#: includes/order.php:1074
+msgid "Order Items: Category"
+msgstr ""
+
+#: includes/order.php:1078
+msgid "Order Items: Tag"
+msgstr ""
+
+#: includes/order.php:1082
+msgid "Order Items: Total Sales"
+msgstr ""
+
+#: includes/order.php:1086
+msgid "Order Items: Weight"
+msgstr ""
+
+#: includes/order.php:1090
+msgid "Order Items: Total Weight"
+msgstr ""
+
+#: includes/order.php:1192
+msgid "Order Items: "
+msgstr ""
+
+#: includes/order.php:1219 includes/order.php:1582 includes/order.php:1638
+#: includes/order.php:1682 includes/order.php:1696
+#, php-format
+msgid "Order Items: %s"
+msgstr ""
+
+#: includes/order.php:1232
+msgid "Invoice Number"
+msgstr ""
+
+#: includes/order.php:1237
+msgid "Invoice Date"
+msgstr ""
+
+#: includes/order.php:1246
+msgid "PDF Invoice Number"
+msgstr ""
+
+#: includes/order.php:1251
+msgid "PDF Invoice Date"
+msgstr ""
+
+#: includes/order.php:1335 includes/order.php:1387
+#, php-format
+msgid "Billing: %s"
+msgstr ""
+
+#: includes/order.php:1350 includes/order.php:1402
+#, php-format
+msgid "Shipping: %s"
+msgstr ""
+
+#: includes/order.php:1365 includes/order.php:1417
+#, php-format
+msgid "Additional: %s"
+msgstr ""
+
+#: includes/order.php:1430
+msgid "Order Items: Checkout Add-ons ID"
+msgstr ""
+
+#: includes/order.php:1435
+msgid "Order Items: Checkout Add-ons Label"
+msgstr ""
+
+#: includes/order.php:1440
+msgid "Order Items: Checkout Add-ons Value"
+msgstr ""
+
+#: includes/order.php:1450
+msgid "Order Items: Brand"
+msgstr ""
+
+#: includes/order.php:1459
+msgid "Order Items: Product Vendor"
+msgstr ""
+
+#: includes/order.php:1468
+msgid "Order Total Cost of Goods"
+msgstr ""
+
+#: includes/order.php:1473
+msgid "Order Items: Cost of Goods"
+msgstr ""
+
+#: includes/order.php:1478
+msgid "Order Items: Total Cost of Goods"
+msgstr ""
+
+#: includes/order.php:1487
+msgid "Order Items: MSRP"
+msgstr ""
+
+#: includes/order.php:1496
+msgid "Order Items: Pickup Location"
+msgstr ""
+
+#: includes/order.php:1505
+msgid "Order Items: Booking ID"
+msgstr ""
+
+#: includes/order.php:1510
+msgid "Order Items: Booking Date"
+msgstr ""
+
+#: includes/order.php:1515
+msgid "Order Items: Booking Type"
+msgstr ""
+
+#: includes/order.php:1520
+msgid "Order Items: Start Date"
+msgstr ""
+
+#: includes/order.php:1525
+msgid "Order Items: End Date"
+msgstr ""
+
+#: includes/order.php:1536
+msgid "Order Items: Gravity Form ID"
+msgstr ""
+
+#: includes/order.php:1541
+msgid "Order Items: Gravity Form Label"
+msgstr ""
+
+#: includes/order.php:1558
+#, php-format
+msgid "Order Items: %s - %s"
+msgstr ""
+
+#: includes/order.php:1583
+msgid "WooCommerce TM Extra Product Options"
+msgstr ""
+
+#: includes/order.php:1594
+msgid "Number of Packages"
+msgstr ""
+
+#: includes/order.php:1595
+msgid "Ship to Multiple Addresses"
+msgstr ""
+
+#: includes/order.php:1603
+msgid "VAT ID"
+msgstr ""
+
+#: includes/order.php:1608
+msgid "VAT ID Validated"
+msgstr ""
+
+#: includes/order.php:1613
+msgid "VAT B2B Transaction"
+msgstr ""
+
+#: includes/order.php:1622
+msgid "Order Items: Barcode Type"
+msgstr ""
+
+#: includes/order.php:1626
+msgid "Order Items: Barcode"
+msgstr ""
+
+#: includes/order.php:1639 includes/product.php:2607
+msgid "Attribute"
+msgstr ""
+
+#: includes/order.php:1668
+msgid "Custom Order"
+msgstr ""
+
+#: includes/order.php:1683
+msgid "Custom Order Item"
+msgstr ""
+
+#: includes/order.php:1697 includes/product.php:2201
+msgid "Custom Product"
+msgstr ""
+
+#: includes/order.php:2071
+msgid "Order was exported successfully."
+msgstr ""
+
+#: includes/order.php:3005
+msgid "Line Item"
+msgstr ""
+
+#: includes/order.php:3006 includes/order.php:4753
+msgid "Coupon"
+msgstr ""
+
+#: includes/order.php:3007 includes/order.php:4741
+msgid "Fee"
+msgstr ""
+
+#: includes/order.php:3008 includes/order.php:4749
+msgid "Tax"
+msgstr ""
+
+#: includes/order.php:3009 includes/order.php:4745
+msgid "Shipping"
+msgstr ""
+
+#: includes/order.php:3272
+msgid "Not possible"
+msgstr ""
+
+#: includes/order.php:4405 includes/order.php:4407 includes/order.php:4409
+#: includes/order.php:4411 includes/order.php:4413 includes/order.php:4415
+#: includes/order.php:4417 includes/order.php:4419 includes/order.php:4421
+#: includes/order.php:4423 includes/order.php:4425 includes/order.php:4427
+#: includes/order.php:4429 includes/order.php:4431 includes/order.php:4433
+#: includes/order.php:4435 includes/order.php:4437 includes/order.php:4439
+#: includes/order.php:4441 includes/order.php:4443 includes/order.php:4445
+#: includes/order.php:4469 includes/order.php:4476 includes/order.php:4478
+#: includes/order.php:4480 includes/order.php:4487 includes/order.php:4493
+#: includes/order.php:4499 includes/order.php:4501 includes/order.php:4507
+#: includes/order.php:4513 includes/order.php:4515 includes/order.php:4528
+#: includes/order.php:4534 includes/order.php:4536 includes/order.php:4538
+#: includes/order.php:4540 includes/order.php:4542 includes/order.php:4550
+#: includes/order.php:4561 includes/order.php:4572 includes/order.php:4583
+#, php-format
+msgid "Order Item #%d: %s"
+msgstr ""
+
+#: includes/order.php:4460
+#, php-format
+msgid "Order Item #%d: Tax Rate - %s"
+msgstr ""
+
+#: includes/order.php:4520
+#, php-format
+msgid "Order Item #%d: %s - %s"
+msgstr ""
+
+#: includes/order.php:4737 includes/scheduled_export.php:364
+#: includes/scheduled_export.php:440
+msgid "Product"
+msgstr ""
+
+#: includes/order.php:4767 includes/product.php:1517
+msgid "Zero Rate"
+msgstr ""
+
+#: includes/order.php:4771 includes/product.php:1513
+msgid "Reduced Rate"
+msgstr ""
+
+#: includes/order.php:4775 includes/product.php:1384 includes/product.php:1509
+msgid "Standard"
+msgstr ""
+
+#: includes/product.php:15
+msgid "Filter Products by Product Category"
+msgstr ""
+
+#: includes/product.php:30
+msgid ""
+"Select the Product Categories you want to filter exported Products by. "
+"Product Categories not assigned to Products are hidden from view. Default is "
+"to include all Product Categories."
+msgstr ""
+
+#: includes/product.php:47
+msgid "Filter Products by Product Tag"
+msgstr ""
+
+#: includes/product.php:62
+msgid ""
+"Select the Product Tags you want to filter exported Products by. Product "
+"Tags not assigned to Products are hidden from view. Default is to include "
+"all Product Tags."
+msgstr ""
+
+#: includes/product.php:84
+msgid "Filter Products by Product Brand"
+msgstr ""
+
+#: includes/product.php:99
+msgid ""
+"Select the Product Brands you want to filter exported Products by. Product "
+"Brands not assigned to Products are hidden from view. Default is to include "
+"all Product Brands."
+msgstr ""
+
+#: includes/product.php:119
+msgid "Filter Products by Product Vendor"
+msgstr ""
+
+#: includes/product.php:124
+msgid "Choose a Product Vendor..."
+msgstr ""
+
+#: includes/product.php:134
+msgid ""
+"Select the Product Vendors you want to filter exported Products by. Product "
+"Vendors not assigned to Products are hidden from view. Default is to include "
+"all Product Vendors."
+msgstr ""
+
+#: includes/product.php:150
+msgid "Filter Products by Product Status"
+msgstr ""
+
+#: includes/product.php:155 includes/scheduled_export.php:338
+msgid "Choose a Product Status..."
+msgstr ""
+
+#: includes/product.php:161 includes/scheduled_export.php:345
+msgid "No Product Status were found."
+msgstr ""
+
+#: includes/product.php:165
+msgid ""
+"Select the Product Status options you want to filter exported Products by. "
+"Default is to include all Product Status options."
+msgstr ""
+
+#: includes/product.php:179
+msgid "Filter Products by Product Type"
+msgstr ""
+
+#: includes/product.php:184 includes/scheduled_export.php:352
+msgid "Choose a Product Type..."
+msgstr ""
+
+#: includes/product.php:190 includes/scheduled_export.php:359
+msgid "No Product Types were found."
+msgstr ""
+
+#: includes/product.php:194 includes/scheduled_export.php:357
+msgid ""
+"Select the Product Type's you want to filter exported Products by. Default "
+"is to include all Product Types except Variations."
+msgstr ""
+
+#: includes/product.php:206
+msgid "Filter Products by Stock Status"
+msgstr ""
+
+#: includes/product.php:209 includes/product.php:228
+#: includes/scheduled_export.php:404 includes/scheduled_export.php:413
+msgid "Include both"
+msgstr ""
+
+#: includes/product.php:210 includes/scheduled_export.php:405
+msgid "In stock"
+msgstr ""
+
+#: includes/product.php:211 includes/scheduled_export.php:406
+msgid "Out of stock"
+msgstr ""
+
+#: includes/product.php:213
+msgid ""
+"Select the Stock Status's you want to filter exported Products by. Default "
+"is to include all Stock Status's."
+msgstr ""
+
+#: includes/product.php:225
+msgid "Filter Products by Featured"
+msgstr ""
+
+#: includes/product.php:229 includes/product.php:1613
+#: includes/scheduled_export.php:412 includes/scheduled_export.php:414
+msgid "Featured"
+msgstr ""
+
+#: includes/product.php:230 includes/scheduled_export.php:415
+msgid "Un-featured"
+msgstr ""
+
+#: includes/product.php:232
+msgid ""
+"Select the Featured state you want to filter exported Products by. Default "
+"is to include all Products."
+msgstr ""
+
+#: includes/product.php:248
+msgid "Filter Products by Product"
+msgstr ""
+
+#: includes/product.php:267 includes/scheduled_export.php:397
+msgid ""
+"Select the Product's you want to filter exported Products by. Default is to "
+"include all Products."
+msgstr ""
+
+#: includes/product.php:285
+msgid "Filter Products by Language"
+msgstr ""
+
+#: includes/product.php:300
+msgid ""
+"Select the Language's you want to filter exported Products by. Default is to "
+"include all Language's."
+msgstr ""
+
+#: includes/product.php:316
+msgid "Product Sorting"
+msgstr ""
+
+#: includes/product.php:324 includes/product.php:1781
+msgid "Sort Order"
+msgstr ""
+
+#: includes/product.php:330
+msgid ""
+"Select the sorting of Products within the exported file. By default this is "
+"set to export Products by Product ID in Desending order."
+msgstr ""
+
+#: includes/product.php:344
+msgid "Up-sells formatting"
+msgstr ""
+
+#: includes/product.php:346
+msgid "Export Up-Sells as Product ID"
+msgstr ""
+
+#: includes/product.php:347
+msgid "Export Up-Sells as Product SKU"
+msgstr ""
+
+#: includes/product.php:348
+msgid ""
+"Choose the up-sell formatting that is accepted by your WooCommerce import "
+"Plugin (e.g. Product Importer Deluxe, Product Import Suite, etc.)."
+msgstr ""
+
+#: includes/product.php:364
+msgid "Cross-sells formatting"
+msgstr ""
+
+#: includes/product.php:366
+msgid "Export Cross-Sells as Product ID"
+msgstr ""
+
+#: includes/product.php:367
+msgid "Export Cross-Sells as Product SKU"
+msgstr ""
+
+#: includes/product.php:368
+msgid ""
+"Choose the cross-sell formatting that is accepted by your WooCommerce import "
+"Plugin (e.g. Product Importer Deluxe, Product Import Suite, etc.)."
+msgstr ""
+
+#: includes/product.php:384
+msgid "Variation formatting"
+msgstr ""
+
+#: includes/product.php:386
+msgid "Leave empty Variant details intact"
+msgstr ""
+
+#: includes/product.php:387
+msgid "Default Variant details to Parent Product"
+msgstr ""
+
+#: includes/product.php:388
+msgid ""
+"Choose the default formatting rule that is applied to Product Variations."
+msgstr ""
+
+#: includes/product.php:403
+msgid "Description/Excerpt formatting"
+msgstr ""
+
+#: includes/product.php:405
+msgid "Leave HTML tags from Description/Excerpt intact"
+msgstr ""
+
+#: includes/product.php:406
+msgid "Strip HTML tags from Description/Excerpt"
+msgstr ""
+
+#: includes/product.php:407
+msgid ""
+"Choose the HTML tag formatting rule that is applied to the Description/"
+"Excerpt within the Product, Category, Tag, Brand and Order export."
+msgstr ""
+
+#: includes/product.php:430
+msgid "Custom Product Fields"
+msgstr ""
+
+#: includes/product.php:432
+msgid ""
+"To include additional custom Product meta or custom Attributes in the Export "
+"Products table above fill the meta text box then click Save Custom Fields."
+msgstr ""
+
+#: includes/product.php:437
+msgid "Product meta"
+msgstr ""
+
+#: includes/product.php:441
+msgid ""
+"Include additional custom Product meta in your export file by adding each "
+"custom Product meta name to a new line above.<br />For example: "
+"<code>Customer UA</code> (new line) <code>Customer IP Address</code>"
+msgstr ""
+
+#: includes/product.php:447
+msgid "Custom attribute"
+msgstr ""
+
+#: includes/product.php:451
+msgid ""
+"Include custom Attributes in your export file by adding each custom "
+"Attribute name - typically in lowercase, e.g. Size becomes size - to a new "
+"line above.<br />For example: <code>condition</code> (new line) "
+"<code>colour</code>"
+msgstr ""
+
+#: includes/product.php:461
+#, php-format
+msgid ""
+"For more information on custom Product meta and Attributes consult our <a "
+"href=\"%s\" target=\"_blank\">online documentation</a>."
+msgstr ""
+
+#: includes/product.php:488
+msgid "Custom Product Add-ons"
+msgstr ""
+
+#: includes/product.php:492
+msgid ""
+"Include custom Product Add-ons (not Global Add-ons) linked to individual "
+"Products within in your export file by adding the Group Name of each Product "
+"Addon to a new line above.<br />For example: <code>Customer UA</code> (new "
+"line) <code>Customer IP Address</code>"
+msgstr ""
+
+#: includes/product.php:509
+msgid "Product gallery formatting"
+msgstr ""
+
+#: includes/product.php:511
+msgid "Export Product Gallery as Post ID"
+msgstr ""
+
+#: includes/product.php:512
+msgid "Export Product Gallery as Image URL"
+msgstr ""
+
+#: includes/product.php:514
+msgid "Export Product Gallery as a single combined image cell"
+msgstr ""
+
+#: includes/product.php:515
+msgid "Export Product Gallery as individual image cells"
+msgstr ""
+
+#: includes/product.php:516
+msgid ""
+"Choose the product gallery formatting that is accepted by your WooCommerce "
+"import Plugin (e.g. Product Importer Deluxe, Product Import Suite, etc.)."
+msgstr ""
+
+#: includes/product.php:520
+msgid "Max unique Product Gallery images"
+msgstr ""
+
+#: includes/product.php:523
+msgid ""
+"Manage the number of Product Gallery colums displayed when the 'Export "
+"Product Gallery as individual image cells' Product gallery formatting option "
+"is selected."
+msgstr ""
+
+#: includes/product.php:873 includes/product.php:1538
+msgid "Variation"
+msgstr ""
+
+#: includes/product.php:1016 includes/subscription.php:48
+#, php-format
+msgid "SKU: %s"
+msgstr ""
+
+#: includes/product.php:1063
+msgid "Uncategorized"
+msgstr ""
+
+#: includes/product.php:1324
+#, php-format
+msgid "Global Product Add-on: %s"
+msgstr ""
+
+#: includes/product.php:1341
+#, php-format
+msgid "Custom Product Add-on: %s"
+msgstr ""
+
+#: includes/product.php:1361
+msgid "Catalog & Search"
+msgstr ""
+
+#: includes/product.php:1365
+msgid "Catalog"
+msgstr ""
+
+#: includes/product.php:1369
+msgid "Search"
+msgstr ""
+
+#: includes/product.php:1373 templates/admin/tabs-fields.php:11
+msgid "Hidden"
+msgstr ""
+
+#: includes/product.php:1389
+msgid "Application"
+msgstr ""
+
+#: includes/product.php:1393
+msgid "Music"
+msgstr ""
+
+#: includes/product.php:1409 includes/product.php:1463
+msgid "In Stock"
+msgstr ""
+
+#: includes/product.php:1413
+msgid "Available For Order"
+msgstr ""
+
+#: includes/product.php:1417
+msgid "Pre-order"
+msgstr ""
+
+#: includes/product.php:1433
+msgid "New"
+msgstr ""
+
+#: includes/product.php:1437
+msgid "Refurbished"
+msgstr ""
+
+#: includes/product.php:1441
+msgid "Used"
+msgstr ""
+
+#: includes/product.php:1467
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/product.php:1483
+msgid "Taxable"
+msgstr ""
+
+#: includes/product.php:1487
+msgid "Shipping Only"
+msgstr ""
+
+#: includes/product.php:1491
+msgid "None"
+msgstr ""
+
+#: includes/product.php:1532
+msgid "Simple Product"
+msgstr ""
+
+#: includes/product.php:1533 includes/product.php:1621
+msgid "Downloadable"
+msgstr ""
+
+#: includes/product.php:1534
+msgid "Grouped Product"
+msgstr ""
+
+#: includes/product.php:1535 includes/product.php:1617
+msgid "Virtual"
+msgstr "Virtuel"
+
+#: includes/product.php:1536
+msgid "Variable"
+msgstr ""
+
+#: includes/product.php:1537
+msgid "External/Affiliate Product"
+msgstr ""
+
+#: includes/product.php:1539
+msgid "Simple Subscription"
+msgstr ""
+
+#: includes/product.php:1540
+msgid "Variable Subscription"
+msgstr ""
+
+#: includes/product.php:1557
+msgid "Parent ID"
+msgstr ""
+
+#: includes/product.php:1561
+msgid "Parent SKU"
+msgstr ""
+
+#: includes/product.php:1577 includes/product_vendor.php:17
+msgid "Slug"
+msgstr ""
+
+#: includes/product.php:1581
+msgid "Permalink"
+msgstr ""
+
+#: includes/product.php:1585
+msgid "Product URL"
+msgstr ""
+
+#: includes/product.php:1589 includes/product_vendor.php:21
+msgid "Description"
+msgstr ""
+
+#: includes/product.php:1593
+msgid "Excerpt"
+msgstr ""
+
+#: includes/product.php:1597
+msgid "Product Published"
+msgstr ""
+
+#: includes/product.php:1601
+msgid "Product Modified"
+msgstr ""
+
+#: includes/product.php:1609
+msgid "Visibility"
+msgstr "Synlighed"
+
+#: includes/product.php:1625
+msgid "Price"
+msgstr ""
+
+#: includes/product.php:1629
+msgid "Sale Price"
+msgstr ""
+
+#: includes/product.php:1633
+msgid "Sale Price Dates From"
+msgstr ""
+
+#: includes/product.php:1637
+msgid "Sale Price Dates To"
+msgstr ""
+
+#: includes/product.php:1641
+msgid "Weight"
+msgstr "Vægt"
+
+#: includes/product.php:1645
+msgid "Weight Unit"
+msgstr ""
+
+#: includes/product.php:1649
+msgid "Height"
+msgstr ""
+
+#: includes/product.php:1653
+msgid "Height Unit"
+msgstr ""
+
+#: includes/product.php:1657
+msgid "Width"
+msgstr "Bredde"
+
+#: includes/product.php:1661
+msgid "Width Unit"
+msgstr ""
+
+#: includes/product.php:1665
+msgid "Length"
+msgstr ""
+
+#: includes/product.php:1669
+msgid "Length Unit"
+msgstr ""
+
+#: includes/product.php:1673
+msgid "Category"
+msgstr ""
+
+#: includes/product.php:1677
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/product.php:1681
+msgid "Featured Image"
+msgstr ""
+
+#: includes/product.php:1685
+msgid "Featured Image Thumbnail"
+msgstr ""
+
+#: includes/product.php:1689
+msgid "Product Gallery"
+msgstr ""
+
+#: includes/product.php:1693
+msgid "Product Gallery Thumbnail"
+msgstr ""
+
+#: includes/product.php:1697
+msgid "Tax Status"
+msgstr ""
+
+#: includes/product.php:1701
+msgid "Tax Class"
+msgstr ""
+
+#: includes/product.php:1705
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/product.php:1709
+msgid "Download File Name"
+msgstr ""
+
+#: includes/product.php:1713
+msgid "Download File URL Path"
+msgstr ""
+
+#: includes/product.php:1717
+msgid "Download Limit"
+msgstr ""
+
+#: includes/product.php:1721
+msgid "Download Expiry"
+msgstr ""
+
+#: includes/product.php:1725
+msgid "Download Type"
+msgstr ""
+
+#: includes/product.php:1729
+msgid "Manage Stock"
+msgstr ""
+
+#: includes/product.php:1733
+msgid "Quantity"
+msgstr ""
+
+#: includes/product.php:1737
+msgid "Stock Status"
+msgstr ""
+
+#: includes/product.php:1741
+msgid "Allow Backorders"
+msgstr ""
+
+#: includes/product.php:1745
+msgid "Sold Individually"
+msgstr ""
+
+#: includes/product.php:1749
+msgid "Total Sales"
+msgstr ""
+
+#: includes/product.php:1753
+msgid "Up-Sells"
+msgstr ""
+
+#: includes/product.php:1757
+msgid "Cross-Sells"
+msgstr ""
+
+#: includes/product.php:1761
+msgid "External URL"
+msgstr ""
+
+#: includes/product.php:1765
+msgid "Button Text"
+msgstr ""
+
+#: includes/product.php:1769
+msgid "Purchase Note"
+msgstr ""
+
+#: includes/product.php:1773
+msgid "Product Status"
+msgstr ""
+
+#: includes/product.php:1777
+msgid "Enable Reviews"
+msgstr ""
+
+#: includes/product.php:1866 includes/product.php:1880
+#, php-format
+msgid "Attribute: %s"
+msgstr ""
+
+#: includes/product.php:1881
+msgid "Custom Attribute"
+msgstr ""
+
+#: includes/product.php:1892
+msgid "Default Attributes"
+msgstr ""
+
+#: includes/product.php:1914
+msgid "Advanced Google Product Feed - Availability"
+msgstr ""
+
+#: includes/product.php:1918
+msgid "Advanced Google Product Feed - Condition"
+msgstr ""
+
+#: includes/product.php:1922
+msgid "Advanced Google Product Feed - Brand"
+msgstr ""
+
+#: includes/product.php:1926
+msgid "Advanced Google Product Feed - Product Type"
+msgstr ""
+
+#: includes/product.php:1930
+msgid "Advanced Google Product Feed - Google Product Category"
+msgstr ""
+
+#: includes/product.php:1934
+msgid "Advanced Google Product Feed - Global Trade Item Number (GTIN)"
+msgstr ""
+
+#: includes/product.php:1938
+msgid "Advanced Google Product Feed - Manufacturer Part Number (MPN)"
+msgstr ""
+
+#: includes/product.php:1942
+msgid "Advanced Google Product Feed - Gender"
+msgstr ""
+
+#: includes/product.php:1946
+msgid "Advanced Google Product Feed - Age Group"
+msgstr ""
+
+#: includes/product.php:1950
+msgid "Advanced Google Product Feed - Colour"
+msgstr ""
+
+#: includes/product.php:1954
+msgid "Advanced Google Product Feed - Size"
+msgstr ""
+
+#: includes/product.php:1962
+msgid "All in One SEO - Keywords"
+msgstr ""
+
+#: includes/product.php:1966
+msgid "All in One SEO - Description"
+msgstr ""
+
+#: includes/product.php:1970
+msgid "All in One SEO - Title"
+msgstr ""
+
+#: includes/product.php:1974
+msgid "All in One SEO - Title Attributes"
+msgstr ""
+
+#: includes/product.php:1978
+msgid "All in One SEO - Menu Label"
+msgstr ""
+
+#: includes/product.php:1986
+msgid "WordPress SEO - Focus Keyword"
+msgstr ""
+
+#: includes/product.php:1990
+msgid "WordPress SEO - Meta Description"
+msgstr ""
+
+#: includes/product.php:1994
+msgid "WordPress SEO - SEO Title"
+msgstr ""
+
+#: includes/product.php:1998
+msgid "WordPress SEO - Google+ Description"
+msgstr ""
+
+#: includes/product.php:2002
+msgid "WordPress SEO - Facebook Description"
+msgstr ""
+
+#: includes/product.php:2010
+msgid "Ultimate SEO - Title Tag"
+msgstr ""
+
+#: includes/product.php:2014
+msgid "Ultimate SEO - Meta Description"
+msgstr ""
+
+#: includes/product.php:2018
+msgid "Ultimate SEO - Meta Keywords"
+msgstr ""
+
+#: includes/product.php:2022
+msgid "Ultimate SEO - Social Title"
+msgstr ""
+
+#: includes/product.php:2026
+msgid "Ultimate SEO - Social Description"
+msgstr ""
+
+#: includes/product.php:2030
+msgid "Ultimate SEO - NoIndex"
+msgstr ""
+
+#: includes/product.php:2034
+msgid "Ultimate SEO - Disable Autolinks"
+msgstr ""
+
+#: includes/product.php:2042
+msgid "MSRP"
+msgstr ""
+
+#: includes/product.php:2043
+msgid "Manufacturer Suggested Retail Price (MSRP)"
+msgstr ""
+
+#: includes/product.php:2080
+msgid "Product Vendor ID's"
+msgstr ""
+
+#: includes/product.php:2084
+msgid "Vendor Commission"
+msgstr ""
+
+#: includes/product.php:2092
+msgid "Wholesale Price"
+msgstr ""
+
+#: includes/product.php:2096
+msgid "Wholesale Text"
+msgstr ""
+
+#: includes/product.php:2117
+msgid "Subscription Price"
+msgstr ""
+
+#: includes/product.php:2121
+msgid "Subscription Period Interval"
+msgstr ""
+
+#: includes/product.php:2125
+msgid "Subscription Period"
+msgstr ""
+
+#: includes/product.php:2129
+msgid "Subscription Length"
+msgstr ""
+
+#: includes/product.php:2133
+msgid "Subscription Sign-up Fee"
+msgstr ""
+
+#: includes/product.php:2137
+msgid "Subscription Trial Length"
+msgstr ""
+
+#: includes/product.php:2141
+msgid "Subscription Trial Period"
+msgstr ""
+
+#: includes/product.php:2145
+msgid "Limit Subscription"
+msgstr ""
+
+#: includes/product.php:2153
+msgid "Booking Has Persons"
+msgstr ""
+
+#: includes/product.php:2157
+msgid "Booking Has Resources"
+msgstr ""
+
+#: includes/product.php:2161
+msgid "Booking Base Cost"
+msgstr ""
+
+#: includes/product.php:2165
+msgid "Booking Block Cost"
+msgstr ""
+
+#: includes/product.php:2169
+msgid "Booking Display Cost"
+msgstr ""
+
+#: includes/product.php:2173
+msgid "Booking Requires Confirmation"
+msgstr ""
+
+#: includes/product.php:2177
+msgid "Booking Can Be Cancelled"
+msgstr ""
+
+#: includes/product.php:2185
+msgid "Barcode Type"
+msgstr ""
+
+#: includes/product.php:2189
+msgid "Barcode"
+msgstr ""
+
+#: includes/product.php:2318
+msgid "variation"
+msgstr ""
+
+#: includes/product.php:2615
+msgid "Term Name"
+msgstr ""
+
+#: includes/product.php:2619
+msgid "Term Slug"
+msgstr ""
+
+#: includes/product.php:2623
+msgid "Term Parent"
+msgstr ""
+
+#: includes/product.php:2627
+msgid "Term Description"
+msgstr ""
+
+#: includes/product.php:2708
+#, php-format
+msgid "%s #%d"
+msgstr ""
+
+#: includes/product_vendor.php:13 includes/settings.php:193
+#: includes/user.php:47
+msgid "Name"
+msgstr ""
+
+#: includes/product_vendor.php:25
+msgid "Product Vendor URL"
+msgstr ""
+
+#: includes/product_vendor.php:33
+msgid "PayPal E-mail Address"
+msgstr ""
+
+#: includes/product_vendor.php:37
+msgid "Vendor Username"
+msgstr ""
+
+#: includes/product_vendor.php:41
+msgid "Vendor User ID"
+msgstr ""
+
+#: includes/scheduled_export.php:28 includes/scheduled_export.php:72
+#, php-format
+msgid ""
+"We couldn't load the widget template file <code>%s</code> within <code>%s</"
+"code>, this file should be present."
+msgstr ""
+
+#: includes/scheduled_export.php:106
+msgid "Number of scheduled exports"
+msgstr ""
+
+#: includes/scheduled_export.php:108
+msgid "Control then number of recent scheduled exports that are shown."
+msgstr ""
+
+#: includes/scheduled_export.php:202
+msgid "General"
+msgstr ""
+
+#: includes/scheduled_export.php:207
+msgid "Filters"
+msgstr ""
+
+#: includes/scheduled_export.php:212
+msgid "Method"
+msgstr ""
+
+#: includes/scheduled_export.php:217
+msgid "Scheduling"
+msgstr ""
+
+#: includes/scheduled_export.php:234
+#: templates/admin/media-export_details.php:10
+msgid "Export type"
+msgstr ""
+
+#: includes/scheduled_export.php:241
+msgid "Select the export type you want to export."
+msgstr ""
+
+#: includes/scheduled_export.php:243
+msgid "No export types were found."
+msgstr ""
+
+#: includes/scheduled_export.php:252
+msgid "Comma Separated Values"
+msgstr ""
+
+#: includes/scheduled_export.php:254
+msgid "Excel XLS"
+msgstr ""
+
+#: includes/scheduled_export.php:254
+msgid "Excel 97-2003"
+msgstr ""
+
+#: includes/scheduled_export.php:255
+msgid "Excel XLSX"
+msgstr ""
+
+#: includes/scheduled_export.php:255
+msgid "Excel 2007-2013"
+msgstr ""
+
+#: includes/scheduled_export.php:257
+msgid ""
+"Adjust the export format to generate different export file formats. Default "
+"is CSV."
+msgstr ""
+
+#: includes/scheduled_export.php:263 includes/settings.php:341
+msgid "Export method"
+msgstr ""
+
+#: includes/scheduled_export.php:265 includes/settings.php:343
+msgid "Archive to WordPress Media"
+msgstr ""
+
+#: includes/scheduled_export.php:266 includes/settings.php:345
+msgid "Send as e-mail"
+msgstr ""
+
+#: includes/scheduled_export.php:267 includes/settings.php:346
+msgid "POST to remote URL"
+msgstr ""
+
+#: includes/scheduled_export.php:268 includes/settings.php:347
+msgid "Upload to remote FTP/SFTP"
+msgstr ""
+
+#: includes/scheduled_export.php:270
+msgid ""
+"Choose what Store Exporter Deluxe does with the generated export. Default is "
+"to archive the export to the WordPress Media for archival purposes."
+msgstr ""
+
+#: includes/scheduled_export.php:276 includes/settings.php:267
+#: includes/settings.php:360
+msgid "Export fields"
+msgstr ""
+
+#: includes/scheduled_export.php:277 includes/settings.php:271
+msgid "Include all Export Fields for the requested Export Type"
+msgstr ""
+
+#: includes/scheduled_export.php:278 includes/settings.php:272
+msgid ""
+"Use the saved Export Fields preference set on the Export screen for the "
+"requested Export Type"
+msgstr ""
+
+#: includes/scheduled_export.php:280 includes/settings.php:274
+msgid ""
+"Control whether all known export fields are included or only checked fields "
+"from the Export Fields section on the Export screen for each Export Type. "
+"Default is to include all export fields."
+msgstr ""
+
+#: includes/scheduled_export.php:292
+msgid "Product category"
+msgstr ""
+
+#: includes/scheduled_export.php:299
+msgid ""
+"Select the Product Category's you want to filter exported Products by. "
+"Default is to include all Product Categories."
+msgstr ""
+
+#: includes/scheduled_export.php:306
+msgid "Product tag"
+msgstr ""
+
+#: includes/scheduled_export.php:313
+msgid ""
+"Select the Product Tag's you want to filter exported Products by. Default is "
+"to include all Product Tags."
+msgstr ""
+
+#: includes/scheduled_export.php:321
+msgid "Product brand"
+msgstr ""
+
+#: includes/scheduled_export.php:328
+msgid ""
+"Select the Product Brand's you want to filter exported Products by. Default "
+"is to include all Product Brands."
+msgstr ""
+
+#: includes/scheduled_export.php:336
+msgid "Product status"
+msgstr ""
+
+#: includes/scheduled_export.php:343
+msgid ""
+"Select the Product Status's you want to filter exported Products by. Default "
+"is to include all Product Status's."
+msgstr ""
+
+#: includes/scheduled_export.php:350
+msgid "Product type"
+msgstr ""
+
+#: includes/scheduled_export.php:403
+msgid "Stock status"
+msgstr ""
+
+#: includes/scheduled_export.php:426
+msgid "Order status"
+msgstr ""
+
+#: includes/scheduled_export.php:435
+msgid "No Order Status were found."
+msgstr ""
+
+#: includes/scheduled_export.php:477
+msgid "Billing country"
+msgstr ""
+
+#: includes/scheduled_export.php:492
+msgid "Shipping country"
+msgstr ""
+
+#: includes/scheduled_export.php:507
+msgid "Payment gateway"
+msgstr ""
+
+#: includes/scheduled_export.php:514
+msgid ""
+"Select the Payment Gateways you want to filter exported Orders by. Default "
+"is to include all Payment Gateways."
+msgstr ""
+
+#: includes/scheduled_export.php:521
+msgid "Shipping method"
+msgstr ""
+
+#: includes/scheduled_export.php:528
+msgid ""
+"Select the Shipping Methods you want to filter exported Orders by. Default "
+"is to include all Shipping Methods."
+msgstr ""
+
+#: includes/scheduled_export.php:537
+msgid "Order date"
+msgstr ""
+
+#: includes/scheduled_export.php:538 templates/admin/tabs-archive.php:2
+msgid "All"
+msgstr ""
+
+#: includes/scheduled_export.php:559 templates/admin/tabs-export.php:966
+msgid "to"
+msgstr "til"
+
+#: includes/scheduled_export.php:572
+msgid "User role"
+msgstr ""
+
+#: includes/scheduled_export.php:581
+msgid ""
+"Select the User Roles you want to filter exported Users by. Default is to "
+"include all User Roles."
+msgstr ""
+
+#: includes/scheduled_export.php:592
+msgid "No filter options are available for this export type."
+msgstr ""
+
+#: includes/scheduled_export.php:604
+msgid "E-mail recipient"
+msgstr ""
+
+#: includes/scheduled_export.php:604
+msgid ""
+"Set the recipient of scheduled export e-mails, multiple recipients can be "
+"added using the <code><attr title=\"comma\">,</attr></code> separator.<br /"
+"><br />Default is the Blog Administrator e-mail address set on the WordPress "
+"&raquo; Settings screen."
+msgstr ""
+
+#: includes/scheduled_export.php:606
+msgid "E-mail subject"
+msgstr ""
+
+#: includes/scheduled_export.php:606
+msgid ""
+"Set the subject of scheduled export e-mails.<br /><br />Tags can be used: "
+"<code>%store_name%</code>, <code>%export_type%</code>, <code>%export_filename"
+"%</code>."
+msgstr ""
+
+#: includes/scheduled_export.php:606
+msgid "Daily Product stock levels"
+msgstr ""
+
+#: includes/scheduled_export.php:617
+msgid "Remote POST URL"
+msgstr ""
+
+#: includes/scheduled_export.php:617
+msgid ""
+"Set the remote POST address for scheduled exports, this is for integration "
+"with web applications that accept a remote form POST. Default is empty."
+msgstr ""
+
+#: includes/scheduled_export.php:628
+msgid "Host"
+msgstr ""
+
+#: includes/scheduled_export.php:630
+msgid "Enter the Host minus <code>ftp://</code> or <code>ftps://</code>"
+msgstr ""
+
+#: includes/scheduled_export.php:631
+msgid "Port"
+msgstr ""
+
+#: includes/scheduled_export.php:636
+msgid "Protocol"
+msgstr ""
+
+#: includes/scheduled_export.php:638
+msgid "FTP - File Transfer Protocol"
+msgstr ""
+
+#: includes/scheduled_export.php:639
+msgid "SFTP - SSH File Transfer Protocol"
+msgstr ""
+
+#: includes/scheduled_export.php:642
+msgid ""
+"The SFTP - SSH File Transfer Protocol option is not available as the "
+"required function ssh2_connect() is disabled within your WordPress site."
+msgstr ""
+
+#: includes/scheduled_export.php:652
+msgid "Password"
+msgstr ""
+
+#: includes/scheduled_export.php:652
+msgid "(password is saved, fill this field to change it)"
+msgstr ""
+
+#: includes/scheduled_export.php:656
+msgid "File path"
+msgstr ""
+
+#: includes/scheduled_export.php:657
+msgid ""
+"Do not provide the filename within File path as it will be generated for you "
+"or rely on the fixed filename entered below.<br /><br />For file path "
+"example: <code>wp-content/uploads/exports/</code>"
+msgstr ""
+
+#: includes/scheduled_export.php:661
+msgid "Fixed filename"
+msgstr ""
+
+#: includes/scheduled_export.php:662
+msgid ""
+"The export filename can be set within the Fixed filename field otherwise it "
+"defaults to the Export filename provided within General Settings above.<br /"
+"><br />Tags can be used: "
+msgstr ""
+
+#: includes/scheduled_export.php:669
+msgid "Transfer mode"
+msgstr ""
+
+#: includes/scheduled_export.php:671
+msgid "Auto"
+msgstr "Automatisk"
+
+#: includes/scheduled_export.php:672 includes/subscription.php:487
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/scheduled_export.php:673
+msgid "Passive"
+msgstr "Passiv"
+
+#: includes/scheduled_export.php:678
+msgid "Timeout"
+msgstr "Timeout"
+
+#: includes/scheduled_export.php:686 includes/settings.php:355
+msgid "No export method options are available for this export method."
+msgstr ""
+"Ingen eksport metodeindstillinger er tilgængelige for denne eksportmetode."
+
+#: includes/scheduled_export.php:696 includes/settings.php:197
+msgid "Frequency"
+msgstr "Tidsplan"
+
+#: includes/scheduled_export.php:697
+msgid "Hourly"
+msgstr "En gang i timen"
+
+#: includes/scheduled_export.php:698
+msgid "Daily"
+msgstr "Daglig"
+
+#: includes/scheduled_export.php:699
+msgid "Twice Daily"
+msgstr "To gange dagligt"
+
+#: includes/scheduled_export.php:700
+msgid "Weekly"
+msgstr "Ugentlig"
+
+#: includes/scheduled_export.php:701
+msgid "Monthly"
+msgstr "Månedlig"
+
+#: includes/scheduled_export.php:702
+msgid "Once every "
+msgstr "En gang hver"
+
+#: includes/scheduled_export.php:704
+msgid "minutes"
+msgstr "minutter"
+
+#: includes/scheduled_export.php:705
+msgid "One time"
+msgstr "En gang"
+
+#: includes/scheduled_export.php:711
+msgid "Commence"
+msgstr "Begynd"
+
+#: includes/scheduled_export.php:712
+msgid "From now"
+msgstr "Fra nu"
+
+#: includes/scheduled_export.php:713
+msgid "From"
+msgstr "Fra"
+
+#: includes/scheduled_export.php:713
+msgid "at this time"
+msgstr "på dette tidspunkt"
+
+#: includes/settings.php:5 includes/settings.php:99
+#: templates/admin/tabs-overview.php:62
+msgid "XML Settings"
+msgstr "XML-indstillinger"
+
+#: includes/settings.php:6 includes/settings.php:125
+msgid "RSS Settings"
+msgstr "RSS-indstillinger"
+
+#: includes/settings.php:8 includes/settings.php:237
+#: templates/admin/tabs-overview.php:68
+msgid "CRON Exports"
+msgstr "CRON eksport"
+
+#: includes/settings.php:9 includes/settings.php:281
+#: templates/admin/tabs-overview.php:71
+msgid "Orders Screen"
+msgstr ""
+
+#: includes/settings.php:10 includes/settings.php:302
+msgid "Export Triggers"
+msgstr ""
+
+#: includes/settings.php:23
+msgid "Header formatting"
+msgstr ""
+
+#: includes/settings.php:27
+msgid "Include export field column headers"
+msgstr ""
+
+#: includes/settings.php:28
+msgid "Do not include export field column headers"
+msgstr ""
+
+#: includes/settings.php:30
+msgid ""
+"Choose the header format that suits your spreadsheet software (e.g. Excel, "
+"OpenOffice, etc.). This rule applies to CSV, XLS and XLSX export types."
+msgstr ""
+
+#: includes/settings.php:70
+msgid "a little while... just waiting on WP-CRON to refresh its task list"
+msgstr ""
+
+#: includes/settings.php:72
+#, php-format
+msgid "%s (in %s)"
+msgstr "%s (i %s)"
+
+#: includes/settings.php:104
+msgid "Attribute display"
+msgstr ""
+
+#: includes/settings.php:108
+msgid "Site Address"
+msgstr ""
+
+#: includes/settings.php:109
+msgid "Site Title"
+msgstr ""
+
+#: includes/settings.php:110
+msgid "Export Date"
+msgstr "Eksportere dato"
+
+#: includes/settings.php:111
+msgid "Export Time"
+msgstr "Eksportere tid"
+
+#: includes/settings.php:112 templates/admin/tabs-export.php:2
+#: templates/admin/tabs-export.php:15
+msgid "Export Type"
+msgstr "Eksportere type"
+
+#: includes/settings.php:113
+msgid "Export Order By"
+msgstr ""
+
+#: includes/settings.php:114
+msgid "Export Order"
+msgstr ""
+
+#: includes/settings.php:115 templates/admin/tabs-export.php:966
+msgid "Limit Volume"
+msgstr ""
+
+#: includes/settings.php:116 templates/admin/tabs-export.php:966
+msgid "Volume Offset"
+msgstr ""
+
+#: includes/settings.php:118
+msgid "Control the visibility of different attributes in the XML export."
+msgstr ""
+
+#: includes/settings.php:130
+msgid "Title element"
+msgstr ""
+
+#: includes/settings.php:134
+msgid ""
+"Defines the title of the data feed (e.g. Product export for WordPress Shop)."
+msgstr ""
+
+#: includes/settings.php:139
+msgid "Link element"
+msgstr ""
+
+#: includes/settings.php:143
+msgid ""
+"A link to your website, this doesn't have to be the location of the RSS feed."
+msgstr ""
+
+#: includes/settings.php:148
+msgid "Description element"
+msgstr ""
+
+#: includes/settings.php:152
+msgid "A description of your data feed."
+msgstr ""
+
+#: includes/settings.php:164
+#, php-format
+msgid "Scheduled Exports is enabled, next scheduled export will run %s."
+msgstr ""
+
+#: includes/settings.php:166
+msgid ""
+"Configure Store Exporter Deluxe to automatically generate exports, apply "
+"filters to export just what you need.<br />Adjusting options within the "
+"Scheduling sub-section will after clicking Save Changes refresh the "
+"scheduled export engine, editing filters, formats, methods, etc. will not "
+"affect the scheduling of the current scheduled export."
+msgstr ""
+
+#: includes/settings.php:171
+msgid "Enable scheduled exports"
+msgstr ""
+
+#: includes/settings.php:178
+msgid ""
+"Enabling Scheduled Exports will trigger automated exports at the interval "
+"specified under Scheduling."
+msgstr ""
+
+#: includes/settings.php:190
+msgid "Select All"
+msgstr "Vælg alle"
+
+#: includes/settings.php:196
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:11
+msgid "Status"
+msgstr "Status"
+
+#: includes/settings.php:208
+#, php-format
+msgid "Select %s"
+msgstr "Vælg %s"
+
+#: includes/settings.php:223
+msgid "No scheduled exports found."
+msgstr "Ingen planlagte eksport fandt"
+
+#: includes/settings.php:239
+msgid "CRON Exports is enabled"
+msgstr "CRON eksport er aktiveret"
+
+#: includes/settings.php:241
+#, php-format
+msgid ""
+"Store Exporter Deluxe supports exporting via a command line request, to do "
+"this you need to prepare a specific URL and pass it the following required "
+"inline parameters. For sample CRON requests and supported arguments consult "
+"our <a href=\"%s\" target=\"_blank\">online documentation</a>."
+msgstr ""
+
+#: includes/settings.php:246
+msgid "Enable CRON"
+msgstr "Aktivere CRON"
+
+#: includes/settings.php:253
+msgid ""
+"Enabling CRON allows developers to schedule automated exports and connect "
+"with Store Exporter Deluxe remotely."
+msgstr ""
+
+#: includes/settings.php:258
+msgid "Export secret key"
+msgstr "Eksportér hemmelig nøgle"
+
+#: includes/settings.php:262
+msgid ""
+"This secret key (can be left empty to allow unrestricted access) limits "
+"access to authorised developers who provide a matching key when working with "
+"Store Exporter Deluxe."
+msgstr ""
+
+#: includes/settings.php:286
+msgid "Actions display"
+msgstr ""
+
+#: includes/settings.php:290
+msgid "Export to CSV"
+msgstr "Eksporter til CSV"
+
+#: includes/settings.php:291
+msgid "Export to XML"
+msgstr "Eksporter til XML"
+
+#: includes/settings.php:292
+msgid "Export to XLS"
+msgstr "Eksporter til XLS"
+
+#: includes/settings.php:293
+msgid "Export to XLSX"
+msgstr "Eksporter til XLSX"
+
+#: includes/settings.php:295
+msgid ""
+"Control the visibility of different Order actions on the WooCommerce &raquo; "
+"Orders screen."
+msgstr ""
+
+#: includes/settings.php:303
+msgid ""
+"Configure Store Exporter Deluxe to run exports on specific triggers within "
+"your WooCommerce store."
+msgstr ""
+
+#: includes/settings.php:309
+msgid "New Order"
+msgstr ""
+
+#: includes/settings.php:313
+msgid ""
+"Export on New Order is enabled, this will run for each new Order received."
+msgstr ""
+
+#: includes/settings.php:315
+msgid ""
+"Trigger an export of each new Order that is generated after successful "
+"Checkout."
+msgstr ""
+
+#: includes/settings.php:320
+msgid "Enable trigger"
+msgstr ""
+
+#: includes/settings.php:354
+msgid "Export method options"
+msgstr ""
+
+#: includes/settings.php:362
+msgid "Include all Order Fields"
+msgstr ""
+
+#: includes/settings.php:363
+msgid ""
+"Use the saved Export Fields preference for Orders set on the Export screen"
+msgstr ""
+
+#: includes/settings.php:365
+msgid ""
+"Control whether all known export fields are included or only checked fields "
+"from the Export Fields section on the Export screen for Orders. Default is "
+"to include all export fields."
+msgstr ""
+
+#: includes/settings.php:500
+#, php-format
+msgid "CRON support has been %s."
+msgstr ""
+
+#: includes/settings.php:500
+msgid "enabled"
+msgstr "aktiveret"
+
+#: includes/settings.php:500
+msgid "disabled"
+msgstr "deaktiveret"
+
+#: includes/shipping_class.php:13
+msgid "Shipping Class Sorting"
+msgstr ""
+
+#: includes/shipping_class.php:17 includes/shipping_class.php:73
+msgid "Shipping Class Name"
+msgstr ""
+
+#: includes/shipping_class.php:23
+msgid ""
+"Select the sorting of Shipping Classes within the exported file. By default "
+"this is set to export Shipping Classes by Term ID in Desending order."
+msgstr ""
+
+#: includes/shipping_class.php:77
+msgid "Shipping Class Slug"
+msgstr ""
+
+#: includes/shipping_class.php:81
+msgid "Shipping Class Description"
+msgstr ""
+
+#: includes/subscription.php:12
+msgid "Filter Subscriptions by Subscription Status"
+msgstr "Filter abonnementer af abonnementsstatus"
+
+#: includes/subscription.php:17
+msgid "Choose a Subscription Status..."
+msgstr "Vælg en abonnementsstatus..."
+
+#: includes/subscription.php:23
+msgid "No Subscription Status's have been found."
+msgstr "Ingen abonnementsstatus er blevet fundet."
+
+#: includes/subscription.php:27
+msgid ""
+"Select the Subscription Status options you want to filter exported "
+"Subscriptions by. Default is to include all Subscription Status options."
+msgstr ""
+
+#: includes/subscription.php:41
+msgid "Filter Subscriptions by Subscription Product"
+msgstr "Filter abonnementer af abonnement produkt"
+
+#: includes/subscription.php:46
+msgid "Choose a Subscription Product..."
+msgstr "Vælge et abonnement produkt..."
+
+#: includes/subscription.php:52
+msgid "No Subscription Products were found."
+msgstr "Ingen abonnement produkter blev ikke fundet."
+
+#: includes/subscription.php:56
+msgid ""
+"Select the Subscription Product you want to filter exported Subscriptions "
+"by. Default is to include all Subscription Products."
+msgstr ""
+
+#: includes/subscription.php:76
+msgid "Subscription Key"
+msgstr ""
+
+#: includes/subscription.php:80
+msgid "Subscription Status"
+msgstr ""
+
+#: includes/subscription.php:84
+msgid "Subscription Name"
+msgstr ""
+
+#: includes/subscription.php:88
+msgid "User"
+msgstr "Bruger"
+
+#: includes/subscription.php:96
+msgid "E-mail Address"
+msgstr "E-mailadresse"
+
+#: includes/subscription.php:116
+msgid "Start Date"
+msgstr ""
+
+#: includes/subscription.php:120
+msgid "Expiration"
+msgstr ""
+
+#: includes/subscription.php:124
+msgid "End Date"
+msgstr ""
+
+#: includes/subscription.php:128
+msgid "Trial End Date"
+msgstr ""
+
+#: includes/subscription.php:132
+msgid "Last Payment"
+msgstr ""
+
+#: includes/subscription.php:136
+msgid "Next Payment"
+msgstr ""
+
+#: includes/subscription.php:140
+msgid "Renewals"
+msgstr ""
+
+#: includes/subscription.php:152
+msgid "Variation ID"
+msgstr ""
+
+#: includes/subscription.php:359
+msgid ""
+"The WooCommerce Subscriptions class <code>WC_Subscriptions</code> or "
+"<code>WC_Subscriptions_Manager</code> could not be found, this is required "
+"to export Subscriptions."
+msgstr ""
+
+#: includes/subscription.php:365
+msgid ""
+"The WooCommerce Subscriptions method <code>WC_Subscriptions_Manager-"
+">get_all_users_subscriptions()</code> could not be found, this is required "
+"to export Subscriptions."
+msgstr ""
+
+#: includes/subscription.php:431
+msgid "Never"
+msgstr "Aldrig"
+
+#: includes/subscription.php:432
+msgid "Not yet ended"
+msgstr "Igangværende"
+
+#: includes/subscription.php:488
+msgid "Cancelled"
+msgstr "Annulleret"
+
+#: includes/subscription.php:489
+msgid "Expired"
+msgstr "Udløbet"
+
+#: includes/subscription.php:490
+msgid "Pending"
+msgstr "Afventer"
+
+#: includes/subscription.php:491
+msgid "Failed"
+msgstr "Fejl"
+
+#: includes/subscription.php:492
+msgid "On-hold"
+msgstr "På pause"
+
+#: includes/subscription.php:493
+msgid "Deleted"
+msgstr "Slettede"
+
+#: includes/subscription.php:539
+#, php-format
+msgid "In %s"
+msgstr "Om %s"
+
+#: includes/subscription.php:606
+msgid "per"
+msgstr "per"
+
+#: includes/subscription.php:610
+msgid "every 2nd"
+msgstr "hver 2."
+
+#: includes/subscription.php:614
+msgid "every 3rd"
+msgstr "hver 3."
+
+#: includes/subscription.php:618
+msgid "every 4th"
+msgstr "hver 4."
+
+#: includes/subscription.php:622
+msgid "every 5th"
+msgstr "hver 5."
+
+#: includes/subscription.php:626
+msgid "every 6th"
+msgstr "hver 6."
+
+#: includes/subscription.php:639
+msgid "all time"
+msgstr "altid"
+
+#: includes/subscription.php:653
+msgid "Active Subscription"
+msgstr "Aktivt abonnement"
+
+#: includes/subscription.php:657
+msgid "Any Subscription"
+msgstr ""
+
+#: includes/subscription.php:661
+msgid "Do not limit"
+msgstr ""
+
+#: includes/tag.php:15
+msgid "Filter Tags by Language"
+msgstr "Filter Tags af sprog"
+
+#: includes/tag.php:30
+msgid ""
+"Select the Language's you want to filter exported Tags by. Default is to "
+"include all Language's."
+msgstr ""
+
+#: includes/tag.php:46
+msgid "Product Tag Sorting"
+msgstr "Produkt Tag sortering"
+
+#: includes/tag.php:50 includes/tag.php:79
+msgid "Tag Name"
+msgstr "Tag Navn"
+
+#: includes/tag.php:56
+msgid ""
+"Select the sorting of Product Tags within the exported file. By default this "
+"is set to export Product Tags by Term ID in Desending order."
+msgstr ""
+
+#: includes/tag.php:83
+msgid "Tag Slug"
+msgstr "Tag Slug"
+
+#: includes/user.php:12
+msgid "Filter Users by User Role"
+msgstr "Filtrere brugerne af brugerrolle"
+
+#: includes/user.php:27
+msgid ""
+"Select the User Roles you want to filter exported Users by. Default is to "
+"include all User Role options."
+msgstr ""
+
+#: includes/user.php:42
+msgid "User Sorting"
+msgstr "Brugeren sortering"
+
+#: includes/user.php:46
+msgid "Display Name"
+msgstr "Visningsnavn"
+
+#: includes/user.php:49 includes/user.php:150
+msgid "Nickname"
+msgstr "Alias"
+
+#: includes/user.php:50 includes/user.php:154
+msgid "E-mail"
+msgstr "E-mailadresse:"
+
+#: includes/user.php:51 includes/user.php:166
+msgid "Website"
+msgstr "Webside"
+
+#: includes/user.php:52 includes/user.php:170
+msgid "Date Registered"
+msgstr ""
+
+#: includes/user.php:59
+msgid ""
+"Select the sorting of Users within the exported file. By default this is set "
+"to export User by User ID in Desending order."
+msgstr ""
+
+#: includes/user.php:79
+msgid "Custom User Fields"
+msgstr ""
+
+#: includes/user.php:81
+msgid ""
+"To include additional custom User meta in the Export Users table above fill "
+"the Users text box then click Save Custom Fields."
+msgstr ""
+
+#: includes/user.php:86
+msgid "User meta"
+msgstr ""
+
+#: includes/user.php:90
+msgid ""
+"Include additional custom User meta in your export file by adding each "
+"custom User meta name to a new line above.<br />For example: <code>Customer "
+"UA (new line) Customer IP Address</code>"
+msgstr ""
+
+#: includes/user.php:98
+#, php-format
+msgid ""
+"For more information on custom User meta consult our <a href=\"%s\" target="
+"\"_blank\">online documentation</a>."
+msgstr ""
+
+#: includes/user.php:138
+msgid "First Name"
+msgstr "Fornavn"
+
+#: includes/user.php:142
+msgid "Last Name"
+msgstr "Efternavn"
+
+#: includes/user.php:146
+msgid "Full Name"
+msgstr "Fulde navn"
+
+#: includes/user.php:162
+msgid "Money Spent"
+msgstr ""
+
+#: includes/user.php:174
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/user.php:178
+msgid "AIM"
+msgstr ""
+
+#: includes/user.php:182
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: includes/user.php:186
+msgid "Jabber / Google Talk"
+msgstr ""
+
+#: templates/admin/dashboard_widget-recent_scheduled_export.php:6
+msgid "error"
+msgstr ""
+
+#: templates/admin/dashboard_widget-recent_scheduled_export.php:11
+msgid "Ready for your first scheduled export, shouldn't be long now."
+msgstr ""
+
+#: templates/admin/dashboard_widget-recent_scheduled_export.php:13
+msgid "View all archived exports"
+msgstr "Se alle arkiverede eksport"
+
+#: templates/admin/dashboard_widget-scheduled_export.php:2
+msgid "Scheduled Exports is enabled"
+msgstr ""
+
+#: templates/admin/dashboard_widget-scheduled_export.php:5
+#, php-format
+msgid "Next scheduled export will run in %s"
+msgstr ""
+
+#: templates/admin/media-csv_file.php:3
+msgid "Export File"
+msgstr ""
+
+#: templates/admin/media-export_details.php:3
+msgid "Export Details"
+msgstr ""
+
+#: templates/admin/media-export_details.php:14
+msgid "Filepath"
+msgstr ""
+
+#: templates/admin/media-export_details.php:18
+msgid "Total columns"
+msgstr "Samlede kolonner"
+
+#: templates/admin/media-export_details.php:22
+msgid "Total rows"
+msgstr "Samlede rækker"
+
+#: templates/admin/media-export_details.php:26
+msgid "Process time"
+msgstr ""
+
+#: templates/admin/media-export_details.php:30
+msgid "Idle memory usage (start)"
+msgstr ""
+
+#: templates/admin/media-export_details.php:34
+msgid "Memory usage prior to loading export type"
+msgstr ""
+
+#: templates/admin/media-export_details.php:38
+msgid "Memory usage after loading export type"
+msgstr ""
+
+#: templates/admin/media-export_details.php:42
+msgid "Idle memory usage (end)"
+msgstr ""
+
+#: templates/admin/tabs-archive.php:14 templates/admin/tabs-export.php:144
+msgid "Attributes"
+msgstr ""
+
+#: templates/admin/tabs-archive.php:25
+msgid "Delete All"
+msgstr "Slet alle"
+
+#: templates/admin/tabs-export.php:3 templates/admin/tabs-export.php:951
+msgid "Export Options"
+msgstr "Eksportmuligheder"
+
+#: templates/admin/tabs-export.php:4 templates/admin/tabs-export.php:992
+msgid "Export Modules"
+msgstr ""
+
+#: templates/admin/tabs-export.php:10
+msgid ""
+"Select an export type from the list below to export entries. Once you have "
+"selected an export type you may select the fields you would like to export "
+"and optional filters available for each export type. When you click the "
+"export button below, Store Exporter will create an export file for you to "
+"save to your computer."
+msgstr ""
+
+#: templates/admin/tabs-export.php:17
+msgid "Select the data type you want to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:123
+msgid "Commissions"
+msgstr ""
+
+#: templates/admin/tabs-export.php:164
+msgid "Product Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:165 templates/admin/tabs-export.php:229
+#: templates/admin/tabs-export.php:288 templates/admin/tabs-export.php:348
+#: templates/admin/tabs-export.php:412 templates/admin/tabs-export.php:477
+#: templates/admin/tabs-export.php:541 templates/admin/tabs-export.php:605
+#: templates/admin/tabs-export.php:669 templates/admin/tabs-export.php:733
+#: templates/admin/tabs-export.php:780 templates/admin/tabs-export.php:844
+#: templates/admin/tabs-export.php:908
+msgid "Configure"
+msgstr ""
+
+#: templates/admin/tabs-export.php:169
+msgid ""
+"Select the Product fields you would like to export, you can also drag-and-"
+"drop to reorder export fields. To the right you can change the label of "
+"export fields from the Configure link. Your field selection - but not "
+"filters - are saved for future exports."
+msgstr ""
+
+#: templates/admin/tabs-export.php:171 templates/admin/tabs-export.php:234
+#: templates/admin/tabs-export.php:293 templates/admin/tabs-export.php:354
+#: templates/admin/tabs-export.php:419 templates/admin/tabs-export.php:483
+#: templates/admin/tabs-export.php:547 templates/admin/tabs-export.php:611
+#: templates/admin/tabs-export.php:675 templates/admin/tabs-export.php:739
+#: templates/admin/tabs-export.php:786 templates/admin/tabs-export.php:850
+#: templates/admin/tabs-export.php:914
+msgid "Check All"
+msgstr "Marker alle"
+
+#: templates/admin/tabs-export.php:172 templates/admin/tabs-export.php:235
+#: templates/admin/tabs-export.php:294 templates/admin/tabs-export.php:355
+#: templates/admin/tabs-export.php:420 templates/admin/tabs-export.php:484
+#: templates/admin/tabs-export.php:548 templates/admin/tabs-export.php:612
+#: templates/admin/tabs-export.php:676 templates/admin/tabs-export.php:740
+#: templates/admin/tabs-export.php:787 templates/admin/tabs-export.php:851
+#: templates/admin/tabs-export.php:915
+msgid "Uncheck All"
+msgstr "Fravælg alle"
+
+#: templates/admin/tabs-export.php:173 templates/admin/tabs-export.php:236
+#: templates/admin/tabs-export.php:295 templates/admin/tabs-export.php:356
+#: templates/admin/tabs-export.php:421 templates/admin/tabs-export.php:485
+#: templates/admin/tabs-export.php:549 templates/admin/tabs-export.php:613
+#: templates/admin/tabs-export.php:677 templates/admin/tabs-export.php:741
+#: templates/admin/tabs-export.php:788 templates/admin/tabs-export.php:852
+#: templates/admin/tabs-export.php:916
+msgid "Reset Sorting"
+msgstr "Nulstille sortering"
+
+#: templates/admin/tabs-export.php:191 templates/admin/tabs-overview.php:7
+msgid "Export Products"
+msgstr "Eksportere produkter"
+
+#: templates/admin/tabs-export.php:193
+msgid "Can't find a particular Product field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:193 templates/admin/tabs-export.php:256
+#: templates/admin/tabs-export.php:315 templates/admin/tabs-export.php:376
+#: templates/admin/tabs-export.php:441 templates/admin/tabs-export.php:505
+#: templates/admin/tabs-export.php:569 templates/admin/tabs-export.php:633
+#: templates/admin/tabs-export.php:697 templates/admin/tabs-export.php:761
+#: templates/admin/tabs-export.php:808 templates/admin/tabs-export.php:872
+#: templates/admin/tabs-export.php:936
+msgid "Get in touch"
+msgstr "Hold kontakten"
+
+#: templates/admin/tabs-export.php:202
+msgid "Product Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:228
+msgid "Category Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:232
+msgid "Select the Category fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:254 templates/admin/tabs-overview.php:10
+msgid "Export Categories"
+msgstr ""
+
+#: templates/admin/tabs-export.php:256
+msgid "Can't find a particular Category field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:263
+msgid "Category Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:287
+msgid "Tag Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:291
+msgid "Select the Tag fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:313 templates/admin/tabs-overview.php:13
+msgid "Export Tags"
+msgstr ""
+
+#: templates/admin/tabs-export.php:315
+msgid "Can't find a particular Tag field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:322
+msgid "Product Tag Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:347
+msgid "Brand Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:352
+msgid "Select the Brand fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:374 templates/admin/tabs-overview.php:16
+msgid "Export Brands"
+msgstr ""
+
+#: templates/admin/tabs-export.php:376
+msgid "Can't find a particular Brand field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:378
+msgid "No Brands were found."
+msgstr ""
+
+#: templates/admin/tabs-export.php:386
+msgid "Brand Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:411
+msgid "Order Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:417
+msgid "Select the Order fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:439 templates/admin/tabs-overview.php:19
+msgid "Export Orders"
+msgstr ""
+
+#: templates/admin/tabs-export.php:441
+msgid "Can't find a particular Order field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:443
+msgid "No Orders were found."
+msgstr "Ingen ordrer blev ikke fundet."
+
+#: templates/admin/tabs-export.php:451
+msgid "Order Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:476
+msgid "Customer Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:481
+msgid "Select the Customer fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:503 templates/admin/tabs-overview.php:22
+msgid "Export Customers"
+msgstr ""
+
+#: templates/admin/tabs-export.php:505
+msgid "Can't find a particular Customer field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:507
+msgid "No Customers were found."
+msgstr "Ingen kunder blev ikke fundet."
+
+#: templates/admin/tabs-export.php:515
+msgid "Customer Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:540
+msgid "User Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:545
+msgid "Select the User fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:567 templates/admin/tabs-overview.php:25
+msgid "Export Users"
+msgstr ""
+
+#: templates/admin/tabs-export.php:569
+msgid "Can't find a particular User field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:571
+msgid "No Users were found."
+msgstr "Ingen brugere blev ikke fundet."
+
+#: templates/admin/tabs-export.php:579
+msgid "User Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:604
+msgid "Coupon Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:609
+msgid "Select the Coupon fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:631 templates/admin/tabs-overview.php:28
+msgid "Export Coupons"
+msgstr ""
+
+#: templates/admin/tabs-export.php:633
+msgid "Can't find a particular Coupon field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:643
+msgid "Coupon Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:668
+msgid "Subscription Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:673
+msgid "Select the Subscription fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:695 templates/admin/tabs-overview.php:31
+msgid "Export Subscriptions"
+msgstr ""
+
+#: templates/admin/tabs-export.php:697
+msgid "Can't find a particular Subscription field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:699
+msgid "No Subscriptions were found."
+msgstr "Ingen abonnementer blev ikke fundet."
+
+#: templates/admin/tabs-export.php:707
+msgid "Subscription Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:732
+msgid "Product Vendor Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:737
+msgid "Select the Product Vendor fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:759 templates/admin/tabs-overview.php:34
+msgid "Export Product Vendors"
+msgstr ""
+
+#: templates/admin/tabs-export.php:761
+msgid "Can't find a particular Product Vendor field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:779
+msgid "Commission Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:784
+msgid "Select the Commission fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:806 templates/admin/tabs-overview.php:37
+msgid "Export Commissions"
+msgstr ""
+
+#: templates/admin/tabs-export.php:808
+msgid "Can't find a particular Commission field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:810
+msgid "No Commissions were found."
+msgstr "Ingen provisioner blev ikke fundet."
+
+#: templates/admin/tabs-export.php:818
+msgid "Commission Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:843
+msgid "Shipping Class Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:848
+msgid "Select the Shipping Class fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:870 templates/admin/tabs-overview.php:40
+msgid "Export Shipping Classes"
+msgstr ""
+
+#: templates/admin/tabs-export.php:872
+msgid "Can't find a particular Shipping Class field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:874
+msgid "No Shipping Classes were found."
+msgstr "Ingen Shipping klasser blev ikke fundet."
+
+#: templates/admin/tabs-export.php:882
+msgid "Shipping Class Filters"
+msgstr ""
+
+#: templates/admin/tabs-export.php:907
+msgid "Attribute Fields"
+msgstr ""
+
+#: templates/admin/tabs-export.php:912
+msgid "Select the Attribute fields you would like to export."
+msgstr ""
+
+#: templates/admin/tabs-export.php:934 templates/admin/tabs-overview.php:44
+msgid "Export Attributes"
+msgstr ""
+
+#: templates/admin/tabs-export.php:936
+msgid "Can't find a particular Attribute field in the above export list?"
+msgstr ""
+
+#: templates/admin/tabs-export.php:938
+msgid "No Attributes were found."
+msgstr "Ingen egenskaber blev fundet."
+
+#: templates/admin/tabs-export.php:953
+msgid ""
+"You can find additional export options under the Settings tab at the top of "
+"this screen. Click the Export button above to apply these changes and "
+"generate your export file."
+msgstr ""
+
+#: templates/admin/tabs-export.php:963
+msgid "Volume offset"
+msgstr ""
+
+#: templates/admin/tabs-export.php:963
+msgid "Limit volume"
+msgstr ""
+
+#: templates/admin/tabs-export.php:967
+msgid ""
+"Volume offset and limit allows for partial exporting of an export type (e.g. "
+"records 0 to 500, etc.). This is useful when encountering timeout and/or "
+"memory errors during the a large or memory intensive export. To be used "
+"effectively both fields must be filled. By default this is not used and is "
+"left empty."
+msgstr ""
+
+#: templates/admin/tabs-export.php:994
+msgid ""
+"Export store details from other WooCommerce and WordPress Plugins, simply "
+"install and activate one of the below Plugins to enable those additional "
+"export options."
+msgstr ""
+
+#: templates/admin/tabs-export.php:1013
+msgid "Install via WordPress Plugin Directory"
+msgstr ""
+
+#: templates/admin/tabs-export.php:1013
+msgid "Visit the Plugin website"
+msgstr "Besøg Plugin hjemmeside"
+
+#: templates/admin/tabs-export.php:1024
+msgid "No export modules are available at this time."
+msgstr "Ingen eksport moduler er tilgængelige på dette tidspunkt."
+
+#: templates/admin/tabs-fields.php:1
+msgid "Field Editor"
+msgstr ""
+
+#: templates/admin/tabs-fields.php:2
+msgid ""
+"Customise the field labels for this export type by filling in the fields, an "
+"empty field label will revert to the default Store Exporter field label at "
+"export time."
+msgstr ""
+
+#: templates/admin/tabs-fields.php:9
+msgid "Field slug"
+msgstr "Feltet slug"
+
+#: templates/admin/tabs-fields.php:10
+msgid "Label"
+msgstr ""
+
+#: templates/admin/tabs-fields.php:29 templates/admin/tabs-settings.php:165
+msgid "Save Changes"
+msgstr "Gem Ændringer"
+
+#: templates/admin/tabs-overview.php:4
+msgid ""
+"Export store details out of WooCommerce into common export files (e.g. CSV, "
+"XLSX, XML, etc.)."
+msgstr ""
+
+#: templates/admin/tabs-overview.php:49 templates/admin/tabs.php:6
+msgid "Archives"
+msgstr "Arkiv"
+
+#: templates/admin/tabs-overview.php:50
+msgid "Download copies of prior store exports."
+msgstr "Hent kopier af forudgående store eksport."
+
+#: templates/admin/tabs-overview.php:52 templates/admin/tabs.php:7
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: templates/admin/tabs-overview.php:53
+msgid "Manage export options from a single detailed screen."
+msgstr ""
+
+#: templates/admin/tabs-overview.php:56 templates/admin/tabs-settings.php:2
+#: templates/admin/tabs-settings.php:17
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: templates/admin/tabs-overview.php:59 templates/admin/tabs-settings.php:3
+#: templates/admin/tabs-settings.php:100
+msgid "CSV Settings"
+msgstr "CSV-indstillinger"
+
+#: templates/admin/tabs-overview.php:75 templates/admin/tabs-tools.php:6
+#: templates/admin/tabs.php:8
+msgid "Tools"
+msgstr "Værktøjer"
+
+#: templates/admin/tabs-overview.php:76
+msgid "Export tools for WooCommerce."
+msgstr "Eksportere værktøjer for WooCommerce."
+
+#: templates/admin/tabs-overview.php:80
+msgid "Jump to Export screen in the future"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:18
+msgid ""
+"Manage export options across Store Exporter Deluxe from this screen. Options "
+"are broken into sections for different export formats and methods. Click "
+"Save Changes to apply changes."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:23
+msgid "Export filename"
+msgstr "Eksportere filnavn"
+
+#: templates/admin/tabs-settings.php:26
+msgid ""
+"The filename of the exported export type. It is not neccesary to add the "
+"filename extension (e.g. .csv, .xml, .xls, .xlsx, etc.) as this is added at "
+"export time. Tags can be used: "
+msgstr ""
+
+#: templates/admin/tabs-settings.php:32
+msgid "Enable archives"
+msgstr "Aktivere arkiver"
+
+#: templates/admin/tabs-settings.php:39
+msgid ""
+"Warning: Saving sensitve export files (e.g. Customers, Orders, etc.) to the "
+"WordPress Media directory will make them accessible to the public without "
+"restriction."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:40
+msgid ""
+"Save copies of exports to the WordPress Media for later downloading. By "
+"default this option is turned off."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:45
+msgid "Character encoding"
+msgstr "Tegnsæt"
+
+#: templates/admin/tabs-settings.php:50
+msgid "System default"
+msgstr "Systemstandard"
+
+#: templates/admin/tabs-settings.php:57
+msgid ""
+"Character encoding options are unavailable in PHP 4, contact your hosting "
+"provider to update your site install to use PHP 5 or higher."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:59
+msgid ""
+"Character encoding options are unavailable as the required "
+"mb_list_encodings() function is missing, contact your hosting provider to "
+"have the mbstring extension installed."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:65
+msgid "Date format"
+msgstr "Datoformat"
+
+#: templates/admin/tabs-settings.php:72
+msgid "Custom"
+msgstr "Brugerdefineret"
+
+#: templates/admin/tabs-settings.php:73
+msgid "Documentation on date and time formatting"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:75
+msgid ""
+"The date format option affects how date's are presented within your export "
+"file. Default is set to DD/MM/YYYY."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:81
+msgid "Script timeout"
+msgstr "Script timeout"
+
+#: templates/admin/tabs-settings.php:85 templates/admin/tabs-settings.php:86
+#, php-format
+msgid "%s minutes"
+msgstr "%s minutter"
+
+#: templates/admin/tabs-settings.php:87
+#, php-format
+msgid "%s hour"
+msgstr "%s time"
+
+#: templates/admin/tabs-settings.php:88
+msgid "Unlimited"
+msgstr "Ubegrænset"
+
+#: templates/admin/tabs-settings.php:90
+msgid ""
+"Script timeout defines how long Store Exporter is 'allowed' to process your "
+"export file, once the time limit is reached the export process halts."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:105
+msgid "Field delimiter"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:109
+msgid ""
+"The field delimiter is the character separating each cell in your CSV. This "
+"is typically the ',' (comma) character. To use the TAB character as the "
+"delimiter enter <code>TAB</code>. "
+msgstr ""
+
+#: templates/admin/tabs-settings.php:114
+msgid "Category separator"
+msgstr "Kategori separator"
+
+#: templates/admin/tabs-settings.php:118
+msgid ""
+"The Product Category separator allows you to assign individual Products to "
+"multiple Product Categories/Tags/Images at a time. It is suggested to use "
+"the '|' (vertical pipe) character or 'LF' for line breaks between each item. "
+"For instance: <code>Clothing|Mens|Shirts</code>."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:123
+msgid "Line ending formatting"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:127
+msgid "Windows"
+msgstr "Windows"
+
+#: templates/admin/tabs-settings.php:128
+msgid "Mac"
+msgstr "Mac"
+
+#: templates/admin/tabs-settings.php:129
+msgid "Unix"
+msgstr "UNIX"
+
+#: templates/admin/tabs-settings.php:131
+msgid ""
+"Choose the line ending formatting that suits the Operating System you plan "
+"to use the export file with (e.g. a Windows desktop, Mac laptop, etc.). "
+"Default is Windows."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:136
+msgid "Add BOM character"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:143
+msgid ""
+"Mark the CSV file as UTF8 by adding a byte order mark (BOM) to the export, "
+"useful for non-English character sets."
+msgstr ""
+
+#: templates/admin/tabs-settings.php:148
+msgid "Field escape formatting"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:152
+msgid "Escape all fields"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:153
+msgid "Escape fields as Excel would"
+msgstr ""
+
+#: templates/admin/tabs-settings.php:155
+msgid ""
+"Choose the field escape format that suits your spreadsheet software (e.g. "
+"Excel)."
+msgstr ""
+
+#: templates/admin/tabs-tools.php:1
+msgid "WooCommerce Tools"
+msgstr "WooCommerce værktøjer"
+
+#: templates/admin/tabs-tools.php:2
+msgid "Extend your store with other WooCommerce extensions from us."
+msgstr ""
+
+#: templates/admin/tabs-tools.php:12
+msgid "Import Products from CSV"
+msgstr "Importere produkter fra CSV"
+
+#: templates/admin/tabs-tools.php:13
+msgid ""
+"Use Product Importer Deluxe to import Product changes back into your "
+"WooCommerce store."
+msgstr ""
+
+#: templates/admin/tabs.php:4
+msgid "Overview"
+msgstr "Oversigt"
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:4
+msgid ""
+"A new version of a Visser Labs Plugin for WooCommerce is available for "
+"download."
+msgstr ""
+"En ny version af en Visser Labs Plugin for WooCommerce er tilgængelig for "
+"download."
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:9
+msgid "Plugin"
+msgstr "Plugin"
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:10
+msgid "Version"
+msgstr "Version"
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:20
+#, php-format
+msgid "%s to <span>%s</span>"
+msgstr ""
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:22
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:24
+#, php-format
+msgid "Plugin update available for %s"
+msgstr "Plugin opdatering tilgængelig for %s"
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:22
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:24
+msgid "Update"
+msgstr "Opdater"
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:28
+#, php-format
+msgid "%s is from the future."
+msgstr "%s er fra fremtiden."
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:28
+msgid "Beta"
+msgstr "Beta"
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:31
+#, php-format
+msgid "%s is up to date."
+msgstr "%s er op til dato."
+
+#: templates/admin/woocommerce-admin_dashboard_vm-plugins.php:39
+msgid "Looking for more WooCommerce Plugins?"
+msgstr "Leder du efter flere WooCommerce Plugins?"
+
+#: templates/emails/scheduled_export.php:5
+msgid "Hi"
+msgstr "Hej"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce - Store Exporter Deluxe"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.visser.com.au/woocommerce/plugins/exporter-deluxe/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Unlocks business focused e-commerce features within Store Exporter for "
+"WooCommerce. This Pro ugprade will de-activate the basic Store Exporter "
+"Plugin on activation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Visser Labs"
+msgstr "Visser Labs"
+
+#. Author URI of the plugin/theme
+msgid "http://www.visser.com.au/about/"
+msgstr ""

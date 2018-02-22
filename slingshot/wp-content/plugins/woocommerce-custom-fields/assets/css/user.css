@@ -1,0 +1,13 @@
+/**
+ * WooCommerce Custom Fields styles for User edit page
+ */
+.wccf_user_field_text,
+.wccf_user_field_textarea,
+.wccf_user_field_password,
+.wccf_user_field_email,
+.wccf_user_field_number,
+.wccf_user_field_date,
+.wccf_user_field_select,
+.wccf_user_field_multiselect {
+    min-width: 25em;
+}

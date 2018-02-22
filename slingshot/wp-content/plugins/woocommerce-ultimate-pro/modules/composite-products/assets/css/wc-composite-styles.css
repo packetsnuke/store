@@ -1,0 +1,40 @@
+.component_table_item .product-name .component dd, .component_table_item .product-name p.backorder_notification, .component_table_item .product-price, .component_table_item .product-quantity, .component_table_item .product-subtotal, .component_table_item .product-total {
+	font-size: .875em;
+}
+
+.woocommerce .component_table_item dl.component {
+	margin: 0;
+	display: inline-block;
+	width: 95%;
+}
+
+.woocommerce .component_table_item dl.component dd {
+	margin-bottom: 1em;
+}
+
+.component_table_item .component_table_item_indent {
+	padding-left: 30px;
+}
+
+.woocommerce .component_table_item td.product-name dl.variation, .woocommerce-page .component_table_item td.product-name dl.variation, .component_table_item td.product-name .wc-item-meta {
+	font-size: .875em;
+}
+
+.component_table_item td {
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+.component_container_table_item td {
+	border-bottom: none !important;
+}
+
+dt.component_title_meta, .component_notice {
+	margin: 12px 0 5px;
+}
+
+a.edit_composite_in_cart_text {
+	color: #888;
+	font-weight: normal;
+	text-decoration: none;
+}

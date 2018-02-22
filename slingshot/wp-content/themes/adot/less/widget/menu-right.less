@@ -1,0 +1,202 @@
+.navbar-nav {
+	.menu-right {
+		ul {
+			li {
+				display:     inline-block !important;
+				margin-left: 30px;
+				a, span, .button-search {
+					.fa {
+						font-size: 16px;
+ 						margin:    0 !important;
+					}
+				}
+				&:last-child{
+					margin-right: 15px;
+				}
+ 			}
+		}
+	}
+}
+.header_v2{
+	.navbar-nav-right >li{
+		display:     inline-block !important;
+//		margin-left: 30px;
+		padding: 20px 25px;
+		a, span, .button-search {
+			.fa {
+				font-size: 16px;
+				margin:    0 !important;
+			}
+		}
+	}
+}
+//Form Login
+.thim-popup-login {
+	.form_submit {
+		position: relative;
+		.thim-popup-login-button {
+			background:      @thim_body_primary_color;
+			color:           @white;
+			border:          none;
+			border-radius:   0;
+			font-size:       @thim_font_body_font_size;
+			font-weight:     600;
+			text-decoration: none;
+			text-transform:  uppercase;
+			transition:      all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+			width:           100%;
+			height:          37px;
+		}
+		span.arrow {
+			left:        50%;
+			margin-left: 30px;
+			position:    absolute;
+		}
+		&:hover {
+			span.arrow {
+				width: 37px;
+			}
+		}
+	}
+	h2 {
+		color:         #333 !important;
+		font-size:     @thim_font_h3_font_size !important;
+		font-weight:   @thim_font_h3_font_weight !important;
+		margin-bottom: 30px !important;
+		text-align:    center;
+	}
+	.thim-popup-login-close {
+		background: none;
+		border:     none;
+		color:      @thim_body_second_color;
+		font-size:  30px;
+		padding:    5px !important;
+	}
+	.thim-popup-login-close:hover {
+		color: @thim_body_primary_color;
+	}
+}
+
+//Search
+.main-header-search-form-input {
+	.search-popup-bg {
+		display:    table;
+		width:      0;
+		height:     100%;
+		background: #0b0b0b;
+		position:   fixed;
+		top:        0;
+		left:       0;
+		z-index:    -1;
+		opacity:    0;
+		//cursor:     url("../../images/close.png"), progress;
+	}
+	.woocommerce-product-search {
+		border:             none;
+		width:              50%;
+		margin-top:         300px;
+		position:           fixed !important;
+		top:                50%;
+		left:               50%;
+		opacity:            0;
+		transition:         margin-top .5s, opacity .5s;
+		-webkit-transition: margin-top .5s, opacity .5s;
+		.form-control {
+			width:         100% !important;
+			background:    rgba(0, 0, 0, 0);
+			color:         @border_color;
+			font-size:     30px;
+			font-weight:   900;
+			height:        auto;
+			padding:       6px 15px;
+			border:        none !important;
+			border-bottom: 1px solid @border_color !important;
+			border-radius: 0;
+			box-shadow:    none;
+			position:      static;
+			top:           auto;
+			left:          auto;
+			display:       none;
+			:focus {
+				border:        0;
+				background:    none;
+				box-shadow:    none;
+				border-radius: 0;
+			}
+		}
+		.button-on-search {
+			background:        transparent;
+			border:            0 none;
+			color:             @border_color;
+			font-size:         @thim_font_h3_font_size;
+			height:            40px;
+			line-height:       40px;
+			padding-top:       0 !important;
+			position:          absolute;
+			right:             15px;
+			text-align:        center;
+			top:               10px;
+			width:             40px;
+			animation:         bounceIn 750ms linear infinite alternate;
+			-moz-animation:    bounceIn 750ms linear infinite alternate;
+			-webkit-animation: bounceIn 750ms linear infinite alternate;
+			-o-animation:      bounceIn 750ms linear infinite alternate;
+			:hover {
+				color: @white;
+			}
+		}
+		.header-search-close {
+			height:   40px;
+			position: absolute;
+			right:    15px;
+			top:      10px;
+			width:    40px;
+		}
+	}
+	.ob-list-search.active {
+		background: @white;
+		border:     1px solid @border_color;
+		max-height: 150px;
+		overflow:   auto;
+		padding:    0 !important;
+		width:      100%;
+		li {
+			display:     block !important;
+			line-height: 20px;
+			margin:      5px !important;
+		}
+		.ob-search-left {
+			display: none;
+		}
+		.ob-search-right {
+			text-align: left;
+			a {
+				font-size: 14px;
+			}
+			p {
+				display: none;
+			}
+		}
+	}
+}
+
+.main-header-search-form-input.open {
+	.search-popup-bg {
+		z-index:            9999;
+		opacity:            0.8;
+		transition:         opacity .5s, z-index 0s;
+		-webkit-transition: opacity .5s, z-index 0s;
+		width:              100%;
+	}
+	.woocommerce-product-search {
+		margin-top:         -25px;
+		opacity:            1;
+		z-index:            999999;
+		transition:         margin-top .5s, opacity .5s;
+		-webkit-transition: margin-top .5s, opacity .5s;
+		.form-control {
+			display: block;
+		}
+	}
+
+}

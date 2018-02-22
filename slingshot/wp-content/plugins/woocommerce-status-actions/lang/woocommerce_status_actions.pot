@@ -1,0 +1,1132 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Order Status & Actions Manager\n"
+"POT-Creation-Date: 2016-12-19 13:00+0000\n"
+"PO-Revision-Date: 2016-12-19 12:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-status-actions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-wc-sa-admin-meta-boxes.php:94
+msgid "Status Data"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:61
+#: includes/admin/class-wc-sa-admin-post-types.php:64
+#: includes/admin/class-wc-sa-admin-post-types.php:66
+msgid "Status updated."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:62
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:63
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:65
+#, php-format
+msgid "Status restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:67
+msgid "Status saved."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:68
+msgid "Status submitted."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:69
+#, php-format
+msgid "Status scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:70
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:71
+msgid "Status draft updated."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:86
+#, php-format
+msgid "%s status updated."
+msgid_plural "%s statues updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:87
+#, php-format
+msgid "%s status not updated, somebody is editing it."
+msgid_plural "%s statuses not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:88
+#, php-format
+msgid "%s status permanently deleted."
+msgid_plural "%s statuses permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:89
+#, php-format
+msgid "%s status moved to the Trash."
+msgid_plural "%s statuses moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:90
+#, php-format
+msgid "%s status restored from the Trash."
+msgid_plural "%s statuses restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:106
+#: includes/admin/class-wc-sa-admin-settings.php:255
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:107
+#: includes/admin/class-wc-sa-admin-settings.php:256
+#: includes/admin/meta-boxes/views/html-status-settings.php:28
+msgid "Label"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:108
+#: includes/admin/class-wc-sa-admin-settings.php:131
+#: includes/admin/class-wc-sa-admin-settings.php:253
+#: includes/admin/meta-boxes/views/html-status-settings.php:50
+#: includes/class-wc-sa-post-types.php:62
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:109
+#: includes/admin/meta-boxes/views/html-status-settings.php:19
+msgid "Action"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:110
+#: includes/admin/meta-boxes/views/html-status-settings.php:10
+msgid "Email"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:111
+#: includes/admin/meta-boxes/views/html-status-settings.php:33
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:112
+msgid "Editing"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:113
+msgid "Trigger"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:114
+msgid "Orders"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:144
+#: includes/admin/meta-boxes/views/html-status-settings.php:137
+#: includes/emails/class-wc-sa-email.php:114
+msgid "Administrator & Customer"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:146
+#: includes/admin/meta-boxes/views/html-status-settings.php:13
+#: includes/admin/meta-boxes/views/html-status-settings.php:135
+msgid "Customer"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:148
+#: includes/admin/meta-boxes/views/html-status-settings.php:136
+#: includes/emails/class-wc-sa-email.php:111
+msgid "Administrator"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:152
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:157
+msgid "Included In Reports"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:159
+msgid "Not Included In Reports"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:164
+msgid "Item Editing Enabled"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:166
+msgid "Item Editing Disabled"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:171
+msgid "Automatic Trigger To"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:171
+msgid "After"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:173
+msgid "Automatic Trigger Disabled"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:211
+#: includes/admin/class-wc-sa-admin-post-types.php:318
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:266
+msgid "Status name"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:284
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-post-types.php:285
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:28
+#: includes/class-wc-sa-post-types.php:48
+msgid "Order Statuses"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:44
+#: includes/admin/meta-boxes/views/html-status-settings.php:4
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:45
+msgid "Gateways"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:100
+msgid "Gateway Order Status"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:102
+msgid ""
+"You can define which status is set when order is complete depending on the "
+"payment gateway."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:117
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:123
+msgid "Status Style"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:126
+msgid ""
+"This will effect the default WooCommerce's statuses (e.g. Processing, "
+"Completed, etc.)."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:132
+msgid "Fill Text"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:133
+msgid "Line Text"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:138
+msgid "Successful Payment"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:141
+msgid ""
+"Choose what default status to have upon successful payment. Default: "
+"Processing."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:156
+msgid "Core Order Statuses"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:188
+msgid "Gateway"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:189
+msgid "Order Status"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:203
+msgid "Default status"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:204
+#: includes/class-wc-sa-order.php:51
+msgid "WooCommerce statuses"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:209
+#: includes/class-wc-sa-order.php:67
+msgid "Custom statuses"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:224
+msgid "Reset Defaults"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:254
+msgid "Slug"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:257
+#: includes/admin/meta-boxes/views/html-status-settings.php:55
+msgid "Colour"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:258
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:258
+msgid "Check this box to hide this status from the Bulk Actions menu."
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:259
+#: includes/admin/meta-boxes/views/html-status-settings.php:268
+msgid "Item Editing"
+msgstr ""
+
+#: includes/admin/class-wc-sa-admin-settings.php:259
+msgid "Check this box to enable item editing for this status."
+msgstr ""
+
+#: includes/admin/class-wc-sa-delete.php:33
+msgid "Delete Status"
+msgstr ""
+
+#: includes/admin/class-wc-sa-delete.php:101
+msgid "Confirm Deletion"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:7
+#: includes/admin/meta-boxes/views/html-status-settings.php:60
+msgid "Style"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:16
+#: updater/pages/index.php:90
+msgid "Product"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:25
+msgid ""
+"The following options affect how statuses are displayed on the front and "
+"back end."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:30
+msgid ""
+"Enter the label of the status which you would like to add. This should be "
+"lower case as will be displayed on the status label."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:35
+msgid ""
+"Check this box allow this status to be considered as a placed order in the "
+"reports."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:38
+msgid "Dashboard Widget"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:40
+msgid ""
+"Enable to display an order count with this status in the Dashboard widget."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:47
+msgid ""
+"The following options affect how statuses will look from style to colour."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:92
+#: includes/admin/meta-boxes/views/html-status-settings.php:100
+#: includes/class-wc-sa-post-types.php:49
+msgid "Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:113
+#, php-format
+msgid ""
+"The following options affect how emails are sent after the status is set to "
+"the order. You can customise the look and layout of the emails by clicking "
+"%s."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:113
+#: updater/pages/index.php:61
+msgid "here"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:117
+msgid "Email Notification"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:119
+msgid "Enable email notification"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:123
+msgid "Email Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:125
+msgid "HTML"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:126
+msgid "Plain text"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:128
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:131
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:138
+msgid "Custom Email Address"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:148
+#, php-format
+msgid ""
+"Choose to whom you want the email to be sent to when the custom status is "
+"applied. Current admin email address %s."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:152
+msgid "Recipient Email Address"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:154
+msgid ""
+"Enter the email address which you want to be notified when status is trigger."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:157
+msgid "\"From\" Name"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:159
+msgid "Enter the email name which will appear when the email is sent."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:162
+msgid "\"From\" Email Address"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:164
+msgid "Enter the email address which will appear when the email is sent."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:167
+msgid "Email Subject"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:169
+msgid "Enter the email subject which will appear when the email is sent."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:172
+msgid "Email Heading"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:174
+msgid "Enter the heading which you want to appear on the email that is sent."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:177
+msgid "Order Information"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:179
+msgid ""
+"Check this box to include order information which consists of billing and "
+"shipping address, contact details, order items, subtotal and total."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:182
+msgid "Custom Message"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:184
+msgid ""
+"Check this box to include a custom message to the email body. This can "
+"include shortcodes from third party plugins."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:187
+msgid "Message"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:196
+msgid ""
+"Enter the message which will be sent in the email. Click on the trolley icon "
+"to load available shortcodes."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:205
+msgid ""
+"The following options affects what the customer can do when this status is "
+"set."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:209
+msgid "Pay Button"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:211
+msgid ""
+"Enable this to display \"Pay\" button on the \"My Account\" page when this "
+"status is applied."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:214
+msgid "Cancel Orders"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:216
+msgid ""
+"Enable this to allow customer to cancel orders when this status is applied."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:219
+msgid "My Account"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:221
+msgid ""
+"Check this box to allow customer to set this status from the My Account page."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:224
+msgid "Visibility Rule"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:225
+#: includes/admin/meta-boxes/views/html-status-settings.php:306
+#: includes/admin/meta-boxes/views/html-status-settings.php:320
+#: includes/admin/meta-boxes/views/html-status-settings.php:349
+msgid "Select Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:235
+msgid ""
+"Select what the status of the order has to be before the button is shown."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:238
+msgid "Button Label"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:240
+msgid "Enter the text that appears on the button."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:243
+msgid "Confirmation Prompt"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:245
+msgid ""
+"Enable this to show the \"Prompt\" window when the user click on button."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:249
+msgid "Product Reviews"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:251
+msgid ""
+"Check this box to allow customers to leave a review for the products "
+"purchased in the order when this status set."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:259
+msgid ""
+"The following options affect the products purchased in the order when the "
+"status is set."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:263
+msgid "Downloads Permitted"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:265
+msgid ""
+"Enable to permit downloads of virtual products in the order when this status "
+"is set."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:270
+msgid ""
+"Enable to allow item editing in the order. If unchecked, the order would be "
+"considered paid and no edits can be made."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:273
+msgid "Stock Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:277
+msgid "No affection to stock status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:278
+msgid "Reduce stock levels"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:279
+msgid "Restore stock levels"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:288
+msgid ""
+"Select what happens to the stock levels of the products when the status is "
+"applied to the order."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:296
+msgid ""
+"The following fields affects how and when actions for this status are "
+"displayed on the main orders screen."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:300
+msgid "Action Icon"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:302
+msgid "Select the icon you would like to display as the Action button."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:305
+msgid "Default Actions"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:316
+msgid "Select which actions buttons should appear when this status is set."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:319
+msgid "Action Visibility"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:330
+msgid ""
+"Select which statuses need to be applied to the order before the action "
+"button is shown. Leave blank to not display the action button."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:333
+msgid "Hide Bulk Actions"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:335
+msgid ""
+"Check this box to hide the action for this status from the Bulk Actions menu."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:338
+msgid "Order Note Prompt"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:340
+msgid ""
+"Check this box to display a modal window to enter a custom note when "
+"clicking on the action button."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:343
+msgid "Automatic Trigger"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:345
+msgid "Triggers another status after a period of time when this status is set."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:348
+msgid "Triggered Status"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:360
+msgid "Select which status should be triggered after the period of time."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:363
+msgid "Time Period"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:368
+msgid "Minutes"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:369
+msgid "Hours"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:370
+msgid "Days"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:371
+msgid "Weeks"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:372
+msgid "Months"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:373
+msgid "Years"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-status-settings.php:382
+msgid "Select the time period after which the triggered status is set."
+msgstr ""
+
+#: includes/class-wc-sa-ajax.php:81
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: includes/class-wc-sa-ajax.php:91
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-wc-sa-emails.php:42 includes/class-wc-sa-emails.php:51
+#: includes/class-wc-sa.php:562 includes/class-wc-sa.php:571
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-wc-sa-install.php:165
+msgid "View Settings"
+msgstr ""
+
+#: includes/class-wc-sa-install.php:165
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wc-sa-install.php:180
+msgid "View Documentation"
+msgstr ""
+
+#: includes/class-wc-sa-install.php:180
+msgid "Docs"
+msgstr ""
+
+#: includes/class-wc-sa-install.php:181
+msgid "Visit Support"
+msgstr ""
+
+#: includes/class-wc-sa-install.php:181 updater/pages/index.php:134
+msgid "Support"
+msgstr ""
+
+#: includes/class-wc-sa-order.php:61 includes/class-wc-sa-order.php:73
+#, php-format
+msgid "Mark %s"
+msgstr ""
+
+#: includes/class-wc-sa-order.php:119
+msgid "Complete"
+msgstr ""
+
+#: includes/class-wc-sa-order.php:141
+msgid "Add note"
+msgstr ""
+
+#: includes/class-wc-sa-order.php:145
+msgid ""
+"Add a note for your reference, or add a customer note (the user will be "
+"notified)."
+msgstr ""
+
+#: includes/class-wc-sa-order.php:149
+msgid "Private note"
+msgstr ""
+
+#: includes/class-wc-sa-order.php:150
+msgid "Note to customer"
+msgstr ""
+
+#: includes/class-wc-sa-order.php:158
+msgid "Add"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:50
+msgctxt "Admin menu name"
+msgid "Order Statuses"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:51
+msgid "Add Status"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:52
+msgid "Add New Status"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:53
+msgid "Edit"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:54
+msgid "Edit Status"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:55
+msgid "New Status"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:56
+msgid "View Statuses"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:57
+msgid "View Status"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:58
+msgid "Search Statuses"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:59
+msgid "No Statuses found"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:60
+msgid "No Statuses found in trash"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:61
+msgid "Parent Status"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:63
+msgid "Set Icon"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:64
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/class-wc-sa-post-types.php:66
+msgid "This is where you can add new Statuses that you can use in orders."
+msgstr ""
+
+#: includes/class-wc-sa-status.php:178
+#, php-format
+msgid "Item #%s stock incremented from %s to %s."
+msgstr ""
+
+#: includes/class-wc-sa.php:139
+msgctxt "Order status"
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/class-wc-sa.php:140
+msgctxt "Order status"
+msgid "Processing"
+msgstr ""
+
+#: includes/class-wc-sa.php:141
+msgctxt "Order status"
+msgid "On Hold"
+msgstr ""
+
+#: includes/class-wc-sa.php:142
+msgctxt "Order status"
+msgid "Completed"
+msgstr ""
+
+#: includes/class-wc-sa.php:143
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-wc-sa.php:144
+msgctxt "Order status"
+msgid "Refunded"
+msgstr ""
+
+#: includes/class-wc-sa.php:145
+msgctxt "Order status"
+msgid "Failed"
+msgstr ""
+
+#: includes/class-wc-sa.php:286
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-sa.php:370
+#, php-format
+msgid "<strong>%s order</strong> %s"
+msgid_plural "<strong>%s orders</strong> %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-sa.php:400
+msgid "Are you sure you want to cancel this order?"
+msgstr ""
+
+#: includes/class-wc-sa.php:401
+msgid "Are you sure you want to change the status of this order?"
+msgstr ""
+
+#: includes/class-wc-sa.php:473
+msgid "<b>Status Name</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:474
+msgid "<b>Status Label</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:475
+msgid "<b>\"From\" Name</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:476
+msgid "<b>From\" Email Address</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:477
+msgid "<b>Email Subject</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:478
+msgid "<b>Email Heading</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:479
+msgid "<b>Visibility Rule</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:480
+msgid "<b>Button Label</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:481
+msgid "<b>Triggered Status</b> is a required field."
+msgstr ""
+
+#: includes/class-wc-sa.php:482
+msgid "<b>Time Period</b> is a required field."
+msgstr ""
+
+#: includes/emails/class-wc-sa-email.php:28
+#, php-format
+msgid "Order status is set to %s"
+msgstr ""
+
+#: includes/emails/class-wc-sa-email.php:29
+#, php-format
+msgid "This email is sent when order status is set to %s"
+msgstr ""
+
+#: includes/functions.php:77
+msgid "wc_sa_get_status should not be called before the wc_sa_init action."
+msgstr ""
+
+#: updater/lib/github-checker.php:119
+msgid "There is no changelog available."
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:637
+msgid "Register for Updates"
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:637
+#, php-format
+msgid "<em><a href=\"%s\">Register here</a> to get this update</em>"
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:655
+msgid "Check for updates"
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:703
+msgid "This plugin is up to date."
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:705
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:707
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: updater/pages/index.php:47
+msgid "Welcome"
+msgstr ""
+
+#: updater/pages/index.php:48
+msgid ""
+"Thank you for purchasing from Actuality Extensions. To ensure you get the "
+"latest updates for bugs, features and tweaks, please enter the license "
+"details in the table below."
+msgstr ""
+
+#: updater/pages/index.php:52
+msgid "License"
+msgstr ""
+
+#: updater/pages/index.php:55
+msgid "Step 1 - Subscribe"
+msgstr ""
+
+#: updater/pages/index.php:56
+msgid ""
+"Join and subscribe to our newsletter to get the latest updates on new "
+"features and notices. Only special product announcements and updates will be "
+"sent, no spam."
+msgstr ""
+
+#: updater/pages/index.php:57
+msgid "Subscribe"
+msgstr ""
+
+#: updater/pages/index.php:60
+msgid "Step 2 - CodeCanyon"
+msgstr ""
+
+#: updater/pages/index.php:61
+msgid "Locate your purchase code through logging into "
+msgstr ""
+
+#: updater/pages/index.php:61
+msgid "CodeCanyon.net"
+msgstr ""
+
+#: updater/pages/index.php:61
+msgid ""
+", then go to Downloads > Plugin Name > Download > License certificate & "
+"purchase code. "
+msgstr ""
+
+#: updater/pages/index.php:61
+msgid "Click "
+msgstr ""
+
+#: updater/pages/index.php:61
+msgid " for an example of this."
+msgstr ""
+
+#: updater/pages/index.php:62
+msgid "Retrieve Purchase Code"
+msgstr ""
+
+#: updater/pages/index.php:66
+msgid "Installed Products"
+msgstr ""
+
+#: updater/pages/index.php:75
+msgid "Invalid request."
+msgstr ""
+
+#: updater/pages/index.php:91
+msgid "Purchase Code"
+msgstr ""
+
+#: updater/pages/index.php:105
+msgid "Place your purchase code here"
+msgstr ""
+
+#: updater/pages/index.php:129
+msgid "Save Settings"
+msgstr ""
+
+#: updater/pages/index.php:137
+msgid "Submit A Ticket"
+msgstr ""
+
+#: updater/pages/index.php:138
+msgid ""
+"We offer our support through our advanced ticket system. Use our contact "
+"form to filter through your query so your ticket can be allocated to the "
+"right department. "
+msgstr ""
+
+#: updater/pages/index.php:139
+msgid "Submit a ticket"
+msgstr ""
+
+#: updater/pages/index.php:142 updater/pages/index.php:144
+msgid "Documentation"
+msgstr ""
+
+#: updater/pages/index.php:143
+msgid ""
+"This is the place to go to reference different aspects of the plugin. Our "
+"online documentation is a useful resource for learning the ins and outs of "
+"using our plugins."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Order Status & Actions Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://codecanyon.net/item/woocommerce-customer-relationship-"
+"manager/6392174&ref=actualityextensions"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allows users to manage WooCommerce order statuses, create the action button "
+"that triggers the status and set up what happens to the order when the "
+"status is applied."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Actuality Extensions"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://actualityextensions.com/"
+msgstr ""

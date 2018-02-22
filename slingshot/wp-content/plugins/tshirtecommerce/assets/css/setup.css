@@ -1,0 +1,109 @@
+body {
+    margin: 50px auto 24px;
+    box-shadow: none;
+    background: #f1f1f1;
+    padding: 0;
+	width:700px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:13px;
+}
+.progress-striped .progress-bar,
+.progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+.progress.active .progress-bar,
+.progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+}
+.e-steps {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+}
+.e-steps-label {
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+    padding-bottom: 5px;
+}
+.e-steps .progress {
+    height: 8px;
+    background-color: #ccc;
+    position: absolute;
+    width: 100%;
+    bottom: 19px;
+    margin: 0px;
+}
+.e-step {
+    display: inline;
+    padding: 0 0;
+    text-align: center;
+    float: left;
+    color: #666;
+    width: 25%;
+}
+.e-step span {
+    clear: both;
+    display: block;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    margin: auto;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.e-step.e-step-active span {
+    border-color: #5CB85C;
+    color: #000;
+}
+.page-content {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+h2.title {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+.page-content label {
+    font-weight: normal;
+    line-height: 27px;
+    text-align: left;
+}
+.tooltip-inner{
+	white-space: nowrap;
+}
+.e-step.e-step-active {
+    color: #000;
+}
+.download-store {
+    padding-top: 12px;
+    display: none;
+}
+.panel-total{float:right;color:#666;}
+.panel-product .panel-heading{cursor: pointer;}
+.panel-product .panel-body{display:none;}

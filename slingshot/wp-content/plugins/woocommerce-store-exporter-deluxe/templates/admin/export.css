@@ -1,0 +1,406 @@
+/* Tabbed navigation */
+
+#woo-ce h2 .nav-tab {
+	font-size: 16px;
+	margin-right:0;
+}
+#woo-ce h2.nav-tab-wrapper {
+	padding-left:7px;
+	margin-bottom: 0.5em;
+}
+
+/* Export */
+
+#woo-ce #export-type th {
+	line-height:1.4em;
+	padding:9px 7px;
+}
+#woo-ce #export-type td {
+	line-height:2em;
+	padding:9px 7px;
+}
+#woo-ce #export-type td.sort {
+	padding:0 7px 0 14px;
+}
+#woo-ce #export-type td.actions {
+	padding:0 7px 0 7px;
+}
+#woo-ce #export-type td.name {
+	font-weight:700;
+	/* width:25%; */
+}
+#woo-ce #export-type tr.type-disabled td {
+	color:#999;
+}
+#woo-ce #export-type th.column_records {
+	width:25%;
+}
+#woo-ce .export-types table.ui-sortable {
+	width:100%;
+}
+#woo-ce .export-types table.ui-sortable td label {
+	cursor:move;
+	display:inline-block;
+	width:100%;
+}
+#woo-ce .export-types table.ui-sortable td label span.field_title,
+#woo-ce .export-types table.ui-sortable td label span.field_hover {
+	display:inline-block;
+	width:48%;
+}
+#woo-ce .export-types table.ui-sortable td label span.field_hover {
+	color:#888;
+}
+/*
+#woo-ce #export-type th {
+}
+#woo-ce #export-type td {
+	padding:0;
+}
+*/
+#woo-ce .postbox {
+	max-width:none;
+}
+#woo-ce .postbox .submit {
+	padding:0.3em 0;
+}
+#woo-ce textarea#export_log {
+	font:12px Consolas, Monaco, Courier, monospace;
+	width:100%;
+	height:200px;
+}
+#woo-ce #export_sheet {
+	overflow: scroll;
+	margin-bottom:1em;
+}
+#woo-ce #export_sheet table {
+	width:100%;
+}
+#woo-ce div.woocommerce-message p {
+	max-width:none;
+}
+#woo-ce div#message-quick_export {
+	display:none;
+}
+
+#woo-ce .separator {
+	border-bottom:1px solid #dfdfdf;
+}
+#woo-ce .woo_vm_version_table .export_module {
+	background-color:#fff;
+	padding:0.2em 0 0 0.5em;
+}
+#woo-ce .woo_vm_version_table .dashicons {
+	color:#666;
+}
+#woo-ce .woo_vm_version_table .status {
+	width:80px;
+}
+#woo-ce #export-template .loading {
+	height:18px;
+	width:18px;
+	line-height:1em;
+	vertical-align:middle;
+}
+
+/* Settings */
+
+#woo-ce p.warning {
+	color:red;
+}
+#woo-ce .advanced-settings {
+	display:none;
+}
+#woo-ce .advanced-settings ul {
+	list-style-type:disc;
+}
+#woo-ce .export_method_options li.ftp-options label {
+	display:inline-block;
+	width:120px;
+}
+#woo-ce .export_method_options li.ftp-options select {
+  width: 25em;
+}
+#woo-ce table.scheduled-exports th.manage-column {
+	line-height:1em;
+	padding:9px 10px;
+	font-weight:normal;
+}
+#woo-ce table.scheduled-exports th.separator {
+	width:60px;
+}
+#woo-ce table.scheduled-exports tbody td {
+	font-size:13px;
+	vertical-align:top;
+}
+#woo-ce table.scheduled-exports .row-actions {
+	visibility:visible;
+}
+#woo-ce table.scheduled-exports tr.scheduled-export-draft td {
+	color:grey;
+}
+#woo-ce table.scheduled-exports span.meta {
+	color:#999;
+}
+
+/* Edit Product */
+
+body.post-type-product #woo-product-post_data table td.actions {
+	width:10%;
+}
+
+/* Edit Coupon */
+
+body.post-type-shop_coupon #woo-coupon-post_data table td.actions {
+	width:10%;
+}
+
+/* Edit Order */
+
+body.post-type-shop_order #woo-order-post_data table td.actions,
+body.post-type-shop_order #woo-order-post_item table td.actions {
+	width:10%;
+}
+body.post-type-shop_order .widefat th.column-woo_ce_export_status {
+	width:45px;
+}
+.widefat td.order_actions a.download_csv,
+.widefat td.order_actions a.download_tsv,
+.widefat td.order_actions a.download_xls,
+.widefat td.order_actions a.download_xlsx,
+.widefat td.order_actions a.download_xml,
+body.post-type-shop_order .widefat td.column-woo_ce_export_status mark {
+	display: block;
+	text-indent: -9999px;
+	position:relative;
+	padding: 0!important;
+	height: 2em!important;
+	width: 2em;
+}
+body.post-type-shop_order .widefat td.column-woo_ce_export_status mark {
+	background-color:inherit;
+}
+.widefat td.order_actions a.download_csv:after,
+.widefat td.order_actions a.download_tsv:after,
+.widefat td.order_actions a.download_xls:after,
+.widefat td.order_actions a.download_xlsx:after,
+.widefat td.order_actions a.download_xml:after,
+body.post-type-shop_order .widefat td.column-woo_ce_export_status mark:after {
+	font-family: 'dashicons';
+	speak: none;
+	font-size:20px;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 1.2;
+}
+body.post-type-shop_order td.column-woo_ce_export_status mark.csv_exported:after {
+	content:"\f147";
+}
+body.post-type-shop_order td.column-woo_ce_export_status mark.csv_not_exported:after {
+	content:"\f460";
+}
+td.order_actions a.download_csv:after {
+	content:"\f491";
+}
+td.order_actions a.download_tsv:after {
+	content:"\f491";
+}
+td.order_actions a.download_xls:after, td.order_actions a.download_xlsx:after {
+	content:"\f495";
+}
+td.order_actions a.download_xml:after {
+	content:"\f499";
+}
+
+/* Dashboard widget - Recent scheduled exports */
+
+#dashboard-widgets #woo_ce_recent_scheduled_export_widget span.error,
+#woo-ce span.error {
+	color:red;
+}
+#dashboard-widgets #woo_ce_recent_scheduled_export_widget .meta {
+	color:#999;
+}
+
+/* Dashboard widget - Scheduled Exports */
+
+#dashboard-widgets #woo_ce_scheduled_export_widget .meta {
+	color:#999;
+}
+
+/* Scheduled Exports */
+
+#scheduled_export_options .woocommerce_options_panel {
+	min-height:300px;
+}
+#scheduled_export_options ul.coupon_data_tabs li.filters_tab a:before {
+	font-family:WooCommerce;
+	content: "\e601";
+}
+#scheduled_export_options ul.coupon_data_tabs li.method_tab a:before {
+	font-family:WooCommerce;
+	content: "\e01c";
+}
+#scheduled_export_options ul.coupon_data_tabs li.scheduling_tab a:before {
+	font-family:WooCommerce;
+	content: "\e012";
+}
+#export_template_options ul.coupon_data_tabs li.fields_tab a:before {
+	font-family:WooCommerce;
+	content: "\e01e";
+}
+#scheduled_export_options .chosen-container-multi .chosen-choices .search-field {
+	padding: 4px;
+}
+#scheduled_export_options .chosen-container-multi .chosen-choices .search-field input {
+	width:auto !important;
+}
+#scheduled_export_options input[type=password].short {
+	width:50%;
+	margin-right:8px;
+}
+
+body.post-type-scheduled_export dl,
+#woo_ce-media-export_details dl {
+	margin-bottom:50px;
+}
+
+body.post-type-scheduled_export dl dt,
+#woo_ce-media-export_details dl dt {
+	float:left; 
+	margin-right:10px; 
+	padding:5px;  
+	width:30%; 
+}
+
+body.post-type-scheduled_export dl dd,
+#woo_ce-media-export_details dl dd {
+	margin:2px 0; 
+	padding:5px 0;
+	border-bottom:1px solid #eee;
+}
+
+/* Recent Scheduled Exports */
+
+.recent-scheduled-exports .pagination {
+	text-align:right;
+}
+.recent-scheduled-exports .displaying-num {
+	padding-right:7px;
+}
+.recent-scheduled-exports .pagination-links a {
+	margin-right:0.2em;
+}
+.recent-scheduled-exports .pagination-links span {
+	min-width: 17px;
+	margin:0 0.5em;
+}
+
+/* Google Sheets */
+
+#scheduled_export_options .woocommerce_options_panel #authorize-div #authorize-field {
+	padding-left:1em !important;
+}
+#scheduled_export_options #authorize-button {
+	background-image:url('images/google_sheets.png');
+	background-repeat:no-repeat;
+	background-position: 4px center;
+	padding-left:32px;
+	height:3em;
+}
+#scheduled_export_options .woocommerce_options_panel #authorize-div p.description {
+	font-style:normal;
+}
+
+/* Export Templates */
+
+#export_template_options .wc-tabs li a::before,
+#scheduled_export_options .wc-tabs li a::before {
+	padding-right:0.5em;
+}
+#export_template_options div.form-field p.form-field {
+	padding-bottom:0;
+}
+#export_template_options div.form-field ul {
+	list-style:none;
+	padding: 5px 20px 5px 12px;
+}
+#export_template_options div.form-field li label {
+	float:none;
+	width:auto;
+	margin:0;
+}
+#export_template_options div.form-field table {
+	/* padding: 5px 20px 5px 162px !important; */
+	margin-left:162px !important;
+	width:80%;
+}
+#export_template_options div.form-field table {
+	width:100%;
+}
+#export_template_options div.form-field table label {
+	width:46%;
+	line-height:1em;
+}
+#export_template_options div.form-field .ui-sortable td,
+#export_template_options div.form-field .ui-sortable td label {
+	cursor:move;
+}
+
+/* Support - Donate / Rate */
+
+#woo-ce .support-donate_rate {
+	display:block;
+	float:right;
+}
+#woo-ce .support-donate_rate p {
+	margin-top:16px;
+}
+#woo-ce .support-donate_rate .star {
+	vertical-align:bottom;
+	display:inline-block;
+	width:17px;
+	height:17px;
+	background:url('images/star.png') no-repeat;
+}
+#woo-ce .support-donate_rate span {
+	display:none;
+}
+
+@media screen and (max-width: 782px) {
+
+	body.post-type-shop_order .wp-list-table tr th.column-woo_ce_export_status,
+	body.post-type-shop_order .wp-list-table tr td.column-woo_ce_export_status {
+		display:none !important;
+	}
+
+}
+
+@media screen and (max-width:780px) {
+	#woo-ce #export-type th,
+	#woo-ce #export-type td {
+		display:table-cell;
+	}
+	#woo-ce #export-type tbody td.sort,
+	#woo-ce #export-type tbody td.actions {
+		width:1%;
+	}
+	#woo-ce .export-types .ui-sortable tbody td {
+		padding-bottom:1em;
+	}
+	#woo-ce .export-types table.ui-sortable td label span.field_title,
+	#woo-ce .export-types table.ui-sortable td label span.field_hover {
+		display:block;
+		width:auto;
+	}
+}

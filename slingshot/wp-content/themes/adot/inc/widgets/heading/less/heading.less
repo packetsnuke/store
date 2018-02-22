@@ -1,0 +1,43 @@
+.sc_heading {
+	.title {
+		margin: 0 0 20px 0;
+//		color:          @text-title;
+//		font-weight:    600;
+//		font-size:      14px;
+//        letter-spacing: 0.5px;
+	}
+ 	&.left {
+		float: left;
+		text-align: center;
+		width: 50%;
+ 	}
+	&.center {
+		text-align: center;
+	}
+	&.right {
+		float: right;
+		text-align: center;
+		width: 50%;
+ 	}
+ 	.heading-desc{
+		position: relative;
+		padding-bottom: 40px;
+		color:          @thim_body_primary_color;
+ 		font-weight:    normal;
+		margin-bottom: 40px;
+		font-size: 28px;
+		line-height: 28px;
+       letter-spacing: 0.5px;
+		span.line{
+			position:    absolute;
+			content:     "";
+			height:      4px;
+			width:       30px;
+			bottom:      0;
+			left:        50%;
+			margin-left: -15px;
+			background:  @thim_body_primary_color;;
+		}
+	}
+ }
+

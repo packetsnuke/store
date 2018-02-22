@@ -1,0 +1,70 @@
+.woocommerce-wishlist {
+	.site-content {
+		margin: 0 auto;
+		width:  55%;
+		.page-entry-title {
+			font-size:     @thim_font_h2_font_size;
+			font-weight:   @thim_font_h2_font_weight;
+			text-align:    center;
+			margin-bottom: 23px;
+		}
+		article {
+			.entry-content {
+				form {
+//					margin-bottom: 100px;
+					.wishlist-title {
+						display: none;
+					}
+					table {
+						border: none;
+						thead {
+							tr {
+								th {
+									border:        none;
+									border-bottom: 2px solid @border_color !important;
+									span {
+										font-size:   @thim_font_body_font_size;
+										font-weight: 600;
+									}
+								}
+							}
+						}
+						tbody {
+							tr {
+								td {
+									border:        none;
+									border-bottom: 2px dotted @border_color !important;
+								}
+								.product-name {
+									a {
+										font-size:   13px;
+										font-weight: normal;
+									}
+								}
+								.product-add-to-cart {
+									.cart {
+										a {
+											font-size:   13px;
+											font-weight: normal;
+											&:hover {
+												background-color: @thim_body_second_color !important;
+											}
+										}
+									}
+									.wishlist {
+										display: none !important;
+									}
+								}
+							}
+						}
+						tfoot {
+							td {
+								border: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

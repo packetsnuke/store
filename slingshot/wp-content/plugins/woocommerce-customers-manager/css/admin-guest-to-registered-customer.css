@@ -1,0 +1,21 @@
+#wccm-conversion-loader
+{
+	display:none;
+	background-image: url("../images/ajax-loader.gif");
+	height: 16px;
+	background-repeat:no-repeat;;
+}
+#wccm-conversion-result
+{
+	display:none;
+}
+#wccm-conversion-result h3
+{
+	color:green;
+}
+#wccm-conversion-text-result
+{
+	font-weight: bold;
+	color: green;
+
+}

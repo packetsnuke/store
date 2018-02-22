@@ -1,0 +1,35 @@
+/*
+    Styles for the front page
+*/
+
+.woocommerce_products_of_the_day ul.product_list_widget li.product {
+	margin-bottom: 15px;
+}
+
+.woocommerce_products_of_the_day ul.product_list_widget li.product img {
+    float: left;
+    margin-right: 4px;
+    width: 55px;
+    max-width: 55px;
+}
+
+.woocommerce_products_of_the_day ul.product_list_widget li.product .js_widget_product_price {
+	display: block;
+}
+
+.woocommerce_products_of_the_day ul.product_list_widget li.product .button {
+    display: inline;
+    clear: both;
+    float: left;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.woocommerce_products_of_the_day ul.product_list_widget li.product .button:before {
+    width: 0;
+    height: 0;
+}
+
+.woocommerce_products_of_the_day ul.product_list_widget li.product .added_to_cart {
+    display: none;
+}

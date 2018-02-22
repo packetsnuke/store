@@ -1,0 +1,151 @@
+#thim-popup-login-wrapper {
+	height:   100%;
+	left:     0;
+	outline:  medium none !important;
+	position: fixed;
+	top:      0;
+	width:    100%;
+	z-index:  99999;
+
+	.thim-popup-login-bg {
+		background: none repeat scroll 0 0 #0b0b0b;
+		height:     100%;
+		left:       0;
+		opacity:    0.8;
+		overflow:   hidden;
+		position:   fixed;
+		top:        0;
+		width:      100%;
+	}
+
+	.thim-popup-login-container {
+		box-sizing: border-box;
+		height:     100%;
+		left:       0;
+		padding:    0 8px;
+		position:   absolute;
+		text-align: center;
+		top:        0;
+		width:      100%;
+
+		&:before {
+			content:        "";
+			display:        inline-block;
+			height:         100%;
+			vertical-align: middle;
+		}
+
+		.thim-popup-login-container-inner {
+			display:        inline-block;
+			margin:         0 auto;
+			position:       relative;
+			text-align:     left;
+			vertical-align: middle;
+
+			.thim-popup-login {
+				.thim-popup-login-content {
+					> label {
+						margin: 0 0 20px;
+					}
+				}
+				.sc-btn {
+					margin: 0;
+				}
+				background-color: @white;
+				margin:           0 auto;
+				max-width:        700px;
+				padding:          30px;
+				position:         relative;
+				/*width: 300px;*/
+
+				.thim-popup-login-close {
+					/*background: none repeat scroll 0 0 transparent;
+					border: medium none;
+					display: block;
+					font-size: 28px;
+					height: 44px;
+					line-height: 44px;
+					opacity: 0.65;
+					position: absolute;
+					right: 0;
+					top: 0;
+					width: 44px;*/
+					position: absolute;
+					right:    0;
+					top:      0;
+					padding:  1px 14px;
+				}
+				h2 {
+					color:          #666;
+					font-family:    "Open Sans";
+					font-size:      21px;
+					font-weight:    400;
+					line-height:    33px;
+					margin:         0 0 15px;
+					padding:        0;
+					border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+					padding-bottom: 5px;
+				}
+				.thim-popup-login-content {
+					/*color: #15151a;
+					font-family: "Open Sans";
+					margin-bottom: 20px;*/
+					p {
+						margin: 0 0 20px;
+					}
+
+					a {
+						/*color: #666;*/
+					}
+
+					label {
+						width:       100%;
+						font-weight: normal;
+						/*display: inline-block;
+						font-size: 14px;
+						margin: 0;
+						margin-top: 10px;*/
+					}
+
+					input[type="text"], input[type="password"] {
+						max-width:        100%;
+						width:            100%;
+						background-color: @white;
+						border:           1px solid #eee;
+						margin:           0;
+						padding:          10px;
+						vertical-align:   middle;
+					}
+				}
+				/*.thim-popup-login-button {
+					background:#444;
+					border: none;
+					color: @white!important;
+					display: inline-block;
+					font-family: "Open Sans";
+					font-size: 14px;
+					font-weight: 400;
+					line-height: 22px;
+					padding: 10px 15px;
+					text-decoration: none;
+					text-transform: uppercase;
+				}*/
+			}
+		}
+
+	}
+
+}
+
+.thim-popup-login-button {
+	margin: 0 !important;
+}
+
+.thim-popup-login {
+	h3 {
+		padding-bottom: 5px;
+		border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+		text-transform: uppercase;
+		margin:         0 0 15px 0;
+	}
+}

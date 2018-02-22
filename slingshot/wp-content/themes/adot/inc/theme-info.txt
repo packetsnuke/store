@@ -1,0 +1,14 @@
+/*
+Theme Name: Adot
+Theme URI: http://demo.thimpress.com/
+Author: ThimPress
+Author URI: http://thimpress.com
+Description: Theme Descriptions
+Version: 2.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:  three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: Adot
+Domain Path: /languages/
+*/  
+

@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+
+label.description + input.checkbox {
+  margin-left: 20px;
+}
+
+.product_of_the_day_week {
+  display: none;
+}
+
+.product_of_the_day_week > label.description {
+    width: auto;
+}
+
+.day-box {
+	background: #eee;
+	margin: 5px 10px;
+	-moz-box-shadow: 3px 3px 10px 1px #ccc;
+	-webkit-box-shadow: 3px 3px 10px 1px #ccc;
+	box-shadow: 3px 3px 10px 1px #ccc;
+    float: left;
+    width: 300px;
+}
+
+.day-box h3 {
+	background: #ddd;
+  padding: 10px 5px;	
+  margin: 0;
+}
+
+.day-box li {
+	border-bottom: 1px solid #ddd;
+  line-height: 28px;	
+  padding: 0 5px;
+}
+
+.day-box li:last-child {
+  border-bottom: none;
+}
+
+.day-box h3 span {
+	float: right;
+	font-weight: bold;
+	display: none;
+}
+
+.day-box h3 span.success {
+  color: green;
+}
+
+.day-box h3 span.fail {
+  color: red;
+}
+
+.day-box p {
+	padding: 0 5px 10px;
+}
+
+.icon32-products-of-the-day {
+    /** ULTIMATEWOO fix **/
+    background-image: url("../../../../../woocommerce/assets/images/icons/woocommerce-icons.png") !important;
+    background-position: -69px -5px !important;
+}
+
+.potd-product-remove {
+    background: url("../images/ui-icons_888888_256x240.png") repeat scroll -14px 48px transparent;
+    display: inline-block;
+    height: 14px;
+    margin-top: 6px;
+    width: 16px;
+    float: right;
+}
+
+.potd-product-add-container {
+    padding: 5px 4px;
+}
+
+.ui-sortable-placeholder {
+    visibility: visible !important;
+    background: #eee;
+}
+
+.potd-day > div {
+    display: inline-block;
+}
+
+.potd-day-label {
+    width: 90%;
+}
+
+.potd-day-remove-icon {
+    width: 7%;
+    float: right;
+}
+
+.potd-days-row {
+    float: left;
+    display: inline-block;
+    width: 1000px;
+    margin-bottom: 25px;
+}
+
+.potd-container-input > input {
+    width: 99%;
+}
+
+.potd-autocomplete-no-results {
+    border: 1px solid #BC0B0B !important;
+}
+
+.potd-sortable-list {
+    border-color: #DDDDDD;
+}

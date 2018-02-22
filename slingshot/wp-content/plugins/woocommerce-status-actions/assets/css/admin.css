@@ -1,0 +1,54 @@
+.sa_note_prompt_modal .media-modal-content{
+	min-height: 340px;
+}
+.sa_note_prompt_modal .media-frame-content,
+.sa_note_prompt_modal .media-frame-toolbar,
+.sa_note_prompt_modal .media-frame-title{
+	left: 0;
+	padding: 0 16px;
+}
+.sa_note_prompt_modal .media-frame-content{
+	top: 50px;
+	padding: 10px 16px;
+}
+
+.sa_note_prompt_modal.media-modal{
+    height: 320px;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    margin-top: -160px;
+    top: 50%;
+    left: 50%;
+}
+.sa_note_prompt_modal .media-frame-title h1 {
+	font-size: 18px;
+	padding: 0;
+}
+.sa_note_prompt_modal .media-modal-close {
+	border-left: 1px solid #ddd;
+}
+.sa_note_prompt_modal.media-modal textarea{
+	width: 100%;
+	resize: none;
+	margin-top: 10px;
+}
+/* WooCommerce Orders Page Filter Tidier Tweak */
+.select2-container .select2-selection--single .select2-selection__rendered {
+	line-height: 26px !important;
+}
+.select2-container .select2-selection--single {
+	height: 28px !important;
+}
+.post-type-shop_order .tablenav .select2-container {
+	margin: 1px !important;
+	margin-right: 6px !important;
+	font-size: 12px !important;
+}
+.post-type-shop_order .tablenav input, .post-type-shop_order .tablenav select {
+	line-height: 28px !important;
+	height: 28px !important;
+}
+.post-type-shop_order .tablenav .button {
+	line-height: 26px !important;
+}

@@ -1,0 +1,873 @@
+/*
+ * TODO: separate styles into multiple imports
+ */
+@import "class-option-font.css";
+
+/* note option padding issue */
+.tf-note .updated p {
+	margin-bottom: 4px;
+}
+
+@media screen and (min-width: 783px) {
+	.tf-select-googlefont iframe {
+		width:      100%;
+		height:     120px;
+		background: #FFF;
+		background: rgba(255, 255, 255, .7);
+		margin-top: 4px;
+	}
+
+	.form-table td.tf-select-googlefont fieldset label {
+		display:      inline-block;
+		padding-left: 20px;
+		width:        200px;
+	}
+}
+
+/*
+ * Styles for metaboxes in the sidebar
+ */
+#side-sortables .tf-form-table,
+#side-sortables .tf-form-table tbody,
+#side-sortables .tf-form-table tr,
+#side-sortables .tf-form-table th,
+#side-sortables .tf-form-table td {
+	display: block;
+}
+
+#side-sortables .tf-form-table th {
+	padding: 10px 0px 0px;
+}
+
+#side-sortables .tf-form-table td {
+	padding: 5px 0px;
+}
+
+#side-sortables .tf-form-table td input {
+	max-width: 100%;
+}
+
+#side-sortables .tf-radio-image label:first-child,
+#side-sortables .tf-radio-image label {
+	display:     inline-block;
+	margin-left: 10px;
+	margin-top:  10px;
+}
+
+/*
+ * Base styling for admin pages
+ */
+
+/* main wrapper */
+.titan-framework-panel-wrap {
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 20px;
+}
+
+/* Tabs */
+.titan-framework-panel-wrap .nav-tab-wrapper {
+	margin-bottom: 20px;
+}
+
+/* option tables */
+.titan-framework-panel-wrap .form-table th,
+.titan-framework-panel-wrap .form-table td {
+	padding: 20px 20px;
+}
+
+.titan-framework-panel-wrap .wp_themeSkin table td {
+	padding: 0;
+}
+
+.titan-framework-panel-wrap .form-table {
+	margin-top: 0;
+}
+
+.titan-framework-panel-wrap .form-table tr {
+	background:    white;
+	border-bottom: 1px solid #eee;
+}
+
+.titan-framework-panel-wrap .form-table .wp_themeSkin .mceStatusbar {
+	padding: 0 0 0 8px;
+}
+
+.titan-framework-panel-wrap .form-table .wp_themeSkin .mceToolbar {
+	padding: 1px;
+}
+
+.titan-framework-panel-wrap p.submit {
+	background:    #FFF;
+	margin-top:    0;
+	margin-bottom: 0;
+	padding:       15px 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.titan-framework-panel-wrap .form-table + p.submit {
+	padding: 15px 20px;
+}
+
+/* This line is for font options description */
+.titan-framework-panel-wrap .tf-font p.description,
+.titan-framework-panel-wrap .tf-radio p.description,
+.titan-framework-panel-wrap .tf-multicheck p.description {
+	margin-bottom: 8px;
+}
+
+/* google font iframe */
+.tf-select-googlefont iframe {
+	background: #fafafa;
+}
+
+/* notifications */
+.titan-framework-panel-wrap div.updated,
+.titan-framework-panel-wrap div.error {
+
+}
+
+.titan-framework-panel-wrap h2 + div.updated,
+.titan-framework-panel-wrap h2 + div.error {
+
+}
+
+.titan-framework-panel-wrap h2 + div.error {
+}
+
+/* notes */
+.titan-framework-panel-wrap .tf-note .updated {
+
+}
+
+/* heading */
+.titan-framework-panel-wrap .tf-heading th {
+	background: #F1F1F1;
+	padding:    0;
+}
+
+.titan-framework-panel-wrap .options-container h2,
+.titan-framework-panel-wrap .tf-heading h3 {
+	background:    none repeat scroll 0 0 #F5F5F5;
+	border-left:   1px solid #DFDFDF;
+	border-top:    1px solid #DFDFDF;
+	border-right:  1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	color:         #222222;
+	font-size:     14px;
+	font-weight:   600;
+	line-height:   1.4;
+	margin:        20px 0 0;
+	padding:       10px 20px;
+}
+
+.titan-framework-panel-wrap .options-container h2 {
+	margin-bottom: -6px;
+}
+
+/* radio-palette */
+.tf-radio-palette span {
+	display: inline-block;
+	height:  40px;
+}
+
+.tf-radio-palette span span {
+	width: 15px;
+}
+
+.tf-radio-palette > label > span {
+	padding: 2px;
+	border:  1px solid #ddd;
+}
+
+.tf-radio-palette input[type=radio] {
+	vertical-align: top;
+	margin-top:     17px;
+}
+
+.tf-radio-palette label {
+	margin:  0 30px 10px 0;
+	display: inline-block;
+}
+
+.tf-radio-palette label:first-child {
+	margin-left: 0
+}
+
+/* radio images */
+.tf-radio-image label {
+	white-space:   nowrap;
+	display:       inline-block;
+	margin-right:  30px;
+	margin-bottom: 10px;
+}
+
+.form-table .tf-radio-image input[type=radio] {
+	margin-top: 0;
+}
+
+.tf-radio-image img {
+	vertical-align: middle;
+}
+
+/* code */
+.tf-code > div:first-of-type {
+	border-radius:      3px;
+	border:             1px solid #DDD;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	-o-box-sizing:      border-box;
+	box-sizing:         border-box;
+	position:           relative;
+	font-size:          14px;
+}
+
+/* sortable */
+.tf-sortable li {
+	cursor:      move;
+	background:  #fafafa;
+	padding:     0 0 0 15px;
+	border:      1px solid #DDD;
+	position:    relative;
+	line-height: 40px;
+}
+
+.tf-sortable ul {
+	margin-top: 0;
+	background: rgba(0, 0, 0, 0);
+	border:     1px solid #EEE;
+	padding:    5px;
+	display:    inline-block;
+}
+
+.tf-sortable ul li:last-of-type {
+	margin-bottom: 0;
+}
+
+.tf-sortable ul li i {
+	float:         right;
+	background:    #fcfcfc;
+	display:       inline-block;
+	border-left:   1px solid #ddd;
+	border-bottom: 1px solid #DDD;
+	width:         40px;
+	line-height:   40px;
+	text-align:    center;
+	color:         #777;
+}
+
+.tf-sortable ul li i.visibility {
+	cursor: pointer;
+}
+
+.tf-sortable ul li i:last-of-type {
+	margin-left: 50px;
+}
+
+.tf-sortable li.invisible {
+	color:      #ccc;
+	background: transparent;
+}
+
+/* number slider */
+.tf-number .ui-slider-handle {
+	position:       absolute;
+	z-index:        2;
+	border-radius:  3px;
+	cursor:         move;
+	margin-left:    -6px;
+	pointer-events: none;
+	outline:        none;
+	top:            -5px;
+	background:     #EEE;
+	border:         1px solid #CCC;
+	height:         23px;
+	width:          12px;
+}
+
+.tf-number .ui-slider a:focus {
+	outline: none;
+}
+
+.tf-number .ui-slider-range {
+	background: #eee;
+	height:     100%;
+}
+
+.tf-number .number-slider {
+	position:       relative;
+	background:     #fcfcfc;
+	border:         1px solid #ddd;
+	border-radius:  3px;
+	width:          250px;
+	height:         15px;
+	margin-right:   20px;
+	display:        inline-block;
+	vertical-align: bottom;
+	margin-bottom:  6px;
+}
+
+/* google webfont new */
+.tf-font label {
+	border:         1px solid #DDD;
+	vertical-align: middle;
+	display:        inline-block;
+	padding:        4px 4px 4px 13px;
+	margin-right:   10px;
+	background:     #fcfcfc;
+	margin-bottom:  10px;
+}
+
+.tf-font select {
+	margin-left: 10px;
+}
+
+.tf-font .wp-picker-container {
+	line-height: 28px;
+	height:      28px;
+	margin:      1px;
+}
+
+.tf-font .wp-picker-container > a {
+	margin: 2px 7px 2px 10px;
+}
+
+.tf-font .wp-picker-container .wp-picker-default {
+	margin: 2px 2px 2px 7px;
+}
+
+.tf-font iframe {
+	width:      100%;
+	height:     200px;
+	background: #FCFCFC;
+	border:     1px solid #DDD;
+}
+
+.tf-font div {
+	position: relative;
+}
+
+.tf-font i {
+	position:    absolute;
+	top:         0;
+	left:        0;
+	line-height: 30px !important;
+	width:       30px;
+	background:  #EEE;
+	text-align:  center;
+	border:      1px solid #DDD;
+	cursor:      pointer;
+}
+
+.tf-font i:hover {
+	background:    #333;
+	color:         #FFF;
+	border-bottom: 1px solid #333;
+	border-right:  1px solid #333;
+}
+
+.tf-font .wp-picker-container {
+	z-index: 9;
+}
+
+.dashicons-visibility-faint:before {
+	opacity: .2;
+}
+
+/* We're using dashicons instead of font-awesome, this fixed the incompatibility */
+[class*=tf-] i.dashicons {
+	height: auto;
+}
+
+/*
+ * Enable option styles
+ */
+
+.tf-enable input {
+	width:    0;
+	height:   0;
+	overflow: hidden;
+	float:    right;
+	z-index:  -9999;
+	position: absolute;
+}
+
+.tf-enable .button {
+	-moz-user-select:    none;
+	-khtml-user-select:  none;
+	-webkit-user-select: none;
+	user-select:         none;
+}
+
+.tf-enable .button + .button-primary {
+	background:         #6C7A89;
+	border-color:       #56606B;
+	-webkit-box-shadow: none;
+	box-shadow:         none;
+	color:              #fff;
+	pointer-events:     none;
+}
+
+.tf-enable .button-primary:first-of-type {
+	pointer-events: none;
+}
+
+.tf-enable .button:first-of-type {
+	border-top-right-radius:    0;
+	border-bottom-right-radius: 0;
+}
+
+.tf-enable .button-secondary:first-of-type {
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.08);
+	box-shadow:         inset 0 0 4px rgba(0, 0, 0, 0.08);
+}
+
+.tf-enable .button + .button {
+	border-top-left-radius:    0;
+	border-bottom-left-radius: 0;
+	-webkit-box-shadow:        inset 0 0 4px rgba(0, 0, 0, 0.08);
+	box-shadow:                inset 0 0 4px rgba(0, 0, 0, 0.08);
+}
+
+/*Style Process bar import*/
+.meter {
+	height:                15px; /* Can be anything */
+	position:              relative;
+	margin:                5px 0; /* Just for demo spacing */
+	background:            #555;
+	-moz-border-radius:    10px;
+	-webkit-border-radius: 10px;
+	border-radius:         10px;
+	-webkit-box-shadow:    inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow:       inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+	box-shadow:            inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter > span {
+	display:                            block;
+	height:                             100%;
+	-webkit-border-top-right-radius:    8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright:        8px;
+	-moz-border-radius-bottomright:     8px;
+	border-top-right-radius:            8px;
+	border-bottom-right-radius:         8px;
+	-webkit-border-top-left-radius:     20px;
+	-webkit-border-bottom-left-radius:  20px;
+	-moz-border-radius-topleft:         20px;
+	-moz-border-radius-bottomleft:      20px;
+	border-top-left-radius:             20px;
+	border-bottom-left-radius:          20px;
+	background-color:                   rgb(43, 194, 83);
+	background-image:                   -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(43, 194, 83)), color-stop(1, rgb(84, 240, 84)));
+	background-image:                   -moz-linear-gradient(center bottom, rgb(43, 194, 83) 37%, rgb(84, 240, 84) 69%);
+	-webkit-box-shadow:                 inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:                    inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	box-shadow:                         inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	position:                           relative;
+	overflow:                           hidden;
+}
+
+.meter > span:after, .animate > span > span {
+	content:                            "";
+	position:                           absolute;
+	top:                                0;
+	left:                               0;
+	bottom:                             0;
+	right:                              0;
+	background-image:                   -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+	background-image:                   -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	z-index:                            1;
+	-webkit-background-size:            50px 50px;
+	-moz-background-size:               50px 50px;
+	background-size:                    50px 50px;
+	-webkit-animation:                  move 2s linear infinite;
+	-moz-animation:                     move 2s linear infinite;
+	-webkit-border-top-right-radius:    8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright:        8px;
+	-moz-border-radius-bottomright:     8px;
+	border-top-right-radius:            8px;
+	border-bottom-right-radius:         8px;
+	-webkit-border-top-left-radius:     20px;
+	-webkit-border-bottom-left-radius:  20px;
+	-moz-border-radius-topleft:         20px;
+	-moz-border-radius-bottomleft:      20px;
+	border-top-left-radius:             20px;
+	border-bottom-left-radius:          20px;
+	overflow:                           hidden;
+}
+
+@-webkit-keyframes move {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 50px 50px;
+	}
+}
+
+@-moz-keyframes move {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 50px 50px;
+	}
+}
+
+.text_note {
+	color:      #CCCCCC;
+	font-style: italic;
+	display:    block;
+	clear:      both;
+}
+
+.options-container {
+	background: white;
+}
+
+.tp_process_bar {
+	width:   345px;
+	padding: 20px;
+}
+
+/* Icon */
+form#customize-controls h3 i.customizer-icon {
+	/*font-size: 28px;*/
+	margin-right: 5px;
+}
+
+#customize-control-thim_import_setting .customize-control-title,
+#customize-control-thim_export_setting .customize-control-title {
+	background:     #ddd;
+	border:         1px #ccc solid;
+	margin-left:    -20px;
+	padding:        0 20px;
+	text-transform: uppercase;
+	font-size:      12px;
+	margin-bottom:  10px;
+}
+
+/* Opacity color */
+.thim-alpha-container .transparency {
+	height:                24px;
+	width:                 100%;
+	background-color:      #FFF;
+	background-image:      url(../../../images/transparency-grid.png);
+	box-shadow:            0 0 5px rgba(0, 0, 0, 0.4) inset;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	padding:               0;
+}
+
+.thim-alpha-container .ui-slider-handle {
+	color:                 #777;
+	background-color:      #FFF;
+	text-shadow:           0 1px 0 #FFF;
+	text-decoration:       none;
+	position:              absolute;
+	z-index:               2;
+	box-shadow:            0 1px 2px rgba(0, 0, 0, 0.2);
+	border:                1px solid #aaa;
+	-webkit-border-radius: 4px;
+	-moz-border-radius:    4px;
+	border-radius:         4px;
+	opacity:               0.9;
+	margin-top:            -2px;
+	height:                20px;
+	cursor:                ew-resize;
+	font-size:             12px;
+	padding:               3px;
+}
+
+.thim-alpha-container .ui-slider {
+	position:   relative;
+	text-align: center;
+	width:      88%;
+}
+
+.wp-picker-container a.wp-picker-open ~ .wp-picker-holder div.thim-alpha-container {
+	display: block;
+}
+
+.thim-alpha-container {
+	display:    none;
+	border:     1px solid #dfdfdf;
+	border-top: none;
+	background: #FFF;
+	padding:    6px 10px;
+}
+
+.customize-control-alphacolor .wp-picker-container .iris-picker {
+	border-bottom: none;
+}
+
+.customize-control-color .wp-picker-container {
+	position: relative;
+}
+
+.customize-control-color .wp-picker-container .wp-picker-holder {
+	position: absolute;
+	z-index:  9999;
+}
+
+.accordion-section-content {
+	overflow: visible;
+}
+
+.accordion-section-content:after {
+	content: "";
+	display: table;
+	clear:   both;
+}
+
+/*********** custom font style**************/
+
+/* google webfont new */
+.tf-font label {
+	border:         none;
+	vertical-align: middle;
+	display:        inline-block;
+	padding:        0;
+	margin-right:   0px;
+	background:     transparent;
+	margin-bottom:  15px;
+	width:          100%;
+	line-height:    25px;
+}
+
+.tf-font label select, .tf-font label .chosen-container, .tf-font label .wp-picker-container {
+	float: right
+}
+
+.tf-font label .chosen-container a.chosen-single {
+	box-shadow:    0 0 0 !important;
+	border-radius: 0px !important;
+}
+
+.tf-font label .wp-picker-container a {
+	margin-left: 0;
+}
+
+.tf-font > div {
+	margin-left: 5px;
+	margin-top:  20px;
+}
+
+/*End style Process bar import*/
+#coming-soon-mode-options .tf-form-table td {
+	padding: 5px 10px;
+}
+
+#coming-soon-mode-options .tf-form-table h3 {
+	padding-left: 0;
+}
+
+#coming-soon-mode-options .tf-form-table .row-14 th, #coming-soon-mode-options .tf-form-table .row-15 th {
+	padding-left: 30px;
+}
+
+/*******************/
+.ui-datepicker {
+	width:   17em;
+	padding: .2em .2em 0;
+	display: none;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding:  .2em 0;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top:      2px;
+	width:    1.8em;
+	height:   1.8em;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	background-color: #eee;
+	cursor:           pointer;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+
+/*.ui-datepicker .ui-datepicker-prev-hover {*/
+/*left: 1px;*/
+/*}*/
+/*.ui-datepicker .ui-datepicker-next-hover {*/
+/*right: 1px;*/
+/*}*/
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display:     block;
+	position:    absolute;
+	left:        50%;
+	margin-left: -8px;
+	top:         50%;
+	margin-top:  -8px;
+}
+
+.ui-datepicker .ui-datepicker-title {
+	margin:      0 2.3em;
+	line-height: 1.8em;
+	text-align:  center;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin:    1px 0;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+}
+
+.ui-datepicker table {
+	width:           100%;
+	font-size:       .9em;
+	border-collapse: collapse;
+	margin:          0 0 .4em;
+}
+
+.ui-datepicker th {
+	padding:     .7em .3em;
+	text-align:  center;
+	font-weight: bold;
+	border:      0;
+}
+
+.ui-datepicker td {
+	border:  0;
+	padding: 1px;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display:         block;
+	padding:         .2em;
+	text-align:      right;
+	text-decoration: none;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin:           .7em 0 0 0;
+	padding:          0 .2em;
+	border-left:      0;
+	border-right:     0;
+	border-bottom:    0;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float:    right;
+	margin:   .5em .2em .4em;
+	cursor:   pointer;
+	padding:  .2em .6em .3em .6em;
+	width:    auto;
+	overflow: visible;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+
+.ui-datepicker-multi .ui-datepicker-group table {
+	width:  95%;
+	margin: 0 auto .4em;
+}
+
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+
+.ui-datepicker-row-break {
+	clear:     both;
+	width:     100%;
+	font-size: 0;
+}
+
+.ui-widget-content {
+	border:     1px solid #aaaaaa;
+	background: #ffffff;
+	color:      #222222;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:  #e6e6e6;
+	border:      1px solid #d3d3d3;
+	font-weight: normal;
+	color:       #555555;
+}
+
+.ui-state-default:hover {
+	border:     1px solid #fcefa1;
+	background: #fff;
+}
+
+.ui-icon {
+	width:  16px;
+	height: 16px;
+}
+
+#ui-datepicker-div .ui-widget-header .ui-icon {
+	background-image: url("images/ui-icons_222222_256x240.png");
+}
+
+#ui-datepicker-div .ui-icon-circle-triangle-e {
+	background-position: -48px -192px;
+}
+
+#ui-datepicker-div .ui-icon-circle-triangle-w {
+	background-position: -80px -192px;
+}
+
+#ui-datepicker-div .ui-widget-header {
+	border:      1px solid #aaaaaa;
+	background:  #cccccc;
+	color:       #222222;
+	font-weight: bold;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight, .ui-state-active {
+	border:           1px solid #fcefa1;
+	color:            #363636;
+	background-color: #fff;
+}

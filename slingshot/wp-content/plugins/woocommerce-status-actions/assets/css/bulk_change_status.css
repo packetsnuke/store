@@ -1,0 +1,7 @@
+.woocommerce_page_wc_bulk_change_status	.woocommerce-BlankState-message:before {
+		content: "\e01d";
+		font-family: WooCommerce;
+}
+.woocommerce_page_wc_bulk_change_status	#orders-list table.wp-list-table{
+	display: none;
+}

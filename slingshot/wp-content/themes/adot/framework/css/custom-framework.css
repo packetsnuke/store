@@ -1,0 +1,129 @@
+.tf-radio-image input[type="radio"] {
+	display: none;
+}
+
+.tf-radio-image {
+	width:        74px;
+	margin-right: 0px !important;
+	border:       2px solid transparent;
+	display:      inline-block;
+}
+
+.tf-radio-active {
+	border: 2px solid #ddd;
+}
+
+td.tf-radio-image {
+	width: 100%
+}
+
+.tf-radio-image img {
+	max-width: 100%;
+}
+
+#customize-control-thim_header_style {
+	position: relative;
+}
+
+.tf-radio-image img.header_preview {
+	max-width: inherit;
+}
+
+#customize-control-thim_sticky_bg_main_menu_color,
+#customize-control-thim_sticky_main_menu_text_color,
+#customize-control-thim_sticky_main_menu_text_hover_color,
+#customize-control-thim_sticky_sub_menu_bg_color,
+#customize-control-thim_sticky_sub_menu_text_color,
+#customize-control-thim_sticky_sub_menu_text_hover_color,
+#customize-control-thim_sticky_bg_border_header_color {
+	padding-left: 10px;
+}
+
+#customize-control-thim_bg_pattern .tf-radio-image {
+	width: 32px;
+}
+
+#customize-control-thim_bg_pattern .tf-radio-image img {
+	width: 32px;
+}
+
+.customize-control p.description {
+	display: none;
+}
+
+#accordion-panel-typography .customize-control-title {
+	display: none;
+}
+
+.repeater-footer {
+	padding:    7px 10px;
+	background: #F0F0F0;
+	border:     1px dashed #D0D0D0;
+	height:     10px;
+}
+
+/*.thim-widget-section-hide{*/
+/*display: none;*/
+/*}*/
+
+#display-setting table.tf-form-table {
+	overflow: hidden;
+}
+
+#display-setting table.tf-form-table,
+#display-setting table.tf-form-table th,
+#display-setting table.tf-form-table td {
+	border: 1px solid #DDD;
+}
+
+#display-setting table.tf-form-table .tf-heading th {
+	background: #0074a2;
+}
+
+#display-setting table.tf-form-table .tf-heading th h3 {
+	color: #fff;
+}
+
+.form-table th {
+	padding: 5px 10px 5px 10px;
+}
+
+.tp_process_messase {
+	font-size:  smaller;
+	max-height: 200px;
+	overflow:   hidden;
+	overflow-y: scroll;
+}
+
+#display-setting tr.thim_sub_option {
+	display: none
+}
+
+#display-setting tr.thim_sub_option {
+	display: none
+}
+
+#display-setting tr.tf-heading.thim_sub_option > th {
+	background: #ccc;
+}
+
+#thim-header-preview {
+	position: absolute;
+	left:     0;
+	z-index:  9999;
+	right:    0;
+}
+
+#thim-header-preview img {
+	max-width: 100%;
+	border: 2px solid #B0B0B0;
+}
+
+/*.thim_preview_overlay:before {*/
+	/*background: rgba(0, 0, 0, 0.5);*/
+	/*content: "";*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*display: inline-block;*/
+	/*position: absolute;*/
+/*}*/

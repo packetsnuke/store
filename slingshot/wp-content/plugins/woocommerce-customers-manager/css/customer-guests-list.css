@@ -1,0 +1,63 @@
+.conversion-button
+{
+	display:block;
+	font-size: 10px;
+}
+.wccm_email_notification, .wccm_email_notification_label
+{
+	/* float:left; */
+}
+#progress-container
+{
+	margin-bottom:50px;
+}
+#guest-customer-list{
+	background-color: #ffffff;
+    box-shadow: 1px 1px 2px;
+    box-sizing: inherit;
+    min-width: 900px;
+    padding: 15px;
+	min-width: 1100px;
+	}
+.hidden_data
+{
+	display:none;
+}
+#guests-table
+{
+	display:none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wccm-conversion-loader
+{
+	display:none;
+	background-image: url("../images/ajax-loader.gif");
+	height: 16px;
+	background-repeat:no-repeat;;
+}
+.wccm-conversion-result
+{
+	display:none;
+}
+.wccm-conversion-result h3
+{
+	color:green;
+	font-size: 0.9em;
+}
+.dataTables_wrapper .dataTables_filter
+{
+	margin-bottom: 10px;
+}
+#table-body tr td
+{
+	text-align:center;
+}
+#table-body tr td a
+{
+	font-weight:bold;
+}
+#export-button, #convert-button
+{
+	margin: 20px 0 20px 0;
+}

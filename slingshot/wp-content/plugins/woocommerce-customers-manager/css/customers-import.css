@@ -1,0 +1,30 @@
+#import-box-content
+{
+background: white none repeat scroll 0 0;
+  box-shadow: 1px 1px 2px;
+  box-sizing: border-box;
+  width: 80%;
+  padding:20px;
+}
+#import-box-content ul li
+{
+	font-weight:bold;
+}
+#import-box-content ul li span.normal
+{
+	font-weight:normal;
+	font-style:italic;
+}
+#ajax-progress-title, #ajax-response-title
+{
+display:none;
+}
+
+.import-form
+{
+	border-top:1px solid #d3d3d3;
+}
+.ui-widget-header {
+  background: #a46497 none repeat scroll 0 0;
+  border: 1px solid #a46497;
+}

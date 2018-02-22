@@ -1,0 +1,87 @@
+/* All styles for the waitlist custom tab */
+div#wcwl_waitlist_tab {
+    padding: 10px;
+}
+
+table.wcwl_product_tab {
+    width: 100%;
+}
+
+table.wcwl_product_tab tr td label {
+    float: none;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+table.wcwl_product_tab td,
+table.wcwl_product_tab th {
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+table.wcwl_product_tab th {
+    font-weight: bold;
+}
+
+table.wcwl_product_tab tr td .dashicons-email-alt {
+    color: black;
+}
+
+#wcwl_waitlist_data div.wcwl_email_all_tab {
+    margin: 0 5px 10px 5px;
+}
+
+div#wcwl_waitlist_data p:not([class]),
+div.wcwl_body_wrap,
+p.wcwl_in_stock_notice {
+    display: none;
+}
+
+table.wcwl_new_users_tab {
+    width: 68%;
+    padding: 5px 9px;
+    margin-bottom: 10px;
+}
+
+table.wcwl_new_users_tab tr td input.wcwl_email_to_add_tab {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+div.wcwl_body_wrap,
+div.wcwl_header_wrap {
+    border-bottom: 1px solid #ddd;
+}
+
+div.wcwl_header_wrap {
+    padding: 0 10px;
+}
+
+div.wcwl_body_wrap div.wcwl_waitlist_tab {
+    padding: 5px;
+}
+
+div.wcwl_header_wrap:hover {
+    cursor: pointer;
+}
+
+div.wcwl_header_wrap h3:after {
+    content:'\25be';
+    float: right;
+    color: #ccc;
+}
+
+.wcwl_view_archive_link {
+    margin: 5px;
+    float: right;
+    font-size: 0.9em;
+}
+.wcwl_archive_wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#woocommerce-product-data > div > div > ul > li.wcwl_waitlist_tab > a:before {
+    content: "\f216";
+}

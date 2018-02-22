@@ -1,0 +1,53 @@
+/**
+ * Created by lucky boy.
+ * User: dong-it
+ */
+.thim-widget-product {
+	.box {
+		.box-heading {
+			text-align:    center;
+			margin-bottom: 20px;
+			span {
+				font-size:      16px;
+				font-weight:    600;
+				color:          @thim_body_second_color;
+				text-transform: uppercase;
+			}
+		}
+		.description-product {
+			p {
+				text-align:  center;
+				font-size:   13px;
+				font-weight: 400;
+				color:       @thim_font_body_color;
+			}
+			margin-bottom: 55px;
+		}
+		.btn_load_more_product {
+			text-align:     center;
+			padding-top:    40px;
+			padding-bottom: 90px;
+			clear:          both;
+			a {
+				padding:          15px 42px;
+				background-color: @thim_body_primary_color;
+				color:            @white;
+				text-decoration:  none;
+				text-transform:   uppercase;
+				font-weight: 600;
+				&:hover, &:focus {
+					background-color: @thim_body_second_color;
+					color:            @white;
+					text-decoration:  none;
+				}
+				&:active {
+					background-color: @thim_body_primary_color;
+					color:            @white;
+				}
+			}
+		}
+	}
+	.product-grid{
+		padding: 0;
+	}
+}

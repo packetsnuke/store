@@ -1,0 +1,62 @@
+<?php
+/**
+ * WooCommerce PDF Product Vouchers
+ *
+ * This source file is subject to the GNU General Public License v3.0
+ * that is bundled with this package in the file license.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/licenses/gpl-3.0.html
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@skyverge.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade WooCommerce PDF Product Vouchers to newer
+ * versions in the future. If you wish to customize WooCommerce PDF Product Vouchers for your
+ * needs please refer to https://docs.woocommerce.com/document/woocommerce-pdf-product-vouchers/ for more information.
+ *
+ * @package   WC-PDF-Product-Vouchers/Admin/Meta-Boxes/Views
+ * @author    SkyVerge
+ * @copyright Copyright (c) 2012-2017, SkyVerge, Inc.
+ * @license   http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
+ */
+
+defined( 'ABSPATH' ) or exit;
+
+/**
+ * Voucher preview admin template
+ *
+ * @type \WC_Voucher $voucher current voucher instance
+ *
+ * @since 3.0.0
+ * @version 3.0.0
+ */
+
+?>
+
+<input type="hidden" name="post_parent" value="<?php echo esc_attr( $voucher->get_template_id() ); ?>" />
+<input type="hidden" name="_thumbnail_id" id="_thumbnail_id" value="<?php echo esc_attr( $thumbnail_id ); ?>" />
+<input type="hidden" id="_voucher_image_options" value="<?php echo esc_attr( implode( ',', $voucher->get_template()->get_image_ids() ) ); ?>" />
+
+<?php if ( ! $voucher->file_exists() ) : ?>
+
+	<p><?php esc_html_e( 'Voucher PDF has not been generated yet. You can generate it using the Voucher Actions.', 'ultimatewoo-pro' ) ; ?></p>
+
+<?php else : ?>
+
+	<div class="preview-image-container"><?php echo $preview_image; ?></div>
+
+	<?php if ( count( $voucher->get_template()->get_image_ids() ) > 1 ) : ?>
+		<p><a href="#" class="js-select-voucher-image"><?php esc_html_e( 'Change voucher image', 'ultimatewoo-pro' ); ?></a></p>
+	<?php endif; ?>
+
+	<?php if ( $unsaved_preview ) : ?>
+		<p class="unsaved-notice"><?php esc_html_e( 'Please save the voucher to regenerate the PDF.', 'ultimatewoo-pro' ); ?></p>
+	<?php else: ?>
+		<p><a href="<?php echo esc_url( $voucher->get_download_url( 'admin' ) ); ?>">
+			<?php esc_html_e( 'View Voucher PDF', 'ultimatewoo-pro' ); ?>
+		</a></p>
+	<?php endif; ?>
+
+<?php endif; ?>

@@ -1,0 +1,1730 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Custom Fields\n"
+"POT-Creation-Date: 2018-02-15 23:48+0100\n"
+"PO-Revision-Date: 2015-04-30 16:40+0200\n"
+"Last-Translator: \n"
+"Language-Team: RightPress <info@rightpress.net>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;_c;__ngettext:1,2;_n:1,2;_nc:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_x:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:447
+#: includes/classes/field/parent/wccf-field-controller.class.php:794
+msgid "Save"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:768
+msgid "Edit"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:773
+msgid "Trash"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:778
+#: includes/classes/field/parent/wccf-field-controller.class.php:908
+#: includes/views/shared/actions.php:28 includes/views/shared/actions.php:30
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:783
+msgid "Restore"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:1337
+#: includes/classes/abstract/wccf-post-object-controller.class.php:1339
+#: includes/classes/abstract/wccf-post-object-controller.class.php:1340
+#: includes/classes/abstract/wccf-post-object-controller.class.php:1341
+msgid "Field"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:1338
+msgid "Property"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object-controller.class.php:1374
+msgid "trashed"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object.class.php:154
+#: includes/classes/field/parent/wccf-field-controller.class.php:617
+#: includes/classes/field/parent/wccf-field.class.php:737
+#: includes/classes/wccf-assets.class.php:245
+msgid "Changes are not allowed to archived fields."
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object.class.php:170
+msgid "Configuration values not present."
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object.class.php:188
+msgid "Custom Field"
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object.class.php:219
+#, php-format
+msgid "%s duplicated, status set to disabled."
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object.class.php:222
+#, php-format
+msgid "%s created, status set to disabled."
+msgstr ""
+
+#: includes/classes/abstract/wccf-post-object.class.php:225
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:68
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:82
+msgid "Checkout Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:81
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:87
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:93
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:95
+#: includes/classes/wccf-settings.class.php:183
+#: includes/classes/wccf-settings.class.php:185
+#: includes/classes/wccf-settings.class.php:303
+msgid "Checkout Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:83
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:86
+#: includes/classes/field/child/wccf-order-field-controller.class.php:72
+#: includes/classes/field/child/wccf-order-field-controller.class.php:75
+#: includes/classes/field/child/wccf-product-field-controller.class.php:76
+#: includes/classes/field/child/wccf-product-field-controller.class.php:79
+#: includes/classes/field/child/wccf-user-field-controller.class.php:73
+#: includes/classes/field/child/wccf-user-field-controller.class.php:76
+#: includes/classes/wccf-assets.class.php:239
+#: includes/views/fields/settings.php:29
+msgid "New Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:84
+msgid "New Checkout Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:85
+msgid "Edit Checkout Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:88
+#: includes/classes/field/child/wccf-order-field-controller.class.php:77
+#: includes/classes/field/child/wccf-product-field-controller.class.php:81
+#: includes/classes/field/child/wccf-user-field-controller.class.php:78
+msgid "View Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:89
+#: includes/classes/field/child/wccf-order-field-controller.class.php:78
+#: includes/classes/field/child/wccf-product-field-controller.class.php:82
+#: includes/classes/field/child/wccf-user-field-controller.class.php:79
+msgid "Search Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:90
+msgid "No Checkout Fields Found"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:91
+msgid "No Checkout Fields Found In Trash"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:151
+msgid "About Checkout Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-checkout-field-controller.class.php:162
+msgid ""
+"Checkout fields are used to gather additional order-specific information "
+"during checkout. Add User fields to gather personal customer information."
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:57
+#: includes/classes/field/child/wccf-order-field-controller.class.php:71
+msgid "Order Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:70
+#: includes/classes/field/child/wccf-order-field-controller.class.php:76
+#: includes/classes/field/child/wccf-order-field-controller.class.php:82
+#: includes/classes/field/child/wccf-order-field-controller.class.php:84
+#: includes/classes/wccf-settings.class.php:189
+#: includes/classes/wccf-settings.class.php:191
+#: includes/classes/wccf-settings.class.php:350
+msgid "Order Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:73
+msgid "New Order Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:74
+msgid "Edit Order Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:79
+msgid "No Order Fields Found"
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:80
+msgid "No Order Fields Found In Trash"
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:140
+msgid "About Order Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-order-field-controller.class.php:151
+msgid ""
+"Order fields are used by shop managers during order processing and "
+"fulfilment."
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:61
+#: includes/classes/field/child/wccf-product-field-controller.class.php:75
+msgid "Product Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:74
+#: includes/classes/field/child/wccf-product-field-controller.class.php:80
+#: includes/classes/field/child/wccf-product-field-controller.class.php:88
+#: includes/classes/wccf-settings.class.php:171
+#: includes/classes/wccf-settings.class.php:173
+#: includes/classes/wccf-settings.class.php:205
+msgid "Product Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:77
+msgid "New Product Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:78
+msgid "Edit Product Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:83
+msgid "No Product Fields Found"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:84
+msgid "No Product Fields Found In Trash"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:86
+#: includes/classes/wccf-conditions.class.php:280
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:161
+msgid "About Product Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-field-controller.class.php:172
+msgid ""
+"Product fields are used to sell configurable products, product add-ons or "
+"just gather additional information from customers on product pages."
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:59
+#: includes/classes/field/child/wccf-product-property-controller.class.php:73
+msgid "Product Property"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:72
+#: includes/classes/field/child/wccf-product-property-controller.class.php:78
+#: includes/classes/field/child/wccf-product-property-controller.class.php:84
+#: includes/classes/field/child/wccf-product-property-controller.class.php:86
+#: includes/classes/wccf-settings.class.php:177
+#: includes/classes/wccf-settings.class.php:179
+#: includes/classes/wccf-settings.class.php:270
+msgid "Product Properties"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:74
+#: includes/classes/field/child/wccf-product-property-controller.class.php:77
+msgid "New Property"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:75
+msgid "New Product Property"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:76
+msgid "Edit Product Property"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:79
+msgid "View Property"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:80
+msgid "Search Properties"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:81
+msgid "No Product Properties Found"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:82
+msgid "No Product Properties Found In Trash"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:142
+msgid "About Product Properties"
+msgstr ""
+
+#: includes/classes/field/child/wccf-product-property-controller.class.php:153
+msgid ""
+"Product properties are used to provide additional product related "
+"information to your customers. They are available on product edit pages for "
+"shop managers to fill in."
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:58
+#: includes/classes/field/child/wccf-user-field-controller.class.php:72
+msgid "User Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:71
+#: includes/classes/field/child/wccf-user-field-controller.class.php:77
+#: includes/classes/field/child/wccf-user-field-controller.class.php:83
+#: includes/classes/field/child/wccf-user-field-controller.class.php:85
+#: includes/classes/wccf-settings.class.php:195
+#: includes/classes/wccf-settings.class.php:197
+#: includes/classes/wccf-settings.class.php:372
+msgid "User Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:74
+msgid "New User Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:75
+msgid "Edit User Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:80
+msgid "No User Fields Found"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:81
+msgid "No User Fields Found In Trash"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:148
+msgid "About User Fields"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:159
+msgid ""
+"User fields are used to gather personal information during checkout or "
+"customer registration. Add Checkout fields to gather order-specific "
+"information."
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:171
+msgid "User Profile Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:172
+msgid "Billing Address Field"
+msgstr ""
+
+#: includes/classes/field/child/wccf-user-field-controller.class.php:173
+msgid "Shipping Address Field"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:119
+#: includes/classes/field/parent/wccf-field-controller.class.php:120
+#: includes/classes/field/parent/wccf-field-controller.class.php:302
+msgid "Status"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:121
+msgid "All statuses"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:124
+#: includes/classes/field/parent/wccf-field-controller.class.php:125
+#: includes/classes/field/parent/wccf-field-controller.class.php:284
+msgid "Field type"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:126
+msgid "All field types"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:141
+msgid "enabled"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:144
+#: includes/views/fields/settings.php:30
+msgid "disabled"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:147
+msgid "archived"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:162
+#: includes/classes/wccf-fb.class.php:34
+msgid "Text"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:170
+#: includes/classes/wccf-fb.class.php:38
+msgid "Text area"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:178
+#: includes/classes/wccf-fb.class.php:42
+msgid "Password"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:186
+#: includes/classes/wccf-fb.class.php:46
+msgid "Email"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:194
+#: includes/classes/wccf-fb.class.php:50
+msgid "Number"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:203
+#: includes/classes/wccf-fb.class.php:54
+msgid "Date picker"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:212
+#: includes/classes/wccf-fb.class.php:58
+msgid "Select"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:221
+#: includes/classes/wccf-fb.class.php:62
+msgid "Multiselect"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:229
+#: includes/classes/field/parent/wccf-field-controller.class.php:1020
+#: includes/classes/wccf-fb.class.php:66
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:237
+#: includes/classes/wccf-fb.class.php:70
+msgid "Radio buttons"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:246
+#: includes/classes/wccf-fb.class.php:74
+msgid "File upload"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:282
+#: includes/views/fields/templates.php:31
+msgid "Label"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:283
+msgid "Key"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:286
+#: includes/views/fields/checkboxes.php:17
+msgid "Required"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:289
+#: includes/views/fields/checkboxes.php:34
+msgid "Public"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:293
+msgid "Quantity"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:297
+#: includes/classes/field/parent/wccf-field-controller.class.php:1041
+#: includes/views/fields/checkboxes.php:43
+#: includes/views/fields/templates.php:34
+msgid "Pricing"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:300
+#: includes/classes/field/parent/wccf-field-controller.class.php:1062
+#: includes/views/fields/checkboxes.php:51
+msgid "Conditions"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:303
+msgid "Sort"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:324
+msgid "(no label)"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:364
+msgid ""
+"Multiple copies of this field will be displayed - one for each quantity unit"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:372
+msgid "Changes product price"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:378
+msgid "Has conditions"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:384
+msgid "Is required"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:390
+msgid "Is visible in frontend"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:622
+#: includes/classes/field/parent/wccf-field-controller.class.php:662
+#: includes/classes/field/parent/wccf-field.class.php:919
+#: includes/classes/field/parent/wccf-field.class.php:1197
+#: includes/classes/field/parent/wccf-field.class.php:1206
+#: includes/classes/field/parent/wccf-field.class.php:1315
+#: includes/classes/field/parent/wccf-field.class.php:1320
+#: includes/classes/field/parent/wccf-field.class.php:1337
+#: includes/classes/field/parent/wccf-field.class.php:1342
+#: includes/classes/field/parent/wccf-field.class.php:1359
+#: includes/classes/field/parent/wccf-field.class.php:1375
+#: includes/classes/field/parent/wccf-field.class.php:1386
+msgid "Error:"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:622
+msgid "Field is not configurable."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:622
+#: includes/classes/field/parent/wccf-field-controller.class.php:662
+msgid "Field was not duplicated."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:628
+msgid "Error: New field key is not valid."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:636
+msgid "Error: New field key is not unique."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:641
+msgid "Error: Field key can not end with an underscore followed by a number."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:646
+msgid "Error: Field key can not start with \"id_\" or \"data_\"."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:662
+msgid "Failed inserting new WordPress custom post to store field settings."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:735
+#, php-format
+msgid "%s deleted."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:808
+msgid "Changes not allowed"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:813
+#: includes/classes/field/parent/wccf-field-controller.class.php:876
+msgid "Enable"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:818
+#: includes/classes/field/parent/wccf-field-controller.class.php:884
+msgid "Disable"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:823
+#: includes/classes/field/parent/wccf-field-controller.class.php:869
+#: includes/classes/field/parent/wccf-field-controller.class.php:2792
+msgid "Archive"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:863
+msgid "Duplicate"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:896
+msgid "View"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1010
+msgid "Field Actions"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1030
+#: includes/classes/wccf-settings.class.php:584
+#: includes/classes/wccf-settings.class.php:585
+#: woocommerce-custom-fields.php:414
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1052
+msgid "Options"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1072
+msgid "Advanced"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1462
+msgid "No search query sent"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1476
+msgid "Nothing found"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1697
+msgid "Field key can not end with an underscore followed by a number."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:1702
+msgid "Field key can not start with \"id_\" or \"data_\"."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2327
+msgid "is too long"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2334
+#, php-format
+msgid "must have at least %d options selected"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2341
+#, php-format
+msgid "must have no more than %d options selected"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2348
+#, php-format
+msgid "must be at least %d"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2355
+#, php-format
+msgid "must be less than %d"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2364
+msgid "must be uploaded"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2409
+#, php-format
+msgid "<strong>%s</strong> must be selected."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2414
+#, php-format
+msgid "<strong>%s</strong> must be uploaded."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2419
+#, php-format
+msgid "<strong>%s</strong> is a required field."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2444
+#, php-format
+msgid "<strong>%s</strong> %s."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2453
+#, php-format
+msgid "<strong>%s</strong> is not a valid email."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2458
+#, php-format
+msgid "<strong>%s</strong> is not a valid number."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2463
+#, php-format
+msgid "<strong>%s</strong> is not a valid date."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2468
+#, php-format
+msgid "<strong>%s</strong> is not a valid file."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2473
+#, php-format
+msgid "<strong>%s</strong> value is not valid."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2779
+msgid "All"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field-controller.class.php:2873
+#, php-format
+msgctxt "Quantity-based product field label format"
+msgid "%1$s #%2$d"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:785
+#: includes/classes/field/parent/wccf-field.class.php:1174
+msgid ""
+"Error: At least one option must be configured for this field type. Field "
+"disabled."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:794
+#, php-format
+msgid "%s enabled."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:808
+#, php-format
+msgid "%s disabled."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:822
+#, php-format
+msgid "%s archived."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:919
+msgid "New and old field types are not interchangeable."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:919
+msgid "Field type change aborted."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:996
+msgid "Duplicate of"
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1197
+#: includes/classes/field/parent/wccf-field.class.php:1206
+msgid "Invalid option discarded."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1206
+msgid "Option key is invalid or duplicate keys were found."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1315
+#: includes/classes/field/parent/wccf-field.class.php:1320
+msgid "Condition type not set."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1315
+#: includes/classes/field/parent/wccf-field.class.php:1320
+#: includes/classes/field/parent/wccf-field.class.php:1337
+#: includes/classes/field/parent/wccf-field.class.php:1342
+#: includes/classes/field/parent/wccf-field.class.php:1359
+#: includes/classes/field/parent/wccf-field.class.php:1375
+#: includes/classes/field/parent/wccf-field.class.php:1386
+msgid "Invalid condition discarded."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1337
+#: includes/classes/field/parent/wccf-field.class.php:1342
+msgid "Condition method not set."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1359
+msgid "Invalid field selected in Other Field condition settings."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1375
+msgid "Invalid numeric value in field conditions."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1386
+msgid "Invalid decimal value in field conditions."
+msgstr ""
+
+#: includes/classes/field/parent/wccf-field.class.php:1554
+msgid "n/a"
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:246
+#: includes/classes/libraries/rightpress-updates.class.php:254
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:464
+msgid "Automatic Update Setup"
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:468
+#, php-format
+msgid ""
+"There is a new version of <strong>%s</strong> available. To enable "
+"automatic updates, enter your CodeCanyon Purchase Code below."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:471
+#, php-format
+msgid ""
+"<strong>%s</strong> supports automatic updates. To receive them, enter your "
+"CodeCanyon Purchase Code below."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:485
+#: includes/classes/libraries/rightpress-updates.class.php:762
+msgid "Purchase Code"
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:491
+#: includes/views/shared/actions.php:35
+msgid "Submit"
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:497
+msgid "Where do I find my Purchase Code?"
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:497
+msgid "Hide This Notice"
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:567
+msgid "Purchase Code format is invalid."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:575
+#: includes/classes/libraries/rightpress-updates.class.php:823
+msgid "Unable to verify Purchase Code right now. Please try again later."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:579
+#: includes/classes/libraries/rightpress-updates.class.php:811
+msgid "Purchase Code is not valid."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:583
+#: includes/classes/libraries/rightpress-updates.class.php:817
+msgid "Purchase Code belongs to another product."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:776
+msgid "View and change your Envato Purchase Code."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:803
+msgid "Purchase Code has been successfully updated."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:807
+msgid "Purchase Code has been successfully reset."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:811
+msgid "Please fix it and try again."
+msgstr ""
+
+#: includes/classes/libraries/rightpress-updates.class.php:817
+msgid "Please change it and try again."
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:235
+msgid "Enable Field"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:236
+msgid "Disable Field"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:240
+#: includes/views/fields/settings.php:34
+msgid "new_field"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:243
+msgid "Option key must be unique."
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:244
+msgid ""
+"Field key must be unique across all fields of this type (including archived "
+"and trashed)."
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:248
+msgid ""
+"Trashing fields will make submitted field data no longer accessible. "
+"Consider archiving fields instead. Trash field?"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:249
+msgid ""
+"Deleting fields will make submitted field data no longer accessible. Delete "
+"field permanently?"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:250
+msgid ""
+"Archived fields let you access previously submitted field data but cannot "
+"be restored. Archive field?"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:251
+msgid ""
+"Each field must have a unique field key. Please enter a field key for the "
+"duplicate field. Value cannot be changed later."
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:317
+msgid "Uploading file"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:318
+msgid "Failed to upload"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:319
+msgid "[x]"
+msgstr ""
+
+#: includes/classes/wccf-assets.class.php:320
+msgid "Something went wrong, please try again. This page will reload now."
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:46
+msgid "Customer"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:51
+msgid "Is logged in"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:59
+#: includes/classes/wccf-conditions.class.php:75
+msgid "Role"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:67
+#: includes/classes/wccf-conditions.class.php:83
+msgid "Capability"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:93
+#: includes/classes/wccf-conditions.class.php:98
+msgid "Product"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:106
+msgid "Product variation"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:114
+msgid "Product attributes"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:122
+msgid "Product category"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:130
+msgid "Product type"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:140
+msgid "Cart"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:145
+msgid "Cart subtotal"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:153
+#: includes/classes/wccf-conditions.class.php:215
+msgid "Coupons applied"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:163
+msgid "Cart Items"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:168
+msgid "Products in cart"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:176
+msgid "Product variations in cart"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:184
+msgid "Product attributes in cart"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:192
+msgid "Product categories in cart"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:202
+msgid "Order"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:207
+msgid "Order total"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:223
+msgid "Payment method"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:231
+msgid "Shipping method"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:241
+msgid "Order Items"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:246
+msgid "Products in order"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:254
+msgid "Product variations in order"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:262
+msgid "Product attributes in order"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:270
+msgid "Product categories in order"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:285
+msgid "Other Field"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:313
+msgid "yes"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:314
+msgid "no"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:319
+msgid "in list"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:320
+msgid "not in list"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:325
+msgid "at least"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:326
+#: includes/classes/wccf-conditions.class.php:344
+msgid "less than"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:331
+msgid "at least one of selected"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:332
+msgid "all of selected"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:333
+msgid "none of selected"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:338
+msgid "is empty"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:339
+msgid "is not empty"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:340
+msgid "contains"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:341
+msgid "does not contain"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:342
+msgid "equals"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:343
+msgid "does not equal"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:345
+msgid "less or equal to"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:346
+msgid "more than"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:347
+msgid "more or equal to"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:348
+msgid "is checked"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:349
+msgid "is not checked"
+msgstr ""
+
+#: includes/classes/wccf-conditions.class.php:757
+msgid "Any"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:668
+msgid "required"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:709
+msgid "characters remaining"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:730
+#: includes/classes/wccf-fb.class.php:740
+msgid "min"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:735
+#: includes/classes/wccf-fb.class.php:745
+msgid "max"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1070
+msgid "must be a valid text string"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1126
+msgid "must be a valid email address"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1145
+msgid "must be a valid numeric value"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1164
+msgid "must be a valid date"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1214
+#: includes/classes/wccf-fb.class.php:1285
+msgid "is not one of the provided values"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1349
+#: includes/classes/wccf-fb.class.php:1354
+msgid "contains a file that is not allowed"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1376
+msgid "contains a file that is too small"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1379
+msgid "contains a file that is too large"
+msgstr ""
+
+#: includes/classes/wccf-fb.class.php:1437
+msgid "combined file size is too large"
+msgstr ""
+
+#: includes/classes/wccf-files.class.php:232
+msgid "not available"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:35
+#: includes/classes/wccf-pricing.class.php:40
+msgid "Fee"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:47
+msgid "Percentage fee"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:54
+msgid "Compound percentage fee"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:64
+msgid "Advanced Fee"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:69
+msgid "Fee &times; Character count"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:76
+msgid "Fee &times; Field value"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:85
+#: includes/classes/wccf-pricing.class.php:90
+msgid "Discount"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:97
+msgid "Percentage discount"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:104
+msgid "Compound percentage discount"
+msgstr ""
+
+#: includes/classes/wccf-pricing.class.php:550
+msgid "per character"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:86
+msgid "General"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:89
+msgid "General Settings"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:92
+msgid "Date format"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:97
+msgid "mm/dd/yy"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:98
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:99
+msgid "dd/mm/yy"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:100
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:101
+msgid "yy-mm-dd"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:102
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:103
+msgid "dd.mm.yyyy"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:104
+msgid "dd-mm-yyyy"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:110
+#: includes/classes/wccf-settings.class.php:208
+#: includes/classes/wccf-settings.class.php:290
+#: includes/classes/wccf-settings.class.php:306
+msgid "Fees & Discounts"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:113
+msgid "Fee per character includes white spaces"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:120
+#: includes/classes/wccf-settings.class.php:233
+#: includes/classes/wccf-settings.class.php:328
+msgid "File Uploads"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:123
+msgid "Allow multiple files per field"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:128
+msgid "Min file size"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:132
+msgid "0"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:133
+#: includes/classes/wccf-settings.class.php:141
+#: includes/classes/wccf-settings.class.php:149
+msgid "kilobytes"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:136
+msgid "Max file size"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:140
+#: includes/classes/wccf-settings.class.php:148
+msgid "unlimited"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:144
+msgid "Max combined file size per field"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:152
+msgid "File extension whitelist"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:156
+msgid "Only allow specific file types to be uploaded."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:159
+msgid "File extension blacklist"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:163
+msgid "Prevent specific file types from being uploaded."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:168
+msgid "Aliases"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:211
+#: includes/classes/wccf-settings.class.php:293
+msgid "Adjust product prices to default values"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:216
+msgid "Display pricing on product pages"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:221
+msgid "Display pricing on cart/order pages"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:226
+msgid "Display dynamically updated price"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:236
+#: includes/classes/wccf-settings.class.php:331
+msgid "Attach files to admin New Order emails"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:243
+msgid "Add To Cart"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:246
+msgid "Change list view button to View Product"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:251
+msgid "When any product fields are set"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:252
+msgid "Only when required fields are set"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:258
+#: includes/classes/wccf-settings.class.php:338
+#: includes/classes/wccf-settings.class.php:375
+msgid "Editing"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:261
+#: includes/classes/wccf-settings.class.php:341
+#: includes/classes/wccf-settings.class.php:378
+msgid "Allow admin to edit user submitted values"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:273
+#: includes/classes/wccf-settings.class.php:353
+msgid "Frontend Display"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:276
+#: includes/classes/wccf-settings.class.php:356
+msgid "Display empty values"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:279
+msgid ""
+"Whether or not to display empty stored product property values. Value is "
+"displayed as <strong>n/a</strong>."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:282
+#: includes/classes/wccf-settings.class.php:362
+msgid "Display default values automatically"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:285
+msgid ""
+"Default product property values will be visible to customers before shop "
+"manager submits new values via product edit page."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:296
+msgid ""
+"Product prices will be adjusted throughout the shop to account for default "
+"applicable product property values before shop manager submits new values "
+"via product edit page."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:309
+msgid "Display pricing next to fields"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:314
+msgid "Display as single fee"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:317
+msgid ""
+"Only use this option if all fees are not taxable or use the same tax class."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:320
+msgid "Single fee label"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:322
+msgid "Extra Options"
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:359
+msgid ""
+"Whether or not to display empty stored order field values. Value is "
+"displayed as <strong>n/a</strong>."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:365
+msgid ""
+"Default order field values will be visible to customers before shop manager "
+"submits new values via order edit page."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:866
+msgid "Unable to validate settings."
+msgstr ""
+
+#: includes/classes/wccf-settings.class.php:931
+msgid "Settings updated."
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:80
+msgid "Above Customer Details"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:81
+msgid "Below Customer Details"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:82
+msgid "Above Billing Fields"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:83
+msgid "Below Billing Fields"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:84
+msgid "Above Shipping Fields"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:85
+msgid "Below Shipping Fields"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:86
+msgid "Above Order Notes"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:87
+msgid "Below Order Notes"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:88
+msgid "Above Order Review"
+msgstr ""
+
+#: includes/classes/wccf-wc-checkout.class.php:89
+msgid "Below Order Review"
+msgstr ""
+
+#: includes/classes/wccf-wc-order-item.class.php:553
+#: includes/classes/wccf-wc-order.class.php:201
+#: includes/classes/wccf-wc-order.class.php:863
+msgid "empty"
+msgstr ""
+
+#: includes/classes/wccf-wc-order.class.php:218
+#: includes/classes/wccf-wc-order.class.php:306
+msgid "No field data stored for this order."
+msgstr ""
+
+#: includes/classes/wccf-wc-product.class.php:111
+msgid "View Product"
+msgstr ""
+
+#: includes/classes/wccf-wc-product.class.php:409
+msgid "No data received."
+msgstr ""
+
+#: includes/classes/wccf-wc-product.class.php:427
+msgid "Product is not defined."
+msgstr ""
+
+#: includes/classes/wccf-wc-product.class.php:1171
+msgid "Price"
+msgstr ""
+
+#: includes/views/fields/advanced.php:27
+msgid "Field Description"
+msgstr ""
+
+#: includes/views/fields/advanced.php:36
+msgid "Default Value"
+msgstr ""
+
+#: includes/views/fields/advanced.php:44 includes/views/fields/advanced.php:65
+#: includes/views/fields/advanced.php:76 includes/views/fields/advanced.php:87
+#: includes/views/fields/advanced.php:98
+msgid "No limit"
+msgstr ""
+
+#: includes/views/fields/advanced.php:46
+msgid "Character Limit"
+msgstr ""
+
+#: includes/views/fields/advanced.php:57
+msgid "Custom CSS Rules"
+msgstr ""
+
+#: includes/views/fields/advanced.php:67
+msgid "Min Selected"
+msgstr ""
+
+#: includes/views/fields/advanced.php:78
+msgid "Max Selected"
+msgstr ""
+
+#: includes/views/fields/advanced.php:89
+msgid "Min Value"
+msgstr ""
+
+#: includes/views/fields/advanced.php:100
+msgid "Max Value"
+msgstr ""
+
+#: includes/views/fields/advanced.php:113
+msgid "Checkout Position"
+msgstr ""
+
+#: includes/views/fields/advanced.php:125
+msgid "Not Taxable"
+msgstr ""
+
+#: includes/views/fields/advanced.php:126
+msgid "Tax Class"
+msgstr ""
+
+#: includes/views/fields/checkboxes.php:19
+msgid "Optional"
+msgstr ""
+
+#: includes/views/fields/checkboxes.php:25
+msgid "Quantity Based"
+msgstr ""
+
+#: includes/views/fields/checkboxes.php:27
+msgid "Single Field"
+msgstr ""
+
+#: includes/views/fields/checkboxes.php:36
+msgid "Private"
+msgstr ""
+
+#: includes/views/fields/checkboxes.php:45
+msgid "No Pricing"
+msgstr ""
+
+#: includes/views/fields/checkboxes.php:53
+msgid "No Conditions"
+msgstr ""
+
+#: includes/views/fields/conditions.php:23
+#: includes/views/fields/templates.php:23
+msgid "No conditions configured."
+msgstr ""
+
+#: includes/views/fields/conditions.php:27
+#: includes/views/fields/conditions.php:28
+msgid "Add Condition"
+msgstr ""
+
+#: includes/views/fields/options.php:23 includes/views/fields/templates.php:18
+msgid "No options configured."
+msgstr ""
+
+#: includes/views/fields/options.php:27 includes/views/fields/options.php:28
+msgid "Add Option"
+msgstr ""
+
+#: includes/views/fields/settings.php:45
+msgid "Field Label"
+msgstr ""
+
+#: includes/views/fields/settings.php:46
+msgid "e.g. New Field"
+msgstr ""
+
+#: includes/views/fields/settings.php:59
+#: includes/views/fields/templates.php:32
+msgid "Unique Key"
+msgstr ""
+
+#: includes/views/fields/settings.php:60
+msgid "e.g. new_field"
+msgstr ""
+
+#: includes/views/fields/settings.php:70
+msgid "can no longer be changed"
+msgstr ""
+
+#: includes/views/fields/settings.php:84
+msgid "Field Type"
+msgstr ""
+
+#: includes/views/fields/settings.php:101
+msgid "Display As"
+msgstr ""
+
+#: includes/views/fields/templates.php:36
+msgid "Selected"
+msgstr ""
+
+#: includes/views/fields/templates.php:110
+msgid "No"
+msgstr ""
+
+#: includes/views/fields/templates.php:111
+msgid "Yes"
+msgstr ""
+
+#: includes/views/shared/actions.php:30
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/views/shared/preloader.php:22
+msgid "<strong>User Interface Loading</strong>"
+msgstr ""
+
+#: includes/views/shared/preloader.php:26
+#, php-format
+msgid ""
+"This plugin uses a JavaScript-driven user interface. If this notice does "
+"not disappear in a few seconds, you should check Console for any JavaScript "
+"errors or get in touch with <a href=\"%s\">RightPress Support</a>."
+msgstr ""
+
+#: rightpress/rightpress-conditions-helper.class.php:511
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: rightpress/rightpress-helper.class.php:2945
+msgid "Standard Rate"
+msgstr ""
+
+#: woocommerce-custom-fields.php:363
+#, php-format
+msgid ""
+"<strong>WooCommerce Custom Fields</strong> requires PHP %s or later. Please "
+"update PHP on your server to use this plugin."
+msgstr ""
+
+#: woocommerce-custom-fields.php:363 woocommerce-custom-fields.php:374
+#: woocommerce-custom-fields.php:385 woocommerce-custom-fields.php:396
+#, php-format
+msgid "If you have any questions, please contact %s."
+msgstr ""
+
+#: woocommerce-custom-fields.php:363 woocommerce-custom-fields.php:374
+#: woocommerce-custom-fields.php:385 woocommerce-custom-fields.php:396
+msgid "RightPress Support"
+msgstr ""
+
+#: woocommerce-custom-fields.php:374
+#, php-format
+msgid ""
+"<strong>WooCommerce Custom Fields</strong> requires WordPress version %s or "
+"later. Please update WordPress to use this plugin."
+msgstr ""
+
+#: woocommerce-custom-fields.php:385
+#, php-format
+msgid ""
+"<strong>WooCommerce Custom Fields</strong> requires WooCommerce to be "
+"active. You can download WooCommerce %s."
+msgstr ""
+
+#: woocommerce-custom-fields.php:385
+msgid "here"
+msgstr ""
+
+#: woocommerce-custom-fields.php:396
+#, php-format
+msgid ""
+"<strong>WooCommerce Custom Fields</strong> requires WooCommerce version %s "
+"or later. Please update WooCommerce to use this plugin."
+msgstr ""
+
+#: woocommerce-custom-fields.php:409
+msgid "Support"
+msgstr ""

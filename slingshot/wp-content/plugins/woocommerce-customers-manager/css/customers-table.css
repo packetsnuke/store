@@ -1,0 +1,146 @@
+.wccm_avatar_img
+{
+	display:block;
+	clear:both;
+}
+#wccm_role_switcher_select_box
+{
+	/* background: #a46497 none repeat scroll 0 0;
+    color: white;
+    display: block;
+    float: left;
+    font-weight: bold;
+	margin-top:10px;
+	margin-right:20px;
+    padding: 10px;
+    width: 400px; */
+	
+	background: #fff none repeat scroll 0 0;
+	color: #a46497;
+	display: block;
+	float: left;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-right: 20px;
+	padding: 10px;
+	width: 500px;
+	border: 1px dashed #a46497;
+}
+#wccm_assign_roles_button
+{
+	/* margin-top:5px;
+	background: #ffffff;
+    border-color: #ffffff;
+	color:  #a46497; */
+	
+	margin-top: 5px;
+	background: #a46497;
+	border-color: #a46497;
+	color: white;
+}
+#wccm-warning-roles-box > a 
+{
+ /*  color: #d3d3d3; */
+  color: #787878;
+}
+#wccm-warning-roles-box
+{
+	/* margin-right: 10px;
+	margin-top: 10px;
+	background:  #a46497 none repeat scroll 0 0;
+	border-radius: 0;
+	float:left;
+	color: white;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px; */
+	
+	margin-right: 10px;
+	margin-top: 10px;
+	background: #fff none repeat scroll 0 0;
+	border-radius: 0;
+	float: left;
+	color: #a46497;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px;
+	border: 1px dashed;
+}
+#wccm_assign_roles_button:hover
+{
+	background: #C9A3C1;
+	border-color: #C9A3C1;
+	color: white;
+}
+#wccm_role_result_box
+{
+	display:block;
+	clear:both;
+	font-weight:bold;
+	margin-top:5px;
+	/*color:#a46497;*/
+	color:#71b02f;
+}
+#wccm_date_filter_box
+{
+	display:block;
+	clear:both;
+	float: left;
+    margin-top: 10px;
+}
+#csv-button-customer-table
+{
+float:right;
+margin-right: 5px;
+min-width: 240px;
+}
+
+table.customers {
+    min-width: 1400px;
+}
+#csv-button-complete-download 
+{
+  float: right;
+  margin-right: 5px;
+}
+.widefat td, .widefat td ol, .widefat td p, .widefat td ul 
+{
+    font-size: 13px;
+}
+
+td.column-notes
+{
+	text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+	display: block;
+	/* width:90px;
+	text-align:center;
+	font-weight:bold; */
+	cursor: pointer; 
+	cursor: hand;
+}
+
+td.column-notes:hover{
+    text-overflow:clip;
+    width:auto;
+    white-space: normal;
+}
+.blocked_customer_role_text
+{
+	background: #F03434;
+	color: white;
+	padding: 3px;
+	display: inline-block;
+	font-weight: bold;
+	border-radius: 5px;
+	font-size: 10px;
+}

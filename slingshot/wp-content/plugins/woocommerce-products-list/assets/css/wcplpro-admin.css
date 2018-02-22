@@ -1,0 +1,99 @@
+.select2-drop { z-index: 999999; }
+.select2-container {
+  width: 100% !important;
+}
+
+table.options_table td input[type="text"] {
+    min-width: 94%;
+    padding: 3px 5px;
+}
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+ }
+
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.rate_stars { color: #FFD700; }
+.helpwrap, .standout { background-color: #fff; }
+.standout a { font-weight: bold; }
+.someair>div { padding: 10px; }
+.half { width: 50%; float: left; }
+.fieldwrap { width: 75%; }
+.vm_label { display: block; clear: both; margin-bottom: 7px; font-size: 18px; }
+.leftpanel select, .leftpanel input, .leftpanel textarea { min-width: 100%; width: 100%; }
+.leftpanel input[type="checkbox"] { min-width: 17px; width: auto; }
+.leftpanel textarea { min-height: 400px;}
+
+.leftpanel, .rightpanel { float: left; overflow: auto; position: relative; }
+.leftpanel { 
+  width: 66%; 
+  margin-right: 1%;
+  padding-right: 1%;
+  border-right: 1px solid #ddd;
+}
+.rightpanel { width: 31%; }
+.plugitem img { width: 100%; height: auto; }
+.plugitem a.img { 
+  opacity: 0.3;
+  transition: opacity .25s ease-in-out;
+ -moz-transition: opacity .25s ease-in-out;
+ -webkit-transition: opacity .25s ease-in-out;
+}
+.plugitem a.img:hover { opacity: 1; }
+
+.hideright a { color: #bb0000; text-decoration: none; }
+.hideright a:hover { color: #FF0000; }
+.hideright { font-size: 11px; position: absolute; right: 0; top: 0; cursor: pointer; line-height: 11px; }
+.hideright span { font-size: 22px; line-height: 11px; display: block; float: right; }
+
+#colsort li { cursor: move; border-bottom: 1px solid #ffffff; margin: 0; padding: 5px; }
+#colsort li:hover { background-color: #f9f9f9; }
+
+div.padding { padding: 10px; }
+.tab-content { display: none; }
+.tab-content#columns-tab { display: block; }
+
+.leftpanel input.custom_title_input {
+  width: 80%; 
+  max-width: 240px; 
+  min-width: 100px;
+}
+.leftpanel .drag_title {
+  display: inline-block;
+  min-width: 200px;
+}
+
+@media only screen and (max-width: 960px) {
+  .fieldwrap {
+    width: 100%;
+  }
+  .rightpanel { 
+    width: 38%;
+  }
+  .leftpanel { 
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fieldwrap {
+    width: 100%;
+  }
+  .leftpanel, .rightpanel { 
+    float: none; 
+    width: 100%;
+  }
+  .leftpanel {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}

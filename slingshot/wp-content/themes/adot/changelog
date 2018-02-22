@@ -1,0 +1,67 @@
+* version 1.1
+--update jquery prettyPhoto to version 3.1.6
+
+* version 1.2
+-- fix RTL support
+-- add new demo 10
+-- add new widget megamenu product
+
+* version 1.3
+ -- fix select demo 10
+ -- fix widget portfolio
+
+* version 1.4
+  -- fix widget portfolio not show all item
+  -- fix product width variations.
+
+* version 1.5
+  -- out of date after update version 2.4.x
+  -- style quickview
+  -- Option hidden title not show image heading.
+  -- fix mini cart not show styling when not set color and background;
+
+* version 1.6
+  -- add button update cart
+
+* version 1.8
+   -- fix google map.
+   -- fix heading title when no set image header no overlay.
+   -- fix demo 10 menu white color.
+
+* version 1.9
+   -- add filter attributes product.
+   -- compatible with wordpress 4.4
+
+* version 2.0
+   -- out of date woocommerce.
+   -- fix double quickview product.
+   -- fix Terms and Conditions checkbox css.
+   -- fix nav slider single product.
+
+* version 2.1
+   -- out of date woocommerce.
+   -- fix require plugin version.
+   -- fix quickview woocommerce.
+   -- add new framework.
+
+* version 2.2
+   -- fix API widget google map
+
+* version 2.3
+   -- out of date woocommerce.
+   -- Update: Plugin WooCommerce Sales Countdown.
+
+* version 2.4
+   -- out of date woocommerce.
+   -- Update: Plugin WooCommerce Sales Countdown.
+   -- Fixed: some CSS error.
+   -- Fixed: Js woocommerce.
+
+* version 2.5
+   -- out of date woocommerce.
+   -- New data.
+   -- Fix some error.
+
+* version 2.6
+  -- Fixed: error product.
+  -- out of date woocommerce.

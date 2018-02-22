@@ -1,0 +1,14 @@
+<wpml-config>
+    <taxonomies>
+        <taxonomy translate="0">wccf_checkout_field_field_type</taxonomy>
+        <taxonomy translate="0">wccf_order_field_field_type</taxonomy>
+        <taxonomy translate="0">wccf_product_field_field_type</taxonomy>
+        <taxonomy translate="0">wccf_product_prop_field_type</taxonomy>
+        <taxonomy translate="0">wccf_user_field_field_type</taxonomy>
+        <taxonomy translate="0">wccf_checkout_field_status</taxonomy>
+        <taxonomy translate="0">wccf_order_field_status</taxonomy>
+        <taxonomy translate="0">wccf_product_field_status</taxonomy>
+        <taxonomy translate="0">wccf_product_prop_status</taxonomy>
+        <taxonomy translate="0">wccf_user_field_status</taxonomy>
+    </taxonomies>
+</wpml-config>

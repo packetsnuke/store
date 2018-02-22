@@ -1,0 +1,6 @@
+#weekdays{
+    width: 15%;
+}
+#weekdays input[type="checkbox"]{
+    float: right;
+}

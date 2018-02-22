@@ -1,0 +1,9 @@
+label.wccm_order_assign_checkbox_label
+{
+	color: black;
+	display:block;
+	
+}
+#createuser .form-field .wccm_order_assign_checkbox_label input {
+    width: 0;
+}

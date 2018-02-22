@@ -1,0 +1,35 @@
+#createuser {
+  background: white none repeat scroll 0 0;
+  box-shadow: 1px 1px 2px;
+  box-sizing: border-box;
+  width: 80%;
+}
+.form-table th {
+  padding: 18px 0 0 20px;
+}
+.form-table tr {
+  padding:20px 0 20px 20px;
+}
+
+p.submit
+{
+	margin-left: 20px;
+    margin-top: 40px;
+	}
+
+.email-notification-box
+{
+	border-top: 1px solid #d3d3d3;
+	width:95%;
+	padding-top:3px;
+	margin-left: 20px;
+    margin-top: 40px;
+}
+.wccm_hide
+{
+	display:none;
+}
+.field_required
+{
+	color:red;
+}

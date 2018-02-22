@@ -1,0 +1,62 @@
+/**
+ * WooCommerce Custom Fields Plugin General Field Styles
+ */
+div.wccf_field_container div.wccf_file_upload_status,
+div.wccf_meta_box_field_container div.wccf_file_upload_status,
+tr.wccf_user_profile_field_container div.wccf_file_upload_status,
+div.wccf_field_container div.wccf_file_upload_list,
+div.wccf_meta_box_field_container div.wccf_file_upload_list,
+tr.wccf_user_profile_field_container div.wccf_file_upload_list {
+    display: block;
+    margin: 5px 0 8px 0;
+    padding: 0;
+    border: 0;
+}
+div.wccf_field_container div.wccf_file_upload_list small.wccf_file_upload_item,
+div.wccf_meta_box_field_container div.wccf_file_upload_list small.wccf_file_upload_item,
+tr.wccf_user_profile_field_container div.wccf_file_upload_list small.wccf_file_upload_item {
+    display: block
+}
+div.wccf_field_container div.wccf_file_upload_left_border,
+div.wccf_meta_box_field_container div.wccf_file_upload_left_border,
+tr.wccf_user_profile_field_container div.wccf_file_upload_left_border {
+    border-left: 1px solid #4caf50;
+    padding-left: 10px;
+}
+div.wccf_field_container div.wccf_file_upload_status small.wccf_file_upload_progress_wrapper,
+div.wccf_meta_box_field_container div.wccf_file_upload_status small.wccf_file_upload_progress_wrapper,
+tr.wccf_user_profile_field_container div.wccf_file_upload_status small.wccf_file_upload_progress_wrapper {
+    display: block;
+    height: 2px;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+}
+div.wccf_field_container div.wccf_file_upload_status small.wccf_file_upload_progress,
+div.wccf_meta_box_field_container div.wccf_file_upload_status small.wccf_file_upload_progress,
+tr.wccf_user_profile_field_container div.wccf_file_upload_status small.wccf_file_upload_progress {
+    display: block;
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+}
+div.wccf_field_container div.wccf_file_upload_list span.wccf_file_upload_delete,
+div.wccf_meta_box_field_container div.wccf_file_upload_list span.wccf_file_upload_delete,
+tr.wccf_user_profile_field_container div.wccf_file_upload_list span.wccf_file_upload_delete {
+    cursor: pointer;
+    color: #e44b23;
+}
+div.wccf_field_container div.wccf_file_upload_list span.wccf_file_upload_delete:hover,
+div.wccf_meta_box_field_container div.wccf_file_upload_list span.wccf_file_upload_delete:hover,
+tr.wccf_user_profile_field_container div.wccf_file_upload_list span.wccf_file_upload_delete:hover {
+    text-decoration: underline;
+}
+
+.wccf_character_limit,
+.wccf_min_max_limit {
+    opacity: 0.5;
+}
+label small.wccf_min_max_limit {
+    display: inline-block;
+    font-weight: normal;
+    padding-left: 3px;
+}

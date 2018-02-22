@@ -1,0 +1,33 @@
+/**
+ * WooCommerce Custom Fields Plugin Backend Styles (loaded on all pages)
+ */
+
+#adminmenu #menu-posts-wccf_product_field .menu-icon-post div.wp-menu-image:before,
+#adminmenu #menu-posts-wccf_product_field .menu-icon-wccf_product_field div.wp-menu-image:before {
+    font-family: FontAwesome !important;
+    font-size: 1.3em !important;
+    content: "\f046";
+    position: relative;
+    top: 2px;
+}
+
+#wccf_checkout_field_values .inside {
+    margin: 0;
+    padding: 0;
+}
+#wccf_checkout_field_values table th {
+    text-align: left;
+    padding: 12px;
+}
+#wccf_checkout_field_values table td {
+    min-width: 300px;
+}
+#wccf_checkout_field_values .wccf_meta_box_no_values,
+#wccf_order_fields .wccf_meta_box_no_values {
+    padding: 24px;
+    text-align: center;
+}
+
+#order_data .order_data_column .wccf_order_page_user_field_value strong {
+    display: block;
+}
